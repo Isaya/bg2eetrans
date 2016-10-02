@@ -1,0 +1,92 @@
+BACKUP ~bg2eetrans/backup~
+AUTHOR ~Isaya~
+
+// Version stated in WeiDU.log
+// The last part refers to the game version used as a reference to find texts
+VERSION ~v0.3.2064~
+
+// Use english readme if the selected language doesn't have a readme
+README ~bg2eetrans/language/%LANGUAGE%/readme_%LANGUAGE%.txt~ ~bg2eetrans/language/readme_en_US.txt~
+
+// Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
+AUTO_TRA ~bg2eetrans/language/%s~
+// Comment to prevent a failure in the notepad++ highlither because of the ~%~ character above
+
+ALWAYS
+
+END	// ALWAYS
+
+
+// Language choice : follow the rule, use the directory names from BGEE
+// ATTENTION!!! The order of languages here and in bg2eetransinstall.tp2 shall remain consistent at all time
+// It shall remain consistant as well with the values assigned to languages at the end of this file
+// 0 is the first language choice, 1 the next, and so on
+// Languages in comments do not count!
+LANGUAGE ~Francais~
+	     ~fr_FR~
+         ~bg2eetrans/language/fr_FR/setup.tra~
+
+
+// Initialisation 
+BEGIN @1000001
+
+// We need BG2EE and we don't want to overwrite any official translation.
+// Hence the mod does not install if the dialog.tlk file already exists,
+// even if it doesn't come from the official translation (there's no way to know).
+REQUIRE_PREDICATE (GAME_IS ~bg2ee~ = 1) @1001001 // Wrong game
+
+REQUIRE_PREDICATE (NOT FILE_EXISTS ~lang/%LANGUAGE%/dialog.tlk~) @1001002 // Translation file already present
+
+// Create the language directory if it does not exist
+ACTION_IF NOT FILE_EXISTS ~lang/%LANGUAGE%~ THEN BEGIN
+	MKDIR ~lang/%LANGUAGE%~
+END
+COPY ~lang/en_US/dialog.tlk~ ~lang/%LANGUAGE%/dialog.tlk~
+COPY ~lang/en_US/dialog.tlk~ ~lang/%LANGUAGE%/dialogF.tlk~
+MKDIR ~lang/%LANGUAGE%/override~
+
+ACTION_IF (FILE_EXISTS ~engine.lua~) THEN BEGIN
+	// Installing on BG2EE V2.x: we need to update BGEE.lua to add the language in the options menu
+	// Test to check for BGEE.lua existence: it will fail with an old WeiDU (requires > 239, either 240 or at least 23901)
+	ACTION_IF (FILE_EXISTS_IN_GAME ~BGEE.lua~) THEN BEGIN
+		ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_FR~ ) THEN BEGIN
+			// Add the chosen language to BG2EE
+			COPY_EXISTING ~BGEE.lua~ ~override/BGEE.lua~
+				REPLACE_TEXTUALLY ~	{'en_US', 99385, 99386, 'English'},~ ~	{'en_US', 99385, 99386, 'English'},
+			{'fr_FR', 99385, 99386, 'Français'},~
+				UNLESS ~'fr_FR'~
+			// Add the translated interface file
+			COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~lang/%LANGUAGE%/override/L_fr_FR.lua~
+		END
+		// Add additional language here
+	END ELSE
+		FAIL @1001005
+	END
+END
+
+COPY ~bg2eetrans/empty.itm~ ~lang/%LANGUAGE%/bg2eetrans.mrk~
+
+// Overwrite weidu.conf to specify the chosen language so that the other components are installed properly
+<<<<<<<< .../bg2eetrans-inlined/weidu.conf
+lang_dir = %lang%
+>>>>>>>>
+COPY ~.../bg2eetrans-inlined/weidu.conf~ ~weidu.conf~
+	SPRINT lang ~%LANGUAGE%~
+	EVALUATE_BUFFER
+
+// Ensure that tests and value assignment follow the order in the LANGUAGE instructions above
+ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_FR~) THEN BEGIN
+	OUTER_SET NUMLANG = 0
+END
+// Add addtional language here, increment NUMLANG for each new language
+
+
+// Run the installation in the selected language
+// Note: no auto update since it may trigger an error message and running the current tp2 should already have done it anyway
+ACTION_IF ("%WEIDU_OS%" STRING_COMPARE_CASE ~WIN32~ = 0) THEN BEGIN
+  AT_INTERACTIVE_EXIT ~setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 --language %NUMLANG% --noautoupdate~
+  END ELSE BEGIN
+    // Anticipate that . may not be in the PATH on Linux or Mac OS X (zelurker feedback on Beamdog forum)
+    AT_INTERACTIVE_EXIT ~./setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 --language %NUMLANG% --noautoupdate~
+  END
+

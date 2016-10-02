@@ -1,0 +1,5 @@
+// Recovered for dialogEnBG2EEpatch20131121_corrige.tra, from dialogFrBGEEpatch20131220.tra
+// Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
+	STRING_SET ~77525~ @31856	// Color marker option
+	STRING_SET ~95130~ @25485	// BARD0 script description
+	STRING_SET ~25213~ @24301	// Assassin kit

@@ -1,0 +1,46 @@
+BACKUP ~bg2eetrans/backup~
+AUTHOR ~Isaya~
+
+// Version stated in WeiDU.log
+// The last part refers to the game version used as a reference to find texts
+VERSION ~v0.2.2064~
+
+// Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
+AUTO_TRA ~bg2eetrans/language/%s~
+// Comment to prevent a failure in the notepad++ highlither because of the ~%~ character above
+
+ALWAYS
+
+END	// ALWAYS
+
+
+// Language choice : follow the rule, use the directory names from BGEE
+// ATTENTION!!! The order of languages here and in bg2eetrans.tp2 shall remain consistent all the time
+LANGUAGE ~Francais~
+	     ~fr_FR~
+         ~bg2eetrans/language/fr_FR/setup.tra~
+
+
+// Texts recovered from BGII-ToB
+BEGIN @1000002
+DESIGNATED 1001
+REQUIRE_PREDICATE (FILE_EXISTS ~lang/%LANGUAGE%/bg2eetrans.mrk~) @1001003 // Initialisation failed or a translation file is already present
+REQUIRE_COMPONENT ~bg2eetrans.tp2~ ~0~ @1001004 // Block attempt to bypass the initialisation part
+
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/dialogToB.tra~
+INCLUDE  ~bg2eetrans/tob.tph~
+
+// Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
+INCLUDE ~bg2eetrans/tob_manual.tph~
+
+// Texts recovered from BGEE
+BEGIN @1000003
+DESIGNATED 1002
+REQUIRE_PREDICATE (FILE_EXISTS ~lang/%LANGUAGE%/bg2eetrans.mrk~) @1001003 // Initialisation failed or a translation file is already present
+REQUIRE_COMPONENT ~bg2eetrans.tp2~ ~0~ @1001004 // Block attempt to bypass the initialisation part
+
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/dialogBGEE.tra~
+INCLUDE  ~bg2eetrans/bgee.tph~
+
+// Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
+INCLUDE ~bg2eetrans/bgee_manual.tph~
