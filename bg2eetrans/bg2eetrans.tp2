@@ -59,7 +59,7 @@ ACTION_IF (FILE_EXISTS ~engine.lua~) THEN BEGIN
 			COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~lang/%LANGUAGE%/override/L_fr_FR.lua~
 		END
 		// Add additional language here
-	END ELSE
+	END ELSE BEGIN
 		FAIL @1001005
 	END
 END
