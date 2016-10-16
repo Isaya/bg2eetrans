@@ -3,7 +3,7 @@ AUTHOR ~Isaya~
 
 // Version stated in WeiDU.log
 // The last part refers to the game version used as a reference to find texts
-VERSION ~v0.3.2064~
+VERSION ~v0.4.67.2~
 
 // Use english readme if the selected language doesn't have a readme
 README ~bg2eetrans/language/%LANGUAGE%/readme_%LANGUAGE%.txt~ ~bg2eetrans/language/readme_en_US.txt~
@@ -45,24 +45,7 @@ COPY ~lang/en_US/dialog.tlk~ ~lang/%LANGUAGE%/dialog.tlk~
 COPY ~lang/en_US/dialog.tlk~ ~lang/%LANGUAGE%/dialogF.tlk~
 MKDIR ~lang/%LANGUAGE%/override~
 
-ACTION_IF (FILE_EXISTS ~engine.lua~) THEN BEGIN
-	// Installing on BG2EE V2.x: we need to update BGEE.lua to add the language in the options menu
-	// Test to check for BGEE.lua existence: it will fail with an old WeiDU (requires > 239, either 240 or at least 23901)
-	ACTION_IF (FILE_EXISTS_IN_GAME ~BGEE.lua~) THEN BEGIN
-		ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_FR~ ) THEN BEGIN
-			// Add the chosen language to BG2EE
-			COPY_EXISTING ~BGEE.lua~ ~override/BGEE.lua~
-				REPLACE_TEXTUALLY ~	{'en_US', 99385, 99386, 'English'},~ ~	{'en_US', 99385, 99386, 'English'},
-			{'fr_FR', 99385, 99386, 'Français'},~
-				UNLESS ~'fr_FR'~
-			// Add the translated interface file
-			COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~lang/%LANGUAGE%/override/L_fr_FR.lua~
-		END
-		// Add additional language here
-	END ELSE BEGIN
-		FAIL @1001005
-	END
-END
+// Addition to BGEE.lua moved to bg2eetransinstall.tp2 in order to add translation notes in the right language
 
 COPY ~bg2eetrans/empty.itm~ ~lang/%LANGUAGE%/bg2eetrans.mrk~
 
@@ -84,9 +67,9 @@ END
 // Run the installation in the selected language
 // Note: no auto update since it may trigger an error message and running the current tp2 should already have done it anyway
 ACTION_IF ("%WEIDU_OS%" STRING_COMPARE_CASE ~WIN32~ = 0) THEN BEGIN
-  AT_INTERACTIVE_EXIT ~setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 --language %NUMLANG% --noautoupdate~
+  AT_INTERACTIVE_EXIT ~setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 1003 --language %NUMLANG% --noautoupdate~
   END ELSE BEGIN
     // Anticipate that . may not be in the PATH on Linux or Mac OS X (zelurker feedback on Beamdog forum)
-    AT_INTERACTIVE_EXIT ~./setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 --language %NUMLANG% --noautoupdate~
+    AT_INTERACTIVE_EXIT ~./setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 1003 --language %NUMLANG% --noautoupdate~
   END
 

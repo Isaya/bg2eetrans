@@ -22,3 +22,11 @@ V0.3.2064
 - correction du fichier de traduction de l'interface
 - différentiation Windows / Linux et Mac sur la manière de lancer l'installation des textes (retour de zelurker)
 - complément de détection d'erreur pour signaler l'utilisation d'une version insuffisante de WeiDU pour BG2EE V2.x
+
+v0.4.67.2
+- récupération d'une centaine de traductions depuis BGEE V2.3.67.2
+- ajout de notes sur la version française (idée de zelurker)
+- nombreuses corrections de correspondances de textes grâce aux efforts de dricks, zelurker et Luren
+  * des correspondances inexactes ont été corrigées
+  * des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits
+  * restauration de voix et de sons ayant disparu ou incorrects (notamment sur des personnages recrutables)

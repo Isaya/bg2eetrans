@@ -3,7 +3,7 @@ AUTHOR ~Isaya~
 
 // Version stated in WeiDU.log
 // The last part refers to the game version used as a reference to find texts
-VERSION ~v0.3.2064~
+VERSION ~v0.4.67.2~
 
 // Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
 AUTO_TRA ~bg2eetrans/language/%s~
@@ -21,6 +21,7 @@ LANGUAGE ~Francais~
          ~bg2eetrans/language/fr_FR/setup.tra~
 
 
+
 // Texts recovered from BGII-ToB
 BEGIN @1000002
 DESIGNATED 1001
@@ -33,6 +34,8 @@ INCLUDE  ~bg2eetrans/tob.tph~
 // Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
 INCLUDE ~bg2eetrans/tob_manual.tph~
 
+
+
 // Texts recovered from BGEE
 BEGIN @1000003
 DESIGNATED 1002
@@ -44,3 +47,39 @@ INCLUDE  ~bg2eetrans/bgee.tph~
 
 // Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
 INCLUDE ~bg2eetrans/bgee_manual.tph~
+
+
+
+// Menu for the language, including credits for the translation recovery
+BEGIN @1000004
+DESIGNATED 1003
+REQUIRE_PREDICATE (FILE_EXISTS ~lang/%LANGUAGE%/bg2eetrans.mrk~) @1001003 // Initialisation failed or a translation file is already present
+REQUIRE_COMPONENT ~bg2eetrans.tp2~ ~0~ @1001004 // Block attempt to bypass the initialisation part
+
+ACTION_IF (FILE_EXISTS ~engine.lua~) THEN BEGIN
+	// Installing on BG2EE V2.x: we need to update BGEE.lua to add the language in the options menu
+	// Test to check for BGEE.lua existence: it will fail with an old WeiDU (requires > 239, either 240 or at least 23901)
+	ACTION_IF (FILE_EXISTS_IN_GAME ~BGEE.lua~) THEN BEGIN
+		// Add a description of the "translation for the menu
+		//NEXT_STRREF
+		//STRING_SET_EVALUATE value newValue list [ USING traFile ]
+		OUTER_SET valeur1 = RESOLVE_STR_REF(@1002001)
+		OUTER_SET valeur2 = RESOLVE_STR_REF(@1002002)
+		OUTER_SPRINT transDesc1 ~%valeur1%~
+		OUTER_SPRINT transDesc2 ~%valeur2%~
+		ACTION_IF ( ~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_FR~ ) THEN BEGIN
+			// Add the chosen language to BG2EE
+			COPY_EXISTING ~BGEE.lua~ ~override/BGEE.lua~
+				REPLACE_TEXTUALLY ~\(	{'en_US', 99385, 99386, 'English'},\)~ ~\1
+	{'fr_FR', %transDesc1%, %transDesc2%, 'Français'},~
+				UNLESS ~'fr_FR'~
+			// Add the translated interface file
+			ACTION_IF (NOT FILE_EXISTS_IN_GAME ~L_fr_FR.lua~) THEN BEGIN
+				COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~lang/%LANGUAGE%/override/L_fr_FR.lua~
+			END
+		END
+		// Add additional language here
+	END ELSE BEGIN
+		FAIL @1001005
+	END
+END

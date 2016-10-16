@@ -8,6 +8,8 @@
 @1000002 = ~Textes repris de BGII-ToB~
 // Texts recovered from BGEE
 @1000003 = ~Textes repris de BGEE~
+// Menu and credits
+@1000004 = ~Ajout de la langue au menu + credits (BG2EE V2.0 et plus)~
 
 // Error messages
 // Wrong game
@@ -20,6 +22,24 @@
 @1001004 = ~Initialisation indispensable non encore realisee : executer setup-bg2eetrans~
 // Block attempt to install the mod on BG2EE V2.x without a WeiDU version able to find BGEE.lua (required: 240)
 @1001005 = ~BG2EE V2.x detecte (presence de engine.lua) mais version de WeiDU incompatible (minimum requis : 240)~
+
+// Texts added to the game for translation description
+@1002001 = ~Traduction française partielle à partir de ToB original et d'extraits de BGEE
+
+Le texte français est issu de Baldur's Gate II et Throne of Bhaal et bénéficie du patch correctif de la Couronne de Cuivre pour les textes pour BG II et ToB version 1.2 réalisé par Mornagest et Anomaly avec l'aide d'autres contributeurs.
+D'autres textes ont été repris de BGEE et proviennent de la version 2.3.
+
+La recherche de correspondance entre les textes anglais de BG2EE et les textes anglais a d'abord été réalisée par le programme Translation Retriever écrit par Isaya. Elle a été complétée en partie à la main par Isaya pour les fichiers de traduction partielle pour BG2EE V1.2 et la version originale de ce mod pour BG2EE V2.0 et supérieur.
+De très nombreux compléments et corrections ont été apportés par dricks, zelurker et Luren.
+
+Merci à zelurker pour l'idée de proposer des notes en français au lieu des textes anglais.~
+@1002002 = ~[Notes de la version française]
+
+Ceci n'est pas une traduction mais est issu de la récupération de textes depuis la traduction originale de BG II - ToB avec application des corrections du mod CorrecFr publié sur la Couronne de Cuivre. Des textes ont également été récupérés à partir la traduction de BGEE.
+
+Contributeurs aux textes :
+Mornagest, Anomaly et toutes les personnes ayant rapporté des défauts ou proposé des corrections.~
+
 
 // Text to explain to the player that he can choose whatever game language to start installation
 @-1040= "
