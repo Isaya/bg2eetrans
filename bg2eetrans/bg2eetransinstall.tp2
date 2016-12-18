@@ -3,7 +3,7 @@ AUTHOR ~Isaya~
 
 // Version stated in WeiDU.log
 // The last part refers to the game version used as a reference to find texts
-VERSION ~v0.4.67.2~
+VERSION ~v0.4.67.3~
 
 // Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
 AUTO_TRA ~bg2eetrans/language/%s~
@@ -32,7 +32,8 @@ LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/dialogToB.tra~
 INCLUDE  ~bg2eetrans/tob.tph~
 
 // Texts found by visual check (not significant differences that fooled Translation Retriver algorithm)
-INCLUDE ~bg2eetrans/tob_manual.tph~
+// For french: not required anymore, moved into tob.tph
+//INCLUDE ~bg2eetrans/tob_manual.tph~
 
 
 

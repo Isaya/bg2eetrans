@@ -1,6 +1,6 @@
-Ce mod installe une traduction partielle des textes pour BG2EE à partir des textes de BG II + ToB (original) et de la traduction de BGEE (V1.3).
+Ce mod installe une traduction partielle des textes pour BG2EE à partir des textes de BG II + ToB (original) et de la traduction de BGEE (V2.3).
 
-Remarque : le mod est basé sur une recherche de correspondance entre les textes en anglais de BG2EE et ceux de BG II + ToB et de BGEE date des versions 1.3 de BG2EE et de BGEE. Par conséquent il ne remplace en français que les textes suffisamment proches en anglais. Lorsque les textes de BG2EE ont trop changé par rapport à BG II + ToB, le mod préfère préserver le texte anglais plutôt que remplacer par une traduction qui pourrait s'avérer fausse, particulièrement pour les aspects techniques du jeu (description des classes, kits, sorts, objets).
+Remarque : le mod est basé sur une recherche de correspondance entre les textes en anglais de BG2EE et ceux de BG II + ToB et de BGEE date des versions 2.3 de BG2EE et de BGEE. Par conséquent il ne remplace en français que les textes suffisamment proches en anglais. Lorsque les textes de BG2EE ont trop changé par rapport à BG II + ToB, le mod préfère préserver le texte anglais plutôt que remplacer par une traduction qui pourrait s'avérer fausse, particulièrement pour les aspects techniques du jeu (description des classes, kits, sorts, objets).
 
 Par ailleurs le mod modifie la liste de langues disponibles dans BG2EE (V2.0 et supérieur) afin d'ajouter le français dans la liste.
 
@@ -23,10 +23,10 @@ V0.3.2064
 - différentiation Windows / Linux et Mac sur la manière de lancer l'installation des textes (retour de zelurker)
 - complément de détection d'erreur pour signaler l'utilisation d'une version insuffisante de WeiDU pour BG2EE V2.x
 
-v0.4.67.2
-- récupération d'une centaine de traductions depuis BGEE V2.3.67.2
+v0.4.67.3
+- récupération d'une centaine de traductions depuis BGEE V2.3.67.3
 - ajout de notes sur la version française (idée de zelurker)
-- nombreuses corrections de correspondances de textes grâce aux efforts de dricks, zelurker et Luren
+- nombreuses corrections de correspondances de textes grâce aux efforts de dricks, zelurker, Luren et Freddy_Gwendo
   * des correspondances inexactes ont été corrigées
   * des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits
   * restauration de voix et de sons ayant disparu ou incorrects (notamment sur des personnages recrutables)

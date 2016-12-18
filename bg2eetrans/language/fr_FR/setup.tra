@@ -30,7 +30,8 @@ Le texte français est issu de Baldur's Gate II et Throne of Bhaal et bénéfici
 D'autres textes ont été repris de BGEE et proviennent de la version 2.3.
 
 La recherche de correspondance entre les textes anglais de BG2EE et les textes anglais a d'abord été réalisée par le programme Translation Retriever écrit par Isaya. Elle a été complétée en partie à la main par Isaya pour les fichiers de traduction partielle pour BG2EE V1.2 et la version originale de ce mod pour BG2EE V2.0 et supérieur.
-De très nombreux compléments et corrections ont été apportés par dricks, zelurker et Luren.
+De très nombreux compléments et corrections ont été apportés par dricks, zelurker, Luren et Freddy_Gwendo.
+Luren a également adapté les intitulés d'entrée de journal afin qu'ils apparaissent en français et quelques textes différant légèrement entre BGEE et BG2EE ont été ajustés pour BG2EE.
 
 Merci à zelurker pour l'idée de proposer des notes en français au lieu des textes anglais.~
 @1002002 = ~[Notes de la version française]
@@ -38,12 +39,13 @@ Merci à zelurker pour l'idée de proposer des notes en français au lieu des te
 Ceci n'est pas une traduction mais est issu de la récupération de textes depuis la traduction originale de BG II - ToB avec application des corrections du mod CorrecFr publié sur la Couronne de Cuivre. Des textes ont également été récupérés à partir la traduction de BGEE.
 
 Contributeurs aux textes :
-Mornagest, Anomaly et toutes les personnes ayant rapporté des défauts ou proposé des corrections.~
+Mornagest, Anomaly et toutes les personnes ayant rapporté des défauts ou proposé des corrections.
+Luren pour les intitulés d'entrée de journal~
 
 
 // Text to explain to the player that he can choose whatever game language to start installation
 @-1040= "
-Choisissez une langue quelconque parmi celle deja disponibles dans le jeu.
+Choisissez une langue quelconque parmi celles deja disponibles dans le jeu.
 L'installation de ce mod creera la langue francaise par la suite.
 Nota : il vous faudra passer vous-meme le jeu en francais une fois fini.
 "
