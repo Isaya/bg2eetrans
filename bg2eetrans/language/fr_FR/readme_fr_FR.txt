@@ -30,3 +30,11 @@ v0.4.67.3
   * des correspondances inexactes ont été corrigées
   * des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits
   * restauration de voix et de sons ayant disparu ou incorrects (notamment sur des personnages recrutables)
+
+v0.5.67.3
+- Modification de la récupération de texte à partir de BGEE pour qu'elle ne prenne pas le pas sur de meilleurs textes trouvés dans ToB
+- Nombreuses améliorations et corrections diverses de Freddy_Gwendo
+  * respect de l'affichage avec ou sans majuscule initiale pour les noms de kits
+  * corrections de mots, uniformisation avec les EE (ensorceleur, cavalier), retraits des "Utilisable par" restants
+  * uniformisation de l'affichage des bonus des armes +n (sans espace)
+  * des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits, en particulier pour les objets

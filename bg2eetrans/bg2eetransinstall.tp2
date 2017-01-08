@@ -3,7 +3,7 @@ AUTHOR ~Isaya~
 
 // Version stated in WeiDU.log
 // The last part refers to the game version used as a reference to find texts
-VERSION ~v0.4.67.3~
+VERSION ~v0.5.67.3~
 
 // Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
 AUTO_TRA ~bg2eetrans/language/%s~
