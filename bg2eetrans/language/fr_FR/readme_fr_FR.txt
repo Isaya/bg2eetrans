@@ -38,3 +38,8 @@ v0.5.67.3
   * corrections de mots, uniformisation avec les EE (ensorceleur, cavalier), retraits des "Utilisable par" restants
   * uniformisation de l'affichage des bonus des armes +n (sans espace)
   * des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits, en particulier pour les objets
+
+v0.6.67.3
+- Corrections diverses proposées par Freddy_Gwendo
+- Refonte complète de la gestion des textes ajoutés par BG2EE (au-delà de 74106) : il s'agit désormais d'une traduction vérifiée couvrant environ 900 textes
+- Dans cette partie BG2EE, les récupérations de textes simples tels que "merci", "au revoir", "qu'est ce que vous voulez ?" ont été neutralisées (apport quasi nul, risque de mauvais adaptation au contexte, etc.)

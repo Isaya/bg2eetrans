@@ -3,7 +3,7 @@ AUTHOR ~Isaya~
 
 // Version stated in WeiDU.log
 // The last part refers to the game version used as a reference to find texts
-VERSION ~v0.5.67.3~
+VERSION ~v0.6.67.3~
 
 // Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
 AUTO_TRA ~bg2eetrans/language/%s~
@@ -84,3 +84,16 @@ ACTION_IF (FILE_EXISTS ~engine.lua~) THEN BEGIN
 		FAIL @1001005
 	END
 END
+
+
+
+// Verified translation for BG2EE
+BEGIN @1000005
+DESIGNATED 1004
+REQUIRE_PREDICATE (FILE_EXISTS ~lang/%LANGUAGE%/bg2eetrans.mrk~) @1001003 // Initialisation failed or a translation file is already present
+REQUIRE_COMPONENT ~bg2eetrans.tp2~ ~0~ @1001004 // Block attempt to bypass the initialisation part
+
+// Traduction de textes BG2EE compris entre 74107 et la fin
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/BG2EE_74107-fin.tra~
+INCLUDE  ~bg2eetrans/BG2EE_74107-fin.tph~
+

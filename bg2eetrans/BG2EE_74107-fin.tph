@@ -1,0 +1,1943 @@
+/*
+Le commentaire qui précède un texte précise l'origine et l'état de la traduction
+
+Explication des commentaires
+- "Identique BGEE/IWDEE xxxxx" : texte identique au numéro xxxxx de BGEE/IWDEE (déclaré identique par Translation Retriever et vérifié visuellement en terme de majuscule/minuscule ou tutoiement/vouvoiement lorsqu'il y a un doute possible)
+- "Quasi identique BGEE/IWDEE xxxxx", suivi d'un complément : texte très proche voire identique au numéro xxxxx de BGEE/IWDEE (déclaré proche par Translation Retriever et vérifié visuellement pour les différences), repris de BGEE/IWDEE et adapté si nécessaire (les différences vues par Translation Retriever dans les textes anglais ne sont pas toujours significatives)
+- "Proche BGEE/IWDEE xxxxx" : texte non repéré par Translation Retriever mais malgré tout très proche, repris BGEE/IWDEE et et adapté si nécessaire
+
+
+La formulation "Translation Retriver: etc. " correspond à un texte repris car déclaré identique ou proche par Translation Retriever, mais pas encore vérifié.
+En règle générale les répliques de dialogue considérées comme identiques ou proches par Translation Retriever n'ont pas été reprises : il y a des risques vis-à-vis de l'adaptation au sexe du personnage, du tutoiement / vouvoiement, etc. Par ailleurs le critère "proche" de l'outil n'est pas fiable.
+Il y a tout de même des exceptions, en particulier pour les textes de l'initiation ou des vidéos de tutoriel de BG2EE/IWDEE, qui ont été vérifiés.
+
+Même le cas "Exact match" peut prêter à des différences car la comparaison ne tient pas compte de la casse des caractères, ce qui peut occasionner des erreurs. Exemple : le nom des kits, pour lesquels il y a une déclinaison en minuscule et avec une majuscule initiale.
+*/
+
+// BGEE 29084 à 29086
+	STRING_SET 74107 @74107
+	STRING_SET 74108 @74108
+	STRING_SET 74109 @74109
+
+// Identique BGEE 29088
+	STRING_SET 74111 @74111
+
+// Identique BGEE 29092
+	STRING_SET 74115 @74115
+
+// Identique BGEE 29094
+	STRING_SET 74117 @74117
+
+// Identique BGEE 29662
+	STRING_SET 74119 @74119
+
+// Translation Retriever: case sensitive exact match found in file dialogEnIWDEE_14cp1252.tra at Id 38046
+// ToB 30846 ~Oui, montrez-moi donc ce que vous avez en réserve.~
+	STRING_SET 74130 @74130
+// Identique BGEE 15286
+	STRING_SET 74131 @74131
+
+// Quasi identique BGEE 29149, retrait du début et de la dernière phrase
+	STRING_SET 74132 @74132
+// Inspiré de BGEE 29150
+	STRING_SET 74133 @74133
+// Quasi identique BGEE 29151, reformulation, correction traduction "gird your loins" (idiome)
+	STRING_SET 74134 @74134
+
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29152
+	STRING_SET 74135 @74135
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29153
+	STRING_SET 74136 @74136
+
+// Quasi identique BGEE 29154, reformulation, correction traduction peripatetic
+	STRING_SET 74137 @74137
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29155
+	STRING_SET 74138 @74138
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29156
+	STRING_SET 74139 @74139
+// Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29157, likeliness 99.7 %
+	STRING_SET 74140 @74140
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29158
+	STRING_SET 74141 @74141
+
+//@74142 = ~Huzzah! Now then, are you ready to hear about what you'll be fighting? I do love to dangle fate above my pets.~
+//@29159 = ~Huzzah! Now then, are you ready to hear what fearsome foes you'll fight first?~
+//@74143 = ~Oh, I'm afraid I can't do that. I would be disappointing hundreds of people! And look at all the hard work I've put into creating this complex. Why, did you know that before I enslaved the duergar and forced them to expand this place, they were just living here, day in, day out, doing whatever it is those dwarven offshoots DO? How BORING!~
+//@29160 = ~I'm afraid I can't let you go. I would be disappointing dozens of desperately depraved devotees of my devious diversions! And just look at all the hard work I've put into creating this colossal complex of combat! But you wouldn't want that to go to waste, would ya?~*/
+//@74144 = ~In fact, even the NAME was an utter bore. "The Black Isle," they called it. Please! If you're going to live in the Moonshea Isles, at least give your patch of land an original title. Now then, you're going out there. And you're going to give me an EXCELLENT performance!~
+
+// Identique BGEE 29162
+	STRING_SET 74145 @74145
+// Quasi identique BGEE 29163, reformulation mineure
+	STRING_SET 74146 @74146
+// Quasi identique BGEE 29164, retrait première phrase, remplacement du nom du djinn, 
+	STRING_SET 74147 @74147
+
+// Quasi identique BGEE 29172, reformulation mineure
+	STRING_SET 74151 @74151
+// Quasi identique BGEE 29173, reformulation
+	STRING_SET 74152 @74152
+
+// Identique BGEE 29174, petite correction de la traduction
+	STRING_SET 74153 @74153
+
+//@74154 = ~Oh, now I feel a little bad about this one... I've gone ahead and allowed your opponents into the arena ahead of you, as I feel like their talents would be wasted otherwise. I won't ruin the surprise, though-get in there and find out! Chop chop!~
+//@29188 = ~Oh, now I feel a little bad about this one. I've allowed your opponents into the arena early so they can put their special talents to use. Try not to trip as you traverse the tricky territory!~ [BPT2B301]
+
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29189
+	STRING_SET 74155 @74155
+// Quasi identique BGEE 29177
+	STRING_SET 74156 @74156
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29178
+	STRING_SET 74157 @74157
+
+// Quasi identique BGEE 29179, ajout de "A strange handicap."
+	STRING_SET 74158 @74158
+// Quasi identique BGEE 29180, retrait de "in the process" et reformulation mineure
+	STRING_SET 74159 @74159
+
+// Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29181, likeliness 99.9 %
+	STRING_SET 74160 @74160
+// Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29182, likeliness 99.9 %
+	STRING_SET 74161 @74161
+
+// Quasi identique BGEE 29391, retrait de le phrase avec le nom du PNJ
+	STRING_SET 74163 @74163
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29392
+	STRING_SET 74164 @74164
+// Identique BGEE 29393
+	STRING_SET 74165 @74165
+// Quasi identique BGEE 29395
+	STRING_SET 74166 @74166
+// Quasi identique BGEE 29397
+	STRING_SET 74167 @74167
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29517
+	STRING_SET 74171 @74171
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29645
+	STRING_SET 74178 @74178
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29846
+	STRING_SET 74183 @74183
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29870
+	STRING_SET 74186 @74186
+
+// Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29291, likeliness 100.0 %
+	STRING_SET 74191 @74191
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29905
+	STRING_SET 74202 @74202
+
+// Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29448, likeliness 100.0 %
+	STRING_SET 74208 @74208
+
+// Quasi identique BGEE 29321
+	STRING_SET 74219 @74219
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29653
+	STRING_SET 74224 @74224
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29788
+	STRING_SET 74229 @74229
+
+// Quasi identique BGEE 29791, ajout de "until you die" et "do as I say", perte de la voix
+	STRING_SET 74231 @74231
+// Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29792, likeliness 100.0 %
+	STRING_SET 74232 @74232
+// Quasi identique BGEE 29793, "his slave" -> "slaves"
+	STRING_SET 74233 @74233
+
+// Translation Retriever: case sensitive exact match found in file dialogEnIWDEE_14cp1252.tra at Id 35955
+	STRING_SET 74236 @74236
+
+// Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29800, likeliness 99.8 %
+	STRING_SET 74239 @74239
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29801
+	STRING_SET 74240 @74240
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29802
+	STRING_SET 74241 @74241
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29803
+	STRING_SET 74242 @74242
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29804
+	STRING_SET 74243 @74243
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29805
+	STRING_SET 74244 @74244
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29806
+	STRING_SET 74245 @74245
+
+// 74247 à 74284 vides
+//@74247 = ~~
+//@74248 = ~~
+//@74249 = ~~
+// Identique BGEE 31186
+	STRING_SET 74250 @74250
+// Identique BGEE 31522
+	STRING_SET 74251 @74251
+// Identique BGEE 31828
+	STRING_SET 74252 @74252
+// Identique BGEE 31492
+	STRING_SET 74253 @74253
+// Identique BGEE 31493
+	STRING_SET 74254 @74254
+// Identique BGEE 31494
+	STRING_SET 74255 @74255
+// Identique BGEE 31495
+	STRING_SET 74256 @74256
+// Identique IWDEE 17318 @69 ou au contraire ToB 17318 ~lecture~
+	STRING_SET 74257 @74257
+// Identique IWDEE 17318 @69 ou au contraire ToB 17318 ~lecture~
+	STRING_SET 74258 @74258
+// Identiquer BGEE 31808
+	STRING_SET 74259 @74259
+// Identique BGEE 31812
+	STRING_SET 74260 @74260
+// Identique BGEE 31813
+	STRING_SET 74261 @74261
+// Identique BGEE 31814
+	STRING_SET 74262 @74262
+// Repris de VO, sens inconnu, aussi dans BGEE 31838
+	STRING_SET 74263 @74263
+// Identique BGEE 31839
+	STRING_SET 74264 @74264
+// Identique BGEE 31840
+	STRING_SET 74265 @74265
+// Identique BGEE 31841
+	STRING_SET 74266 @74266
+// Identique BGEE 31842
+	STRING_SET 74267 @74267
+// Identique BGEE 31843
+	STRING_SET 74268 @74268
+// Traduit
+	STRING_SET 74269 @74269
+// Identique BGEE 31827
+	STRING_SET 74270 @74270
+// Identique BGEE 24683
+	STRING_SET 74271 @74271
+// Identique BGEE 26050
+	STRING_SET 74272 @74272
+// Quasi identique ToB 39756, dernière phrase en moins
+	STRING_SET 74273 @74273
+// Quasi identique ToB 39798 ou IWDEE 39798, dernière phrase en moins
+	STRING_SET 74274 @74274
+
+//@74275 = ~I have a strange request... sister. I have the heart of a man that died in shame.~
+//@58237 = ~Ma requête te semblera bien étrange, mon frère... j'ai avec moi le coeur d'un homme mort dans la disgrâce.~
+
+// Très différente de la bio d'origine
+//@74276 = ~IMOEN chuckles when you ask her about her past, assuming you are just trying to keep her mind on happier times and places. She indulges you, and certainly does cheer up when speaking of how you spent your youths together in Candlekeep. She arrived there the same as you, in the company of your foster father Gorion, but despite this similarity, she grew up much more carefree than you did. Indeed, her lighthearted outlook has long kept her immune to the hardships of the world, though the horrors she has endured have definitely taken their toll.~
+//@10233 = ~IMOEN chuckles when you ask her about her past, assuming you are just trying to keep her mind on happier times and places. She indulges you, and certainly does cheer up when speaking of how you spent your youths together in Candlekeep. She arrived there the same as you, in the company of your foster father Gorion, but despite this similarity, she grew up much more carefree than you did. Indeed, her lighthearted outlook has long kept her immune to the hardships of the world, though the dark confines and horrors of your current location have definitely taken their toll.~
+//@10233 = ~Interrogée sur son passé, IMOEN vous tape sur l'épaule, facétieuse, et dit que vous devez vous le rappeler, car vous avez grandi avec elle. De fait, certains de vos meilleurs souvenirs sont ceux de votre rencontre avec ce bel ange. Elle est arrivée, tout comme vous, quoique dix ans plus tard dans la vie, à Château-Suif et elle a passé plus de temps avec ce bourru de Winthrop qu'avec Gorion. " Gros-plein-de soupe ", elle l'appelait, au grand désarroi du vieil aubergiste. Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite soeur, bien que vous soyez tous les deux du même âge. Son sourire radieux vous dit qu'elle vous suivra partout où vous irez.~
+
+// Identique IWDEE 40290
+	STRING_SET 74278 @74278
+
+// Adapté de ToB 7407, utilisé par les versions à deux têtes
+	STRING_SET 74285 @74285
+// Repris de ToB 2496
+	STRING_SET 74286 @74286
+// utilisé par RODSWORD, description en 93790, créé par Sceptre de puissance altière (ToB et IWDEE 38872, 39619), ~Épée longue de feu +1~ (ToB 39619) @90 (IWDEE 39619)
+	STRING_SET 74287 @74287
+// Identique IWDEE 40287
+	STRING_SET 74288 @74288
+// Identique IWDEE 40288
+	STRING_SET 74289 @74289
+// Identique IWDEE 40289
+	STRING_SET 74290 @74290
+// Identique IWDEE 34775
+	STRING_SET 74291 @74291
+// Identique IWDEE 34776
+	STRING_SET 74292 @74292
+// 
+	STRING_SET 74293 @74293
+// Identique IWDEE 34778 @todo Vérifier si cela provient d'un dialogue
+	STRING_SET 74294 @74294
+// Identique BGEE 31270
+	STRING_SET 74295 @74295
+// Identique BGEE 31970
+	STRING_SET 74296 @74296
+// Identique BGEE 31971
+	STRING_SET 74297 @74297
+// Identique BGEE 31972
+	STRING_SET 74298 @74298
+// Identique BGEE 31973
+	STRING_SET 74299 @74299
+// Identique BGEE 31974
+	STRING_SET 74300 @74300
+// Identique BGEE 31975
+	STRING_SET 74301 @74301
+// Identique BGEE 31976
+	STRING_SET 74302 @74302
+// Identique BGEE 31977
+	STRING_SET 74303 @74303
+// Identique BGEE 31978
+	STRING_SET 74304 @74304
+// Identique BGEE 31979
+	STRING_SET 74305 @74305
+// Identique BGEE 31980
+	STRING_SET 74306 @74306
+// Identique BGEE 31981
+	STRING_SET 74307 @74307
+// Identique BGEE 31982
+	STRING_SET 74308 @74308
+// Identique BGEE 31983
+	STRING_SET 74309 @74309
+// Quasi identique BGEE 31984 (typo en anglais), précision "9d6 dégâts de feu" conservée de BGEE car vérifié par Freddy_Gwendo
+	STRING_SET 74310 @74310
+// Identique BGEE 31985
+	STRING_SET 74311 @74311
+// Identique BGEE 31986 (compétence du Disciple du Dragon)
+	STRING_SET 74312 @74312
+// Identique BGEE 31989
+	STRING_SET 74313 @74313
+// Identique BGEE 31990
+	STRING_SET 74314 @74314
+// Identique BGEE 31991
+	STRING_SET 74315 @74315
+// Identique BGEE 31992
+	STRING_SET 74316 @74316
+// Identique BGEE 32138
+	STRING_SET 74317 @74317
+// Contribution de Luren : entrées journal @todo Titres à vérifier après fusion avec travaux des bénévoles
+	STRING_SET 74318 @74318
+// ToB 843
+	STRING_SET 74319 @74319
+	STRING_SET 74320 @74320
+	STRING_SET 74321 @74321
+	STRING_SET 74322 @74322
+	STRING_SET 74323 @74323
+	STRING_SET 74324 @74324
+	STRING_SET 74325 @74325
+	STRING_SET 74326 @74326
+	STRING_SET 74327 @74327
+	STRING_SET 74328 @74328
+	STRING_SET 74329 @74329
+	STRING_SET 74330 @74330
+	STRING_SET 74331 @74331
+	STRING_SET 74332 @74332
+	STRING_SET 74333 @74333
+	STRING_SET 74334 @74334
+	STRING_SET 74335 @74335
+	STRING_SET 74336 @74336
+	STRING_SET 74337 @74337
+	STRING_SET 74338 @74338
+	STRING_SET 74339 @74339
+	STRING_SET 74340 @74340
+	STRING_SET 74341 @74341
+	STRING_SET 74342 @74342
+	STRING_SET 74343 @74343
+	STRING_SET 74344 @74344
+	STRING_SET 74345 @74345
+	STRING_SET 74346 @74346
+	STRING_SET 74347 @74347
+	STRING_SET 74348 @74348
+	STRING_SET 74349 @74349
+	STRING_SET 74350 @74350
+	STRING_SET 74351 @74351
+	STRING_SET 74352 @74352
+	STRING_SET 74353 @74353
+	STRING_SET 74354 @74354
+	STRING_SET 74355 @74355
+	STRING_SET 74356 @74356
+	STRING_SET 74357 @74357
+	STRING_SET 74358 @74358
+	STRING_SET 74359 @74359
+	STRING_SET 74360 @74360
+	STRING_SET 74361 @74361
+	STRING_SET 74362 @74362
+	STRING_SET 74363 @74363
+	STRING_SET 74364 @74364
+	STRING_SET 74365 @74365
+	STRING_SET 74366 @74366
+	STRING_SET 74367 @74367
+	STRING_SET 74368 @74368
+	STRING_SET 74369 @74369
+	STRING_SET 74370 @74370
+	STRING_SET 74371 @74371
+	STRING_SET 74372 @74372
+	STRING_SET 74373 @74373
+	STRING_SET 74374 @74374
+	STRING_SET 74375 @74375
+	STRING_SET 74376 @74376
+	STRING_SET 74377 @74377
+	STRING_SET 74378 @74378
+	STRING_SET 74379 @74379
+	STRING_SET 74380 @74380
+	STRING_SET 74381 @74381
+	STRING_SET 74382 @74382
+	STRING_SET 74383 @74383
+	STRING_SET 74384 @74384
+	STRING_SET 74385 @74385
+	STRING_SET 74386 @74386
+	STRING_SET 74387 @74387
+	STRING_SET 74388 @74388
+	STRING_SET 74389 @74389
+	STRING_SET 74390 @74390
+	STRING_SET 74391 @74391
+	STRING_SET 74392 @74392
+	STRING_SET 74393 @74393
+	STRING_SET 74394 @74394
+	STRING_SET 74395 @74395
+	STRING_SET 74396 @74396
+	STRING_SET 74397 @74397
+	STRING_SET 74398 @74398
+	STRING_SET 74399 @74399
+	STRING_SET 74400 @74400
+	STRING_SET 74401 @74401
+	STRING_SET 74402 @74402
+	STRING_SET 74403 @74403
+	STRING_SET 74404 @74404
+	STRING_SET 74405 @74405
+	STRING_SET 74406 @74406
+	STRING_SET 74407 @74407
+	STRING_SET 74408 @74408
+	STRING_SET 74409 @74409
+// Identique BGEE 31283 : ~Un pense-bête de Belt~ (initiation)
+	STRING_SET 74410 @74410
+	STRING_SET 74411 @74411
+	STRING_SET 74412 @74412
+	STRING_SET 74413 @74413
+	STRING_SET 74414 @74414
+	STRING_SET 74415 @74415
+	STRING_SET 74416 @74416
+	STRING_SET 74417 @74417
+	STRING_SET 74418 @74418
+	STRING_SET 74419 @74419
+	STRING_SET 74420 @74420
+	STRING_SET 74421 @74421
+	STRING_SET 74422 @74422
+	STRING_SET 74423 @74423
+	STRING_SET 74424 @74424
+	STRING_SET 74425 @74425
+	STRING_SET 74426 @74426
+	STRING_SET 74427 @74427
+	STRING_SET 74428 @74428
+	STRING_SET 74429 @74429
+	STRING_SET 74430 @74430
+	STRING_SET 74431 @74431
+	STRING_SET 74432 @74432
+	STRING_SET 74433 @74433
+	STRING_SET 74434 @74434
+	STRING_SET 74435 @74435
+	STRING_SET 74436 @74436
+	STRING_SET 74437 @74437
+	STRING_SET 74438 @74438
+	STRING_SET 74439 @74439
+	STRING_SET 74440 @74440
+	STRING_SET 74441 @74441
+	STRING_SET 74442 @74442
+	STRING_SET 74443 @74443
+	STRING_SET 74444 @74444
+	STRING_SET 74445 @74445
+	STRING_SET 74446 @74446
+	STRING_SET 74447 @74447
+	STRING_SET 74448 @74448
+	STRING_SET 74449 @74449
+	STRING_SET 74450 @74450
+	STRING_SET 74451 @74451
+	STRING_SET 74452 @74452
+	STRING_SET 74453 @74453
+	STRING_SET 74454 @74454
+	STRING_SET 74455 @74455
+	STRING_SET 74456 @74456
+	STRING_SET 74457 @74457
+	STRING_SET 74458 @74458
+	STRING_SET 74459 @74459
+	STRING_SET 74460 @74460
+	STRING_SET 74461 @74461
+	STRING_SET 74462 @74462
+	STRING_SET 74463 @74463
+	STRING_SET 74464 @74464
+	STRING_SET 74465 @74465
+	STRING_SET 74466 @74466
+	STRING_SET 74467 @74467
+	STRING_SET 74468 @74468
+	STRING_SET 74469 @74469
+	STRING_SET 74470 @74470
+	STRING_SET 74471 @74471
+	STRING_SET 74472 @74472
+	STRING_SET 74473 @74473
+	STRING_SET 74474 @74474
+	STRING_SET 74475 @74475
+	STRING_SET 74476 @74476
+	STRING_SET 74477 @74477
+	STRING_SET 74478 @74478
+	STRING_SET 74479 @74479
+	STRING_SET 74480 @74480
+	STRING_SET 74481 @74481
+	STRING_SET 74482 @74482
+	STRING_SET 74483 @74483
+	STRING_SET 74484 @74484
+	STRING_SET 74485 @74485
+	STRING_SET 74486 @74486
+	STRING_SET 74487 @74487
+	STRING_SET 74488 @74488
+	STRING_SET 74489 @74489
+	STRING_SET 74490 @74490
+	STRING_SET 74491 @74491
+	STRING_SET 74492 @74492
+	STRING_SET 74493 @74493
+	STRING_SET 74494 @74494
+	STRING_SET 74495 @74495
+	STRING_SET 74496 @74496
+	STRING_SET 74497 @74497
+	STRING_SET 74498 @74498
+	STRING_SET 74499 @74499
+	STRING_SET 74500 @74500
+	STRING_SET 74501 @74501
+	STRING_SET 74502 @74502
+
+//@74503 = ~The challenges and the fate spirit~
+
+	STRING_SET 74504 @74504
+	STRING_SET 74505 @74505
+	STRING_SET 74506 @74506
+	STRING_SET 74507 @74507
+
+
+
+// Identique BGEE 28304
+	STRING_SET 77510 @77510
+// Identique BGEE 28306
+	STRING_SET 77511 @77511
+// Identique BGEE 28604
+	STRING_SET 77512 @77512
+// Identique BGEE 28605
+	STRING_SET 77513 @77513
+// Quasi identique BGEE 28606 (diff mineure de forme en anglais), repris à l'identique de BGEE
+	STRING_SET 77514 @77514
+// Identique BGEE 1212
+	STRING_SET 77515 @77515
+// Identique BGEE 1213
+	STRING_SET 77516 @77516
+// Identique BGEE 1215
+	STRING_SET 77517 @77517
+// Identique BGEE 1214
+	STRING_SET 77518 @77518
+// Identique BGEE 1216
+	STRING_SET 77519 @77519
+// Identique BGEE 1217
+	STRING_SET 77520 @77520
+// Identique BGEE 1218
+	STRING_SET 77521 @77521
+// Identique BGEE 24481
+	STRING_SET 77522 @77522
+// Identique BGEE 31847 (sauf maj initiale) ; plus utilisé a priori, désormais dans L_fr_FR.LUA ; @todo mettre plutôt "matériel" comme dans l'explication de l'option BGEE 32205 ?
+	STRING_SET 77523 @77523
+// Identique BGEE 31855
+	STRING_SET 77524 @77524
+// Quasi identique BGEE 31856 (mot option en plus dans un cas)
+	STRING_SET 77525 @77525
+// Identique BGEE 31836
+	STRING_SET 77526 @77526
+// Identique BGEE 31830
+	STRING_SET 77527 @77527
+
+// @todo objets 80043
+
+// Traduit ; dans IWDEE 37842 traduction du même texte @621
+	STRING_SET 80749 @80749
+// Quasi identique BGEE 24680 (espace en plus à la fin)
+	STRING_SET 80750 @80750
+// Quasi identique BGEE 24682 (espace en plus à la fin)
+	STRING_SET 80751 @80751
+
+// @todo objets et noms entre 80752 et 80786, entre 80799 et 80805
+
+	STRING_SET 80763 @80763
+
+// Identique BGEE 31857
+	STRING_SET 80805 @80805
+
+// Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29604
+	STRING_SET 81193 @81193
+
+// Identique IWDEE 15977
+	STRING_SET 81606 @81606
+
+	STRING_SET 82029 @82029
+
+// @todo noms et objets 81992 - 82302, 82034, 82307, 82039
+
+// Identique BGEE 24685 (sauf quelques espaces)
+	STRING_SET 83362 @83362
+// Quasi identique BGEE 24686, sauf deux derniers noms
+	STRING_SET 83363 @83363
+
+// @todo objet en 84021 et 84026
+// @todo nom et objet entre 84060 84062
+// @todo nom et objet entre 84583 et 84586
+// @todo noms et objets entre 84794 et 84854
+
+// Identique IWDEE 34780
+	STRING_SET 84791 @84791
+// Identique IWDEE 34781
+	STRING_SET 84792 @84792
+
+// Identique BGEE 28621
+	STRING_SET 84810 @84810
+// Identique BGEE 28622
+	STRING_SET 84811 @84811
+
+// @todo objets, scripts, 85179, 85180, 85191, 85192, 85291 à 85299, 
+// @todo Wilson 86478, 86479, 87166 à 87206
+// @todo objets 87207 à 87212
+
+	STRING_SET 87442 @87442
+
+// Identique BGEE 27645
+	STRING_SET 87455 @87455
+// Identique BGEE 31845
+	STRING_SET 87456 @87456
+
+// Identique BGEE 29121
+	STRING_SET 87865 @87865
+
+// @todo noms 88259 à 88282
+
+// Traduit
+	STRING_SET 88424 @88424
+	STRING_SET 88425 @88425
+
+// @todo noms 88426 à 88429
+// @todo objets 88856 à 88878
+
+// @todo 88879 à 88919, 88996 à 89137 voix personnage principal à retranscrire en texte
+/*********************************************************************
+  @todo A revoir 89094 à 89113 concernent Male4 et non Male005 comme @16235 à 16247
+  16235 à 16247 conviendraient mieux à 89114 à 89133, sauf que le son est Male5 et non Male005
+  ********************************************************************/
+//      STRING_SET ~89094~ @16235       // manuel 
+//      STRING_SET ~89095~ @16236       // manuel
+//      STRING_SET ~89096~ @16237       // manuel
+//      STRING_SET ~89097~ @16238       // manuel
+//      STRING_SET ~89098~ @16239       // manuel
+//      STRING_SET ~89099~ @16240       // manuel
+//      STRING_SET ~89100~ @16241       // manuel
+//      STRING_SET ~89101~ @16242       // manuel
+//      STRING_SET ~89102~ @16243       // manuel
+//      STRING_SET ~89103~ @16244       // manuel
+//      STRING_SET ~89104~ @16245       // manuel
+//      STRING_SET ~89105~ @16246       // manuel
+//      STRING_SET ~89106~ @16247       // manuel
+
+// @todo objets 89729, 89730, 90138 à 90141, 90176 à 90184, 
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 90178 @90178
+// Contribué par Freddy_Gwendo (voir aussi IWDEE 40638)
+	STRING_SET 90179 @90179
+
+// @todo objets 90190, 90368, 90369, 90959 à 90974
+// @todo objets 91200, 91201, 91223, 91257 à 91262, 92588, 92590 à 92592, 92741, 92742, 92971, 92972
+// @todo objets 93373 à 93380, 93428, 93596 à 93603, 93608 à 93615
+
+// pour une créature
+	STRING_SET 93320 @93320
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 93596 @93596
+
+// Identique IWDEE 34782, correction pour tout en minuscule
+	STRING_SET 93619 @93619
+// Personnages repris des fosses noires de BGEE
+// Identique BGEE 31222, 31224, 31226, 31228, 31230, 31232
+	STRING_SET 93620 @93620
+	STRING_SET 93621 @93621
+	STRING_SET 93622 @93622
+	STRING_SET 93623 @93623
+	STRING_SET 93624 @93624
+	STRING_SET 93625 @93625
+
+// Identique BGEE 28298
+	STRING_SET 93695 @93695
+// Quasi identique BGEE 28299 (nom de l'épée ajouté au début dans BG2EE)
+	STRING_SET 93696 @93696
+
+// @todo objet 93700, 93701
+
+// Identique BGEE 32204 + majuscule au début
+	STRING_SET 93702 @93702
+// Identique BGEE 32205
+	STRING_SET 93703 @93703
+// Identique BGEE 32206
+	STRING_SET 93704 @93704
+
+// @todo objet 93723, 93724
+
+// Identique BGEE 32345, voir minuscule en 103137
+	STRING_SET 93785 @93785
+// Identique BGEE 32346 sauf Exclamation renommé Acclamation (VO), je (Isaya) préfère conserver Exaltation vu la description
+	STRING_SET 93786 @93786
+// Identique BGEE 32370
+	STRING_SET 93787 @93787
+// Conservation du terme Exaltation de BGEE (en 32368) : voir explication en 93786
+	STRING_SET 93788 @93788
+// Identique IWDEE 6695
+	STRING_SET 93789 @93789
+
+// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre)
+	STRING_SET 93790 @93790
+// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre)
+	STRING_SET 93791 @93791
+
+// Identique BGEE 30190
+	STRING_SET 93792 @93792
+// Identique BGEE 6663
+	STRING_SET 93793 @93793
+
+// Identique ToB 66594
+	STRING_SET 94023 @94023
+
+// @todo objets 94286, 94287, 94291, 94292, 94305 à 94312
+
+	STRING_SET 94451 @94451
+
+// @todo objets 94564 à 94569, 94811, 94812, 94820 à 94826
+
+// Complété à partir de BGEE 24630
+	STRING_SET 95115 @95115
+// Identique BGEE 32216 + majuscule initiale
+	STRING_SET 95116 @95116
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 95117 @95117
+// Contribué par Freddy_Gwendo
+	STRING_SET 95118 @95118
+
+// @todo objets 95119, 95120
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 95121 @95121
+// Contribué par Freddy_Gwendo
+	STRING_SET 95122 @95122
+
+// Identique BGEE 25480
+	STRING_SET 95127 @95127
+// Identique BGEE 25481
+	STRING_SET 95128 @95128
+// Identique BGEE 25484
+	STRING_SET 95129 @95129
+// Identique BGEE 25485
+	STRING_SET 95130 @95130
+// Identique BGEE 25491
+	STRING_SET 95131 @95131
+// Identique BGEE 25492
+	STRING_SET 95132 @95132
+// Identique BGEE 25493
+	STRING_SET 95133 @95133
+// Identique BGEE 25494
+	STRING_SET 95134 @95134
+// Identique BGEE 25488
+	STRING_SET 95135 @95135
+// Identique BGEE 25498
+	STRING_SET 95136 @95136
+// Identique BGEE 25489
+	STRING_SET 95137 @95137
+// Identique BGEE 25486
+	STRING_SET 95138 @95138
+// Identique BGEE 25487
+	STRING_SET 95139 @95139
+// Identique BGEE 25483
+	STRING_SET 95140 @95140
+
+// Identique BGEE 25482
+	STRING_SET 95157 @95157
+
+// @todo objets (BGII) 95161, 95162
+// @todo achat boutique 95310 à 95316
+
+// Identique BGEE 32307
+	STRING_SET 95634 @95634
+
+// @todo objets 95635 à 95641
+
+// IWDEE 6749 pour le même texte, traduction ~L'Épée qui siffle +2 ~
+	STRING_SET 95641 @95641
+
+// Identique IWDEE 6684
+	STRING_SET 96053 @96053
+// Identique IWDEE 6722
+	STRING_SET 96054 @96054
+// IDWEE 6714 pour le même texte, traduction ~La Lame de Suryris +2~
+	STRING_SET 96055 @96055
+// Identique BGEE 31831
+	STRING_SET 96056 @96056
+
+// Identique BGEE 32211
+	STRING_SET 96912 @96912
+
+// Quasi identique ToB 16313, minuscule au début
+	STRING_SET 97942 @97942
+
+// @todo objets 96057 à 96066
+// @todo textes de journal BG II 96383 à 96393, 96437, 96469, 96521, 96522, 96528
+// 96562, 96563, 96576, 96586, 96636, 9663è, 96642, 96648, 96650, 96655, 96656, 96686 à 96688,
+// 97314 jusqu'à 97358
+// @todo objets 97323, 97324, 
+
+// Traduit
+	STRING_SET 99385 @99385
+
+// Quasi identique BGEE 32332, espace initial en plus
+	STRING_SET 99387 @99387
+// Quasi identique BGEE 32333, espace initial en plus
+	STRING_SET 99388 @99388
+// Quasi identique BGEE 32334, espace initial en plus
+	STRING_SET 99389 @99389
+
+// Quasi identique ToB 7366, sans la phrase mentionant <CHARNAME>, + mise en forme EE
+	STRING_SET 99392 @99392
+// Identique BGEE 32306
+	STRING_SET 99393 @99393
+
+// Identique BGEE 29986
+	STRING_SET 99823 @99823
+// Identique BGEE 29991
+	STRING_SET 99824 @99824
+// Identique BGEE 29994
+	STRING_SET 99825 @99825
+// Identique BGEE 29996
+	STRING_SET 99826 @99826
+// Identique BGEE 29998
+	STRING_SET 99827 @99827
+// Adapté à partir de BGEE 30001
+	STRING_SET 99828 @99828
+// Identique BGEE 30003
+	STRING_SET 99829 @99829
+// Identique BGEE 30005
+	STRING_SET 99830 @99830
+// Identique BGEE 30007
+	STRING_SET 99831 @99831
+// Adapté à partir de BGEE 30010
+	STRING_SET 99832 @99832
+// Traduction en partie reprise de BGEE 30012 (texte incomplet pour BGEE mais correct pour BG2EE)
+	STRING_SET 99833 @99833
+// Identique BGEE 30014
+	STRING_SET 99834 @99834
+// Identique BGEE 30016
+	STRING_SET 99835 @99835
+// Identique BGEE 30018
+	STRING_SET 99836 @99836
+// Identique BGEE 30022
+	STRING_SET 99837 @99837
+// Identique BGEE 30030
+	STRING_SET 99838 @99838
+// Identique BGEE 30032
+	STRING_SET 99839 @99839
+// Quasi identique BGEE 30033, adaptation tablette
+	STRING_SET 99840 @99840
+// Identique BGEE 30037
+	STRING_SET 99841 @99841
+// Identique BGEE 30052
+	STRING_SET 99842 @99842
+// Identique BGEE 30069
+	STRING_SET 99843 @99843
+// Quasi identique BGEE 30072, retrait mention du sort de soin
+	STRING_SET 99844 @99844
+// Quasi identique BGEE 30157, identique 99911
+	STRING_SET 99845 @99845
+// Identique BGEE 30077
+	STRING_SET 99846 @99846
+// Identique BGEE 30091
+	STRING_SET 99847 @99847
+// Identique BGEE 30093
+	STRING_SET 99848 @99848
+// Identique BGEE 30096
+	STRING_SET 99849 @99849
+// Identique BGEE 30101
+	STRING_SET 99850 @99850
+// Identique BGEE 30104
+	STRING_SET 99851 @99851
+// Identique BGEE 30107
+	STRING_SET 99852 @99852
+// Identique BGEE 30110
+	STRING_SET 99853 @99853
+// Identique BGEE 30113
+	STRING_SET 99854 @99854
+// Identique BGEE 30118
+	STRING_SET 99855 @99855
+// Identique BGEE 30120
+	STRING_SET 99856 @99856
+// Quasi identique BGEE 30124
+	STRING_SET 99857 @99857
+// Identique BGEE 30142
+	STRING_SET 99858 @99858
+// Identique BGEE 30148
+	STRING_SET 99859 @99859
+// Quasi identique BGEE 30150
+	STRING_SET 99860 @99860
+// Identique BGEE 30152
+	STRING_SET 99861 @99861
+// Identique BGEE 30155
+	STRING_SET 99862 @99862
+// Identique BGEE 30077
+	STRING_SET 99863 @99863
+// Identique BGEE 30164
+	STRING_SET 99864 @99864
+// Identique BGEE 30166
+	STRING_SET 99865 @99865
+// Quasi identique BGEE 30168, traduction peu fidèle améliorée
+	STRING_SET 99866 @99866
+// Identique BGEE 30170
+	STRING_SET 99867 @99867
+// Quasi identique BGEE 30176, 
+	STRING_SET 99868 @99868
+// Quasi identique BGEE 31697, "en bas à gauche" au lieu de "... droite"
+	STRING_SET 99869 @99869
+// Identique BGEE 30010
+	STRING_SET 99870 @99870
+// Identique BGEE 30136
+	STRING_SET 99871 @99871
+// Identique BGEE 31698
+	STRING_SET 99872 @99872
+// Identique BGEE 30123
+	STRING_SET 99873 @99873
+// Identique BGEE 30124
+	STRING_SET 99874 @99874
+// Identique BGEE 29998
+	STRING_SET 99875 @99875
+// Identique BGEE 31487
+	STRING_SET 99876 @99876
+// Quasi identique IWDEE 39185, au nom du jeu près
+	STRING_SET 99877 @99877
+// Quasi identique BGEE 29984, au nom du jeu près
+	STRING_SET 99878 @99878
+
+// Identique IWDEE 34787, correction "Ramassage" en "Butin" pour homogénéité avec tutoriel vidéo
+	STRING_SET 99897 @99897
+
+// @todo objet 99908
+
+// Quasi identique BGEE 30074 (ou 30075 ou 30157), shaman en moins (mais conservé car ce sera vrai à terme même sur tablette) et texte adapté tablettes en plus
+	STRING_SET 99911 @99911
+// Identique BGEE 30035
+	STRING_SET 99912 @99912
+
+// Inspiré de ToB 71488, appel PNJ depuis le plan
+	STRING_SET 99983 @99983
+	STRING_SET 99984 @99984
+	STRING_SET 99985 @99985
+	STRING_SET 99986 @99986
+
+// @todo objets et noms 99987 à 99999, 100043, 100050 à 100061 (mélange), 100188, 100189
+// @todo scripts, noms, etc. 100208 à 100247, 100257, 100259 à 100262
+// @todo Wilson 100263 à 100267
+// @todo objets 100282, 100283
+
+// Identique ToB 13195
+	STRING_SET 100052 @100052
+
+// Identique ToB 48442
+	STRING_SET 100242 @100242
+
+// 100284 pas besoin de traduction (crédits)
+	STRING_SET 100284 @100284
+
+// @todo 100285 à 100347 : voix pour personnage principal à retranscrire en texte
+
+// Identique BGEE 32220
+	STRING_SET 100348 @100348
+// Identique BGEE 32221
+	STRING_SET 100349 @100349
+// Identique BGEE 32222
+	STRING_SET 100350 @100350
+// Identique BGEE 32223
+	STRING_SET 100351 @100351
+// Quasi identique BGEE 32224, écart non significatif
+	STRING_SET 100352 @100352
+// Identique BGEE 32225
+	STRING_SET 100353 @100353
+// Identique BGEE 32226
+	STRING_SET 100354 @100354
+// Identique BGEE 32227
+	STRING_SET 100355 @100355
+// Quasi identique BGEE 32228, écart non significatif
+	STRING_SET 100356 @100356
+// Identique BGEE 32229
+	STRING_SET 100357 @100357
+// Quasi identique BGEE 32230, simple reformulation, texte de BGEE conservé
+	STRING_SET 100358 @100358
+// Identique BGEE 32231
+	STRING_SET 100359 @100359
+// Identique BGEE 32232
+	STRING_SET 100360 @100360
+// Identique BGEE 32233
+	STRING_SET 100361 @100361
+// Identique BGEE 32234
+	STRING_SET 100362 @100362
+// Identique BGEE 32235
+	STRING_SET 100363 @100363
+// Identique BGEE 32236
+	STRING_SET 100364 @100364
+// Identique BGEE 32237
+	STRING_SET 100365 @100365
+// Identique BGEE 32238
+	STRING_SET 100366 @100366
+// Identique BGEE 32239
+	STRING_SET 100367 @100367
+// Identique BGEE 32240
+	STRING_SET 100368 @100368
+// Identique BGEE 32241
+	STRING_SET 100369 @100369
+// Identique BGEE 32242
+	STRING_SET 100370 @100370
+// Identique BGEE 32243
+	STRING_SET 100371 @100371
+// En partie identique BGEE 32244, perte arme +1, gain poison, bonus CA
+	STRING_SET 100372 @100372
+// En partie identique BGEE 32245, perte attaque, perte arme +2
+	STRING_SET 100373 @100373
+// En partie identique BGEE 32246, modif attaques, perte Hâte et Souffle de feu
+	STRING_SET 100374 @100374
+// En partie identique BGEE 32247, grosses modif CA, attaques, résistances, immunités
+	STRING_SET 100375 @100375
+// Identique BGEE 32248
+	STRING_SET 100376 @100376
+// Quasi identique BGEE 32249, personnage au lieu de prêtre
+	STRING_SET 100377 @100377
+// Identique BGEE 32250
+	STRING_SET 100378 @100378
+// Identique BGEE 32251
+	STRING_SET 100379 @100379
+// Identique BGEE 32252
+	STRING_SET 100380 @100380
+// Quasi identique BGEE 32253, formulation différente
+	STRING_SET 100381 @100381
+// Identique BGEE 32254
+	STRING_SET 100382 @100382
+// Identique BGEE 32255
+	STRING_SET 100383 @100383
+// Quasi identique BGEE 32256, carac et dégâts augmentés, perte arme +1, perte de la Hâte
+	STRING_SET 100384 @100384
+// Quasi identique BGEE 32257, dégâts augmentés, perte arme +1, perte de la Hâte
+	STRING_SET 100385 @100385
+// Quasi identique BGEE 32258, perte arme +1, perte de la Hâte
+	STRING_SET 100386 @100386
+// Identique BGEE 32259
+	STRING_SET 100387 @100387
+// Quasi identique BGEE 32260, modif dégâts minorés, TAC0 augmenté, perte de la Hâte
+	STRING_SET 100388 @100388
+// Quasi identique BGEE 32261, modif dégâts
+	STRING_SET 100389 @100389
+// Identique BGEE 32262
+	STRING_SET 100390 @100390
+// Identique BGEE 32263
+	STRING_SET 100391 @100391
+// Identique BGEE 32264
+	STRING_SET 100392 @100392
+// Identique BGEE 32265
+	STRING_SET 100393 @100393
+// Identique BGEE 32266
+	STRING_SET 100394 @100394
+// Identique BGEE 32267
+	STRING_SET 100395 @100395
+// Quasi identique BGEE 32268, dégâts perforants en plus
+	STRING_SET 100396 @100396
+// Traduit
+	STRING_SET 100397 @100397
+// Traduit (nom de capacité repris de BGEE 25929)
+	STRING_SET 100398 @100398
+// Traduit (nom de capacité repris de BGEE 25958) @todo Compatibilité de Œ avec la lettrine à vérifier !!!
+	STRING_SET 100399 @100399
+// Traduit (nom de capacité repris de BGEE 25961)
+	STRING_SET 100400 @100400
+// Traduit (nom de capacité repris de ToB 51958)
+	STRING_SET 100401 @100401
+// Traduction, nom repris de BGEE 26039
+	STRING_SET 100402 @100402
+// Identique BGEE 32269
+	STRING_SET 100403 @100403
+// Identique BGEE 32270
+	STRING_SET 100404 @100404
+// Quasi identique BGEE 32271, précision "magiques" conservée de BGEE
+	STRING_SET 100405 @100405
+// Identique BGEE 32272
+	STRING_SET 100406 @100406
+// Identique BGEE 32273
+	STRING_SET 100407 @100407
+// Identique BGEE 32274
+	STRING_SET 100408 @100408
+// Identique BGEE 32275
+	STRING_SET 100409 @100409
+// Identique BGEE 32276
+	STRING_SET 100410 @100410
+// Identique BGEE 32277
+	STRING_SET 100411 @100411
+// Identique BGEE 32278
+	STRING_SET 100412 @100412
+// Identique BGEE 32279
+	STRING_SET 100413 @100413
+// Identique BGEE 32280
+	STRING_SET 100414 @100414
+// Identique BGEE 32281
+	STRING_SET 100415 @100415
+
+// @todo objets 100416 à 100449, 100451, 100452
+
+// Identique BGEE 32282
+	STRING_SET 100778 @100778
+
+// Identique BGEE 31846
+	STRING_SET 100780 @100780
+// Identique BGEE 31837
+	STRING_SET 100781 @100781
+// Identique BGEE 28623
+	STRING_SET 100782 @100782
+// Identique BGEE 28624
+	STRING_SET 100783 @100783
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 101142 @101142
+
+// @todo noms et objets 101253 à 101256
+// @todo dialogue livre dont vous être le héros 101270 à 101637
+// @todo objets 101638, 101639
+
+// Identique IWDEE 36124
+	STRING_SET 101640 @101640
+// Identique IWDEE 36125
+	STRING_SET 101641 @101641
+// Identique IWDEE 36128
+	STRING_SET 101642 @101642
+// Identique IWDEE 36129
+	STRING_SET 101643 @101643
+// Identique IWDEE 36126
+	STRING_SET 101644 @101644
+// Identique IWDEE 36127
+	STRING_SET 101645 @101645
+// Inspiré de IWDEE 40028
+	STRING_SET 101646 @101646
+// Adapté de IWDEE 40028
+	STRING_SET 101647 @101647
+
+// @todo noms 101656 à 101659
+
+// Identique BGEE 29035
+	STRING_SET 101660 @101660
+	STRING_SET 101661 @101661
+// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101662 @101662
+// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101663 @101663
+	STRING_SET 101664 @101664
+	STRING_SET 101665 @101665
+// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101666 @101666
+// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101667 @101667
+	STRING_SET 101668 @101668
+	STRING_SET 101669 @101669
+// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101670 @101670
+// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101671 @101671
+// Identique BGEE 23960
+	STRING_SET 101672 @101672
+// Inspiré de BGEE 23378
+	STRING_SET 101673 @101673
+// Quasi identique BGEE 6927
+	STRING_SET 101674 @101674
+	STRING_SET 101675 @101675
+// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
+	STRING_SET 101676 @101676
+// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
+	STRING_SET 101677 @101677
+// Quasi identique BGEE 25780
+	STRING_SET 101678 @101678
+	STRING_SET 101679 @101679
+// Quasi identique BGEE 25782, modif CA
+	STRING_SET 101680 @101680
+// Quasi identique BGEE 25782, modif CA
+	STRING_SET 101681 @101681
+	STRING_SET 101682 @101682
+// Quasi identique BGEE 6681, mention enchantement traduite et modif CA et poids
+	STRING_SET 101683 @101683
+// Quasi identique BGEE 6680
+	STRING_SET 101684 @101684
+// Quasi identique BGEE 16273, modif paramètres CA et poids
+	STRING_SET 101685 @101685
+// Quasi identique BGEE 6668
+	STRING_SET 101686 @101686
+// Contribué par Freddy_Gwendo, cartouche standardisé
+	STRING_SET 101687 @101687
+// Quasi identique BGEE 22715 ; @todo Voir si on conserve Cuirasse
+	STRING_SET 101688 @101688
+	STRING_SET 101689 @101689
+	STRING_SET 101690 @101690
+// Quasi identique BGEE 22716, mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+*/
+	STRING_SET 101691 @101691
+// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+*/
+	STRING_SET 101692 @101692
+// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+*/
+	STRING_SET 101693 @101693
+
+// Identique ToB 20950 (script ohhstone)
+	STRING_SET 101695 @101695
+
+// @todo objets 101696 à 101706
+// @todo noms 101707 à 101727, 101729
+
+// Identique ToB 48442
+	STRING_SET 101716 @101716
+
+// Identique BGEE 32285
+	STRING_SET 101728 @101728
+
+// Identique BGEE 32290
+	STRING_SET 101730 @101730
+
+// Identique IWDEE 40259
+	STRING_SET 101762 @101762
+
+// Identique IWDEE 757
+	STRING_SET 101765 @101765
+
+// Identique BGEE 32291
+	STRING_SET 101768 @101768
+
+// Identique BGEE 14770 (il s'agit du texte montrant l'effet appliqué à quelqu'un, "Protected" en VO)
+	STRING_SET 101780 @101780
+// Identique IWDEE 21413
+	STRING_SET 101781 @101781
+
+// Identique BGEE 31844
+	STRING_SET 101793 @101793
+
+// Identique ToB 44070
+	STRING_SET 102289 @102289
+
+// Identique BGEE 30124
+	STRING_SET 102411 @102411
+
+// Identique BGEE 32295 + majuscule
+	STRING_SET 102476 @102476
+// Identique BGEE 32296
+	STRING_SET 102477 @102477
+
+// Identique BGEE 31252
+	STRING_SET 102492 @102492
+// Identique BGEE 31253
+	STRING_SET 102493 @102493
+// Identique BGEE 31254
+	STRING_SET 102494 @102494
+// Identique BGEE 31255
+	STRING_SET 102495 @102495
+// Identique BGEE 31257
+	STRING_SET 102496 @102496
+// Identique BGEE 31268
+	STRING_SET 102497 @102497
+// Identique BGEE 31269
+	STRING_SET 102498 @102498
+// Quasi identique BGEE 9574, mention sur les gnomes de BGEE conservée bien qu'absente dans BG2EE anglais
+	STRING_SET 102499 @102499
+// Identique BGEE 24231
+	STRING_SET 102500 @102500
+// Identique BGEE 24232
+	STRING_SET 102501 @102501
+// Quasi identique BGEE 9575, mention sur les gnomes de BGEE conservée bien qu'absente dans BG2EE anglais
+	STRING_SET 102502 @102502
+// Quasi identique BGEE 9577, mention sur les gnomes de BGEE conservée bien qu'absente dans BG2EE anglais, ajout de la remarque sur les armes en VF qui manque dans BGEE
+	STRING_SET 102503 @102503
+// Identique BGEE 9578
+	STRING_SET 102504 @102504
+// Identique BGEE 9579
+	STRING_SET 102505 @102505
+// Identique BGEE 9580
+	STRING_SET 102506 @102506
+// Identique BGEE 32299, virgule
+	STRING_SET 102507 @102507
+// Identique BGEE 32300
+	STRING_SET 102508 @102508
+// Identique BGEE 31256
+	STRING_SET 102509 @102509
+// Quasi identique BGEE 32301, singulier au lieu de pluriel
+	STRING_SET 102510 @102510
+
+// Traduit, sort ohbcwoun créant des blessures impossibles à soigner (Greater Clay Golem)
+	STRING_SET 102518 @102518
+// Traduit, texte d'effet du sort
+	STRING_SET 102519 @102519
+
+// @todo boutique PNJ 102522 à 102524
+// @todo objets 102528, 102529, 102543 à 102545, 
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 102543 @102543
+
+// Identique IWDEE 37842 ~Click the gem to adjust the key binding~
+	STRING_SET 102620 @102620
+// Identique BGEE 24680
+	STRING_SET 102621 @102621
+// Identique BGEE 24682, ajustement espaces
+	STRING_SET 102622 @102622
+// Quasi identique BGEE 24700, ajout Icewind Dale, inversion ordre Wizards / Forgotten Realms, pas de réf à SoD
+	STRING_SET 102623 @102623
+// Identique BGEE 32129
+	STRING_SET 102624 @102624
+// Identique BGEE 32130
+	STRING_SET 102625 @102625
+// Identique BGEE 32208 (premier paragraphe seulement)
+	STRING_SET 102626 @102626
+// Identique BGEE 32209
+	STRING_SET 102627 @102627
+// Identique BGEE 32210
+	STRING_SET 102628 @102628
+// Identique BGEE 32286
+	STRING_SET 102629 @102629
+// Identique BGEE 32287
+	STRING_SET 102630 @102630
+// Identique BGEE 32288
+	STRING_SET 102631 @102631
+// Identique BGEE 32289
+	STRING_SET 102632 @102632
+
+// Identique BGEE 24653
+	STRING_SET 102637 @102637
+// Quasi identique BGEE Id 24654 ("range" au lieu de "ranged")
+	STRING_SET 102638 @102638
+// Identique BGEE 24655
+	STRING_SET 102639 @102639
+// Identique BGEE 24656
+	STRING_SET 102640 @102640
+// Identique BGEE 24657
+	STRING_SET 102641 @102641
+// Identique BGEE 24658
+	STRING_SET 102642 @102642
+// Identique BGEE 24659
+	STRING_SET 102643 @102643
+// Identique BGEE 24661
+	STRING_SET 102644 @102644
+// Identique BGEE 24662
+	STRING_SET 102645 @102645
+// Identique BGEE 24663
+	STRING_SET 102646 @102646
+// Identique BGEE 24664
+	STRING_SET 102647 @102647
+// Identique BGEE 24665
+	STRING_SET 102648 @102648
+// Identique BGEE 24666
+	STRING_SET 102649 @102649
+// Identique BGEE 24667
+	STRING_SET 102650 @102650
+// Identique BGEE 24668
+	STRING_SET 102651 @102651
+// Identique BGEE 24669
+	STRING_SET 102652 @102652
+// Identique BGEE 24670
+	STRING_SET 102653 @102653
+// Identique BGEE 24671
+	STRING_SET 102654 @102654
+// Identique BGEE 24672
+	STRING_SET 102655 @102655
+// Identique BGEE 24673
+	STRING_SET 102656 @102656
+// Identique BGEE 24674
+	STRING_SET 102657 @102657
+// Identique BGEE 24675
+	STRING_SET 102658 @102658
+// Identique BGEE 24676
+	STRING_SET 102659 @102659
+// Identique BGEE 24677
+	STRING_SET 102660 @102660
+// Identique BGEE 24678
+	STRING_SET 102661 @102661
+// Identique BGEE 24980
+	STRING_SET 102662 @102662
+// Identique BGEE 24981
+	STRING_SET 102663 @102663
+// Identique BGEE 24982
+	STRING_SET 102664 @102664
+// Identique BGEE 24983
+	STRING_SET 102665 @102665
+// Identique BGEE 24984
+	STRING_SET 102666 @102666
+// Identique BGEE 24985
+	STRING_SET 102667 @102667
+// Identique BGEE 24986
+	STRING_SET 102668 @102668
+// Identique BGEE 24987
+	STRING_SET 102669 @102669
+// Identique BGEE 24988
+	STRING_SET 102670 @102670
+// Identique BGEE 24989, à l'espacement près
+	STRING_SET 102671 @102671
+// Identique BGEE 24990, à l'espacement près
+	STRING_SET 102672 @102672
+// Identique BGEE 24992
+	STRING_SET 102673 @102673
+// Identique BGEE 24993
+	STRING_SET 102674 @102674
+
+// Identique IWDEE 34896
+	STRING_SET 102683 @102683
+// Traduit
+	STRING_SET 102684 @102684
+// Identique IWDEE 34897
+	STRING_SET 102685 @102685
+// Identique BGEE 15333
+	STRING_SET 102686 @102686
+// Identique BGEE 6671
+	STRING_SET 102687 @102687
+// Identique IWDEE 34898
+	STRING_SET 102688 @102688
+// Identique IWDEE 34899
+	STRING_SET 102689 @102689
+// Identique IWDEE 34900
+	STRING_SET 102690 @102690
+// Identique IWDEE 34901
+	STRING_SET 102691 @102691
+// Identique IWDEE 34902
+	STRING_SET 102692 @102692
+// Identique IWDEE 34903
+	STRING_SET 102693 @102693
+// Identique IWDEE 34904
+	STRING_SET 102694 @102694
+// sans doute non utilisé
+	STRING_SET 102695 @102695
+	STRING_SET 102696 @102696
+	STRING_SET 102697 @102697
+// Identique IWDEE 17142
+	STRING_SET 102698 @102698
+// Identique IWDEE 34906
+	STRING_SET 102699 @102699
+// Identique IWDEE 34907
+	STRING_SET 102700 @102700
+// Identique IWDEE 34908
+	STRING_SET 102701 @102701
+// Quasi identique 34909
+	STRING_SET 102702 @102702
+// Identique IWDEE 34910
+	STRING_SET 102703 @102703
+// Identique IWDEE 34911
+	STRING_SET 102704 @102704
+// Identique IWDEE 34912
+	STRING_SET 102705 @102705
+// Quasi identique IWDEE 34913, "list of things that impact" en plus (déjà dans VF IWDEE)
+	STRING_SET 102706 @102706
+// Identique IWDEE 34914
+	STRING_SET 102707 @102707
+// Quasi identique IWDEE 34915, ajout des points de vie (déjà dans VF IWDEE)
+	STRING_SET 102708 @102708
+// Quasi identique IWDEE 34916
+	STRING_SET 102709 @102709
+// Quasi identique IWDEE 34917
+	STRING_SET 102710 @102710
+// Traduit (IWDEE 34918 proche mais mal traduit)
+	STRING_SET 102711 @102711
+// Quasi identique IWDEE 34919
+	STRING_SET 102712 @102712
+// Quasi identique IWDEE 34920, réformulé
+	STRING_SET 102713 @102713
+// Quasi identique IWDEE 34921
+	STRING_SET 102714 @102714
+// Quasi identique IWDEE 34921, reformulé
+	STRING_SET 102715 @102715
+// Identique IWDEE 34923
+	STRING_SET 102716 @102716
+// Identique IWDEE 34924, reformulé
+	STRING_SET 102717 @102717
+// Identique BG2EE 102706, quasi identique IWDEE 34913
+	STRING_SET 102718 @102718
+// Identique IWDEE 34914
+	STRING_SET 102719 @102719
+// Quasi identique IWDEE 34927, explication acronyme en plus, traduction incorrecte reformulée
+	STRING_SET 102720 @102720
+// Proche de IWDEE 34928, reformulé
+	STRING_SET 102721 @102721
+// Proche de IWDEE 34929
+	STRING_SET 102722 @102722
+// Proche de IWDEE 34930, c'est "Modifier le groupe" dans le fichier lua, repris ici
+	STRING_SET 102723 @102723
+// Proche de IWDEE 34931, reformulé, reprise du terme utilisé dans le fichier lua
+	STRING_SET 102724 @102724
+// Quasi identique IWDEE 34932, ajout aspect et script (déjà dans VF IWDEE)
+	STRING_SET 102725 @102725
+// Quasi identique IWDEE 34933, ajout jumelage (déjà dans VF IWDEE)
+	STRING_SET 102726 @102726
+// Quasi identique IWDEE 34934, ajout indication liste niveau 1 (déjà dans VF IWDEE)
+	STRING_SET 102727 @102727
+// Identique IWDEE 34935
+	STRING_SET 102728 @102728
+// Identique IWDEE 34936
+	STRING_SET 102729 @102729
+// Quasi identique IWDEE 34937
+	STRING_SET 102730 @102730
+// Identique IWDEE 34938
+	STRING_SET 102731 @102731
+// Quasi identique IWDEE 34939, "scroll" erroné dans IWDEE, modif tablette
+	STRING_SET 102732 @102732
+// Identique IWDEE 34940
+	STRING_SET 102733 @102733
+// Quasi identique IWDEE 34941
+	STRING_SET 102734 @102734
+// Identique IWDEE 34942
+	STRING_SET 102735 @102735
+// Identique BG2EE 102731, Identique IWDEE 34943
+	STRING_SET 102736 @102736
+// Identique BG2EE 102730, quasi identique IWDEE 34944
+	STRING_SET 102737 @102737
+// Identique BG2EE 102732, quasi identique IWDEE 34935
+	STRING_SET 102738 @102738
+// Identique IWDEE 34946, traduction corrigée
+	STRING_SET 102739 @102739
+// Identique IWDEE 34947
+	STRING_SET 102740 @102740
+// Identique IWDEE 34948
+	STRING_SET 102741 @102741
+// Identique IWDEE 34949
+	STRING_SET 102742 @102742
+// Identique IWDEE 34950, correction "légères" et Soins au pluriel
+	STRING_SET 102743 @102743
+// Proche IWDEE 34951, ajout mention squelette (déjà dans VF IWDEE)
+	STRING_SET 102744 @102744
+// Identique IWDEE 34952
+	STRING_SET 102745 @102745
+// Identique IWDEE 34953, complément pour "adventuring" non traduit
+	STRING_SET 102746 @102746
+// Quasi identique IWDEE 34954
+	STRING_SET 102747 @102747
+// Identique IWDEE 34955
+	STRING_SET 102748 @102748
+// Quasi identique IWDEE 34956, formulation allégée
+	STRING_SET 102749 @102749
+// Identique IWDEE 34957
+	STRING_SET 102750 @102750
+// Identique IWDEE 34958
+	STRING_SET 102751 @102751
+// Identique IWDEE 34959
+	STRING_SET 102752 @102752
+// Identique IWDEE 34960
+	STRING_SET 102753 @102753
+// Quasi identique IWDEE 34961, reformulation tablette
+	STRING_SET 102754 @102754
+// Identique IWDEE 34962, reformulation tablette
+	STRING_SET 102755 @102755
+// Identique IWDEE 34963
+	STRING_SET 102756 @102756
+// Identique IWDEE 34964
+	STRING_SET 102757 @102757
+// Quasi identique IWDEE 34965, traduction incomplète corrigée
+	STRING_SET 102758 @102758
+// Quasi identique IWDEE 34966
+	STRING_SET 102759 @102759
+
+// 102760 : journal pour Dorn
+
+// Identique IWDEE 34967
+	STRING_SET 102761 @102761
+
+// 102762 : journal pour Dorn
+
+// Identique IWDEE 34968
+	STRING_SET 102763 @102763
+// Quasi identique IWDEE 34969, retrait de "through certain spells" (déjà pas présent dans VF IWDEE)
+	STRING_SET 102764 @102764
+// Identique IWDEE 34970
+	STRING_SET 102765 @102765
+// Identique IWDEE 34971 @todo Vérifier si premier a un sens dans la vidéo (c'est "this button" en VO)
+	STRING_SET 102766 @102766
+// Quasi identique IWDEE 34972, "once" au lieu de "one" (déjà ok dans VF IWDEE)
+	STRING_SET 102767 @102767
+// Identique IWDEE 34973
+	STRING_SET 102768 @102768
+// Quasi identique IWDEE 34974, traduction imprécise corrigée
+	STRING_SET 102769 @102769
+// Repris de IWDEE VF 34975, qui n'est pas la traduction de 34975 VO !!!
+	STRING_SET 102770 @102770
+
+// Identique IWDEE 35557
+	STRING_SET 102774 @102774
+
+// Pas besoin de traduire 102778 : crédits
+
+// Identique IWDEE 34977
+	STRING_SET 102779 @102779
+
+// @todo capacité, objets 102780, 102782, 102783
+
+// Identique IWDEE 34978
+	STRING_SET 102784 @102784
+// Identique IWDEE 34979
+	STRING_SET 102785 @102785
+// Identique IWDEE 34980
+	STRING_SET 102786 @102786
+// Identique IWDEE 34981, corrigé
+	STRING_SET 102787 @102787
+// Identique IWDEE 34982
+	STRING_SET 102788 @102788
+// Identique IWDEE 34983
+	STRING_SET 102789 @102789
+// Identique IWDEE 34984, reformulé
+	STRING_SET 102790 @102790
+// Identique IWDEE 34985
+	STRING_SET 102791 @102791
+// Identique IWDEE 34986
+	STRING_SET 102792 @102792
+// Identique BG2EE 102788, identique IWDEE 34987
+	STRING_SET 102793 @102793
+// Identique IWDEE 34988, reformulé
+	STRING_SET 102794 @102794
+// Identique IWDEE 34989
+	STRING_SET 102795 @102795
+// Identique IWDEE 34990
+	STRING_SET 102796 @102796
+// Identique IWDEE 34991
+	STRING_SET 102797 @102797
+// Identique IWDEE 34992
+	STRING_SET 102798 @102798
+
+// Identique BGEE 32302
+	STRING_SET 102807 @102807
+// Identique BGEE 32303
+	STRING_SET 102808 @102808
+// Identique BGEE 32304
+	STRING_SET 102809 @102809
+// Identique BGEE 32305
+	STRING_SET 102810 @102810
+
+	STRING_SET 102816 @102816
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 102817 @102817
+	STRING_SET 102818 @102818
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 102819 @102819
+
+// Identique BGEE 32308
+	STRING_SET 102832 @102832
+// Identique BGEE 32309
+	STRING_SET 102833 @102833
+// Identique BGEE 32310
+	STRING_SET 102834 @102834
+
+// Identique IWDEE 21402
+	STRING_SET 102860 @102860
+
+// Identique BGEE 12067
+	STRING_SET 102865 @102865
+// Identique BGEE 32327, à un saut de ligne près
+	STRING_SET 102866 @102866
+// Identique IWDEE 25041
+	STRING_SET 102867 @102867
+
+// Identique ToB 19458 (reprise du texte seulement)
+	STRING_SET 102870 @102870
+
+// Identique BGEE 32312
+	STRING_SET 102931 @102931
+// Identique BGEE 32313
+	STRING_SET 102932 @102932
+
+// Identique BGEE 32321
+	STRING_SET 102937 @102937
+// Identique BGEE 32319
+	STRING_SET 102938 @102938
+// Identique BGEE 32320
+	STRING_SET 102939 @102939
+
+// Identique IWDEE 40143
+	STRING_SET 102995 @102995
+// Identique IWDEE 40144
+	STRING_SET 102996 @102996
+// Identique IWDEE 40145
+	STRING_SET 102997 @102997
+// Identique IWDEE 40146
+	STRING_SET 102998 @102998
+// Identique IWDEE 40147
+	STRING_SET 102999 @102999
+// Identique BGEE 21074 IWDEE 40148
+	STRING_SET 103000 @103000
+
+// Identique BGEE 24577 (minuscule initiale)
+	STRING_SET 103006 @103006
+// Quasi identique BGEE 26443, sauf niveau 1 et temps d'incantation 1
+	STRING_SET 103007 @103007
+
+// Identique BGEE 32328
+	STRING_SET 103009 @103009
+// Identique BGEE 32330 (1 saut de ligne près)
+	STRING_SET 103010 @103010
+// Quasi identique BGEE 32329, sauf dégâts 1d6 perforant, immunité aux armes et régénération en moins
+	STRING_SET 103011 @103011
+// Identique BGEE 23966
+	STRING_SET 103012 @103012
+// Quasi identique BGEE 23967, BGEE conservé car type de dégâts séparé de la ligne dégâts dans BG2EE (non conforme à l'habitude)
+	STRING_SET 103013 @103013
+// Quasi identique BGEE 32369, traduction Exaltation conservée de BGEE plutôt qu'Acclamation (cf 93786)
+	STRING_SET 103014 @103014
+// Identique BGEE 32371
+	STRING_SET 103015 @103015
+
+// Identique BGEE 32337
+	STRING_SET 103041 @103041
+
+// Identique BGEE 32410
+	STRING_SET 103049 @103049
+// Identique BGEE 32411
+	STRING_SET 103050 @103050
+// Identique BGEE 32412
+	STRING_SET 103051 @103051
+// Identique BGEE 32413
+	STRING_SET 103052 @103052
+// Identique BGEE 32414
+	STRING_SET 103053 @103053
+// Identique BGEE 32415
+	STRING_SET 103054 @103054
+// Identique BGEE 32416
+	STRING_SET 103055 @103055
+// Identique BGEE 32417
+	STRING_SET 103056 @103056
+// Identique BGEE 32418
+	STRING_SET 103057 @103057
+// Identique BGEE 32419
+	STRING_SET 103058 @103058
+// Nota : envisager de remplacer par @815 par "shaman" pour réduire l'ambiguïté avec le nom du kit de druide (reporter également dans BGEE)
+// Nota : reprendre pour le kit de druide le terme "druide totémique" utilisé dans BGEE V2.x
+// Identique BGEE 32441
+	STRING_SET 103059 @103059
+// Quasi identique BGEE 32341 (diff mineure sur forteresse), traduction adaptée
+	STRING_SET 103060 @103060
+// Identique BGEE 32342
+	STRING_SET 103061 @103061
+// Identique BGEE 32348
+	STRING_SET 103062 @103062
+// Identique BGEE 32349
+	STRING_SET 103063 @103063
+// Identique BGEE 32364
+	STRING_SET 103064 @103064
+// Quasi identique BGEE 32365, correction durée 1 h au lieu de 5 ou 10 tours (défaut dans BGEE)
+	STRING_SET 103065 @103065
+// Identique BGEE 32366
+	STRING_SET 103066 @103066
+// Identique BGEE 32350
+	STRING_SET 103067 @103067
+// Identique BGEE 32351
+	STRING_SET 103068 @103068
+// Identique BGEE 32352
+	STRING_SET 103069 @103069
+// Identique BGEE 32353
+	STRING_SET 103070 @103070
+// Identique BGEE 32354
+	STRING_SET 103071 @103071
+// Identique BGEE 32355
+	STRING_SET 103072 @103072
+// Identique BGEE 32356
+	STRING_SET 103073 @103073
+// Identique BGEE 32357
+	STRING_SET 103074 @103074
+// Identique BGEE 32358
+	STRING_SET 103075 @103075
+// Identique BGEE 32359
+	STRING_SET 103076 @103076
+// Identique BGEE 32367
+	STRING_SET 103077 @103077
+// Identique BGEE 32360
+	STRING_SET 103078 @103078
+// Identique BGEE 32361
+	STRING_SET 103079 @103079
+// Identique BGEE 32362
+	STRING_SET 103080 @103080
+// Identique BGEE 32363
+	STRING_SET 103081 @103081
+// Identique BGEE 32428
+	STRING_SET 103082 @103082
+// Identique BGEE 32429
+	STRING_SET 103083 @103083
+// Identique BGEE 32430
+	STRING_SET 103084 @103084
+// Identique BGEE 32431
+	STRING_SET 103085 @103085
+// Identique BGEE 32432
+	STRING_SET 103086 @103086
+// Identique BGEE 32433
+	STRING_SET 103087 @103087
+// Identique BGEE 32434
+	STRING_SET 103088 @103088
+// Identique BGEE 32435
+	STRING_SET 103089 @103089
+// Identique BGEE 32436
+	STRING_SET 103090 @103090
+// Identique BGEE 32437
+	STRING_SET 103091 @103091
+// Identique BGEE 32438
+	STRING_SET 103092 @103092
+// Identique BGEE 32439
+	STRING_SET 103093 @103093
+// Identique BGEE 32440
+	STRING_SET 103094 @103094
+// Identique BGEE 6641
+	STRING_SET 103095 @103095
+
+// Identique IWDEE 19377
+	STRING_SET 103098 @103098
+
+// Identique BGEE 32339
+	STRING_SET 103101 @103101
+// Identique BGEE 32340
+	STRING_SET 103102 @103102
+
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 103106 @103106
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 103107 @103107
+// Contribué par Freddy_Gwendo
+	STRING_SET 103108 @103108
+// Contribué par Freddy_Gwendo
+	STRING_SET 103109 @103109
+
+
+// Identique BGEE 9573
+	STRING_SET 103110 @103110
+// Identique BGEE 9572
+	STRING_SET 103111 @103111
+
+// Identique BGEE 32398
+	STRING_SET 103117 @103117
+// Identique BGEE 32399
+	STRING_SET 103118 @103118
+// Identique BGEE 32400
+	STRING_SET 103119 @103119
+// Identique BGEE 32402
+	STRING_SET 103120 @103120
+// Identique BGEE 32401
+	STRING_SET 103121 @103121
+// Identique BGEE 32403
+	STRING_SET 103122 @103122
+// Identique BGEE 32404
+	STRING_SET 103123 @103123
+// Identique BGEE 32405
+	STRING_SET 103124 @103124
+// Identique BGEE 32406
+	STRING_SET 103125 @103125
+// Identique BGEE 32407
+	STRING_SET 103126 @103126
+// Identique BGEE 32408
+	STRING_SET 103127 @103127
+// Identique BGEE 32409
+	STRING_SET 103128 @103128
+// Identique BGEE 32420
+	STRING_SET 103129 @103129
+// Identique BGEE 32421
+	STRING_SET 103130 @103130
+// Identique BGEE 32422
+	STRING_SET 103131 @103131
+// Identique BGEE 32423
+	STRING_SET 103132 @103132
+// Identique BGEE 32424
+	STRING_SET 103133 @103133
+// Identique BGEE 32425
+	STRING_SET 103134 @103134
+// Identique BGEE 32426
+	STRING_SET 103135 @103135
+// Identique BGEE 32427
+	STRING_SET 103136 @103136
+// Identique BGEE 32345 + passage en minuscule
+	STRING_SET 103137 @103137
+// Traduit (référencé par 103065)
+	STRING_SET 103138 @103138
+// Traduit, @todo Trancher entre Invisibilité améliorée et Invisiblité majeure dans tous les textes
+	STRING_SET 103139 @103139
+
+// Identique BGEE 32706
+	STRING_SET 103141 @103141
+// Identique BGEE 32707
+	STRING_SET 103142 @103142
+// Identique BGEE 32344
+	STRING_SET 103143 @103143
+// Identique BGEE 32729
+	STRING_SET 103144 @103144
+// Traduit 103145 à 103147
+	STRING_SET 103145 @103145
+	STRING_SET 103146 @103146
+	STRING_SET 103147 @103147
+// Identique BGEE 32725
+	STRING_SET 103148 @103148
+
+// Identique BGEE 32703
+	STRING_SET 103150 @103150
+// Identique BGEE 32704
+	STRING_SET 103151 @103151
+// Identique BGEE 32705
+	STRING_SET 103152 @103152
+
+// Identique IWDEE 24776
+	STRING_SET 103166 @103166
+
+// Traduit
+	STRING_SET 103172 @103172
+// Identique IWDEE 7642
+	STRING_SET 103173 @103173
+
+// Identique IWDEE 7645
+	STRING_SET 103175 @103175
+
+// Identique BGEE 27600
+	STRING_SET 103179 @103179
+
+// Identique BGEE 27602
+	STRING_SET 103181 @103181
+
+// Identique BGEE 32730
+	STRING_SET 103187 @103187
+// Identique BGEE 32712
+	STRING_SET 103188 @103188
+// Identique BGEE 32708
+	STRING_SET 103189 @103189
+// Identique BGEE 32709
+	STRING_SET 103190 @103190
+// Identique BGEE 32710
+	STRING_SET 103191 @103191
+// Identique BGEE 32718
+	STRING_SET 103192 @103192
+// Identique BGEE 32740
+	STRING_SET 103193 @103193
+// Identique BGEE 32741
+	STRING_SET 103194 @103194
+// Traduit 103195 à 103204
+	STRING_SET 103195 @103195
+	STRING_SET 103196 @103196
+	STRING_SET 103197 @103197
+	STRING_SET 103198 @103198
+	STRING_SET 103199 @103199
+	STRING_SET 103200 @103200
+	STRING_SET 103201 @103201
+	STRING_SET 103202 @103202
+	STRING_SET 103203 @103203
+	STRING_SET 103204 @103204
+// Identique BGEE 32715
+	STRING_SET 103205 @103205
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 103207 @103207
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 103208 @103208
+
+// Identique BGEE 32170 (Baeloth)
+	STRING_SET 103210 @103210

@@ -10,6 +10,8 @@
 @1000003 = ~Textes repris de BGEE~
 // Menu and credits
 @1000004 = ~Ajout de la langue au menu + credits (BG2EE V2.0 et plus)~
+// BG2EE translation
+@1000005 = ~Textes de BG2EE traduits et controles~
 
 // Error messages
 // Wrong game
