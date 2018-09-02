@@ -1,0 +1,71 @@
+// Tous textes non couverts par les autres thèmes identifiés
+// En particulier, il s'agit de types de textes qui sont parfois présents dans
+// les fichiers d'analyse, mais dont certains ont échappé à l'auteur ou qui ont
+// été ajoutés après l'analyse.
+//
+// - Éléments plus ou moins directement liées aux cartes
+//   * scripts de zone,
+//   * triggers de zone,
+//   * cinématiques,
+//   * scripts de personnages apparaissant dans les zones
+// - Autres à préciser (notamment extraits de BG2EE_74107-fin.tra après tri)
+
+// ****************************************************************************
+// -*- coding: utf-8 -*-
+// ****************************************************************************
+
+// ----------------------------------------------------------------------------
+// Rasaad
+// ----------------------------------------------------------------------------
+
+// ----------------------------------- SoA ------------------------------------
+
+// Fichier OHRRANHM.d
+
+// Sans condition
+@80309 = ~Hé, mais où va-t-il ? Il faut que je passe le test de Pénitence...~
+
+// aléatoire, GlobalLT("OHR_PLOT","GLOBAL",6)
+@95145 = ~Soyez vigilant. La Lune Noire a des yeux et des oreilles partout.~ ~Soyez vigilante. La Lune Noire a des yeux et des oreilles partout.~
+@95146 = ~Quel malheur que tant ne puissent pas voir plus loin que la sottise de leurs habitudes et refusent de se baigner dans la gloire de la Déesse Dédoublée.~
+@95147 = ~Les anciens disciples de la Conscience Solaire parmi nous ont encore tant à apprendre. Leurs... certitudes ne vacillent pas facilement.~
+@95148 = ~Les enseignements de la Lune Noire sont cruels et impitoyables au-delà de toute comparaison. Comme quelqu'un peut-il les embrasser de leur plein gré ?~
+
+// aléatoire, GlobalGT("OHR_PLOT","GLOBAL",5)
+@95151 = ~Le Cercle l'emporte sur ses ennemis !~
+@95152 = ~Leur foi dévoyée les a entraînés dans la défaite.~
+@95153 = ~Ensemble nous avons tenu bon. Peut-être y a-t-il une vérité à glaner dans cette histoire.~
+@95154 = ~Combien de temps avant une nouvelle attaque, puis une autre ? Nous devons rester vigilants.~
+
+
+// script = OH4000 (1 Journal)
+@100281 = ~Les adorateurs locaux de la Dédoublé étaient menés par Martheaume, un ancien moine de la Conscience Solaire que Rasaad connaissait. Les tentatives du moine pour convaincre Rasaad de devenir partisan de la nouvelle déesse ont échoué. Une bagarre a éclaté et Martheaume a été tué. Il semblait que la quête de Rasaad pour venger son frère avait atteint une fin sanglante et définitive jusqu'à ce que nous découvrions un carte indiquant le temple secret des hérétiques sur le cadavre de Martheaume. La quête continue...~
+
+// script = OH4100 (13 Journal - 1 Cutscene)
+@85033 = ~Après plusieurs jours de voyage, j'ai finalement atteint le bastion du Cercle Dédoublé.~
+@85048 = ~Les pratiques philosophiques de la Dédoublée semblent plus en accord avec le culte de Shar qu'avec celui de Séluné. Je viens d'être témoin d'anciens moines de la Conscience Solaire réticents à se battre contre des animaux bien qu'incités à le faire par leurs nouveaux frères. Il semble que la cruauté ne soit pas un péché pour ceux du Cercle.~
+@85023 = ~Les fidèles de la Dédoublée d'Athkatla sont dirigés par un ancien moine de la Conscience Solaire, un homme nommé Martheaume. Il est un ardent partisan de sa nouvelle foi. Si tous les adorateurs de la Dédoublée ont la même conviction, leur ordre pourrait devenir une force avec laquelle il faudra compter.~
+@85025 = ~Le voyage de Rasaad
+Martheaume a dit à Rasaad où il pouvait trouver Collus Darathon. Nous partirons bientôt pour le temple secret de la Dédoublée.~
+@85034 = ~Le voyage de Rasaad
+J'ai conduit Rasaad au temple des hérétiques de la Dédoublée. Pour contrecarrer ce nouveau culte, il lui faudra démasquer son fondateur, Collus Darathon.~
+@85056 = ~Le voyage de Rasaad
+Nous sommes à l'intérieur du bastion du Cercle de la Dédoublée. Il semble que nous devions démontrer notre valeur à la déesse des hérétiques avant d'avoir l'opportunité de faire face à Collus Darathon.~
+@85058 = ~Le voyage de Rasaad
+Pour rejoindre le Cercle de la Dédoublée, nous devons subir une série d'épreuves.~
+@85066 = ~Le voyage de Rasaad
+Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Pour survivre à l'assaut prochain, il me faut combattre aux côtés du Cercle de la Dédoublée.~
+@85067 = ~Le voyage de Rasaad
+Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Pour survivre à l'assaut prochain, il me faut combattre avec Rasaad aux côtés du Cercle de la Dédoublée.~
+@85068 = ~Le voyage de Rasaad
+Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Si j'agis vite, je serai peut-être en mesure de m'échapper avant que les Sharites n'arrivent.~
+@85069 = ~Le voyage de Rasaad
+Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Si j'agis très vite, je peux étranger le Cercle dans son berceau avant que les Sharites n'arrivent.~
+
+//Ohrroof ==> script OHRROOF (5 DisplayString - 1 Cutscene)
+@79467 = ~En vous laissant glisser le long de la corde, vous parvenez à poser les pieds sans bruit afin de ne pas attirer l'attention. La corde n'était pas aussi solide que vous le pensiez et vous n'osez pas l'utiliser à nouveau de peur de tomber.~
+
+// script = OH4101 (1 DisplayString - #4 Journal - 13 Cutscene)
+@85055 = ~J'ai réussi à pénétrer dans le temple de la Dédoublée. L'état de la corde que j'ai employée pour y parvenir me fait penser qu'il faudra que je trouve une autre sortie.~
+@85078 = ~J'ai échoué au test de la Lune Claire mais je suis toujours en vie. Tout compte fait je considère ça comme une victoire.~
+@85083 = ~J'ai affronté le confesseur dans la Chambre de la Pénitence. Je doute qu'il ait été ravi du résultat, mais cela aurait pu se passer bien plus mal pour moi.~

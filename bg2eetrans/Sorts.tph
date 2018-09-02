@@ -1,0 +1,538 @@
+// Nom du sort non identifié (nom habituel), nom identifié (rarement utilisé)
+// Description du sort non identifié (desc. habituelle), desc. identifiée (rarement utilisé)
+// Order of text for each spell
+// @unidentified_name_number = ~unidentified name~ (typically used)
+// @identified name_number = ~identified name~ (rarely used)
+// @unidentified description_number = ~unidentified description~ (typically used)
+// @identified description_number = ~identified description~ (rarely used)
+
+	STRING_SET 103206 @103206
+
+// Identique BGEE 32730
+	STRING_SET 103187 @103187
+
+// OHBBCLT3 : Freddy : utilisé par un demi-ogre pour se transformer en Ravageur.
+	STRING_SET 102491 @102491
+
+// @49376 = ~Slayer Change~ // OHBBCLT4 unidentified name (SoA+ToB reuse)
+// Freddy : version utilisée par Kastulor. Mais l'analyse de son script montre que la définition du sort n'est pas la bonne. J'ai pourtant traduit le texte original car ce sort n'est utilisé que par lui.
+	STRING_SET 103016 @103016
+
+// Identique IWDEE 21413
+	STRING_SET 101781 @101781
+
+// Freddy : utilisé par un dragon pour se protéger, ce sort augmente la résistance magique à 100 % (idem pour le feu et le froid). Du coup, j'ai préféré broder un peu avec la VO : Energy Containment. Mais cette proposition de traduction reste ouverte.
+	STRING_SET 101791 @101791
+
+	STRING_SET 102518 @102518
+	STRING_SET 102519 @102519
+
+	STRING_SET 94014 @94014
+
+	STRING_SET 101736 @101736
+
+// Identique IWDEE 40259
+	STRING_SET 101762 @101762
+//@74165 = ~How did you come to be here, elf?~ // OHBDFA1 identified name
+
+// Freddy : @toto uniformisation de la casse (Dragon ou dragon) pour tous les sorts concernés)
+	STRING_SET 94013 @94013
+
+// Freddy : compatible avec aTweaks
+	STRING_SET 101739 @101739
+//@74287 = ~Flaming Long Sword +1~ // OHBDROWN identified name
+
+// Freddy : compatible avec aTweaks
+	STRING_SET 101738 @101738
+//@74286 = ~Yoshimo's Katana +1~ // OHBENVLP identified name
+
+// Identique IWDEE 25041
+	STRING_SET 102867 @102867
+
+	STRING_SET 101767 @101767
+
+	STRING_SET 101735 @101735
+
+	STRING_SET 94857 @94857
+
+	STRING_SET 101764 @101764
+//@74161 = ~Oh, don't be such a preposterously petulant persnicket. I'll tell you what—because you've been so gracious about all this kidnapping and forced to fight to the death business, I'll give you a reward!~ // OHBSKISS identified name
+
+	STRING_SET 101763 @101763
+
+	STRING_SET 101792 @101792
+//@74202 = ~I need rings, wands, and amulets. What do you have for sale?~ // OHBWFOG identified name
+
+//@82782 = ~The clanhold is under attack. Alorgoth sent me to gather his things.~ // OHDCUT01 unidentified name
+
+	STRING_SET 90249 @90249
+
+	STRING_SET 81609 @81609
+	STRING_SET 81611 @81611
+
+	STRING_SET 95639 @95639
+
+// Freddy : compatible avec stratagems
+	STRING_SET 81612 @81612
+	STRING_SET 81613 @81613
+
+// BGEE 24505 + 31793 (! au lieu de ?)
+	STRING_SET 91760 @91760
+
+// BGEE 24505 + 31758
+	STRING_SET 100249 @100249
+
+// BGEE 24505 + 31760
+	STRING_SET 99819 @99819
+
+// BGEE 24505 + 14022 ou 25810
+	STRING_SET 99820 @99820
+
+// BGEE 24505 + 31763
+	STRING_SET 99818 @99818
+
+	STRING_SET 99992 @99992
+
+// Freddy : convoque des Démombres/ Peut-être faut-il remplacer Demi-ombres par Démombres ?
+	STRING_SET 99991 @99991
+
+	STRING_SET 99990 @99990
+
+// Identique IWDEE 21402
+	STRING_SET 102860 @102860
+	STRING_SET 102861 @102861
+
+	STRING_SET 97321 @97321
+
+// Conservation du terme Exaltation de BGEE (en 32368) : voir explication en 93786
+	STRING_SET 93788 @93788
+// Quasi identique BGEE 32369, traduction Exaltation conservée de BGEE plutôt qu'Acclamation (cf 93786)
+	STRING_SET 103014 @103014
+
+// Identique BGEE 32370
+	STRING_SET 93787 @93787
+// Identique BGEE 32371
+	STRING_SET 103015 @103015
+
+// Identique BGEE 28304
+	STRING_SET 77510 @77510
+// Identique BGEE 32229
+	STRING_SET 100357 @100357
+
+// Identique BGEE 28306
+	STRING_SET 77511 @77511
+// Quasi identique BGEE 32230, simple reformulation, texte de BGEE conservé, correction portée V2.5
+	STRING_SET 100358 @100358
+
+// @51964 = ~Called Shot~ // SPCL121 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32231
+	STRING_SET 100359 @100359
+
+// @51848 = ~Kai~ // SPCL144 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32232
+	STRING_SET 100360 @100360
+
+// @42870 = ~Barbarian Rage~ // SPCL152 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32234
+	STRING_SET 100362 @100362
+
+// @12032 = ~Lay On Hands~ // SPCL211 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32226
+	STRING_SET 100354 @100354
+
+// Quasi identique BGEE 26443, sauf niveau 1 et temps d'incantation 1, modif zone d'effet V2.5
+	STRING_SET 103007 @103007
+
+// Identique BGEE 31989
+	STRING_SET 74313 @74313
+// Identique BGEE 32222
+	STRING_SET 100350 @100350
+
+// Identique BGEE 31991
+	STRING_SET 74315 @74315
+// Identique BGEE 32223
+	STRING_SET 100351 @100351
+
+// Identique BGEE 31990
+	STRING_SET 74314 @74314
+// Identique BGEE 32227
+	STRING_SET 100355 @100355
+
+// Identique BGEE 32138
+	STRING_SET 74317 @74317
+// Quasi identique BGEE 32224, écart non significatif, modif zone d'effet V2.5
+	STRING_SET 100352 @100352
+
+// @20678 = ~Charm Animal~ // SPIN108 unidentified name (SoA+ToB reuse)
+// Quasi identique BGEE 32228, écart non significatif
+	STRING_SET 100356 @100356
+
+// @34654 = ~Enrage~ // SPCL321 unidentified name (SoA+ToB reuse) // @todo Revoir, traduction BG II : Exaspération
+// Identique BGEE 32235, remise des immunités dans l'ordre de la VO
+	STRING_SET 100363 @100363
+
+// @todo Traduire ! A récupérer de BGEE ou IWDEE (ajouté en 2.5)
+	STRING_SET 103008 @103008
+
+// @36351 = ~Set Snare~ // SPCL412 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32220
+	STRING_SET 100348 @100348
+// @52927 = ~Set Special Snare~ // SPCL414 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32221
+	STRING_SET 100349 @100349
+
+// @52056 = ~Poison Weapon~ // SPCL423 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32236
+	STRING_SET 100364 @100364
+
+// @34655 = ~Offensive Spin~ // SPCL521 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32237
+	STRING_SET 100365 @100365
+// @34656 = ~Defensive Spin~ // SPCL522 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32238
+	STRING_SET 100366 @100366
+
+// @19794 = ~Shapeshift: Brown Bear~ // SPCL611 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32257 V2.5
+	STRING_SET 32257 @32257
+
+// @19793 = ~Shapeshift: Wolf~ // SPCL612 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32256 V2.5
+	STRING_SET 32256 @32256
+
+// @19792 = ~Shapeshift: Black Bear~ // SPCL613 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32258 V2.5
+	STRING_SET 32258 @32258
+
+// @34710 = ~Summon Spirit Animal~ // SPCL621 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32239
+	STRING_SET 100367 @100367
+
+// @34812 = ~Spirit Snake~ // SPCL622 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32240
+	STRING_SET 100368 @100368
+
+// @34767 = ~Spirit Bear~ // SPCL623 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32241
+	STRING_SET 100369 @100369
+
+// @34819 = ~Spirit Lion~ // SPCL624 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32242
+	STRING_SET 100370 @100370
+
+// @34808 = ~Spirit Wolf~ // SPCL625 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32243
+	STRING_SET 100371 @100371
+
+// @34734 = ~Shapeshift: Baby Wyvern~ // SPCL633 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32245 V2.5
+	STRING_SET 100373 @100373
+
+// @34743 = ~Shapeshift: Fire Salamander~ // SPCL634 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32246 V2.5
+	STRING_SET 100374 @100374
+
+// @52637 = ~Shapeshift: Werewolf~ // SPCL643 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32328 V2.5
+	STRING_SET 32328 @32328
+
+// @52502 = ~Shapeshift: Greater Werewolf~ // SPCL644 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32329 V2.5
+	STRING_SET 103011 @103011
+
+// @34768 = ~Storm Shield~ // SPCL721 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32248
+	STRING_SET 100376 @100376
+
+// @34791 = ~Seeking Sword~ // SPCL731 unidentified name (SoA+ToB reuse)
+// Quasi identique BGEE 32249, personnage au lieu de prêtre, modif bonus
+	STRING_SET 100377 @100377
+
+// @34800 = ~Boon of Lathander~ // SPCL741 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32250
+	STRING_SET 100378 @100378
+
+// @42865 = ~Stunning Blow~ // SPCL811 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32251
+	STRING_SET 100379 @100379
+
+// @12032 = ~Lay On Hands~ // SPCL815 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32225
+	STRING_SET 100353 @100353
+
+// @42857 = ~Quivering Palm~ // SPCL820 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32252
+	STRING_SET 100380 @100380
+
+// Identique IWDEE 36124
+	STRING_SET 101640 @101640
+// Identique IWDEE 36125
+	STRING_SET 101641 @101641
+
+// Identique IWDEE 36126
+	STRING_SET 101644 @101644
+// Identique IWDEE 36127, ajustement portée
+	STRING_SET 101645 @101645
+
+// Identique IWDEE 36128
+	STRING_SET 101642 @101642
+// Identique IWDEE 36129
+	STRING_SET 101643 @101643
+
+	STRING_SET 103138 @103138
+// @todo Trancher entre Invisibilité améliorée et Invisiblité majeure dans tous les textes
+	STRING_SET 103139 @103139
+
+// Identique BGEE 32364
+	STRING_SET 103064 @103064
+// Quasi identique BGEE 32365, correction durée 1 h au lieu de 5 ou 10 tours (défaut dans BGEE)
+	STRING_SET 103065 @103065
+// Identique BGEE 32366
+	STRING_SET 103066 @103066
+
+// Identique BGEE 31986 (compétence du Disciple du Dragon)
+	STRING_SET 74312 @74312
+// Quasi identique BGEE 32253, formulation différente
+	STRING_SET 100381 @100381
+
+// Identique BGEE 12067
+	STRING_SET 102865 @102865
+// Identique BGEE 32327, modif durée 1 tour
+	STRING_SET 102866 @102866
+
+// Identique BGEE 31985
+	STRING_SET 74311 @74311
+// Identique BGEE 32254, complément dernière phrase
+	STRING_SET 100382 @100382
+
+// @16023 = ~Druid Polymorph~ // SPIN001 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32255
+	STRING_SET 100383 @100383
+
+// @10381 = ~Berserk~ // SPIN117 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32330 (1 saut de ligne près)
+	STRING_SET 103010 @103010
+
+// @11826 = ~Shapeshift: Natural Form~ // SPIN122 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32259
+	STRING_SET 100387 @100387
+
+// @23472 = ~Shapeshift: Spider~ // SPIN125 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32244 V2.5
+	STRING_SET 100372 @100372
+
+// @18626 = ~Shapechange: Mind Flayer~ // SPIN152 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32262, correction perte d'intelligence
+	STRING_SET 100390 @100390
+
+// @18628 = ~Shapechange: Iron Golem~ // SPIN153 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32263
+	STRING_SET 100391 @100391
+
+// @18630 = ~Shapechange: Giant Troll~ // SPIN154 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32264, complément paralysie
+	STRING_SET 100392 @100392
+
+// @18650 = ~Shapechange: Greater Wolfwere~ // SPIN155 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32265 V2.5
+	STRING_SET 100393 @100393
+
+// @18651 = ~Shapechange: Fire Elemental~ // SPIN156 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32266
+	STRING_SET 100394 @100394
+
+// @18652 = ~Shapechange: Earth Elemental~ // SPIN157 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32267
+	STRING_SET 100395 @100395
+
+// @44913 = ~Breathe Fireball~ // SPIN160 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32268 V2.5
+	STRING_SET 100396 @100396
+
+// @63921 = ~Pocket Plane~ // SPIN649 unidentified name (SoA+ToB reuse)
+	STRING_SET 100397 @100397
+
+// @55410 = ~Invoke Courage~ // SPIN676 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de BGEE 25929
+	STRING_SET 100398 @100398
+
+// @2960 = ~Moon Dog Sight~ // SPIN696 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de BGEE 25958, proche de @100399 (plus utilisé) @todo Compatibilité de Œ avec la lettrine à vérifier !!!
+	STRING_SET 103003 @103003
+
+// @todo A traduire
+	STRING_SET 103001 @103001
+
+// @12021 = ~Improved Invisibility~ // SPIN698 unidentified name (SoA+ToB reuse)
+// @todo A traduire
+	STRING_SET 103002 @103002
+
+// @2961 = ~Healing Lick~ // SPIN699 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de BGEE 25961, proche de 100400 (plus utilisé)
+	STRING_SET 103004 @103004
+
+// Freddy : ajout de SPIN774 non traduit.
+	STRING_SET 102815 @102815
+
+// @12077 = ~Strength~ // SPIN826 unidentified name (SoA+ToB reuse)
+// @todo A traduire
+	STRING_SET 103103 @103103
+
+// @12032 = ~Lay On Hands~ // SPIN827 unidentified name (SoA+ToB reuse)
+// @todo A traduire
+	STRING_SET 103105 @103105
+
+// @12080 = ~Haste~ // SPIN828 unidentified name (SoA+ToB reuse)
+// @todo A traduire
+	STRING_SET 103104 @103104
+
+// @51958 = ~Create Bruiser Mates~ // SPIN829 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de ToB 51958
+	STRING_SET 100401 @100401
+
+// @22614 = ~Domination~ // SPIN883 unidentified name (SoA+ToB reuse)
+// @todo A traduire
+	STRING_SET 102780 @102780
+
+// @2962 = ~Moon Dog Howl~ // SPIN891 unidentified name (SoA+ToB reuse)
+// Nom de capacité repris de BGEE 26039, proche de 100402 (plus utilisé)
+	STRING_SET 103005 @103005
+
+// @34278 = ~Mimic Acid~ // SPIN913 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32280
+	STRING_SET 100414 @100414
+
+// @34270 = ~Mimic Glue~ // SPIN914 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32281
+	STRING_SET 100415 @100415
+
+// @25497 = ~Water Jet~ // SPIN926 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32269
+	STRING_SET 100403 @100403
+
+// @25498 = ~Boiling Rain Storm~ // SPIN927 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32270
+	STRING_SET 100404 @100404
+
+// @25499 = ~Mist Ball~ // SPIN929 unidentified name (SoA+ToB reuse)
+// Quasi identique BGEE 32271, précision "magiques" conservée de BGEE
+	STRING_SET 100405 @100405
+
+// @25500 = ~Magma Ball~ // SPIN930 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32272
+	STRING_SET 100406 @100406
+
+// @25494 = ~Sooty Ball~ // SPIN931 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32273
+	STRING_SET 100407 @100407
+
+// @25496 = ~Salt Crystals~ // SPIN934 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32275
+	STRING_SET 100409 @100409
+
+// @20852 = ~Glass Dust~ // SPIN935 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32276
+	STRING_SET 100410 @100410
+
+// @25427 = ~Ice Shard~ // SPIN936 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32277
+	STRING_SET 100411 @100411
+
+// @2956 = ~Flame Fan~ // SPIN938 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32278
+	STRING_SET 100412 @100412
+
+// @25501 = ~Flame Jet~ // SPIN939 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32279
+	STRING_SET 100413 @100413
+
+// @25495 = ~Stone Spit~ // SPIN941 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32274
+	STRING_SET 100408 @100408
+
+// Freddy : ajout de SPIN974 non traduit.
+	STRING_SET 103209 @103209
+
+// Identique BGEE 32348
+	STRING_SET 103062 @103062
+// Identique BGEE 32349
+	STRING_SET 103063 @103063
+
+// Identique BGEE 32350
+	STRING_SET 103067 @103067
+// Identique BGEE 32351, modif zone effet V2.5
+	STRING_SET 103068 @103068
+
+// Identique BGEE 32352
+	STRING_SET 103069 @103069
+// Identique BGEE 32353
+	STRING_SET 103070 @103070
+
+// Identique BGEE 32354
+	STRING_SET 103071 @103071
+// Identique BGEE 32355n, modif zone effet V2.5
+	STRING_SET 103072 @103072
+
+// Identique BGEE 32356
+	STRING_SET 103073 @103073
+// Identique BGEE 32357
+	STRING_SET 103074 @103074
+
+// Identique BGEE 32358
+	STRING_SET 103075 @103075
+// Identique BGEE 32359
+	STRING_SET 103076 @103076
+// Identique BGEE 32367
+	STRING_SET 103077 @103077
+
+// Identique BGEE 32360
+	STRING_SET 103078 @103078
+// Identique BGEE 32361
+	STRING_SET 103079 @103079
+
+// Identique BGEE 32362
+	STRING_SET 103080 @103080
+// Identique BGEE 32363, modif zone effet V2.5
+	STRING_SET 103081 @103081
+
+// Identique BGEE 31992
+	STRING_SET 74316 @74316
+// Identique BGEE 32233
+	STRING_SET 100361 @100361
+
+// Identique BGEE 32402
+	STRING_SET 103120 @103120
+// Identique BGEE 32401
+	STRING_SET 103121 @103121
+// Identique BGEE 32403
+	STRING_SET 103122 @103122
+// Identique BGEE 32404
+	STRING_SET 103123 @103123
+// Identique BGEE 32405
+	STRING_SET 103124 @103124
+
+// @23480 = ~Shapeshift: Flind~ // SPWI493 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32260 V2.5
+	STRING_SET 100388 @100388
+
+// @23475 = ~Shapeshift: Ogre~ // SPWI494 unidentified name (SoA+ToB reuse)
+// Identique BGEE 32261 V2.5
+	STRING_SET 100389 @100389
+
+// @23471 = ~Shapeshift: Mustard Jelly~ // SPWI496 unidentified name (SoA+ToB reuse)
+// En partie identique BGEE 32247, grosses modif CA, attaques, résistances, immunités
+	STRING_SET 100375 @100375
+
+
+
+
+
+
+
+
+
+
+
+
+// V2.5 (mis dans un fichier à part pour ne pas bloquer l'installation avec une version 2.3)
+// @103224 à @103227

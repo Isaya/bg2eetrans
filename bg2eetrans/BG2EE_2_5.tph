@@ -1,0 +1,72 @@
+// Fichier des textes ajoutés dans le patch 2.5 de BG2EE. Ils sont séparés
+// afin de préserver la capacité à installer le mod avec la version 2.3
+
+/*
+Le commentaire qui précède un texte précise l'origine et l'état de la traduction
+
+Explication des commentaires
+- "Identique BGEE/IWDEE xxxxx" : texte identique au numéro xxxxx de BGEE/IWDEE (déclaré identique par Translation Retriever et vérifié visuellement en terme de majuscule/minuscule ou tutoiement/vouvoiement lorsqu'il y a un doute possible)
+- "Quasi identique BGEE/IWDEE xxxxx", suivi d'un complément : texte très proche voire identique au numéro xxxxx de BGEE/IWDEE (déclaré proche par Translation Retriever et vérifié visuellement pour les différences), repris de BGEE/IWDEE et adapté si nécessaire (les différences vues par Translation Retriever dans les textes anglais ne sont pas toujours significatives)
+- "Proche BGEE/IWDEE xxxxx" : texte non repéré par Translation Retriever mais malgré tout très proche, repris BGEE/IWDEE et et adapté si nécessaire
+*/
+
+// Modifications spécifiques à la V2.5 dans des textes existants de BG II ou des textes de BG2EE déjà présent en V2.3
+
+	STRING_SET 9428 @9428
+	STRING_SET 9429 @9429
+	STRING_SET 9430 @9430
+	STRING_SET 9431 @9431
+
+	STRING_SET 17576 @17576
+	STRING_SET 17577 @17577
+
+	STRING_SET 22358 @22358
+
+	STRING_SET 28625 @28625
+
+	STRING_SET 28627 @28627
+
+
+
+// 103214 - 103219 : notes de traduction chinois, russe et polonais, non traduites
+
+	STRING_SET 103220 @103220
+// BGEE 32761
+	STRING_SET 103221 @103221
+// BGEE 32762
+	STRING_SET 103222 @103222
+// BGEE 32763
+	STRING_SET 103223 @103223
+// BGEE 32764
+	STRING_SET 103224 @103224
+// BGEE 32765
+	STRING_SET 103225 @103225
+// BGEE 32766
+	STRING_SET 103226 @103226
+// BGEE 32767
+	STRING_SET 103227 @103227
+
+// BG II 58238, correction non-sens de la VF (prêtre d'Illmater à propos du coeur de Yoshimo)
+	STRING_SET 103228 @103228
+
+// BGEE 12201
+	STRING_SET 103229 @103229
+// BGEE 12148
+	STRING_SET 103230 @103230
+
+// BGEE 32375
+	STRING_SET 103231 @103231
+
+	STRING_SET 103232 @103232
+	STRING_SET 103233 @103233
+	STRING_SET 103234 @103234
+	STRING_SET 103235 @103235
+
+// BGEE 32887
+	STRING_SET 103236 @103236
+// BGEE 32889
+	STRING_SET 103237 @103237
+// BGEE 23472
+	STRING_SET 103238 @103238
+	STRING_SET 103239 @103239
+	STRING_SET 103240 @103240

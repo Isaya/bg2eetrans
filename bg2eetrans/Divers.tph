@@ -1,0 +1,63 @@
+// Tous textes non couverts par les autres thèmes identifiés
+// En particulier, il s'agit de types de textes qui sont parfois présents dans
+// les fichiers d'analyse, mais dont certains ont échappé à l'auteur ou qui ont
+// été ajoutés après l'analyse.
+//
+// - Éléments plus ou moins directement liées aux cartes
+//   * scripts de zone,
+//   * triggers de zone,
+//   * cinématiques,
+//   * scripts de personnages apparaissant dans les zones
+// - Autres à préciser (notamment extraits de BG2EE_74107-fin.tra après tri)
+
+// ****************************************************************************
+// -*- coding: utf-8 -*-
+// ****************************************************************************
+
+// ----------------------------------------------------------------------------
+// Rasaad
+// ----------------------------------------------------------------------------
+
+// ----------------------------------- SoA ------------------------------------
+
+// Fichier OHRRANHM.d
+
+// Sans condition
+	STRING_SET 80309 @80309
+
+// aléatoire, GlobalLT("OHR_PLOT","GLOBAL",6)
+	STRING_SET 95145 @95145
+	STRING_SET 95146 @95146
+	STRING_SET 95147 @95147
+	STRING_SET 95148 @95148
+
+// aléatoire, GlobalGT("OHR_PLOT","GLOBAL",5)
+	STRING_SET 95151 @95151
+	STRING_SET 95152 @95152
+	STRING_SET 95153 @95153
+	STRING_SET 95154 @95154
+
+
+// script = OH4000 (1 Journal)
+	STRING_SET 100281 @100281
+
+// script = OH4100 (13 Journal - 1 Cutscene)
+	STRING_SET 85033 @85033
+	STRING_SET 85048 @85048
+	STRING_SET 85023 @85023
+	STRING_SET 85025 @85025
+	STRING_SET 85034 @85034
+	STRING_SET 85056 @85056
+	STRING_SET 85058 @85058
+	STRING_SET 85066 @85066
+	STRING_SET 85067 @85067
+	STRING_SET 85068 @85068
+	STRING_SET 85069 @85069
+
+//Ohrroof ==> script OHRROOF (5 DisplayString - 1 Cutscene)
+	STRING_SET 79467 @79467
+
+// script = OH4101 (1 DisplayString - #4 Journal - 13 Cutscene)
+	STRING_SET 85055 @85055
+	STRING_SET 85078 @85078
+	STRING_SET 85083 @85083

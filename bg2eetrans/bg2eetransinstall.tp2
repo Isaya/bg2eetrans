@@ -3,7 +3,7 @@ AUTHOR ~Isaya~
 
 // Version stated in WeiDU.log
 // The last part refers to the game version used as a reference to find texts
-VERSION ~v0.6.67.3~
+VERSION ~v0.7.16.6~
 
 // Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
 AUTO_TRA ~bg2eetrans/language/%s~
@@ -75,8 +75,10 @@ ACTION_IF (FILE_EXISTS ~engine.lua~) THEN BEGIN
 	{'fr_FR', %transDesc1%, %transDesc2%, 'Français'},~
 				UNLESS ~'fr_FR'~
 			// Add the translated interface file
+			// Must be in override so that mod that change the UI can patch it
+			// (at this time, WeiDU can't patch it in a language override)
 			ACTION_IF (NOT FILE_EXISTS_IN_GAME ~L_fr_FR.lua~) THEN BEGIN
-				COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~lang/%LANGUAGE%/override/L_fr_FR.lua~
+				COPY ~bg2eetrans/language/%LANGUAGE%/L_fr_FR.lua~ ~override/L_fr_FR.lua~
 			END
 		END
 		// Add additional language here
@@ -94,6 +96,40 @@ REQUIRE_PREDICATE (FILE_EXISTS ~lang/%LANGUAGE%/bg2eetrans.mrk~) @1001003 // Ini
 REQUIRE_COMPONENT ~bg2eetrans.tp2~ ~0~ @1001004 // Block attempt to bypass the initialisation part
 
 // Traduction de textes BG2EE compris entre 74107 et la fin
+
+PRINT @1000601
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/Sorts.tra~
+INCLUDE  ~bg2eetrans/Sorts.tph~
+
+PRINT @1000741
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/Rasaad-SoA.tra~
+INCLUDE  ~bg2eetrans/Rasaad-SoA.tph~
+
+PRINT @1000602
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/Personnages_Sous-titres.tra~
+INCLUDE  ~bg2eetrans/Personnages_Sous-titres.tph~
+
+PRINT @1000603
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/Objets.tra~
+INCLUDE  ~bg2eetrans/Objets.tph~
+
+PRINT @1000604
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/Cartes.tra~
+INCLUDE  ~bg2eetrans/Cartes.tph~
+
+PRINT @1000691
+LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/Divers.tra~
+INCLUDE  ~bg2eetrans/Divers.tph~
+
+PRINT @1000692
 LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/BG2EE_74107-fin.tra~
 INCLUDE  ~bg2eetrans/BG2EE_74107-fin.tph~
 
+// Test for V2.5 presence: only add new texts if present
+// (otherwise STRING_SET will fail on V2.3 if trying to update non-existant strings)
+// Use Priest of Tempus file to detect V2.5
+ACTION_IF (FILE_EXISTS_IN_GAME ~OHTEMPUS.2DA~) THEN BEGIN
+	PRINT @1000801
+	LOAD_TRA ~bg2eetrans/language/%LANGUAGE%/BG2EE_2_5.tra~
+	INCLUDE ~bg2eetrans/BG2EE_2_5.tph~
+END

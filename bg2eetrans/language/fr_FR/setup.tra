@@ -2,6 +2,7 @@
 // Text numbers are voluntarily set to a much higher value than those used in the translation files
 // in order to avoid conflict.
 
+// Components
 // Initialisation component
 @1000001 = ~Initialisation~
 // Texts recovered from BGII-ToB component
@@ -12,6 +13,37 @@
 @1000004 = ~Ajout de la langue au menu + credits (BG2EE V2.0 et plus)~
 // BG2EE translation
 @1000005 = ~Textes de BG2EE traduits et controles~
+
+// Installation messages in bg2eetrans.tp2
+@1000501 = ~Le repertoire pour la langue francaise vient d'etre ajoute au jeu.
+L'installation va desormais se poursuivre par la mise des textes en francais
+et par l'ajout de la langue francaise dans le menu du jeu.
+Ces operations sont decomposees en quatre composants qui vont s'installer
+automatiquement. Elles peuvent prendre plusieurs minutes. La duree exacte
+depend des performances de votre ordinateur.
+
+Merci de votre patience.
+
+Remarque : pour avoir le jeu en francais, il vous faudra faire le choix dans
+le menu du jeu. Si vous aviez deja fait ce choix et que vous reinstallez le
+mod, il sera preserve.~
+
+// Installation messages in bg2eetransinstall.tp2
+@1000601 = ~Traduction des sorts...~
+@1000602 = ~Traduction des noms de personnage, sous-titres des voix...~
+@1000603 = ~Traduction des objets...~
+@1000604 = ~Traduction des noms des zones, notes...~
+
+@1000691 = ~Traduction de textes divers...~
+@1000692 = ~Traduction de textes non classes...~
+
+// Quêtes : 1000701 : Black Pits, 1000711 : Dorn, 1000721 : Hexxat, 1000731 : Neera
+// Rasaad
+@1000741 = ~Traduction de la quete / romance de Rasaad dans Shadows of Amn...~
+
+// Fichiers particuliers
+@1000801 = ~Traduction des textes ajoutes ou modifies dans BG2EE V2.5...~
+
 
 // Error messages
 // Wrong game
@@ -29,7 +61,7 @@
 @1002001 = ~Traduction française partielle à partir de ToB original et d'extraits de BGEE
 
 Le texte français est issu de Baldur's Gate II et Throne of Bhaal et bénéficie du patch correctif de la Couronne de Cuivre pour les textes pour BG II et ToB version 1.2 réalisé par Mornagest et Anomaly avec l'aide d'autres contributeurs.
-D'autres textes ont été repris de BGEE et proviennent de la version 2.3.
+D'autres textes ont été repris de BGEE et proviennent de la version 2.3, sans oublier des textes d'IWDEE.
 
 La recherche de correspondance entre les textes anglais de BG2EE et les textes anglais a d'abord été réalisée par le programme Translation Retriever écrit par Isaya. Elle a été complétée en partie à la main par Isaya pour les fichiers de traduction partielle pour BG2EE V1.2 et la version originale de ce mod pour BG2EE V2.0 et supérieur.
 De très nombreux compléments et corrections ont été apportés par dricks, zelurker, Luren, Freddy_Gwendo et Isaya.
@@ -38,24 +70,32 @@ Luren a également adapté les intitulés d'entrée de journal afin qu'ils appar
 Merci à zelurker pour l'idée de proposer des notes en français au lieu des textes anglais.~
 @1002002 = ~[Notes de la version française]
 
-Ceci n'est pas une traduction mais est issu de la récupération de textes depuis la traduction originale de BG II - ToB avec application des corrections du mod CorrecFr publié sur la Couronne de Cuivre. Des textes ont également été récupérés à partir la traduction de BGEE.
+La traduction partielle en français est composée de deux ensembles distincts :
+- une récupération de textes depuis la traduction originale de BG II - ToB avec application des corrections du mod CorrecFr publié sur la Couronne de Cuivre, ainsi qu'une récupération de textes à partir la traduction de BGEE et celle d'IWDEE pour ce qui a évolué dans les Enhanced Edition ; cette récupération, réalisée par programme, est incomplète et peut également comporter des erreurs de texte
+- une traduction proprement dite pour une partie du contenu ajouté par Beamdog
 
-Contributeurs aux textes :
-- Mornagest, Anomaly et toutes les personnes ayant rapporté des défauts ou proposé des corrections.
-- Luren pour la fusion des travaux de dricks et zelurker et de la récupération automatique
-- Luren pour les intitulés d'entrée de journal
-- Freddy_Gwendo, Luren et Isaya pour diverses adaptations des textes pour BG2EE
+Contributeurs :
+- Récupération de textes :
+  * Mornagest, Anomaly et toutes les personnes ayant rapporté des défauts ou proposé des corrections
+  * Luren pour la fusion des travaux de dricks et zelurker et de la récupération automatique
+  * Luren pour les intitulés d'entrée de journal
+  * Freddy_Gwendo, Luren et Isaya pour diverses adaptations des textes pour BG2EE
+- Traduction des textes ajoutés :
+  * un traducteur payé par Beamdog pour l'essentiel de la quête de Rasaad dans SoA
+  * Freddy_Gwendo et Isaya, avec le soutien ponctuel de l'équipe et des membres du forum La Couronne de Cuivre
+- Textes de l'interface graphique :
+  * initialement traduits par une société mandatée par Beamdog
+  * maintenus et corrigés par Isaya, avec l'aide de suggestions de Kerozevok
 
-Textes de l'interface graphique :
-- initialement traduits par une société mandatée par Beamdog
-- maintenus et corrigés par Isaya avec l'aide de suggestions de Kerozevok~
+Merci également à la nouvelle équipe de traduction : Freddy_Gwendo, McGregor77, N3ige, Scylla, ...~
 
 
 // Text to explain to the player that he can choose whatever game language to start installation
 @-1040= "
 Choisissez une langue quelconque parmi celles deja disponibles dans le jeu.
-L'installation de ce mod creera la langue francaise par la suite.
-Nota : il vous faudra passer vous-meme le jeu en francais une fois fini.
+L'installation de ce mod creera la langue francaise a partir de l'anglais et
+les textes non traduits par le mod resteront donc en anglais.
+Nota : il vous faudra passer vous-meme le jeu en francais apres l'installation.
 "
 
 

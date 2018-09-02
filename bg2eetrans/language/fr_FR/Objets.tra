@@ -1,0 +1,1895 @@
+// Objets à traduire dans les textes ajoutés par BG2EE
+
+// ****************************************************************************
+// FOSSES NOIRES
+// ****************************************************************************
+
+@92971 = ~Maillet de Marduuk +3~ // OHBBLUN1 identified name
+@92972 = ~C'est le « maillet » qu'utilise Marduuk pour cuisiner, mais ce n'est rien de plus qu'un morceau de bois noueux, serti d'inquiétantes pointes. Cependant, les apparences sont trompeuses, ce maillet exsude la magie, et un sentiment de puissance vous gagne quand vous le tenez.
+
+Vous comprenez à présent pourquoi le bœuf braisé de Marduuk est toujours si tendre.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Force : +1
+
+TAC0 : +3
+Dégâts : 1d6 +3 (contondant)
+Facteur de vitesse : 1
+Type de compétence : gourdin
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 1~ // OHBBLUN1 identified description
+
+@90665 = ~Journal de Geldorf Tinbasher~ // OHBBOOK1 identified name @todo traduire Tinbsher ??? briseur-marteleur étain, fer blanc
+@90664 = ~Il semble que la véritable identité du cuisinier soit Geldorf Tinbasher. En parcourant son journal personnel, un passage attire votre attention :
+
+« ... Effectivement, mon désir pour Agretta est devenu insupportable. Ma solitude se traduit par une profonde colère, et s'exprime par de violentes réprimandes envers les commis que l'on m'a assignés en cuisine. Après coup, je me sens toujours coupable. Ils ne méritent pas ces coups de fouets que je leur donne. Mais ma frustration me met hors de moi ! Maudit soit Dennaton, et maudits soient ces foutus Thayens ! »~ // OHBBOOK1 identified description
+
+@95467 = ~Journal de Thassk~ // OHBBOOK2 identified name
+@95466 = ~Thassk Kun semble être le chroniqueur des chasseurs, car son journal détaille leurs nombreuses aventures, dont la plupart consistent à capturer ou à mater de dangereux monstres ou aventuriers. Ils opèrent généralement selon un plan pré-établi : Thassk ou Pyrrus localisent leur proie par la divination, puis Joker ou Dormamus mettent en place une illusion complexe qui permet à leur groupe de se rapprocher suffisamment de leur cible pour déclencher le piège sans éveiller les soupçons, tout en minimisant le risque d'essuyer des représailles. La plupart des passages suivent le même schéma, sauf quelques uns qui attirent votre attention.
+
+« Les exigences de Dennaton deviennent de plus en plus hasardeuses. Depuis quelque temps, il me semble évident qu'un jour, ses plans finiront par provoquer notre perte, mais j'ai été surpris que l'Emplumée m'en parle aussi ouvertement, aujourd'hui. J'ai toujours pensé que leur précieux secret les lierait pour l'éternité, mais sa remarque spontanée implique que ce n'est peut-être pas le cas. Une première faille dans l'armure peut-être... »
+
+« Pour une fois, les chasseurs sont devenus les proies ! Quelle heureuse coïncidence ! Plusieurs devas ont essayé de nous tromper aujourd'hui, mais j'ai réussi à percer leurs illusions avant même qu'ils ne puissent refermer leur piège sur nous. C'étaient de valeureux adversaires, et ils se sont battus avec témérité - à la limite du fanatisme religieux - concentrant toute leur fureur sur l'Emplumée et ignorant les autres membres de notre groupe. Comme toujours, bien sûr, nous avons triomphé, et je soupçonne que nos prétendus conquérants se retrouveront bientôt dans l'arène. »
+
+« Cependant, les propos hurlés par les devas pendant le combat m'ont intrigué. " Ta trahison t'as condamnée pour l'éternité " ont-ils crié à l'Emplumée, ainsi que " Un vrai Tormite n'abandonnerait jamais son devoir ! ". Mais le plus énigmatique a été " Nous n'oublieront jamais les âmes de la Gorge de Hedasha ! ". Si tous ceux du Mont Céleste sont aussi obsédés par notre chef que ne l'étaient ces devas, nos vies pourraient devenir bien plus passionnantes que nous ne le pensions. »
+
+« Quelle ordure, ce maudit sorcier rouge ! Cette fois, il a dépassé les bornes ! Je ne supporterai plus ses insultes ! Il croit que les sorciers rouges nous ont vaincus, nous les salamandres, pendant la rébellion, n'est-ce pas ? Eh bien, il y aura au moins une victime de plus à mettre sur le compte de la vieille guerre, car Pyrrus est un homme mort - MORT - et rien de ce que pourra dire l'Emplumée ne me dissuadera de tuer ce singe prétentieux, cette fois ! »~ // OHBBOOK2 identified description
+
+@94286 = ~Journal de Bannor~ // OHBBOOK3 identified name
+@94287 = ~Le journal de Bannor n'a manifestement pas été mis à jour depuis de nombreuses années. Il laisse échapper une épaisse couche de poussière quand vous vous en saisissez, et ses pages sont craquelées et jaunies par le temps. Beaucoup ont été arrachées. Quant aux autres, certaines sont tellement abimées qu'elles en sont devenues illisibles. Mais quelques passages peuvent malgré tout être déchiffrés.
+
+« ... La mère matrone se lasse de mes expériences, mais ce qu'elle considère comme des " échecs " sont pour moi des étapes nécessaires dans le développement du soldat d'élite drow. Elle se désespère de la perte de nombreux guerriers sacrifiés à la cause de mes multiples expériences, mais elle-même, n'en condamne-t-elle pas d'autres à mort pour des futilités ? Malheureusement, la situation est claire : j'ai besoin d'un succès, n'importe lequel, et rapidement, sinon je rejoindrai les autres dans la mort, ou pire, je serai transformé en drider ! Imaginez moi, Bannor, grand mage de la maison Kaxazel de Ched Nassad, réduit à une telle abomination ! Maudite soit cette pensée ! »
+
+« ... Les échecs continuent, et ma relation avec la matrone s'est tellement refroidie qu'elle m'a même jeté hors de son lit. Mais j'ai un plan qui pourrait fonctionner : le transfert d'esprit. Implanter l'esprit d'un drow dans un golem d'adamantine donnerait à la maison Kaxazel un avantage décisif contre les maisons Claddath et Ousstyl. Je retrouverai surement les faveurs de la matrone quand j'aurai réussi ! »
+
+« ... Un autre sujet de test est mort en hurlant, aujourd'hui ! Comment me suis-je trompé ? Je ne peux que supposer que les échecs proviennent de la stupidité des soldats drow que j'ai utilisés. Des esprits aussi simples sont apparemment inadaptés pour résister au traumatisme engendré par le transfert de corps. La mère matrone m'a enfin posé un ultimatum — et je crois qu'elle le pense vraiment, cette fois —, aussi ne me reste-t-il plus qu'une seule chance. Si mon raisonnement est bon, le processus exige un esprit d'une force inégalée, aussi n'ai-je donc pas d'autres choix que de tenter l'expérience sur moi même. Si j'ai tort, je passerai l'éternité dans les Abysses à servir de jouet à Lolth, mais si j'ai raison, tout redeviendra comme avant. L'ensemble des faveurs de la matrone — ainsi que tous les privilèges qui l'accompagne — me seront rendus. Du moins, quand j'aurai inversé le processus, évidemment... »~ // OHBBOOK3 identified description
+
+@95635 = ~Journal de Dennaton~ // OHBBOOK4, OHBBOOK5, OHBBOOK6 identified name
+@95636 = ~C'est le journal de Dennaton. La plupart des paragraphes récents détaillent la création et le développement de l'arène. Le dernier paragraphe est le plus intéressant.
+
+« ... Ces nouveaux gladiateurs sont une bénédiction ! La popularité de l'arène grandit de jour en jour. Les profits montent en flèche ! Ces imbéciles d'Eltabbar qui ont douté de moi doivent être en train de cracher du sang ! " Du matériel de qualité inférieure, tout juste bon à s'entraîner. " Qui se gausse, à présent ? Et bientôt, très bientôt, mon patron mettra son plan en œuvre. Mon ascension au rang de tharchion va commencer ! Quand j'aurai accompli ma destinée, tous ces crétins qui me raillaient souffriront. »~ // OHBBOOK4 identified description
+
+// @todo harmoniser Voghiln 'the Vast', Feldrak 'the Fiend', and Gezzthemin 'the Beloved' = Voghiln " L'Immense ", Feldrak " Le Démon ", Gezzthemin " Le Bien-aimé "
+@95637 = ~C'est le journal de Dennaton. La plupart des paragraphes récents détaillent la création et le développement de l'arène. Les derniers sont les plus intéressants.
+
+« ... Ces nouveaux gladiateurs sont une bénédiction ! La popularité de l'arène grandit de jour en jour. Les profits montent en flèche ! Ces imbéciles d'Eltabbar qui ont douté de moi doivent être en train de cracher du sang ! " Du matériel de qualité inférieure, tout juste bon à s'entraîner. " Qui se gausse, à présent ? Et bientôt, très bientôt, mon patron mettra son plan en œuvre. Mon ascension au rang de tharchion va commencer ! Quand j'aurai accompli ma destinée, tous ces crétins qui me raillaient souffriront. »
+
+« ... La popularité, la prospérité et l'influence de l'arène continuent de croitre. Ces derniers gladiateurs ont été notre meilleure pioche. Voghiln " L'Immense ", Feldrak " Le Démon " et Gezzthemin " Le Bien-aimé " attirent tous un public nombreux, mais <CHARNAME>, " Le fléau des fosses de Baeloth ", les dépasse tous en popularité. Des gens venant de fort loin ont été attirés par la présence du vainqueur de Baeloth. Je me demande, si <PRO_HESHE> a des plans similaires pour moi ? Je serais stupide de ne pas prendre en considération cette éventualité... »
+
+« Par ailleurs, les nouvelles sont bonnes : les plans quant à mon ascension au rang de tharchion vont bon train. Mon bienfaiteur m'assure que je n'aurai plus à attendre longtemps. »~ // OHBBOOK5 identified description
+
+@95638 = ~C'est le journal de Dennaton. La plupart des paragraphes récents détaillent la création et le développement de l'arène. Les derniers sont les plus intéressants.
+
+« ... Ces nouveaux gladiateurs sont une bénédiction ! La popularité de l'arène grandit de jour en jour. Les profits montent en flèche ! Ces imbéciles d'Eltabbar qui ont douté de moi doivent être en train de cracher du sang ! " Du matériel de qualité inférieure, tout juste bon à s'entraîner. " Qui se gausse, à présent ? Et bientôt, très bientôt, mon patron mettra son plan en œuvre. Mon ascension au rang de tharchion va commencer ! Quand j'aurai accompli ma destinée, tous ces crétins qui me raillaient souffriront. »
+
+« ... La popularité, la prospérité et l'influence de l'arène continuent de croitre. Ces derniers gladiateurs ont été notre meilleure pioche. Voghiln " L'Immense ", Feldrak " Le Démon " et Gezzthemin " Le Bien-aimé " attirent tous un public nombreux, mais <CHARNAME>, " Le fléau des fosses de Baeloth ", les dépasse tous en popularité. Des gens venant de fort loin ont été attirés par la présence du vainqueur de Baeloth. Je me demande, si <PRO_HESHE> a des plans similaires pour moi ? Je serais stupide de ne pas prendre en considération cette éventualité... »
+
+« Par ailleurs, les nouvelles sont bonnes : les plans quant à mon ascension au rang de tharchion vont bon train. Mon bienfaiteur m'assure que je n'aurai plus à attendre longtemps. »
+
+« ... Incroyable ! L'arène a encore atteint des sommets ! Aujourd'hui, ce n'est pas un, mais DEUX zulkirs qui nous ont gratifiés de leur présence ! Je m'approche de plus en plus des plus hauts rangs de la politique thayenne.
+
+« ... Finalement, Zulkir Tam m'a associé à ses projets pour m'élever au rang de tharchion. Je me demandais comment il allait s'y prendre, et il m'a révélé son plan. Il va assassiner l'un des Tharchions actuels - probablement un de Thrul -, puis forcer les autres zulkirs à confirmer ma nomination au poste vacant. Son prix : mon soutien à tous les projets futurs qu'il concocte. Cela en vaut la peine. »~ // OHBBOOK6 identified description
+
+@94307 = ~Bracelets de force~ // OHBBRAC1 identified name
+@94308 = ~Ces bracelets sont recouverts d'un argent banal et sans ornements, mais poli de telle manière qu'il brille même dans la pénombre. Les bracelets de maintien de force sont bien connus à Thay, où ils sont utilisés pour transformer le gladiateur le plus chétif en une brute féroce.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Force : portée à 20
+– Dextérité : -2
+
+Poids : 2~ // OHBBRAC1 identified description
+
+@94309 = ~Cape de la liche~ // OHBCLCK1 identified name
+@94310 = ~Cette cape noir profond n'est pas destinée à être portée par les liches, mais plutôt par ceux qui les chassent. Elle bénéficie de puissants enchantements qui protègent quiconque la porte contre toutes les formes de magie de mort.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au froid : +50 %
+– Résistance à l'électricité : +50 %
+– Immunité aux sorts de mort
+
+Poids : 3~ // OHBCLCK1 identified description
+
+@90960 = ~Poudre de champignon des profondeurs~ // OHBCOM01 unidentified name
+@90959 = ~Les champignons des profondeurs poussent dans l'Ombreterre où ils sont communément utilisés comme substitut au bois ordinaire. Il en existe de nombreuses variétés, chacune ayant des propriétés distinctes.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBCOM01 unidentified description
+
+@90965 = ~Morceau du Distillateur~ // OHBCOM02 identified name @todo harmoniser the Concocter = Le Distillateur - Bellowgulp = beugleur ?
+@90966 = ~Il s'agit d'un morceau de chair de l'ami myconide de Bellowgulp, le Distillateur.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBCOM02 identified description
+
+@90969 = ~Racine de lotus~ // OHBCOM03 identified name
+@90970 = ~C'est la racine d'un plant de lotus. On peut l'utiliser pour concocter des poisons.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBCOM03 identified description
+
+
+@90973 = ~Crottes de rat~ // OHBCOM04 identified name
+@90974 = ~Pour quelle raison quelqu'un achèterait-il des crottes de rats ?
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBCOM04 identified description
+
+@96049 = ~Plume d'aile de planaire~ // OHBCOM05 identified name
+@96050 = ~Trouvée dans les quartiers de l'Emplumée, cette plume semble ordinaire jusqu'à ce qu'on l'examine de près. C'est alors que l'on distingue la lumière scintillante d'origine surnaturelle qu'elle renferme. Ceux qui font commerce d'artéfacts peu commun paieraient sûrement une petite fortune pour un tel objet. Sinon, un magicien expérimenté pourrait être en mesure d'utiliser la plume comme un composant de sort.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBCOM05 identified description
+
+@94564 = ~Dent d'un ver~ // OHBCOM06 identified name
+@94565 = ~Il s'agit de la dent tranchante comme un rasoir d'une espèce d'un grand dragon.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBCOM06 identified description
+
+@94566 = ~Œuf de ver charognard~ // OHBCOM07 identified name
+@94567 = ~La surface de la coquille de cet œuf ressemble à du cuir. L'étrange renflement qu'elle comporte, ainsi que la vibration qu'il émet, vous incitent à le livrer le plus vite possible.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBCOM07 identified description
+
+@94568 = ~Parchemin de peau d'ettin~ // OHBCOM08 identified name
+@94569 = ~Un morceau de parchemin vierge, traité spécialement pour y retranscrire des runes magiques. Celui-ci a été fabriqué à partir de la peau tannée d'un ettin.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBCOM08 identified description
+
+@91259 = ~Pétales de rose~ // OHBCOM09 identified name
+@91260 = ~Les pétales de rose sont utilisés dans de nombreuses cérémonies, mais on dit qu'ils ont aussi des propriétés toxiques.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBCOM09 identified description
+
+@91261 = ~Poudre de quartz~ // OHBCOM10 unidentified name
+@91262 = ~On saupoudre de la poudre de quartz sur les adorateurs de certains dieux lorsqu'une bénédiction leur est accordée. Mais elle peut également irriter le tube digestif, ce qui est loin d'être une bénédiction dans la plupart des cas.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBCOM10 unidentified description
+
+@96051 = ~Objet désintégré~ // OHBCOM11 unidentified name
+@96052 = ~Ce tas de poussière est très probablement tout ce qui reste d'un objet désintégré.
+
+PARAMÈTRES :
+
+Poids : 3~ // OHBCOM11 unidentified description
+
+// Contribué par Freddy_Gwendo
+@101142 = ~Éclat de miroir~ // OHBCOM12 unidentified name
+// Contribué par Freddy_Gwendo
+@102543 = ~Vous avez récupéré cet éclat de miroir dans la chambre de Bannor.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHBCOM12 unidentified description
+
+@94311 = ~Dague stylisée~ // OHBDAGG1 identified name
+@94312 = ~Cette dague en adamantine est tout à la fois une œuvre d'art et une arme mortelle. Avec sa lame tranchante comme un rasoir et son manche incrusté de bijoux, c'est une arme parfaitement équilibrée. Les initiales B.B. sont gravées en lettres dorées sur le métal bleu argenté de sa lame.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d4 +2 (perforant)
+Facteur de vitesse : 0
+Type de compétence : dague
+Type : arme à une main
+Nécessite : 3 en Force
+
+Poids : 1~ // OHBDAGG1 identified description
+
+@100451 = ~Gant de l'Emplumée~ // OHBGLOV1 identified name
+@100452 = ~Ce gant délicatement ouvragé en métal poli est recouvert de runes dont vous ne comprenez pas la signification. Mais au fur et à mesure que vous regardez ce magnifique objet, vous ressentez des vertiges de plus en plus violents vous assaillir.
+Les enchantements dont il bénéficie permettent à quiconque le porte de parer les attaques de mêlée avec une habileté exceptionnelle. De plus, les assaillants qui l'engageant au corps à corps subiront les effets d'une vague d'énergie magique.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +5 contre toutes les attaques de mêlée
+– Châtiment : un adversaire qui frappe le porteur avec des armes ou des sorts dans un rayon de 1,5 mètre subit 2d4 points de dégâts magiques.
+
+Poids : 2~ // OHBGLOV1 identified description
+
+@92741 = ~Pierre runique de l'Illithid~ // OHBKEY01 unidentified name
+@92742 = ~Cette pierre noircie est froide et plate, et elle vibre doucement dans votre main. Gravée sur un de ses côtés, une grande rune violette vibre légèrement.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBKEY01 unidentified description
+
+@92591 = ~Clé du salon des chasseurs~ // OHBKEY02 unidentified name
+@92592 = ~Cette clé ouvre la porte du salon des chasseurs qui se trouve à l'étage.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBKEY02 unidentified description
+
+@94292 = ~Clé du capitaine de la garde~ // OHBKEY03 unidentified name
+@94291 = ~Vous avez récupéré cette clé en laiton sur le cadavre du capitaine de la garde.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBKEY03 unidentified description
+
+@102820 = ~Clé de Branson~ // OHBKEY05 unidentified name
+@102821 = ~Il s'agit de la clé de la cantine de Branson.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBKEsY05 unidentified description
+
+@101255 = ~Tenue de service de Noser~ // OHBNOSHU identified name @todo : j'ai du mal à traduire par "renifleur" ou "fouineur"
+@101256 = ~Il s'agit de l'une des tenues de couleurs vives que portent les Noser, un groupe de serviteurs de haut rang admis dans les chambres de Dennaton et de ses chasseurs planaires.
+
+PARAMÈTRES :
+
+Poids : 6~ // OHBNOSHU identified description
+
+@90961 = ~Potion de Peau d'écorce~ // OHBPTN01 identified name
+@90962 = ~Cette potion produit le même effet que le sort dont elle tire son nom.
+
+PARAMÈTRES :
+
+- Classe d'armure : 3
+- Jet de sauvegarde contre la mort : +1
+- Jet de sauvegarde contre les baguettes : +1
+- Jet de sauvegarde contre la métamorphose : +1
+- Jet de sauvegarde contre les souffles : +1
+
+Poids : 1~ // OHBPTN01 identified description
+
+@90963 = ~Baume de sérénité sénile~ // OHBPTN02 identified name
+@90964 = ~Ce baume stabilisera temporairement l'esprit des personnes âgées atteintes par les premiers stades de démence sénile.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBPTN02 identified description
+
+@90967 = ~Poison du Distillateur~ // OHBPTN03 identified name @todo harmoniser the Concocter = Le Distillateur
+@90968 = ~Cette fiole contient un poison fortement toxique que le Distillateur a créé pour que vous l'utilisiez sur Joker.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBPTN03 identified description
+
+@91200 = ~Bière de cérémonie~ // OHBPTN04 identified name
+@91201 = ~Vous avez acquis cette excellente bière auprès de Molzahn, le petit-homme prêtre de Tymora.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBPTN04 identified description
+
+@94811 = ~Poison de Gezzthemin~ // OHBPTN05 identified name
+@94812 = ~Vous avez acheté ce poison au magicien elfe noir Gezzthemin pour l'utiliser contre Joker.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBPTN05 identified description
+
+@92448 = ~Poison de Feldrak~ // OHBPTN06 identified name
+@92449 = ~Feldrak "Le Démon" Feldraki a créé ce poison pour l'utiliser contre Joker.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBPTN06 identified description
+
+@92588 = ~Poison de Frère Ellraish~ // OHBPTN07 identified name
+@92590 = ~Le Frère Ellraish vous a donné ce poison pour que vous l'utilisiez contre Joker.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBPTN07 identified description
+
+@90971 = ~Vinaigre de vin~ // OHBPTN08 identified name
+@90972 = ~On utilise ce vinaigre distillé pour élaborer des potions, des médicaments et des poisons.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBPTN08 identified description
+
+@91257 = ~Alcool distillé~ // OHBPTN09 identified name
+@91258 = ~On utilise de l'alcool pur lors de cérémonies religieuses, de beuveries de fin de soirée, et pour fabriquer des poisons. Et parfois, ces trois occasions ne font qu'une...
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBPTN09 identified description
+
+@101141 = ~Mort aux rats~ // OHBPTN10 unidentified name
+@103048 = ~Ce flacon de liquide brun sale sent les pommes pourries. Seul un rat serait assez stupide pour boire ce truc.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBPTN10 unidentified description
+
+@101638 = ~Soupe de myconide~ // OHBPTN11 identified name
+@101639 = ~(placeholder) Description de la soupe de myconide~ // OHBPTN11 identified description
+
+@100440 = ~[Faulty]Anneau de protection contre le mal~ // OHBREW01 identified name
+@100441 = ~Soumis à un siège interminable mené par des drows, les nains du clan de Pierrenoire passèrent commande de plusieurs anneaux de protection contre le mal à des magiciens itinérants svirfneblins. Les anneaux furent livrés à temps, mais n'ont servi a rien puisque les drow n'attaquèrent pas, mais obtinrent la soumission des nains en les affamant. Bien que les anneaux n'aient jamais été testés, ils ont rapidement trouvé leur place sur les étals des marchands de l'Ombreterre.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Protection contre le mal sur tous les membres du groupe une fois par jour
+
+Poids : 0~ // OHBREW01 identified description
+
+@100438 = ~[Faulty]Fléau des Abysses +4~ // OHBREW02 identified name
+@100439 = ~Peu nombreux sont les magiciens qui tenteraient de fabriquer une arme ciblant spécifiquement les démons ou les diables, et encore plus rares sont ceux qui voudraient les tester. Halrass Daystar, de Sembie, en fait partie, et ses efforts ont contribué à repousser un démon convoqué par erreur qui menaçait d'anéantir un village entier. Bien que Halrass ait réussi à vaincre le démon, ce dernier se vengea des années plus tard, et, jusqu'à ce jour, le magicien travaille continuellement comme esclave dans les neuf enfers.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Chaque coup porté sur un démon ou un diable a 50 % de chances de le renvoyer instantanément vers son plan d'origine.
+
+TAC0 : +4
+Dégâts : 1d6 +4 (perforant), doublés contre les démons et les diables
+Facteur de vitesse : 6
+Type de compétence : lance
+Type : arme à deux mains
+Nécessite : 5 en Force
+
+Poids : 5~ // OHBREW02 identified description
+
+@100436 = ~[Faulty]Baguette des labyrinthes~ // OHBREW03 identified name
+@100437 = ~La baguette des labyrinthes enferme la créature qu'elle cible dans un espace extradimensionnel ayant la forme d'un labyrinthe, jusqu'à ce qu'elle trouve un moyen de s'en échapper, ce qui peut infliger de sérieux maux de tête aux individus peu intelligents. Comme toutes les baguettes, la baguette des labyrinthes ne sert qu'un certain nombre de fois avant d'être détruite. Celle-ci a des encoches étranges qui ne semblent pas correspondre à l'enchantement magique primaire. Des encoches manifestement sans rapport avec la nature de son enchantement ont été taillées sur le manche de celle-ci.
+
+PARAMÈTRES :
+
+Capacités de charge :
+– Fait disparaître les ennemis dans un labyrinthe en perpétuel changement, comme le sort Labyrinthe.
+  Portée : 30 mètres
+  Zone d'effet : rayon de 6 m
+  Durée : 15 rounds
+
+Poids : 5~ // OHBREW03 identified description
+
+@100446 = ~[Faulty]Rivière Sinueuse~ // OHBREW04 identified name Eau sinueuse
+@100447 = ~Ce petit flacon contient de l'eau puisée dans la rivière qui coule sous le pont de Boreskyr, très loin, le long de la Côte des Épées, sur le site où Bhaal, ancien dieu du meurtre, a péri.
+
+Dennaton prétend que cette eau brûlera comme de l'acide tout disciple de Bhaal qui en serait aspergé.~ // OHBREW04 identified description
+
+@100444 = ~Drowbasla~ // OHBREW05 identified name @todo : le fichier ITM compte un TAC0 +6 vs drows ==> à ajouter ou pas ?
+@100445 = ~Certaines épées bénéficient d'une renommée magnifiée par des récits épiques remplis de chants et de combats ; d'autres doivent se contenter d'une origine banale au sein de la forge d'une petite ville. Tirant son nom du mot gravé sur sa lame de métal terne, celle-ci n'a pas d'histoire. Vous n'en trouverez trace nulle part. Aucune archive, aucun document, aucun conte ne mentionne son existence. On ignore si cette origine inconnue est intentionnelle ou non, mais quiconque affronte des drows avec cette épée s'en soucie peu, car elle les découpe avec une efficacité étonnante.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d6 +3 (perforant), +6 contre les drows
+Facteur de vitesse : 2
+Type de compétence : épée courte
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 2~ // OHBREW05 identified description
+
+@100416 = ~Idole de veau d'or~ // OHBREW06 identified name
+@101729 = ~Il s'agit d'une petite figurine dorée ressemblant à un minotaure.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHBREW06 unidentified description
+@100417 = ~Cette idole de veau d'or tient dans la paume de la main. Quand le mot-clef gravé sur sa base est prononcé, l'idole prend vie et grandit jusqu'à atteindre la forme et la taille normale d'un minotaure. Ce dernier obéira aux ordres de son maître pendant la durée de l'effet ou jusqu'à la mort. Après un tour, qu'il soit vivant ou mort, il reprend la forme de l'idole. Il faut une journée pour que cette dernière se recharge.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Invoquer un guerrier minotaure une fois par jour
+  Durée : 1 tour
+
+Poids : 1~ // OHBREW06 identified description
+
+@101143 = ~Bague de Stannel Eibor~ // OHBRING1 unidentified name
+
+@101696 = ~Anneau de la famille Dal~ // OHBRING2 identified name
+@101697 = ~Cet anneau taillé dans un métal lisse et foncé est gravé d'un gant hérissé de pointes représentant le cimier de la Maison de Dal, une famille influente de Thay connue pour son implication dans les combats de gladiateurs.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHBRING2 identified description
+
+@102544 = ~Parchemin de transfert d'esprit~ // OHBSCRL, OHBSCRL2 identified name
+@102545 = ~Le vieux magicien Dulf Barbe d'ébène a rédigé ce parchemin pour vous. La magie puissante contenue dans ces lignes est liée au magicien Bannor, et devrait permettre à quiconque le lit de transférer l'esprit de Bannor dans son propre corps, tout en prenant possession du corps de Bannor.~ // OHBSCRL identified description
+
+@101698 = ~Le magicien entropiste Gerrold a rédigé ce parchemin pour vous. La puissante magie contenue dans ces lignes est liée au magicien Bannor, et devrait permettre à quiconque le lit de transférer l'esprit de Bannor dans son propre corps, tout en prenant possession du corps de Bannor - en supposant qu'elle ne dégénère pas en un hiatus entropique.~ // OHBSCRL2 identified description
+
+@94305 = ~Bouclier de Kazrah +4~ // OHBSHLD1 identified name
+@94306 = ~Selon plusieurs légendes, un vaillant aventurier aurait autrefois utilisé ce bouclier pour capturer l'âme d'un énorme dragon bleu qu'il combattait. Certaines prétendent que l'aventurier s'appelait Kazrah, d'autres que Kazrah était le nom du dragon qui fut capturé. Quoi qu'il en soit, ce bouclier bleu lumineux arbore le visage effrayant d'un dragon bleu qui grogne et qui, une fois par jour, peut cracher des éclairs.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Chaîne d'éclairs une fois par jour
+  Dégâts : 6d6 d'électricité (jet de sauvegarde contre les sorts pour la moitié)
+  Portée : 12 mètres
+
+Capacités d'équipement :
+– Classe d'armure : +5
+– Résistance à l'électricité : +50 %
+
+Nécessite : 12 en Force
+
+Poids : 5~ // OHBSHLD1 identified description
+
+@100448 = ~Le Dresseur de Stirv +2~ // OHBSTAF1 identified name todo : supprimer "Le" ?
+@100449 = ~Bien qu'il n'ait pas fabriqué ce bâton, Stirv l'a eu si longtemps en sa possession qu'il ne se rappelle pas où il l'a obtenu. Souvent, il déposait des appâts dans les bois pour attirer un animal sauvage. Dès qu'il repérait la bête, il utilisait les pouvoirs magiques de son bâton pour la capturer saine et sauve.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Sphère résistance d'Otiluke une fois par jour
+  Portée : 12 mètres
+  Durée : 1 tour
+
+TAC0 : +2
+Dégâts : 1d6 +2 (contondant)
+Facteur de vitesse : 2
+Type de compétence : bâton
+Type : arme à deux mains
+Nécessite : 5 en Force
+
+Poids : 4~ // OHBSTAF1 identified description
+
+@102528 = ~Sombre Justicière +5~ // OHBWING, OHBWING2 identified name
+@102529 = ~L'Emplumée était autrefois un général important dans une armée de célestes, et passait son temps à guerroyer quotidiennement contre les démons des Abysses. Au cours d'une bataille féroce contre ces hordes de démons, l'exécution d'un de ses ordres entraîna l'anéantissement d'un quart de ses légions. Rendue furieuse par cette perte, elle abandonna son poste et se lança elle-même dans la bataille, abattant les démons par douzaines. Bien qu'elle s'illustrât personnellement au combat, la bataille fut perdue. Privées de sa direction, les forces survivantes de son armée furent plongées dans le plus grand désarroi et durent se replier. Pour avoir manqué à son devoir et montré son incapacité à contrôler ses émotions, le dieu qu'elle servait la dépouilla de son rang et la chassa de son plan d'existence.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– 15 % de chances de décapiter l'adversaire à chaque attaque réussie
+– Chaque coup porté absorbe 1d6 points de vie de la cible et les transfère à l'utilisateur. Cela ne le guérira pas au-delà de son maximum.
+
+TAC0 : +5
+Dégâts : 1d10 +5 (tranchant), 5 supplémentaires contre les chaotiques
+Facteur de vitesse : 5
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en Force
+
+Poids : 7~ // OHBWING, OHBWING2 identified description
+
+
+// ****************************************************************************
+// DORN
+// Notes de Freddy : J'ai traduit "Resurrection Gorge" par "Gorges de la Résurrection" dans tous les fichiers d'objet. @todo : harmoniser cette référence avec toutes les références concernées.
+// id. Two Pines Creek --> ruisseau des deux Pins
+// ****************************************************************************
+
+@81972 = ~Gland de Yarrow~ // OHDACOR2 identified name
+@81977 = ~Le gland de la dryade Yarrow est le lien qui la connecte à l'arbre gigantesque qui surplombe les Gorges de la Résurrection. Il permet d'ordonner à cet arbre de lever ou d'abaisser ses branches pour entrer ou sortir des gorges.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHDACOR2 identified description
+
+@90138 = ~Pomme d'argent~ // OHDAPPLE unidentified name
+@90139 = ~Cette pomme d'argent provient d'un arbre divin de Lunia. Le lustre de sa surface lisse ne semble pas naturel, et le fruit lui-même émet une odeur délicieuse. Manger une telle pomme devrait sans doute être bénéfique pour la santé et le bien-être.
+
+PARAMÈTRES :
+
+Capacité de charge :
+Une fois consommée, elle restaure 25 % des PV et accorde un bonus de 2 à toutes les caractéristiques pendant 6 rounds. Quant aux personnages maléfiques, ils perdent 25 % de leurs PV et subissent une pénalité de 2 à toutes leurs caractéristiques, pendant une journée.
+
+Poids : 0~ // OHDAPPLE unidentified description
+
+// Note de Freddy : ou Ecaille de Dragon d'argent
+@90176 = ~Armure d'écailles de dragon d'argent~ // OHDARMOR identified name
+@90177 = ~Forgée à partir des écailles d'un dragon d'argent, cette armure constitue un signe révélateur des méfaits commis pas celui ou celle qui la porte. Même si elle procure une protection impressionnante, on ne peut pas ignorer qu'une créature aussi gracieuse et belle qu'un dragon d'argent a du être sacrifiée pour la fabriquer.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Charisme : -2
+– Résistance à la magie : +15 %
+– Vitesse de déplacement augmentée de 3
+
+Capacité de combat :
+– Chaque coup effectif porté sur le porteur le soigne de 2 points de vie.
+
+Classe d'armure : -2 (-5 contre les armes tranchantes, -3 contre les armes perforantes et les projectiles).
+Nécessite : 8 en Force
+
+Poids : 15~ // OHDARMOR identified description
+
+@102782 = ~Cristal violet~ // OHDCRYST identified name
+@102783 = ~Ce petit morceau de cristal provient d'un affleurement rocheux des Gorges de la Résurrection. Ces cristaux sont convoités par les Dragons fées des environs, ou au moins par l'un d'entre eux qui prétend qu'ils sont aphrodisiaques pour les femelles de son espèce.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHDCRYST identified description
+
+@93380 = ~Épée longue sainte de Tyr +3~ // OHDHSWD identified name
+// Nota : en tant qu'épée longue, la première phrase se traduit par (@6742 dans ToB) :
+// Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires.
+@93379 = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Cette lame porte le sceau de Tyr et est destinée à ses disciples les plus fervents.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d8 +3 (tranchant), +6 supplémentaires contre les adversaires chaotiques mauvais
+Facteur de vitesse : 2
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite : 6 en Force
+
+Poids : 2~ // OHDHSWD identified description
+
+@90140 = ~Encre et sable~ // OHDINK unidentified name
+@90141 = ~Ce récipient délicat contient un joli flacon d'encre et une petite poche remplie de sable ordinaire. Le sable sert à absorber le surplus d'encre.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHDINK unidentified description
+
+@90182 = ~Journal de Saemon Havarian~ // OHDJOUR unidentified name
+@90183 = ~Quelle n'est pas votre déception si vous souhaitiez découvrir les méandres de l'esprit tortueux du traître Saemon Havarian ! Toutes les pages de son journal sont vierges, à l'exception de la première qui contient ces quelques mots griffonnés :
+
+« Je n'ai jamais fait partie de ceux qui couchent leurs secrets là où n'importe qui peut les découvrir. »~ // OHDJOUR unidentified description
+
+// Note de Freddy : J'ai déjà traduit le sort @95639 Souffle acide
+@90368 = ~Le Visage~ // OHDMASK identified name
+@90369 = ~Peu nombreux sont ceux qui oseraient trahir un démon, et plus rares encore ceux qui tenteraient de jouer un double-jeu avec lui. Dorn Il-Khan, un chevalier noir demi-orque de la ville de Luskan, en fait partie. Approché par une rivale de son protecteur démoniaque, il accepta de trahir son maître. Mais au lieu de cela, au moment crucial, il se retourna contre elle et l'emprisonna dans une puissante épée. Son protecteur le récompensa en lui donnant ce masque en argent terrifiant qui représente un visage aux traits déformés par une grimace grotesque. Lorsque celui qui le porte parle, ses yeux se mettent à briller d'un rouge sombre ; ce qui accentue son aspect inquiétant. Le masque vibre d'énergie magique résultant d'une multitude d'enchantements, inspirant la terreur chez tous ceux qui le regardent.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– TAC0 : +1
+– +1 à tous les jets de sauvegarde.
+– Immunité à la débilité mentale, la confusion, la terreur et les charmes.
+– Protège contre les coups critiques
+
+Capacités de charge :
+– Domination une fois par jour (jet de sauvegarde contre les sorts à -2 pour annuler).
+  Durée : 8 rounds
+
+– Souffle acide une fois par jour
+  Dégâts : 6d6 d'acide (jet de sauvegarde contre les souffles pour la moitié).
+  La cible doit réussir un jet de sauvegarde contre la mort avec un malus de 4 sous peine de tomber inconsciente pendant 2 rounds.
+
+Poids : 1~ // OHDMASK identified description
+
+@94468 = ~Potion de Clairvoyance~ // OHDPOTN1 identified name
+@94469 = ~Une fois bue, cette potion confère la capacité de voir l'invisible similaire au sort de magicien de niveau 2 Détection de l'invisibilité, mais ses effets durent 10 minutes.
+
+PARAMÈTRES :
+
+Spécial : Voir l'invisible
+  Durée : 10 minutes
+
+Poids : 1~ // OHDPOTN1 identified description
+
+@90180 = ~Sceptre de Pas de l'ombre~ // OHDROD identified name
+// Note de Freddy : pour obtenir une description acceptable, j'ai été obligé de broder un peu sur les effets du sceptre.
+@90181 = ~Ce sceptre semble se tortiller et changer de forme dans votre main, même si vous ne le sentez pas bouger entre vos doigts. Des ombres huileuses à l'origine inconnue rampent constamment à sa surface. Il émane de ce sceptre une sombre aura et, lorsqu'on le tient fermement de la manière adéquate, il permet de se déplacer rapidement d'un point à un autre comme si le temps s'était arrêté.
+
+PARAMÈTRES :
+
+Capacité spéciale :
+– Pas de l'ombre
+
+Poids : 2~ // OHDROD identified description
+
+// Contribué par Freddy_Gwendo
+@90178 = ~Écailles de dragon d'argent~ // OHDSCALE identified name
+// Contribué par Freddy_Gwendo (voir aussi IWDEE 40638)
+// Note de Freddy : correction lorsqu --> lorsque
+@90179 = ~Ces magnifiques écailles arrachées à la cuirasse d'un dragon d'argent scintillent et dansent sous vos yeux lorsque vous les manipulez. La légende dit qu'elles pourraient être assemblées par magie pour confectionner une armure aux grands pouvoirs.
+
+PARAMÈTRES :
+
+Poids : 15~ // OHDSCALE identified description
+
+// Note de Freddy : Two Pines Creek --> ruisseau des deux Pins
+@91218 = ~Message pour Telwyn~ // OHDSCRL unidentified name
+@91223 = ~Telwyn,
+
+Conformément à notre accord, je partirai à l'aube avec Hokkney. Je serai absent plusieurs mois. Ne laissez pas Broderick entrer dans ma chambre. Si vous devez me contacter, nous ferons une halte prolongée près du ruisseau des deux Pins.
+
+Gardien Terpfen~ // OHDSCRL unidentified description
+
+@89730 = ~Sceau de Tyr~ // OHDSIGIL unidentified name
+@89729 = ~Ce sceau sacré du dieu Tyr signifie que son titulaire est un agent de sa justice et a le droit de procéder au jugement de ceux qu'il considère mauvais.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHDSIGIL unidentified description
+
+// Notes de Freddy : @todo vérifier la cohérence de l'intitulé des pierres avec les termes utilisés par les dialogues.
+// J'ai conservé WinterBrook car Ruisseau d'hiver, ça paraît un peu too much. Il faudra sans doute en débattre plus avant.
+@80799 = ~Pierre d'invocation de Winterbrook~ // OHDSUMS1 identified name
+@80800 = ~Cette petite pierre lisse se loge dans un emplacement au sein d'un grand cercle de pierres invocatrices. Toutes les pierres doivent être mises en place pour que le cercle fonctionne.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHDSUMS1 identified description
+
+@80801 = ~Pierre d'invocation de Fil~ // OHDSUMS2 identified name
+@80802 = ~Cette petite pierre lisse se loge dans un emplacement au sein d'un grand cercle de pierres invocatrices. Toutes les pierres doivent être mises en place pour que le cercle fonctionne.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHDSUMS2 identified description
+
+@80803 = ~Pierre d'invocation de Xachrimos~ // OHDSUMS3 identified name
+@80804 = ~Cette petite pierre lisse se loge dans un emplacement au sein d'un grand cercle de pierres invocatrices. Toutes les pierres doivent être mises en place pour que le cercle fonctionne.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHDSUMS3 identified description
+
+@90184 = ~Lame de Cuivre +5~ // OHDSW03 identified name
+@90190 = ~Cette épée bâtarde enflammée a été forgée dans la Cité de Cuivre, dans le Plan Élémentaire du Feu. Volée il y a plusieurs siècles, elle a laissé derrière elle un long sillage de morts alors que le sultan qui avait supervisé sa création se lançait à sa poursuite. Au fil du temps, sa colère s'est apaisée et il a fini par l'oublier, et l'épée s'est transmise de mains en mains parmi les mortels.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Résistance au feu : +50 %
+
+Capacité de charge :
+– Boule de Feu une fois par jour (centrée sur le possesseur de l'épée).
+  Dégâts : 10d6 de feu (Jet de sauvegarde contre les sorts pour la moitié).
+  Zone d'effet : rayon de 9 mètres
+
+TAC0 : +5
+Dégâts : 2d4 +5 (tranchant), +10 points de feu
+Facteur de vitesse : 5
+Type de compétence : épée bâtarde
+Type : arme à une main
+Nécessite : 11 en Force
+
+Poids : 5~ // OHDSW03 identified description
+
+// Remarque : les 4 descriptions suivantes varient uniquement par les bonus de "combat abilities"
+// et par le deuxième paragraphe de la description
+
+@80753 = ~Lame des Abysses~ // OHDSW2HA identified name
+// Note de Freddy : Khazzrax The Gasping Death traduit par Khazzrax La Mort haletante ???
+@80754 = ~Forgée dans le cœur noir des Abysses par des sorciers tanar'ri pour faire pencher de leur côté l'issue de l'interminable Guerre Sanglante, cette lame a été utilisée par l'infâme assassin babau Khazzrax La Mort haletante. Selon légende, Khazzrax aurait utilisé une lame noire comme la nuit pour éventrer ses victimes, laissant une brève traînée de feu dans leurs plaies.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dextérité : +1
+– Intelligence : -1
+
+Capacité de combat :
+– +5 points de dégâts tranchants contre les adversaires bons
+
+TAC0 : +3
+Dégâts : 1d10 +3 (tranchant), +1d4 points de feu
+Facteur de vitesse : 7
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en Force
+
+Poids : 9~ // OHDSW2HA identified description
+
+@80753 = ~Lame des Abysses~ // OHDSW2HB identified name
+@80755 = ~Forgée dans le cœur noir des Abysses par des sorciers tanar'ri pour faire pencher de leur côté l'issue de l'interminable Guerre Sanglante, cette lame a été utilisée par l'infâme assassin babau Khazzrax La Mort haletante. Selon légende, Khazzrax aurait utilisé une lame noire comme la nuit pour éventrer ses victimes, laissant une brève traînée de feu dans leurs plaies.
+
+Ayant été emprisonné plus tard dans la lame de cette épée, le démon Ur-Gothoz ne décolère pas et sa fureur démoniaque rend cette arme encore plus puissante.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dextérité : +1
+– Intelligence : -1
+
+Capacités de combat :
+– +5 points de dégâts tranchants contre les adversaires bons
+– +5 points de dégâts tranchants contre les diables
+
+TAC0 : +3
+Dégâts : 1d10 +3 (tranchant), +1d4 points de feu
+Facteur de vitesse : 7
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en Force
+
+Poids : 9~ // OHDSW2HB identified description
+
+@80753 = ~Lame des Abysses~ // OHDSW2HC identified name
+@80756 = ~Forgée dans le cœur noir des Abysses par des sorciers tanar'ri pour faire pencher de leur côté l'issue de l'interminable Guerre Sanglante, cette lame a été utilisée par l'infâme assassin babau Khazzrax La Mort haletante. Selon légende, Khazzrax aurait utilisé une lame noire comme la nuit pour éventrer ses victimes, laissant une brève traînée de feu dans leurs plaies.
+
+Ayant été emprisonné plus tard dans la lame de cette épée, le démon Azothet ne décolère pas et sa fureur démoniaque rend cette arme encore plus puissante.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dextérité : +1
+– Intelligence : -1
+
+Capacités de combat :
+– +5 points de dégâts tranchants contre les adversaires bons
+– +5 points de dégâts tranchants contre les démons
+
+TAC0 : +3
+Dégâts : 1d10 +3 (tranchant), +1d4 points de feu
+Facteur de vitesse : 7
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en Force
+
+Poids : 9~ // OHDSW2HC identified description
+
+@80753 = ~Lame des Abysses~ // OHDSW2HD identified name
+@80757 = ~Forgée dans le cœur noir des Abysses par des sorciers tanar'ri pour faire pencher de leur côté l'issue de l'interminable Guerre Sanglante, cette lame a été utilisée par l'infâme assassin babau Khazzrax La Mort haletante. Selon légende, Khazzrax aurait utilisé une lame noire comme la nuit pour éventrer ses victimes, laissant une brève traînée de feu dans leurs plaies.
+
+Ayant été emprisonnés plus tard dans la lame de cette épée, deux démons rivaux ne cessent de se quereller et ne décolèrent pas contre leur captivité, leur fureur démoniaque rendant cette arme encore plus puissante.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dextérité : +1
+– Intelligence : -1
+
+Capacités de combat :
+– +5 points de dégâts tranchants contre les adversaires bons
+– +5 points de dégâts tranchants contre les diables
+– +5 points de dégâts tranchants contre les démons
+
+TAC0 : +3
+Dégâts : 1d10 +3 (tranchant), +1d4 points de feu
+Facteur de vitesse : 7
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en Force
+
+Poids : 9~ // OHDSW2HD identified description
+
+@94008 = ~Baguette de Poussière scintillante~ // OHDWAND1 identified name
+// Note de Freddy : la zone d'effet de l'objet n'est pas une créature, mais une zone...
+@99908 = ~Quelque chose dans ce morceau de bois lisse trouvé au milieu des cristaux qui prospèrent dans un coin reculé des Gorges de la Résurrection vous fait penser que c'est plus qu'un simple bâton. Peut-être est-ce sa forme - bien que ce soit peu probable, car on trouve de nombreux bâtons de forme similaire sous n'importe quel arbre - ou bien la façon dont on a retiré son écorce et poli aussi soigneusement sa surface. Mais très probablement, ce qui vous intrigue le plus, c'est la lumière surnaturelle qui brille autour de lui - et à L'INTÉRIEUR. Oui, maintenant que vous y pensez, ce scintillement est vraiment ce qui le distingue des autres bâtons, plus ordinaires. Celui-ci a quelque chose de différent... quelque chose de fabuleux...
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Poussière scintillante
+  Portée : 15 mètres
+  Durée : instantanée
+  Zone d'effet : 1 créature
+
+Poids : 1~ // OHDWAND1 identified description
+
+
+// ****************************************************************************
+// RASAAD
+// ****************************************************************************
+
+@81762 = ~Broche des Lames Vagabondes~ // OHRAMUL1 identified name
+@82030 = ~La scène méticuleusement détaillée d'un aventurier se battant contre un troll est gravée sur cette broche. L'image semble n'avoir aucun lien avec l'enchantement de ce bijou, qui permet à quiconque la porte de renvoyer les projectiles magiques à leur envoyeur.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Renvoie les Projectiles magiques au magicien qui les a lancés.
+
+Poids : 0~ // OHRAMUL1 identified description
+
+@84839 = ~Tas de cendres~ // OHRASH identified name
+@84840 = ~Il semble que quelqu'un ait incinéré délibérément tous les effets personnels d'Alorgoth. Il n'en reste plus que ce tas de cendres.
+
+PARAMÈTRES :
+
+Poids : 3~ // OHRASH identified description
+
+@81765 = ~Gloire de Hojar +1~ // OHRAX1H1 identified name
+@82034 = ~Cette hache a été enchantée de manière à envelopper sa cible de flammes à chaque coup porté. L'enchantement étant cependant de piètre qualité, cet effet est aléatoire.
+
+PARAMÈTRES :
+
+Capacité de combat :
+– 25 % de chances d'infliger 1d8 points de dégâts de feu supplémentaires à chaque coup réussi.
+
+TAC0 : +1
+Dégâts : 1d8 +1 (tranchant)
+Facteur de vitesse : 6
+Type de compétence : hache
+Type : arme à une main
+Nécessite : 10 en Force
+
+Poids : 7~ // OHRAX1H1 identified description
+
+@99993 = ~Pioche~ // OHRAXE01 unidentified name
+@99995 = ~Pioche naine +1~ // OHRAXE01 identified name
+@99994 = ~La pioche militaire tire ses origines du banal outil de mineur. Elle est constituée d'une lourde pointe montée sur un manche. Son rôle au combat est de perforer les armures lourdes, même les plates complètes.
+
+PARAMÈTRES :
+
+Dégâts : 2d4 (perforant)
+Facteur de vitesse : 7
+Type de compétence : hache
+Type : arme à une main
+Nécessite : 8 en Force
+
+Poids : 6~ // OHRAXE01 unidentified description
+@99996 = ~Les nains adorent ces armes pour des raisons évidentes : elles sont idéales pour déterrer les pierres précieuses. Les pioches font également des merveilles lorsqu'il s'agit de percer les armures lourdes, même les harnois pleins. Les nains fabriquent leurs pioches dans un alliage dur, mais léger, dont les propriétés sont inconnues. Ce métal garde un tranchant intact même après avoir porté des coups vigoureux dans les mines ou au combat.
+
+PARAMÈTRES :
+
+TAC0 : +1
+Dégâts : 2d4 +1 (perforant)
+Facteur de vitesse : 6
+Type de compétence : hache
+Type : arme à une main
+Nécessite : 7 en Force
+
+Poids : 5~ // OHRAXE01 identified description
+
+@81763 = ~Ceinture de queue de bœuf~ // OHRBELT1 identified name
+@82031 = ~Cette ceinture effilochée a été tressée avec une queue de bœuf empaillé. Si vous ne parviendrez jamais à comprendre pourquoi quelqu'un s'est amusé à créer un objet aussi laid, vous vous doutez qu'elle pourrait bénéficier de quelques enchantements magiques. En dépit de la risée qu'elle suscite lorsqu'on la porte, elle semble réduire considérablement les chances d'être touché par des projectiles.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +4 contre les projectiles
+– Charisme : -2
+
+Poids : 2~ // OHRBELT1 identified description
+
+@81764 = ~Ceinture d'Invulnérabilité mineure~ // OHRBELT2 identified name
+@82032 = ~Portée, cette ceinture provoque de la nervosité, des tremblements et une transpiration abondante. Ces effets sont temporaires et disparaissent lorsqu'on la retire. Les origines de cet objet ont été perdues au fil des siècles, et l'on ne peut que supposer qu'il était destiné à faire une méchante blague.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– chaque fois que le porteur est touché, il a 5 % de chances de bénéficier d'un Globe mineur d'invulnérabilité pendant 2 tours
+
+Capacité de charge :
+– Globe mineur d'invulnérabilité une fois par jour
+  Spécial : l'utilisateur est immunisé aux sorts de niveau 1 à 3
+  Durée : 2 tours
+
+Poids : 2~ // OHRBELT2 identified description
+
+@84841 = ~Journal d'Alorgoth~ // OHRBOOK1 identified name
+@84842 = ~Vous parcourez ce volume relié en cuir et tombez sur un passage intéressant :
+
+« Notre attaque a été un succès. Bien que les nains n'aient jamais eu la moindre chance de l'emporter contre nous, la vitesse avec laquelle leurs défenses se sont effondrées faisait peine à voir. Pour le moment, ceux que nous avons capturés travaillent dans les mines. Nous devrions peut-être apporter du bois supplémentaire, car je ne peux pas me permettre de laisser la mine s'effondrer, vraiment pas, alors même que je suis si proche de mon but.
+
+Alorgoth »~ // OHRBOOK1 identified description
+
+// Note de Freddy : j'ai harmonisé Deepstone (Rocheprofonde) dans les textes.
+@84843 = ~Journal de Boldcam Rocheprofonde~ // OHRBOOK2 identified name
+@84844 = ~Les dernières lignes de ce journal semblent avoir été écrites à la hâte :
+
+« Ils sont là. Les portes de devant ont été défoncées. Nos défenses ne faisaient pas le poids contre leur infâme magie. Plusieurs ont réussi à s'échapper, mais je resterai avec ma garde personnelle, ici, dans le clan. Nous ne nous laisserons pas capturer. »~ // OHRBOOK2 identified description
+
+@87260 = ~Marcheurs de la Nuit~ // OHRBOOT1 identified name
+@80043 = ~Les adorateurs de Shar préfèrent la discrétion, le secret et la couverture de l'obscurité. Ces bottes sont faites sur mesure pour eux, et sont évidemment liées à Shar en quelque sorte. Les Marcheurs de la Nuit, comme on les appelle, n'ont pas été fabriqués avec la peau d'une bête connue, et apparaissent plus sombres qu'un ciel de minuit.
+
+Si ces bottes n'émettent aucune espèce d'aura magique, elles procurent néanmoins plusieurs avantages. Quiconque les enfile se déplace plus rapidement, et son mouvement ne peut être entravé. Elles lui permettent également de se cacher des regards, lui permettant de disparaître et de s'enfuir rapidement.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Vitesse de déplacement augmentée de 2
+– Immunité aux effets de toile d'araignée, de glisse et d'enchevêtrement
+
+Capacité de charge :
+– Porte d'ombre trois fois par jour
+  Durée : 9 rounds
+
+Poids : 3~ // OHRBOOT1 identified description
+
+@84837 = ~Gants d'Aln Zekk~ // OHRBRAC1 identified name
+@84838 = ~Aln Zekk, comme il aimait se surnommer, devint un tyran et un maître dans les rangs des moines d'Ilmater, le Dieu brisé. Son point de vue sur la souffrance et la façon dont il rapprochait les fidèles de leur dieu n'étaient pas partagés par les autres moines de son Ordre. Finalement, ils se soulevèrent pour le destituer. Il s'enfuit, laissant ses gants derrière lui. On ne l'a plus revu, ni entendu parlé de lui depuis.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Dégâts : +3 pour les attaques à mains nues
+– 15 % de chances d'infliger 1d10 points de dégâts de froid à chaque coup porté.
+
+Poids : 2~ // OHRBRAC1 identified description
+
+// Note de Freddy : le fichier itm classant l'objet dans les capes, ainsi que son icône, il est impossible de traduire Cowl par Capuche ou Capuchon. J'ai le choix entre Manteau et Pelisse. J'ai opté pour Manteau qui correspond plus à son icône de description.
+@87209 = ~Manteau des étoiles~ // OHRCLCK1 identified name
+@87210 = ~Bien que les adeptes de la philosophie de Conscience Solaire évitent d'avoir recours à la violence autant que possible, ce manteau a été conçu pour s'en prémunir lorsque cela devient impossible. Quand le mot de commande est prononcé, des petites boules de feu apparaissent dans les mains du porteur du manteau, qui peut les lancer avec une précision sans faille sur une cible.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Minuscules météores de Melf une fois par jour comme un magicien du même niveau que le porteur
+
+Poids : 3~ // OHRCLCK1 identified description
+
+@87211 = ~Cape de Frappe infaillible~ // OHRCLCK2 identified name
+@87212 = ~« Une bonne défense, c'est d'attaquer deux fois plus ! », comme le disait souvent le légendaire Herold Mance. Ce manteau lui appartenait, et bien qu'il soit mort il y a de nombreuses années, ses capacités latentes semblent avoir imprégné le tissu. Ou bien, cette cape a été créée pour lui, ce qui expliquerait comment il maniait aussi bien deux épées à la fois. Il est peu probable que les historiens le sachent jamais.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– TAC0 : +2 avec la main secondaire
+
+Poids : 3~ // OHRCLCK2 identified description
+
+@84835 = ~Cape d'expiation~ // OHRCLCK3 identified name
+@84836 = ~Expier implique la notion de réparation, de prix à payer. La Cape d'expiation prend cette exigence au pied de la lettre. En échange des protections qu'elle procure, elle absorbe une partie de la force vitale de quiconque la porte pour fonctionner.
+
+PARAMÈTRES :
+
+Capacité de charge (50 charges) :
+– Sur commande, cette cape diminue la Constitution du porteur de 1 point pendant 8 heures pour accomplir une des fonctions suivantes :
+  30 % de chances de lancer Armure de la foi
+  25 % de chances de lancer Cantique
+  20 % de chances de lancer Ordres chaotiques
+  15 % de chances de lancer Protection contre la mort
+  10 % de chances de lancer Bouclier des Archontes
+
+Poids : 3~ // OHRCLCK3 identified description
+
+@84831 = ~Cape de la Lune Noire~ // OHRCLCK4 identified name
+@84832 = ~Les adorateurs de Shar s'inspirent souvent de la puissance de leur déesse sombre pour créer des objets magiques. La Cape de la Lune Noire semble avoir été conçue dans de telles circonstances.
+
+Au premier coup d'œil, elle semble absorber toute la lumière, et ressemble à un tas de tissu informe noir. Mais après un examen plus approfondi, il devient évident que cette cape finement tissée n'est pas vraiment noire et que sa texture subtile change en permanence. Elle ne dégage aucune aura magique, mais possède indéniablement des capacités puissantes. Une fois revêtue, elle rétrécit ou s'agrandit rapidement pour s'adapter correctement à la corpulence de son porteur.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Jets de sauvegarde : +2 la nuit
+– Immunité à la Cécité
+
+Capacité de charge :
+– Protection contre l'énergie magique 3 fois par jour
+  Zone d'effet : le porteur de la cape
+  Durée : 4 heures
+
+Poids : 3~ // OHRCLCK4 identified description
+
+@84813 = ~Yeux du spectateur~ // OHREYEB identified name	==> @todo pour un fixpack : APPEND du fichier tooltip.2da
+@84814 = ~Il y a des années, le tristement célèbre conjurateur Nederath utilisa la dépouille d'un puissant spectateur pour créer cet artefact, un casque couronné de dix pédoncules oculaires. Celui ou celle qui le porte peut regarder par un œil central et concentrer la puissance du casque sur ses ennemis.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +1
+– Protège contre les coups critiques
+
+Capacités de charge (chacune peut être utilisée 3 fois par jour) :
+– Domination : la cible est dominée pendant 1 tour (Jet de sauvegarde contre les sorts pour annuler)
+– Paralysie : la cible est immobilisée pendant 1 tour (Jet de sauvegarde contre les sorts pour annuler)
+– Peur : la cible s'enfuit sous l'emprise de la peur pendant 1 tour (Jet de sauvegarde contre les sorts pour annuler)
+
+Poids : 2~ // OHREYEB identified description
+
+@97323 = ~Gemme d'ombre~ // OHRGEM01 identified name
+@97324 = ~Examinée attentivement, cette gemme violette lumineuse semble renfermer un brouillard diaphane qui tourbillonne en permanence. Au repos, elle semble absorber chaque parcelle de couleur et de lumière des objets environnants jusqu'à ce qu'on la déplace.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHRGEM01 identified description
+
+@84806 = ~Grog spécial de Meem~ // OHRGROG unidentified name
+@84807 = ~Cette bouteille de grog odorant et potentiellement mortel est ornée d'une ébauche de dessin à l'encre représentant un calmar gigantesque se saisissant d'un voilier ; le calmar étant lui-même mordu par un énorme requin.
+
+PARAMÈTRES :
+
+Poids : 8~ // OHRGROG unidentified description
+
+@100282 = ~Serre-tête~ // OHRHELM1 unidentified name
+@84833 = ~Serre-tête du dévot~ // OHRHELM1 identified name
+@100283 = ~Il s'agit d'un ruban ou d'une bande de tissu que l'on porte autour de la tête.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHRHELM1 unidentified description
+@84834 = ~Bien que le serre-tête du dévot ait toujours été associé aux adorateurs de Shar, les origines de sa création restent enveloppées de mystère. Il est apparu soudainement et brutalement dans les annales, comme le signe distinctif d'un membre du clergé de Shar qui avait « purifié » un temple dédié à Séluné dans Eauprofonde. Il a ressurgi une nouvelle fois, plusieurs décennies plus tard, dans la ville de Purskul lorsque des usurpateurs, des moines de la Lune Noire, ont terrorisé la noblesse locale. Mais les véritables origines de cet artefact restent encore inconnues à ce jour.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Bénédiction
+– Immunité à la confusion
+
+Capacité de charge :
+– Magie des vertueux une fois par jour
+  L'utilisateur reçoit 10 PV et 3 points de force (jusqu'à un maximum de 25) temporaires, et inflige des dégâts maximums à chaque coup porté
+  Durée : 1 tour
+
+Poids : 1~ // OHRHELM1 identified description
+
+// Quasi identique ToB 7366, sans la phrase mentionnant <CHARNAME>, + mise en forme EE
+@99392 = ~Anneau de Sorcellerie : « Anneau de haute puissance »
+Cet anneau a été enchanté par un maître, et il permet à son porteur de mémoriser plus de sorts que la normale.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- peut mémoriser un sort supplémentaire de cinquième, de sixième et de septième niveaux
+
+Poids : 0~ // OHRINGWI identified description
+
+@84817 = ~Clef du Temple~ // OHRKEY01 identified name
+@84818 = ~Cette clef ciselée est susceptible d'ouvrir le Temple de la Dédoublée.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHRKEY01 identified description
+
+@84808 = ~Clef finement ouvragée~ // OHRKEY02 identified name
+@84809 = ~Forgée dans le plus pire style nain, cette clé ouvre les portes d'entrée du clan Rocheprofonde.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHRKEY02 identified description
+
+@99998 = ~Clef de l'enclos de détention~ // OHRKEY03 unidentified name
+@99999 = ~Récupérée sur le cadavre d'un Sharite, cette clé devrait ouvrir l'enclos de détention des nains dans les mines de Rocheprofonde.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHRKEY03 unidentified description
+
+@85293 = ~Bout de papier~ // OHRNOT01 identified name
+@77827 = ~Arwes,
+
+Recherchez l'ancien moine de la Conscience Solaire Rasaad yn Bashir, à Athkatla. Il voyage avec un <PRO_MANWOMAN> du nom de <CHARNAME>. Il a manifesté de la sympathie à notre cause. Je crois qu'il fera un allié précieux. Demandez-lui de nous rejoindre à l'Amphithéâtre Borrokine à l'est de la ville.~ ~Arwes,
+
+Recherchez l'ancien moine de la Conscience Solaire Rasaad yn Bashir, à Athkatla. Il voyage avec une <PRO_MANWOMAN> du nom de <CHARNAME>. Il a manifesté de la sympathie à notre cause. Je crois qu'il fera un allié précieux. Demandez-lui de nous rejoindre à l'Amphithéâtre Borrokine à l'est de la ville.~ // OHRNOT01 identified description - Freddy : ajout de la version F, au cas où
+
+// Note de Freddy : j'ai harmonisé Hammerhelm (Martheaume) dans les textes.
+// ~Note~
+@85024 = ~Cette note, prise à Martheaume, adepte de la Dédoublée, indique l'emplacement d'un temple caché dans le nord de l'Amn.~ // OHRNOT02 identified description
+
+@84583 = ~Carte déchirée~ // OHRNOT03 identified name
+@84584 = ~Cette carte en lambeaux semble décrire l'emplacement d'un clan de nains.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHRNOT03 identified description
+
+@86670 = ~Brochure usée~ // OHRPAMPH unidentified name
+@85028 = ~Cette brochure usée et cornée a été manifestement lue de nombreuses fois. Bien que très défraîchie, sa couverture est toujours lisible : « Les coupes-gorge : un manuel de gentleman pour hold-ups et vols. »
+
+PARAMÈTRES :
+
+Poids : 1~ // OHRPAMPH unidentified description
+
+@81766 = ~Anneau de dédoublement~ // OHRRING1 identified name
+@82037 = ~Doué de grands talents dans le domaine du vol et estimant que sa mort causerait un grand tort au monde entier, Daravorn Kheld passa commande de cet anneau. Quiconque met l'anneau à son doigt voit sa silhouette s'estomper et vaciller, devant ainsi beaucoup plus difficile à repérer et à être visé par des armes de jet. De plus, lorsqu'il est activé, plusieurs répliques identiques du porteur de l'anneau jaillissent de nulle part. Ces images agissent exactement de la même façon que l'original, ce qui rend impossible à ses adversaires d'identifier les illusions. Cependant, l'effet est éphémère, et il vaut mieux l'utiliser pour se soustraire d'une situation périlleuse. Cet anneau a permis à Daravorn d'échapper à de nombreux dangers potentiels, mais il a finalement été capturé et noyé enfermé dans un piège à eau.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +1 contre les projectiles
+– Se Cacher dans l'ombre : +10 %
+
+Capacité de charge :
+– Image miroir trois fois par jour
+  Durée : 18 rounds
+
+Poids : 0~ // OHRRING1 identified description
+
+// ~Corde~
+@79158 = ~Cette corde déroulée a servi à attacher quelqu'un.
+
+PARAMÈTRES :
+
+Poids : 5~ // OHRROPE1 identified description
+
+@84804 = ~Sel gemme~ // OHRSALT unidentified name
+@84805 = ~Le sel gemme est couramment utilisé pour créer des potions d'explosions, et, moulu, sert d'exhausteur de goûts et de saveurs en cuisine.
+
+PARAMÈTRES :
+
+Poids : 15~ // OHRSALT unidentified description
+
+@85291 = ~Gemme de vision~ // OHRSCRL1 identified name
+@85292 = ~Cette pierre délicatement taillée et polie est indiscernable d'un bijou ordinaire en apparence, bien qu'une Détection de la Magie révèle son enchantement. Quiconque regarde à travers elle obtient la capacité de détecter toutes les illusions, les choses cachées, invisibles, astrales, éthérées ou hors de phase dans son champ de vision, comme s'il bénéficiait du sort Vision véritable.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Vision véritable une fois par jour
+  Durée : 1 tour
+
+Poids : 0~ // OHRSCRL1 identified description
+
+@81767 = ~Fronde lupine +2~ // OHRSLNG1 identified name
+@82039 = ~Cette fronde magique a été fabriquée avec la peau encore sanglante d'un animal sauvage. La puanteur qu'elle dégage est à couper le souffle, mais les mouches qui volettent autour d'elle sont bien pires. Cependant, elle permet une précision de tir sans faille, et chaque coup porté transmet une partie de son immondice à la cible.
+
+PARAMÈTRES :
+
+Capacité de combat :
+– 15 % de chances d'infliger une maladie en touchant la cible
+
+TAC0 : +2
+Dégâts : +2 (projectile)
+Facteur de vitesse : 4
+Type de compétence : fronde
+Type : arme à une main
+Nécessite : 3 en Force
+
+Poids : 0~ // OHRSLNG1 identified description
+
+@87207 = ~Œil de lynx +2~ // OHRSW1H1 identified name
+@87208 = ~Ce cimeterre a été enchanté pour qu'il soit plus précis au combat. Quiconque le brandit voit immédiatement ses sens s'aiguiser et ses réflexes s'affûter.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Dextérité : +1
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 3
+Type de compétence : cimeterre / wakizashi / ninjatō
+Type : arme à une main
+Nécessite : 10 en Force
+
+Poids : 3~ // OHRSW1H1 identified description
+
+@84815 = ~Roue d'oblitération~ // OHRWHEEL identified name TODO : dans le manuel des plans, on parle de toile d'ombre. Comme ce n'est pas précisé dans la VO, j'ai conservé "toile".
+@84816 = ~Ce puissant artefact a été créé par des adeptes de Shar, la Maîtresse de la Nuit. Utilisée à proximité d'une grande concentration de gemmes d'ombre, la roue affaiblit la toile séparant le Plan Primaire Matériel et le Plan de l'Ombre, créant une passerelle entre eux. Elle peut également fermer ce genre de portail.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Ouvre un portail entre le Plan des Ombres et le Plan Primaire Matériel. La roue doit se trouver à proximité d'une concentration de gemmes d'ombre pour fonctionner.
+
+Poids : 1~ // OHRWHEEL identified description
+
+// Les 5 objets suivants correspondent aux pattes de Wilson pour ses attaques (~Attaque~)
+@100263 = ~L'ours Wilson utilise ses pattes puissantes et ses griffes pour casser des mâchoires.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Étreinte : 15 % de chances d'infliger 2d6 points de dégâts contondants supplémentaires avec une attaque des pattes
+
+TAC0 : +1
+Dégâts (pattes) : 1d6 +1 (tranchant)
+Dégâts (morsure) : 1d10 +1 (perforant)
+Facteur de vitesse : 3
+Type de compétence : armes naturelles~ // OHRWILC1, OHRWILT1 unidentified description
+
+@100264 = ~L'ours Wilson utilise ses pattes puissantes et ses griffes pour casser des mâchoires.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Étreinte : 15 % de chances d'infliger 2d6 points de dégâts contondants supplémentaires avec une attaque des pattes
+
+TAC0 : +2
+Dégâts (pattes) : 1d6 +2 (tranchant)
+Dégâts (morsure) : 1d10 +2 (perforant)
+Facteur de vitesse : 3
+Type de compétence : armes naturelles~ // OHRWILC2, OHRWILT2 unidentified description
+
+@100265 = ~L'ours Wilson utilise ses pattes puissantes et ses griffes pour casser des mâchoires.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Étreinte : 15 % de chances d'infliger 2d6 points de dégâts contondants supplémentaires avec une attaque des pattes
+
+TAC0 : +3
+Dégâts (pattes) : 1d6 +3 (tranchant)
+Dégâts (morsure) : 1d10 +3 (perforant)
+Facteur de vitesse : 3
+Type de compétence : armes naturelles~ // OHRWILC3, OHRWILT3 unidentified description
+
+@100266 = ~L'ours Wilson utilise ses pattes puissantes et ses griffes pour casser des mâchoires.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Étreinte : 15 % de chances d'infliger 2d6 points de dégâts contondants supplémentaires avec une attaque des pattes
+
+TAC0 : +4
+Dégâts (pattes) : 1d6 +4 (tranchant)
+Dégâts (morsure) : 1d10 +4 (perforant)
+Facteur de vitesse : 3
+Type de compétence : armes naturelles~ // OHRWILC4, OHRWILT4 unidentified description
+
+@100267 = ~L'ours Wilson utilise ses pattes puissantes et ses griffes pour casser des mâchoires.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Étreinte : 15 % de chances d'infliger 2d6 points de dégâts contondants supplémentaires avec une attaque des pattes
+
+TAC0 : +5
+Dégâts (pattes) : 1d6 +5 (tranchant)
+Dégâts (morsure) : 1d10 +5 (perforant)
+Facteur de vitesse : 3
+Type de compétence : armes naturelles~ // OHRWILC5, OHRWILT5 unidentified description
+
+
+// ********************************************************************************************************************
+// NON CLASSES
+// Note générale de Freddy : comme je ne supporte pas les traductions "mot-à-mot",
+// il m'arrive de prendre des libertés avec l'architecture des phrases à traduire.
+// @todo VERIFICATION des armures de peaux : décider si on réintègre les % de la description non définis dans le fichier ITM
+// ********************************************************************************************************************
+
+@103162 = ~Yeux de l'Archer~ // BDAMUL02 identified name
+@103163 = ~Le nombre « 331 » est gravé sur les côtés des deux yeux pétrifiés, manifestement très anciens, enchâssés dans cette amulette. Ils auraient appartenu à un guerrier aveugle réputé pour l'étrange et inquiétant degré de précision avec lequel il tirait à l'arc. Quiconque la porte semble bénéficier de certains de ses dons.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Chance d'effectuer un coup critique avec une arme de lancer : +5 %
+– Dextérité : +1 (+2 pour les Archers).
+
+Poids : 1~ // BDAMUL02 identified description
+
+@103183 = ~Cœur de la Montagne~ // BDAMUL26 identified name
+// Note de Freddy : à l'heure actuelle, je n'ai rien trouvé dans le jeu qui atteste de la véracité des 10 PV supplémentaires. La seule référence à ce fichier ITM se trouvant dans un fichier CRE, il est impossible de savoir si le fait de porter cette amulette accorde effectivement 10 PV supplémentaires aux esprits invoqués ; à moins que ce ne soit hardcodé.
+@103184 = ~C'est au cours d'une échauffourée avec un élémentaire de l'eau qu'un puissant élémentaire de la terre perdit un petit fragment de son enveloppe corporelle. Une orque qui fuyait à toutes jambes le champ de bataille parvint à s'en emparer. Elle le confia au chaman de sa tribu qui identifia immédiatement sa puissance potentielle et l'intégra à une amulette.
+
+Le Cœur de la Montagne est particulièrement utile aux adeptes de la Danse shamanique. L'existence de ces individus étant partagée entre le monde naturel et celui des esprits, l'amulette forge une connexion plus forte entre eux et la terre, conférant à quiconque la porte plus de force pour contrer les attaques physiques.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Les esprits invoqués gagnent 10 PV supplémentaires.
+
+Poids : 0~ // BDAMUL26 identified description
+
+@103160 = ~Ceinture de fine lame~ // BDBELT02 identified name
+// Notes de Freddy : on peut conserver Say'an Keenedge ou bien trouver une alternative à "PointeAiguisée".
+// « Indéfectible soupe-au-lait, elle ne décolérait pas... » peut être remplacé par « C'était aussi une impétueuse tête brûlée qui ne décolérait pas... »
+@103161 = ~C'est une femme forgeron du Cormyr qui a conçu cet objet. Say'an PointeAiguisée était réputée pour forger les lames les plus effilées, les plus équilibrées et les plus belles du pays. Indéfectible soupe-au-lait, elle ne décolérait pas de voir de piètres combattants brandir ses armes. C'est pourquoi elle remit gracieusement cette ceinture à un client venu prendre livraison de l'une de ses plus belles lames, afin qu'elle ne soit jamais mal utilisée.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dégâts tranchants : bonus de 10 %
+– TAC0 : +2 avec la main secondaire (uniquement pour les Maître-lames et les Bretteurs).
+
+Poids : 2~ // BDBELT02 identified description
+
+// Identique IWDEE 7642
+@103173 = ~Cistre~ // BDBRD03 unidentified name
+@103174 = ~Cordes emmêlées~ // BDBRD03 identified name
+// Identique IWDEE 7645
+@103175 = ~Ce cistre tout simple en forme de poire possède huit cordes allant deux par deux, ce qui lui permet de produire de superbes mélodies. C'est un instrument très apprécié des paysans.
+
+Poids : 3~ // BDBRD03 unidentified description
+@103176 = ~A première vue, il semble impossible de tirer une sonorité acceptable de ce cistre aux cordes entrelacées et effilochées. Cependant, lorsqu'on en joue, il produit une mélodie douce et cristalline. Un barde expérimenté peut apprendre à jouer en même temps de toutes les cordes enchevêtrées pour interpréter une ritournelle retentissante qui perturbe sans coup férir ses auditeurs.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Dissipe les effets de confusion sur une créature deux fois par jour.
+
+Poids : 3~ // BDBRD03 identified description
+
+// Note de Freddy : J'ai privilégié Morsure employé dans BackBiter (IWDEE).
+@103170 = ~Morsure +2~ // BDDART01 identified name
+@103171 = ~Une fois lancée, cette fléchette ressemble à un éclair de lumière filant dans l'air. Quand elle atteint sa cible, elle libère une minuscule goutte d'acide qui peut percer son armure, avant de revenir dans la main de son lanceur.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– 10 % de chances par coup réussi d'infliger à la CA de la cible un malus de 1 point, cumulatif, pendant 1 tour (Jet de sauvegarde contre les souffles pour annuler).
+– La fléchette revient instantanément dans les mains du lanceur après chaque attaque.
+
+TAC0 : +2
+Dégâts : 1d3 +2 (projectile), +1 point d'acide
+Facteur de vitesse : 0
+Type de compétence : fléchette
+Type : arme à une main
+
+Poids : 0~ // BDDART01 identified description
+
+@103046 = ~Boulettes spéciales du cuisinier~ // BDDUMPL identified name
+// Notes de Freddy : en tant qu'épicurien j'aurais préféré « quenelles » ou « raviolis ». Cependant, les icônes d'inventaire (IBDDUMPL) et de description (CBDDUMPL) évoquent plus des boulettes.
+@103047 = ~Il est fortement tentant d'avaler d'un trait ces boulettes savoureuses et à l'odeur appétissante. Cependant, bien que compréhensible, ce serait sans doute du gaspillage si l'on se fie aux dires de celui qui les a cuisinées. Ce dernier prétend en effet que consommer une seule de ces boulettes avant un combat procure un gain de vigueur temporaire. Vous en déduisez donc que vous ne gagneriez qu'une crise d'indigestion en vidant le plat.
+
+PARAMÈTRES :
+
+TAC0 : +1
+Durée : 1 tour
+
+Poids : 0~ // BDDUMPL identified description
+
+@103156 = ~Marteau du vide +3~ // BDHAMM02 identified name
+// Notes de Freddy : préférée à « Marteau du Néant ». @todo harmoniser Bridgefort avec les autres références à traduire, ainsi que le surnom Hillcarver. Idem @103154 = ~Voidsword +3 et sa description @103155.
+@103157 = ~Si, selon toute apparence, il semble s'agir d'un marteau de guerre classique, il vous suffit de l'examiner et de l'utiliser pour vous rendre compte assez vite qu'il n'est pas si commun qu'il ne paraît. C'est Jegg FendeurdeCollines, de Bridgefort, qui l'a forgé à dessein en incluant plusieurs fragments de « pierres de vide » dans sa tête de métal. Si cette arme se montre extrêmement puissante contre la plupart des créatures, elle s'avère cependant inutile contre les morts-vivants car, comme tous les objets du Plan matériel négatif, cette arme pourtant dévastatrice n'a aucun effet sur la non-vie.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Force : -1
+
+Capacités de combat :
+– Chaque coup réussi réduit de 1 point pendant 5 rounds la force de la cible, jusqu'à un minimum de 1 (Jet de sauvegarde contre les sorts pour annuler).
+– Inefficace contre les morts-vivants.
+– Les bonus au toucher et aux dégâts liés à la Force ne s'appliquent pas à cette arme.
+
+TAC0 : +3
+Dégâts : 1d4 +4 (magique)
+Facteur de vitesse : 1
+Type de compétence : marteau de guerre
+Type : arme à une main
+Nécessite : 9 en Force
+
+Poids : 4~ // BDHAMM02 identified description
+
+@103164 = ~Casque de Dumathoïn~ // BDHELM09 identified name
+@103165 = ~Un joyau vert scintillant orne ce casque en métal cabossé imprégné de la bénédiction du dieu nain Dumathoïn.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance contre tous les dégâts physiques : +3 %
+– Constitution : +1 (+2 pour les Nains)
+– Protège contre les coups critiques
+
+Poids : 1~ // BDHELM09 identified description
+
+// Identique IWDEE 24776
+@103166 = ~Couvre-chef~ // BDHELM11 unidentified name
+@103167 = ~Chapeau du Barde~ // BDHELM11 identified name
+@103168 = ~Ce chapeau de feutre ne semble ni résistant, ni très utile. Seule sa ligne élégante lui confère un intérêt purement décoratif.~ // BDHELM11 unidentified description
+@103169 = ~Ce chapeau ostentatoire de couleur bleu paon et orné de plumes vertes et violettes appartenait à un barde. Bavardeur invétéré, ce dernier se le fit voler dans une taverne miteuse pour ne pas avoir pu s'empêcher d'y parader avec son chapeau dont il vanta les pouvoirs magiques. En réalité, ce couvre-chef ne dispose que d'enchantements mineurs, mais son élégance en fait un attribut convoité par de nombreux bardes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Immunité au Silence et à la Surdité.
+– Les effets du Chant du barde durent deux rounds supplémentaires après que le barde ait arrêté de chanter.
+
+Poids : 0~ // BDHELM11 identified description
+
+// Identique BGEE 27600
+@103179 = ~Bandeau~ // BDHELM16 unidentified name
+@103180 = ~Bandeau des âmes perdues~ // BDHELM16 identified name
+// Identique BGEE 27602
+@103181 = ~Un bandeau est une fine lanière de métal précieux que l'on porte autour du crâne. Il sert en général d'ornement ou à indiquer le statut de son propriétaire. Les bandeaux sujets à des enchantements de bas niveau sont souvent utilisés par les magiciens de Féérûne.
+
+Poids : 1~ // BDHELM16 unidentified description
+// Note de Freddy : à l'heure actuelle, je n'ai rien trouvé dans le jeu qui atteste de la véracité des effets de bénédiction. La seule référence à ce fichier ITM se trouvant dans un fichier CRE, il est impossible de savoir si le fait de porter ce bandeau accorde effectivement une bénédiction aux esprits invoqués ; à moins que ce ne soit hardcodé.
+@103182 = ~Il y a des siècles, des aventuriers furent attaqués par des fantômes et des spectres en pénétrant dans la crypte principale de la tombe qu'ils pillaient. Ils se battirent avec bravoure, mais finirent par tomber un par un sous les coups des fantômes. Des années plus tard, la fille de l'un d'entre eux engagea une équipe pour aller récupérer leurs corps dans la tombe. Elle les prévint de ne pas toucher à quoi que ce soit, hormis les cadavres des aventuriers morts qu'ils venaient chercher ; et les esprits de la tombe les laissèrent faire. Elle conserva le bandeau de son défunt père en souvenir de sa bravoure.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Niveau de lanceur de sorts : +1
+– Les esprits invoqués bénéficient en permanence des effets du sort de Bénédiction.
+
+Poids : 1~ // BDHELM16 identified description
+
+@103158 = ~Robe de flammes rouges~ // BDROBE05 identified name
+// Note de Freddy : il y a un typo dans la VO. Odesserion à la place de Odesseiron
+@103159 = ~Cette grande robe cramoisie brodée d'or témoigne du rang et de la puissance de celui qui la porte. Autrefois propriété d'Edwin Odesseiron, magicien rouge de Thay, elle avait été conçue pour améliorer ses prouesses d'ensorceleur, pourtant déjà impressionnantes. Quiconque revêt la Robe de flammes rouges inflige des dégâts supplémentaires chaque fois qu'il utilise de la magie basée sur le feu, et est moins susceptible de subir de telles blessures.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au feu : +30 %
+– Tous les dégâts de feu infligés par le porteur sont augmentés de 10 %
+
+Poids : 4~ // BDROBE05 identified description
+
+@103177 = ~Targe du Poing +2~ // BDSHLD01 identified name
+@103178 = ~Les membres de la compagnie de mercenaires du Poing Enflammé au service de la Porte de Baldur et des régions environnantes portent souvent ces boucliers. Le blason à la flamme rouge dessiné sur ces boucliers brillants identifie clairement l'allégeance de ceux qui le portent. Les boucliers des membres expérimentés du Poing enflammé sont souvent enchantés.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +3
+- Ne protège pas contre les attaques perforantes et les projectiles
+– Immunité à l'Immobilisation des personnes.
+
+Nécessite : 4 en Force
+
+Poids : 1~ // BDSHLD01 identified description
+
+@103154 = ~Épée du vide +3~ // BDSW1H06 identified name
+// Notes de Freddy : Préférée à « Épée du Néant ». @todo harmoniser Bridgefort avec les autres références à traduire, ainsi que le surnom Hillcarver. Idem @103156 = ~Voidhammer +3 et sa description @103157.
+@103155 = ~Si, selon toute apparence, il semble s'agir d'une épée longue classique, il vous suffit de l'examiner et de l'utiliser pour vous rendre compte assez vite qu'elle n'est pas si commune qu'elle ne paraît. C'est Jegg FendeurdeCollines, de Bridgefort, qui l'a forgée à dessein en incluant plusieurs fragments de « pierres de vide » dans le métal de sa lame. Si cette arme se montre extrêmement puissante contre la plupart des créatures, elle s'avère cependant inutile contre les morts-vivants car, comme tous les objets du Plan matériel négatif, cette épée pourtant dévastatrice n'a aucun effet sur la non-vie.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Force : -1
+
+Capacités de combat :
+– Chaque coup réussi réduit de 1 point pendant 5 rounds la force de la cible, jusqu'à un minimum de 1 (Jet de sauvegarde contre les sorts pour annuler).
+– Inefficace contre les morts-vivants.
+– Les bonus au toucher et aux dégâts liés à la Force ne s'appliquent pas à cette arme.
+
+TAC0 : +3
+Dégâts : 1d8 +3 (magique)
+Facteur de vitesse : 2
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite : 6 en Force
+
+Poids : 2~ // BDSW1H06 identified description
+
+@103185 = ~Lame Dragon +3~ // BDSW2H01 identified name
+@103186 = ~Un dragon d'argent aux yeux de saphir s'enroule autour de la poignée de cette puissante épée à deux mains. Un légendaire guerrier Rashémi l'aurait reçue pour avoir fait montre d'une bravoure exceptionnelle lors d'un combat qu'il mena aux côtés d'un dragon d'argent. Cependant, les détails de ce récit ont été perdus au fil du temps.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Sous Furie, la chance d'effectuer un coup critique augmente de 10 % (seulement pour les Berserkers, Barbares et guerriers Rashémis).
+
+Capacité de combat :
+– Inflige 2d4 points de froid supplémentaires et ralentit la cible pendant 1 round (sans JS) en cas de coup critique.
+
+TAC0 : +3
+Dégâts : 1d10 +3 (tranchant), +1 point de froid
+Facteur de vitesse : 7
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en Force
+
+Poids : 9~ // BDSW2H01 identified description
+
+@102816 = ~Flèche +4~ // OHAROW50 identified name
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+@102817 = ~Ces flèches enchantées surpassent de beaucoup la qualité de fabrication de toutes les flèches, magiques ou autres, que vous ayez jamais croisées.
+
+PARAMÈTRES :
+
+TAC0 : +4
+Dégâts : 1d6 (projectile)
+Lanceur : arc
+
+Poids : 0~ // OHAROW50 identified description
+
+// Identique BGEE 29035
+@101660= ~Gourdin +1~ // OHBLUN50 identified name
+// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
+@101662 = ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus large à l'autre. Cette arme simple est utilisée depuis que l'on a découvert les outils. N'importe qui peut trouver un gros morceau de bois et le brandir, d'où l'utilisation très répandue du gourdin. Celui-ci a été enchanté.
+
+PARAMÈTRES :
+
+TAC0 : +1
+Dégâts : 1d6 +1 (contondant)
+Facteur de vitesse : 3
+Type de compétence : gourdin
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 2~ // OHBLUN50 identified description
+
+@101661= ~Gourdin +2~ // OHBLUN51 identified name
+// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
+@101663 = ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus large à l'autre. Cette arme simple est utilisée depuis que l'on a découvert les outils. N'importe qui peut trouver un gros morceau de bois et le brandir, d'où l'utilisation très répandue du gourdin. Celui-ci a été enchanté.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d6 +2 (contondant)
+Facteur de vitesse : 2
+Type de compétence : gourdin
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 1~ // OHBLUN51 identified description
+
+@102818 = ~Carreau +4~ // OHBOLT50 identified name
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+@102819 = ~Ces carreaux magiques surpassent de beaucoup la qualité de fabrication de tous les carreaux, magiques ou autres, que vous ayez jamais croisés.
+
+PARAMÈTRES :
+
+TAC0 : +4
+Dégâts : 1d8 (projectile)
+Lanceur : arbalète
+
+Poids : 0~ // OHBOLT50 identified description
+
+// Quasi identique BGEE 6680
+@101684 = ~Armure feuilletée +2~ // OHCHAN50 identified name
+// Quasi identique BGEE 16273, modif paramètres CA et poids
+@101685 = ~L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps ne pivote pas au milieu du torse autant qu'il peut se courber en avant, l'armure feuilletée est plus limitée dans les combats. Cette armure est enchantée, procurant à quiconque la porte un bonus supplémentaire de 2 à sa classe d'armure.
+
+PARAMÈTRES :
+
+Classe d'armure : 2 (1 contre les armes perforantes et projectiles, 0 contre les armes contondantes)
+Nécessite : 8 en Force
+
+Poids : 10~ // OHCHAN50 identified description
+
+// Quasi identique BGEE 6927
+@101674 = ~Fléchettes +2~ // OHDART50 identified name
+// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
+@101676 = ~La fléchette est un petit projectile facilement dissimulable, lancé plutôt que catapulté par un arc ou une autre arme à distance. Les fléchettes magiques, telles que celle-ci, sont grandement appréciées des voleurs et des magiciens.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d3 +2 (projectile)
+Facteur de vitesse : 0
+Type de compétence : fléchette
+Type : arme à une main
+
+Poids : 0~ // OHDART50 identified description
+@101675 = ~Fléchettes +3~ // OHDART51 identified name
+// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
+@101677 = ~La fléchette est un petit projectile facilement dissimulable, lancé plutôt que catapulté par un arc ou une autre arme à distance. Les fléchettes magiques, telles que celle-ci, sont grandement appréciées des voleurs et des magiciens.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d3 +3 (projectile)
+Facteur de vitesse : 0
+Type de compétence : fléchette
+Type : arme à une main
+
+Poids : 0~ // OHDART51 identified description
+
+@101688 = ~Armure de peau +1~ // OHLEAT50 identified name
+// Quasi identique BGEE 22716, mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]
+*/
+@101691 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais, parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
+Celle-ci est enchantée et accorde à quiconque la porte un bonus supplémentaire de protection.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -10 %
+- déplacement silencieux : -20 %
+
+Classe d'armure : 5 (7 contre les armes perforantes et les projectiles)
+Nécessite : 6 en Force
+
+Poids : 25~ // OHLEAT50 identified description
+
+@101689 = ~Armure de peau +2~ // OHLEAT51 identified name
+// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à - 10 %, et pas 30 %.
+*/
+@101692 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais, parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
+Celle-ci est enchantée et accorde à quiconque la porte un bonus supplémentaire de protection.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -10 %
+- déplacement silencieux : -20 %
+
+Classe d'armure : 4 (6 contre les armes perforantes et les projectiles)
+Nécessite : 6 en Force
+
+Poids : 15~ // OHLEAT51 identified description
+
+@101690 = ~Armure de peau +3~ // OHLEAT52 identified name
+// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à - 10 %, et pas à -30 %.
+*/
+@101693 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais, parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
+Celle-ci est enchantée et accorde à quiconque la porte un bonus supplémentaire de protection.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -10 %
+- déplacement silencieux : -20 %
+
+Classe d'armure : 3 (5 contre les armes perforantes et les projectiles)
+Nécessite : 6 en Force
+
+Poids : 10~ // OHLEAT52 identified description
+
+// Quasi identique BGEE 6668
+@101686 = ~Besantine +3~ // OHLEAT53 identified name
+// Contribué par Freddy_Gwendo, cartouche standardisé
+@101687 = ~Cette armure est une pièce d'équipement standard de la cavalerie sur griffons et d'autres guerriers montés. Elle est légère, mais offre une bonne protection, particulièrement avec la protection magique supplémentaire qui y est greffée.
+
+PARAMÈTRES :
+
+Classe d'armure : 4 (2 contre les armes tranchantes, 3 contre les armes perforantes et les projectiles)
+Nécessite : 6 en Force
+
+Poids : 6~ // OHLEAT53 identified description
+
+@101682 = ~Amure de plates +2~ // OHPLAT50 identified name
+// Quasi identique BGEE 6681, mention enchantement traduite et modif CA et poids
+@101683 = ~L'armure de plates est une combinaison de cotte de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. En outre, celle-ci est enchantée et accorde un bonus supplémentaire à la classe d'armure du porteur.
+
+PARAMÈTRES :
+
+Classe d'armure : 1 (-2 contre les armes tranchantes)
+Nécessite : 12 en Force
+
+Poids : 20~ // OHPLAT50 identified description
+
+// Quasi identique BGEE 25780
+@101678 = ~Targe +2~ // OHSHLD50 identified name
+// Quasi identique BGEE 25782, modif CA
+@101680 = ~Une targe est un petit bouclier de bois ou de métal, qui se fixe à l'avant-bras. Sa petite taille et son faible poids permettent de le porter sans être trop encombré. Cette targe possède un enchantement générique qui la rend plus résistante aux chocs.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +3
+- ne protège pas contre les attaques perforantes et les projectiles
+
+Nécessite : 4 en Force
+
+Poids : 2~ // OHSHLD50 identified description
+
+// Quasi identique BGEE 25780
+@101679 = ~Targe +3~ // OHSHLD51 identified name
+// Quasi identique BGEE 25782, modif CA
+@101681 = ~Une targe est un petit bouclier de bois ou de métal, qui se fixe à l'avant-bras. Sa petite taille et son faible poids permettent de le porter sans être trop encombré. Cette targe possède un enchantement générique qui la rend plus résistante aux chocs.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +4
+- ne protège pas contre les attaques perforantes et les projectiles
+
+Nécessite : 4 en Force
+
+Poids : 2~ // OHSHLD51 identified description
+
+@101664 = ~Wakizashi +2~ // OHSW1H51 identified name
+// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
+@101666 = ~Le wakizashi est la seconde épée du samouraï, pour qui son rôle est essentiel. C'est l'arme qu'il porte en permanence, même en intérieur, et qu'il garde à portée de main pendant son sommeil. Les maîtres Wu Jen ont caché dans ce wakizashi un grand pouvoir qui ne se libère que quand son porteur est en plein combat. On ne sait pas comment ce wakizashi est arrivé en Féérûne, mais si le samouraï qui le possédait est toujours en vie, il est certainement à sa recherche.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d8 +2 (perforant)
+Facteur de vitesse : 1
+Type de compétence : cimeterre / wakizashi / ninjatō
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 1~ // OHSW1H51 identified description
+
+@101665 = ~Wakizashi +3~ // OHSW1H52 identified name
+// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
+@101667 = ~Le wakizashi est la seconde épée du samouraï, pour qui son rôle est essentiel. C'est l'arme qu'il porte en permanence, même en intérieur, et qu'il garde à portée de main pendant son sommeil. Les maîtres Wu Jen ont caché dans ce wakizashi un grand pouvoir qui ne se libère que quand son porteur est en plein combat. On ne sait pas comment ce wakizashi est arrivé en Féérûne, mais si le samouraï qui le possédait est toujours en vie, il est certainement à sa recherche.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d8 +3 (perforant)
+Facteur de vitesse : 0
+Type de compétence : cimeterre / wakizashi / ninjatō
+Type : arme à une main
+Nécessite : 5 en Force
+
+Poids : 1~ // OHSW1H52 identified description
+
+@101668 = ~Ninjatō +2~ // OHSW1H53 identified name
+// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
+// Note de Freddy : reprise des erreurs de 26725 (conjugaison) + Requiert: 6 en Force --> Nécessite : 6 en Force
+@101670 = ~Saïto Kagizu, ou « le Chat de l'est », comme l'appelaient les voleurs d'Athkatla, a apporté avec lui plusieurs de ces épées de ninja quand il est arrivé à Féérûne. Elles faisaient partie de sa collection, qu'il se les soit « appropriées » auprès de ses rivaux ou qu'il les ait réalisées lui-même. Après sa mort, sa maîtresse fit cadeau des épées à ses autres amants, qui sont tous des voleurs accomplis.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 2
+Type de compétence : cimeterre / wakizashi / ninjatō
+Type : arme à une main
+Nécessite : 6 en Force
+
+Poids : 3~ // OHSW1H53 identified description
+
+@101669 = ~Ninjatō +3~ // OHSW1H54 identified name
+// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
+// Note de Freddy : correction des typos soient --> soit appelait --> appelaient
+@101671 = ~Saïto Kagizu, ou « le Chat de l'est », comme l'appelaient les voleurs d'Athkatla, a apporté avec lui plusieurs de ces épées de ninja quand il est arrivé à Féérûne. Elles faisaient partie de sa collection, qu'il se les soit « appropriées » auprès de ses rivaux ou qu'il les ait réalisées lui-même. Après sa mort, sa maîtresse fit cadeau des épées à ses autres amants, qui sont tous des voleurs accomplis.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d8 +3 (tranchant)
+Facteur de vitesse : 1
+Type de compétence : cimeterre / wakizashi / ninjatō
+Type : arme à une main
+Nécessite : 6 en Force
+
+Poids : 2~ // OHSW1H54 identified description
+
+// Identique BGEE 23960
+@101672 = ~Cimeterre +2~ // OHSW1H55 identified name
+// Inspiré de BGEE 23378
+@101673 = ~Le cimeterre, ou « shamshir », comme on l'appelait au début, a une lame à un seul tranchant très incurvée et s'effile sur une longue pointe acérée. Il est peut-être un peu plus lent que d'autres armes du même type, mais il compense par le montant de dégâts dont il est capable. Cette arme est également enchantée afin d'améliorer les compétences de quiconque qui la manie.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d8 +2 (tranchant)
+Facteur de vitesse : 3
+Type de compétence : cimeterre / wakizashi / ninjatō
+Type : arme à une main
+Nécessite : 10 en Force
+
+Poids : 2~ // OHSW1H55 identified description
+
+
+// ****************************************************************************
+// Compléments : fichiers ITM ajoutés par BG2EE hors BD* et OH*
+// ****************************************************************************
+
+// Order of text for each item
+// @unidentified_name_number = ~unidentified name~
+// @identified name_number = ~identified name~
+// @unidentified description_number = ~unidentified description~
+// @identified description_number = ~identified description~
+
+// Les numéros inférieurs à 74107 existent déjà dans BG II - ToB et ne sont pas repris ici
+
+// BELTBW unident name 6465 name 103109 unident dest 6466  desc 103106
+// Contribué par Freddy_Gwendo
+@103109 = ~Symbole sacré de Baervan Ermiterrant~ // BELTBW identified name
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+@103106 = ~Seuls les plus nobles et les plus fidèles serviteurs du Gnome de la Forêt reçoivent ce type de récompense.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Force : +1
+- Résistance magique : +5 %
+- Mémorisation d'un sort divin additionnel du 6ème et du 7ème niveau
+
+Poids : 0~ // BELTBW identified description
+
+// BELTSH unident name 6465 name 103108 unident dest 6466  desc 103107
+// Contribué par Freddy_Gwendo
+@103108 = ~Symbole sacré de Shar~ // BELTSH identified name
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+@103107 = ~Seuls les plus nobles et les plus fidèles serviteurs de la Maîtresse de la Nuit reçoivent ce type de récompense.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Force : +1
+- Résistance magique : +5 %
+- Mémorisation d'un sort divin additionnel du 6ème et du 7ème niveau
+
+Poids : 0~ // BELTSH identified description
+
+// BELTTY unident name 6465 name 103207 unident dest 6466  desc 103208
+// Contribué par Freddy_Gwendo
+@103207 = ~Symbole sacré de Tyr~ // BELTTY identified name
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+@103208 = ~Seuls les plus nobles et les plus fidèles serviteurs du Dieu Mutilé reçoivent ce type de récompense.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Force : +1
+- Résistance magique : +5 %
+- Mémorisation d'un sort divin additionnel du 6ème et du 7ème niveau
+
+Poids : 0~ // BELTTY identified description
+
+// CDNEBDAG unident name 6343 name 5782 unident dest 6720  desc 74279
+// @5782 = ~Atroce tranchoir de Neb~ // CDNEBDAG identified name (SoA+ToB reuse)
+// Isaya : adapté de BG II 8904
+@74279  = ~C'est une arme vicieuse employée par Neb, couverte de sang séché. Seuls des êtres réellement maléfiques useraient de cette arme en pleine connaissance de cause. Le poison est épuisé et la dague est désormais une dague enchantée normale.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1d6 +2 (perforant)
+Facteur de vitesse : 0
+Type de compétence : dague
+Type : arme à une main
+Nécessite : 3 en Force
+
+Poids : 1~ // CDNEBDAG identified description
+
+// NEBELT01 unident name 6335 name 100780 unident dest 6466  desc 100781
+// Identique BGEE 31846
+@100780 = ~Ceinturon d'Adoy~ // NEBELT01 identified name
+// Identique BGEE 31837
+@100781 = ~Le Ceinturon d'Adoy
+Cette fine ceinture en cuir de daim et en fourrure de lapin permet à son propriétaire de mieux résister aux effets de la métamorphose. Il s'agit de l'accessoire parfait pour les entropistes et leur entourage direct.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- jets de sauvegarde contre la pétrification/métamorphose : +5
+
+Poids : 2~ // NEBELT01 identified description
+
+// RSBRAC unident name 6341 name 100782 unident dest 6791  desc 100783
+// Identique BGEE 28623
+@100782 = ~Brassards scintillants~ // RSBRAC identified name
+// Identique BGEE 28624
+@100783 = ~Ces bracelets polis réfléchissent une lumière crue dans les yeux des ennemis de leur porteur, ce qui les empêche de dévier efficacement les poings de celui-ci.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- TAC0 : +2
+
+Poids : 1~ // RSBRAC identified description
+
+// STAFN1 unident name 6351 name 87455 unident dest 6731  desc 87456
+// Identique BGEE 27645
+@87455 = ~Bâton de Neera +1~ // STAFN1 identified name
+// Identique BGEE 31845
+@87456 = ~Ce bâton finement ciselé et gravé a été « amélioré » par Neera elle-même. Elle avait l'intention de fabriquer un bâton qui pourrait déchaîner les flammes sur ses ennemis, mais le résultat est légèrement éloigné de l'objectif qu'elle avait en tête. Même s'il peut effectivement brûler ses adversaires, il y a aussi une chance que le propriétaire subisse un retour de flamme et soit brûlé à son tour.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Lorsque le bâton touche une cible, il y a 10 % de chances que la cible ou le propriétaire subisse un point de dégâts du feu.
+
+TAC0 : +1
+Dégâts : 1d6 +1 (contondant)
+Facteur de vitesse : 3
+Type de compétence : bâton
+Type : arme à deux mains
+Nécessite : 5 en Force
+
+Poids : 4~ // STAFN1 identified description
+
+// Objet utilisant le nom d'une capacité spéciale de kit de moine, déjà traduite
+// SW1HWK unident name 11052 name 74317 unident dest 11054  desc 51884
+//@74317 = ~Faisceau de la Conscience Solaire~ // SW1HWK identified name
+
+// SW2HD1 unident name 6647 name 93695 unident dest 6752  desc 93696
+// Identique BGEE 28298
+@93695 = ~Rancœur +1~ // SW2HD1 identified name
+// Quasi identique BGEE 28299 (nom de l'épée ajouté au début dans BG2EE)
+@93696 = ~L'Épée de Dorn : Rancœur
+Cette épée noire à deux mains est recouverte d'inscriptions que vous êtes incapable de déchiffrer. Elle bourdonne faiblement en présence de Dorn Il-Khan. Les individus au cœur pur sont pris d'un sentiment de culpabilité et d'anxiété lorsqu'ils manient cette lame.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Lorsque Dorn porte cette lame, chaque adversaire abattu lui accorde une chance d'obtenir un bonus de +1 à ses jets de toucher pendant 24 heures.
+
+TAC0 : +1, +2 si elle a tué quelqu'un dans les dernières 24 heures 
+Dégâts : 1d10 +1 (tranchant)
+Facteur de vitesse : 9
+Type de compétence : épée à deux mains
+Type : arme à deux mains
+Nécessite : 14 en Force
+
+Poids : 12~ // SW2HD1 identified description

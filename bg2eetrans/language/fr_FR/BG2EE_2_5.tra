@@ -1,0 +1,125 @@
+// Fichier des textes ajoutés dans le patch 2.5 de BG2EE. Ils sont séparés
+// afin de préserver la capacité à installer le mod avec la version 2.3
+
+/*
+Le commentaire qui précède un texte précise l'origine et l'état de la traduction
+
+Explication des commentaires
+- "Identique BGEE/IWDEE xxxxx" : texte identique au numéro xxxxx de BGEE/IWDEE (déclaré identique par Translation Retriever et vérifié visuellement en terme de majuscule/minuscule ou tutoiement/vouvoiement lorsqu'il y a un doute possible)
+- "Quasi identique BGEE/IWDEE xxxxx", suivi d'un complément : texte très proche voire identique au numéro xxxxx de BGEE/IWDEE (déclaré proche par Translation Retriever et vérifié visuellement pour les différences), repris de BGEE/IWDEE et adapté si nécessaire (les différences vues par Translation Retriever dans les textes anglais ne sont pas toujours significatives)
+- "Proche BGEE/IWDEE xxxxx" : texte non repéré par Translation Retriever mais malgré tout très proche, repris BGEE/IWDEE et et adapté si nécessaire
+*/
+
+// Modifications spécifiques à la V2.5 dans des textes existants de BG II ou des textes de BG2EE déjà présent en V2.3
+
+@9428  = ~Roturière~ // féminin, à partir du patch 2.5+ (https://support.baldursgate.com/issues/32705)
+@9429  = ~Roturier~ // masculin, à partir du patch 2.5+ (https://support.baldursgate.com/issues/32705)
+@9430  = ~Paysanne~ // féminin, à partir du patch 2.5+ (https://support.baldursgate.com/issues/32705)
+@9431  = ~Paysan~ // masculin, à partir du patch 2.5+ (https://support.baldursgate.com/issues/32705)
+
+@17576 = ~Le groupe a acquis un objet : <ITEM>~ // Patch 2.5, ajout du nom d'objet
+@17577 = ~Le groupe a perdu un objet : <ITEM>~ // Patch 2.5, ajout du nom d'objet
+
+@22358 = ~Perturbatrice~ // à partir du patch 2.5+ (https://forums.beamdog.com/discussion/comment/932431/#Comment_932431)
+
+@28625 = ~Enfant mendiant~ // masculin, à partir du patch 2.5+ (https://support.baldursgate.com/issues/32645)
+
+@28627 = ~Enfant mendiante~ // féminin, à partir du patch 2.5+ (https://support.baldursgate.com/issues/32645)
+
+
+
+// 103214 - 103219 : notes de traduction chinois, russe et polonais, non traduites
+
+@103220 = ~Les Fosses Noires II - film d'introduction~
+// BGEE 32761
+@103221 = ~prêtre de Tempus~
+// BGEE 32762
+@103222 = ~Prêtre de Tempus~
+// BGEE 32763
+@103223 = ~PRÊTRE DE TEMPUS: Tempus, aussi connu sous le nom du Seigneur des Batailles ou du Marteleur d'Ennemis, distribue ses faveurs au hasard, et pourtant sa nature chaotique fait qu'il favorise chaque camp de façon équitable. Il peut soutenir une armée un jour, puis ses adversaires le lendemain. Telle est la nature de la guerre. Le clergé de Tempus peut se retrouver des deux côtés d'un même conflit, mais nul ne saurait dire à qui le dieu de la guerre accordera sa faveur.
+
+Avantages :
+- 'Sainte puissance' une fois par jour. Une utilisation au niveau 1 et ensuite une supplémentaire tous les 5 niveaux.
+- 'Chaos de la bataille' une fois par jour. Une utilisation au niveau 1 et ensuite une supplémentaire tous les 10 niveaux.
+
+CHAOS DE LA BATAILLE : Ce sort accorde un bonus aux alliés et applique des pénalités aux adversaires du lanceur dans une zone de 9 mètres de rayon centrée sur lui. Chaos de la bataille dure 1 tour et affecte au hasard la classe d'armure, les points de vie, le TAC0, les jets de sauvegarde ou la chance des cibles. L'amplitude de l'effet débute à 1 (5 en ce qui concerne les points de vie), et augmente d'1 point (5 points en ce qui concerne les points de vie) tous les 6 niveaux du lanceur.
+
+Inconvénients :
+- Doit être d'alignement chaotique-bon, neutre-strict, chaotique-neutre ou chaotique-mauvais.~
+// BGEE 32764
+@103224 = ~Chaos de la bataille~ // OHTMPS2 unidentified name
+// BGEE 32765
+@103225 = ~Chaos de la bataille
+
+Ce sort accorde un bonus aux alliés et applique des pénalités aux adversaires du lanceur dans une zone de 9 mètres de rayon centrée sur lui. Chaos de la bataille dure 1 tour et affecte au hasard la classe d'armure, les points de vie, le TAC0, les jets de sauvegarde ou la chance des cibles. L'amplitude de l'effet débute à 1 (5 en ce qui concerne les points de vie), et augmente d'1 point (5 points en ce qui concerne les points de vie) tous les 6 niveaux du lanceur.~ // OHTMPS2 unidentified description
+// BGEE 32766
+@103226 = ~Bonus de combat~ // OHTMPS2D effect
+// BGEE 32767
+@103227 = ~Pénalités de combat~ // OHTMPS2E effect
+
+// BG II 58238, correction non-sens de la VF (prêtre d'Illmater à propos du coeur de Yoshimo)
+@103228 = ~Intéressant, pourtant il y a des précédents. Nous nous efforçons souvent de guider ceux qui sont déjà déchus. Certains d'entre eux mènent une vie de bien puis tombent brusquement dans le péché. Dis-m'en plus sur cet homme.~
+
+// BGEE 12201
+@103229 = ~Protection contre le mal
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection 
+Portée : contact 
+Durée : 1 tour
+Temps d'incantation : 1 
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de -2 au jet d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
+// BGEE 12148
+@103230 = ~Protection contre le mal
+(Abjuration)
+
+Niveau : 1
+Sphère : Protection 
+Portée : contact 
+Durée : 3 rounds / niveau
+Temps d'incantation : 1 
+Zone d'effet : 1 créature
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de -2 au jet d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
+
+// BGEE 32375
+@103231 = ~Ancien Élémentaire d'air~
+
+@103232 = ~Chapitre Huit~
+@103233 = ~Chapitre Neuf~
+@103234 = ~Chapitre Dix~
+@103235 = ~Chapitre Onze~
+
+// BGEE 32887
+@103236 = ~Vitesse de déplacement augmentée~
+// BGEE 32889
+@103237 = ~Métamorphose en Araignée-sabre
+
+Force : 16
+Dextérité : 16
+
+Classe d'Armure de base : 3
+Attaques par round : 4
+Dégâts : 2d6 (perforant)
+
+Capacités spéciales :
+- immunité aux toiles d'araignées
+- Hâte permanente~
+// BGEE 23472
+@103238 = ~Métamorphose en Araignée-sabre~
+@103239 = ~Symbole sacré de Tempus~
+@103240 = ~Seuls les plus nobles et les plus fidèles serviteurs du Marteleur d'Ennemis obtiennent ce puissant symbole sacré.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Force : +1
+- Résistance magique : +5 %
+- Mémorisation d'un sort divin additionnel du 6ème et du 7ème niveau
+
+Poids : 0~

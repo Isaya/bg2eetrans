@@ -6086,8 +6086,8 @@
 //	Text 6084 Not found
 //	Text 6085 Not found
 //	Text 6086 Not found
-//	STRING_SET ~6087~ @25050	// Exact match Neutralise par script python (pas meilleur que ToB)
-	STRING_SET ~6088~ @26218	// Exact match
+	STRING_SET ~6087~ @25050	// Exact match Traduction différente de ToB conservée
+	STRING_SET ~6088~ @26218	// Exact match Traduction différente de ToB conservée
 //	STRING_SET ~6089~ @14751	// Likeliness 73.9 
 //	Text 6090 Not found
 //	Text 6091 Not found
@@ -34653,7 +34653,7 @@
 //	STRING_SET ~34651~ @14041	// Exact match Neutralise par script python (pas meilleur que ToB)
 //	STRING_SET ~34652~ @34652	// Empty text
 //	STRING_SET ~34653~ @22145	// Exact match Neutralise par script python (pas meilleur que ToB)
-//	STRING_SET ~34654~ @25828	// Exact match Neutralise par script python (pas meilleur que ToB)
+	STRING_SET ~34654~ @25828	// Exact match Meilleure traduction dans BGEE, conforme à la description ajoutée
 //	STRING_SET ~34655~ @25074	// Exact match Neutralise par script python (pas meilleur que ToB)
 //	STRING_SET ~34656~ @25075	// Exact match Neutralise par script python (pas meilleur que ToB)
 //	Text 34657 Not found

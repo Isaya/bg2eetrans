@@ -227,13 +227,8 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Quasi identique ToB 39798 ou IWDEE 39798, dernière phrase en moins
 	STRING_SET 74274 @74274
 
-//@74275 = ~I have a strange request... sister. I have the heart of a man that died in shame.~
-//@58237 = ~Ma requête te semblera bien étrange, mon frère... j'ai avec moi le coeur d'un homme mort dans la disgrâce.~
-
-// Très différente de la bio d'origine
-//@74276 = ~IMOEN chuckles when you ask her about her past, assuming you are just trying to keep her mind on happier times and places. She indulges you, and certainly does cheer up when speaking of how you spent your youths together in Candlekeep. She arrived there the same as you, in the company of your foster father Gorion, but despite this similarity, she grew up much more carefree than you did. Indeed, her lighthearted outlook has long kept her immune to the hardships of the world, though the horrors she has endured have definitely taken their toll.~
-//@10233 = ~IMOEN chuckles when you ask her about her past, assuming you are just trying to keep her mind on happier times and places. She indulges you, and certainly does cheer up when speaking of how you spent your youths together in Candlekeep. She arrived there the same as you, in the company of your foster father Gorion, but despite this similarity, she grew up much more carefree than you did. Indeed, her lighthearted outlook has long kept her immune to the hardships of the world, though the dark confines and horrors of your current location have definitely taken their toll.~
-//@10233 = ~Interrogée sur son passé, IMOEN vous tape sur l'épaule, facétieuse, et dit que vous devez vous le rappeler, car vous avez grandi avec elle. De fait, certains de vos meilleurs souvenirs sont ceux de votre rencontre avec ce bel ange. Elle est arrivée, tout comme vous, quoique dix ans plus tard dans la vie, à Château-Suif et elle a passé plus de temps avec ce bourru de Winthrop qu'avec Gorion. " Gros-plein-de soupe ", elle l'appelait, au grand désarroi du vieil aubergiste. Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite soeur, bien que vous soyez tous les deux du même âge. Son sourire radieux vous dit qu'elle vous suivra partout où vous irez.~
+// Identique BG II 58237, sauf brother/sister
+	STRING_SET 74275 @74275
 
 // Identique IWDEE 40290
 	STRING_SET 74278 @74278
@@ -242,7 +237,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 74285 @74285
 // Repris de ToB 2496
 	STRING_SET 74286 @74286
-// utilisé par RODSWORD, description en 93790, créé par Sceptre de puissance altière (ToB et IWDEE 38872, 39619), ~Épée longue de feu +1~ (ToB 39619) @90 (IWDEE 39619)
+// utilisé par RODSWORD, description en 93790, créé par Sceptre de puissance altière (ToB et IWDEE 38872, 39619), ~Épée longue de feu +1~ (ToB 39619) @91 (IWDEE 39619)
 	STRING_SET 74287 @74287
 // Identique IWDEE 40287
 	STRING_SET 74288 @74288
@@ -256,7 +251,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 74292 @74292
 // 
 	STRING_SET 74293 @74293
-// Identique IWDEE 34778 @todo Vérifier si cela provient d'un dialogue
+// Identique IWDEE 34778 : référencé dans OHBMC.DLG, mais ce DLG utilise des textes d'objets, interface, kits, etc.
 	STRING_SET 74294 @74294
 // Identique BGEE 31270
 	STRING_SET 74295 @74295
@@ -290,20 +285,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 74309 @74309
 // Quasi identique BGEE 31984 (typo en anglais), précision "9d6 dégâts de feu" conservée de BGEE car vérifié par Freddy_Gwendo
 	STRING_SET 74310 @74310
-// Identique BGEE 31985
-	STRING_SET 74311 @74311
-// Identique BGEE 31986 (compétence du Disciple du Dragon)
-	STRING_SET 74312 @74312
-// Identique BGEE 31989
-	STRING_SET 74313 @74313
-// Identique BGEE 31990
-	STRING_SET 74314 @74314
-// Identique BGEE 31991
-	STRING_SET 74315 @74315
-// Identique BGEE 31992
-	STRING_SET 74316 @74316
-// Identique BGEE 32138
-	STRING_SET 74317 @74317
+
 // Contribution de Luren : entrées journal @todo Titres à vérifier après fusion avec travaux des bénévoles
 	STRING_SET 74318 @74318
 // ToB 843
@@ -502,10 +484,6 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 
 
 
-// Identique BGEE 28304
-	STRING_SET 77510 @77510
-// Identique BGEE 28306
-	STRING_SET 77511 @77511
 // Identique BGEE 28604
 	STRING_SET 77512 @77512
 // Identique BGEE 28605
@@ -541,7 +519,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 
 // @todo objets 80043
 
-// Traduit ; dans IWDEE 37842 traduction du même texte @621
+// Traduit ; dans IWDEE 37842 traduction du même texte @506
 	STRING_SET 80749 @80749
 // Quasi identique BGEE 24680 (espace en plus à la fin)
 	STRING_SET 80750 @80750
@@ -560,8 +538,6 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 
 // Identique IWDEE 15977
 	STRING_SET 81606 @81606
-
-	STRING_SET 82029 @82029
 
 // @todo noms et objets 81992 - 82302, 82034, 82307, 82039
 
@@ -589,12 +565,11 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // @todo Wilson 86478, 86479, 87166 à 87206
 // @todo objets 87207 à 87212
 
-	STRING_SET 87442 @87442
+	STRING_SET 86478 @86478
+// Identique IWDEE 37308, quelques retouches
+	STRING_SET 86479 @86479
 
-// Identique BGEE 27645
-	STRING_SET 87455 @87455
-// Identique BGEE 31845
-	STRING_SET 87456 @87456
+	STRING_SET 87442 @87442
 
 // Identique BGEE 29121
 	STRING_SET 87865 @87865
@@ -629,11 +604,6 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 
 // @todo objets 89729, 89730, 90138 à 90141, 90176 à 90184, 
 
-// Contribué par Freddy_Gwendo
-	STRING_SET 90178 @90178
-// Contribué par Freddy_Gwendo (voir aussi IWDEE 40638)
-	STRING_SET 90179 @90179
-
 // @todo objets 90190, 90368, 90369, 90959 à 90974
 // @todo objets 91200, 91201, 91223, 91257 à 91262, 92588, 92590 à 92592, 92741, 92742, 92971, 92972
 // @todo objets 93373 à 93380, 93428, 93596 à 93603, 93608 à 93615
@@ -655,11 +625,6 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 93624 @93624
 	STRING_SET 93625 @93625
 
-// Identique BGEE 28298
-	STRING_SET 93695 @93695
-// Quasi identique BGEE 28299 (nom de l'épée ajouté au début dans BG2EE)
-	STRING_SET 93696 @93696
-
 // @todo objet 93700, 93701
 
 // Identique BGEE 32204 + majuscule au début
@@ -675,10 +640,10 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 93785 @93785
 // Identique BGEE 32346 sauf Exclamation renommé Acclamation (VO), je (Isaya) préfère conserver Exaltation vu la description
 	STRING_SET 93786 @93786
-// Identique BGEE 32370
-	STRING_SET 93787 @93787
-// Conservation du terme Exaltation de BGEE (en 32368) : voir explication en 93786
-	STRING_SET 93788 @93788
+// Transfert dans fichier des sorts
+//@93787 = ~Faveur divine~
+// Transfert dans fichier des sorts
+//@93788 = ~Exaltation~
 // Identique IWDEE 6695
 	STRING_SET 93789 @93789
 
@@ -751,7 +716,16 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 95157 @95157
 
 // @todo objets (BGII) 95161, 95162
+
 // @todo achat boutique 95310 à 95316
+	STRING_SET 95310 @95310
+	STRING_SET 95311 @95311
+	STRING_SET 95312 @95312
+	STRING_SET 95313 @95313
+	STRING_SET 95314 @95314
+	STRING_SET 95315 @95315
+	STRING_SET 95316 @95316
+// Autres DLC : voir 102522
 
 // Identique BGEE 32307
 	STRING_SET 95634 @95634
@@ -792,11 +766,13 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Quasi identique BGEE 32334, espace initial en plus
 	STRING_SET 99389 @99389
 
-// Quasi identique ToB 7366, sans la phrase mentionant <CHARNAME>, + mise en forme EE
-	STRING_SET 99392 @99392
 // Identique BGEE 32306
 	STRING_SET 99393 @99393
 
+// BGEE 24505 + 31759
+	STRING_SET 99821 @99821
+
+// TBBELT.DLG, TBBRAN[J], TBIMOEN[J], TBJAHEI[RJ], TBMINSC[J], TBSER1, TBXAN[J]
 // Identique BGEE 29986
 	STRING_SET 99823 @99823
 // Identique BGEE 29991
@@ -920,6 +896,10 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique BGEE 30035
 	STRING_SET 99912 @99912
 
+// Tracking.2da (autres cas en 100259)
+	STRING_SET 99955 @99955
+	STRING_SET 99956 @99956
+
 // Inspiré de ToB 71488, appel PNJ depuis le plan
 	STRING_SET 99983 @99983
 	STRING_SET 99984 @99984
@@ -927,8 +907,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 99986 @99986
 
 // @todo objets et noms 99987 à 99999, 100043, 100050 à 100061 (mélange), 100188, 100189
-// @todo scripts, noms, etc. 100208 à 100247, 100257, 100259 à 100262
-// @todo Wilson 100263 à 100267
+// @todo scripts, noms, etc. 100208 à 100247, 100257
 // @todo objets 100282, 100283
 
 // Identique ToB 13195
@@ -937,267 +916,62 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique ToB 48442
 	STRING_SET 100242 @100242
 
+// Tracking.2da (autres cas en 99955)
+	STRING_SET 100259 @100259
+	STRING_SET 100260 @100260
+	STRING_SET 100261 @100261
+	STRING_SET 100262 @100262
+
 // 100284 pas besoin de traduction (crédits)
-	STRING_SET 100284 @100284
+/*@100284 = ~Marcelo Esteves - mlnevese
+Christopher Ethier - Tresset
+Greg Scott - CoM_Solaufein
+Samuel Varg Thunberg
+Marie-Violaine Polonowski - Calawen
+Raphael Wong - Ascension64
+James Beadle
+Anders Svensson - hook71
+Justin Proudman - ChurchOfBoo
+Maciej Kalinowski - viader
+Piotr Prósinowski - Lava
+Francesco Rinaldi - SpaceInvader
+Andrew Beale - Anduin
+Lionel Bayle-Denise - La Voix
+Petr Havlíček - Pecca
+Gaëtan Landry - Headbomb
+Chad Fonger - Archaic
+Stacie Cameron
+Tilly Underwood
+Eric Van Honacker - oldschool
+Douglas Wagner - Illydth
+Piotr Wiankowski - Cahir
+Bastien Marmeth - Queynos
+Antonio Favata - alnair~*/
 
 // @todo 100285 à 100347 : voix pour personnage principal à retranscrire en texte
 
-// Identique BGEE 32220
-	STRING_SET 100348 @100348
-// Identique BGEE 32221
-	STRING_SET 100349 @100349
-// Identique BGEE 32222
-	STRING_SET 100350 @100350
-// Identique BGEE 32223
-	STRING_SET 100351 @100351
-// Quasi identique BGEE 32224, écart non significatif
-	STRING_SET 100352 @100352
-// Identique BGEE 32225
-	STRING_SET 100353 @100353
-// Identique BGEE 32226
-	STRING_SET 100354 @100354
-// Identique BGEE 32227
-	STRING_SET 100355 @100355
-// Quasi identique BGEE 32228, écart non significatif
-	STRING_SET 100356 @100356
-// Identique BGEE 32229
-	STRING_SET 100357 @100357
-// Quasi identique BGEE 32230, simple reformulation, texte de BGEE conservé
-	STRING_SET 100358 @100358
-// Identique BGEE 32231
-	STRING_SET 100359 @100359
-// Identique BGEE 32232
-	STRING_SET 100360 @100360
-// Identique BGEE 32233
-	STRING_SET 100361 @100361
-// Identique BGEE 32234
-	STRING_SET 100362 @100362
-// Identique BGEE 32235
-	STRING_SET 100363 @100363
-// Identique BGEE 32236
-	STRING_SET 100364 @100364
-// Identique BGEE 32237
-	STRING_SET 100365 @100365
-// Identique BGEE 32238
-	STRING_SET 100366 @100366
-// Identique BGEE 32239
-	STRING_SET 100367 @100367
-// Identique BGEE 32240
-	STRING_SET 100368 @100368
-// Identique BGEE 32241
-	STRING_SET 100369 @100369
-// Identique BGEE 32242
-	STRING_SET 100370 @100370
-// Identique BGEE 32243
-	STRING_SET 100371 @100371
-// En partie identique BGEE 32244, perte arme +1, gain poison, bonus CA
-	STRING_SET 100372 @100372
-// En partie identique BGEE 32245, perte attaque, perte arme +2
-	STRING_SET 100373 @100373
-// En partie identique BGEE 32246, modif attaques, perte Hâte et Souffle de feu
-	STRING_SET 100374 @100374
-// En partie identique BGEE 32247, grosses modif CA, attaques, résistances, immunités
-	STRING_SET 100375 @100375
-// Identique BGEE 32248
-	STRING_SET 100376 @100376
-// Quasi identique BGEE 32249, personnage au lieu de prêtre
-	STRING_SET 100377 @100377
-// Identique BGEE 32250
-	STRING_SET 100378 @100378
-// Identique BGEE 32251
-	STRING_SET 100379 @100379
-// Identique BGEE 32252
-	STRING_SET 100380 @100380
-// Quasi identique BGEE 32253, formulation différente
-	STRING_SET 100381 @100381
-// Identique BGEE 32254
-	STRING_SET 100382 @100382
-// Identique BGEE 32255
-	STRING_SET 100383 @100383
-// Quasi identique BGEE 32256, carac et dégâts augmentés, perte arme +1, perte de la Hâte
-	STRING_SET 100384 @100384
-// Quasi identique BGEE 32257, dégâts augmentés, perte arme +1, perte de la Hâte
-	STRING_SET 100385 @100385
-// Quasi identique BGEE 32258, perte arme +1, perte de la Hâte
-	STRING_SET 100386 @100386
-// Identique BGEE 32259
-	STRING_SET 100387 @100387
-// Quasi identique BGEE 32260, modif dégâts minorés, TAC0 augmenté, perte de la Hâte
-	STRING_SET 100388 @100388
-// Quasi identique BGEE 32261, modif dégâts
-	STRING_SET 100389 @100389
-// Identique BGEE 32262
-	STRING_SET 100390 @100390
-// Identique BGEE 32263
-	STRING_SET 100391 @100391
-// Identique BGEE 32264
-	STRING_SET 100392 @100392
-// Identique BGEE 32265
-	STRING_SET 100393 @100393
-// Identique BGEE 32266
-	STRING_SET 100394 @100394
-// Identique BGEE 32267
-	STRING_SET 100395 @100395
-// Quasi identique BGEE 32268, dégâts perforants en plus
-	STRING_SET 100396 @100396
-// Traduit
-	STRING_SET 100397 @100397
-// Traduit (nom de capacité repris de BGEE 25929)
-	STRING_SET 100398 @100398
-// Traduit (nom de capacité repris de BGEE 25958) @todo Compatibilité de Œ avec la lettrine à vérifier !!!
+// Nom de capacité repris de BGEE 25958, a priori plus utilisé, voir 103003 
 	STRING_SET 100399 @100399
-// Traduit (nom de capacité repris de BGEE 25961)
+// Nom de capacité repris de BGEE 25961, a priori plus utilisé, voir 1003004
 	STRING_SET 100400 @100400
-// Traduit (nom de capacité repris de ToB 51958)
-	STRING_SET 100401 @100401
-// Traduction, nom repris de BGEE 26039
+// Nom de capacité repris de BGEE 26039, a priori plus utilisé, voir 103005
 	STRING_SET 100402 @100402
-// Identique BGEE 32269
-	STRING_SET 100403 @100403
-// Identique BGEE 32270
-	STRING_SET 100404 @100404
-// Quasi identique BGEE 32271, précision "magiques" conservée de BGEE
-	STRING_SET 100405 @100405
-// Identique BGEE 32272
-	STRING_SET 100406 @100406
-// Identique BGEE 32273
-	STRING_SET 100407 @100407
-// Identique BGEE 32274
-	STRING_SET 100408 @100408
-// Identique BGEE 32275
-	STRING_SET 100409 @100409
-// Identique BGEE 32276
-	STRING_SET 100410 @100410
-// Identique BGEE 32277
-	STRING_SET 100411 @100411
-// Identique BGEE 32278
-	STRING_SET 100412 @100412
-// Identique BGEE 32279
-	STRING_SET 100413 @100413
-// Identique BGEE 32280
-	STRING_SET 100414 @100414
-// Identique BGEE 32281
-	STRING_SET 100415 @100415
 
 // @todo objets 100416 à 100449, 100451, 100452
 
 // Identique BGEE 32282
 	STRING_SET 100778 @100778
 
-// Identique BGEE 31846
-	STRING_SET 100780 @100780
-// Identique BGEE 31837
-	STRING_SET 100781 @100781
-// Identique BGEE 28623
-	STRING_SET 100782 @100782
-// Identique BGEE 28624
-	STRING_SET 100783 @100783
-
-// Contribué par Freddy_Gwendo
-	STRING_SET 101142 @101142
-
 // @todo noms et objets 101253 à 101256
 // @todo dialogue livre dont vous être le héros 101270 à 101637
 // @todo objets 101638, 101639
 
-// Identique IWDEE 36124
-	STRING_SET 101640 @101640
-// Identique IWDEE 36125
-	STRING_SET 101641 @101641
-// Identique IWDEE 36128
-	STRING_SET 101642 @101642
-// Identique IWDEE 36129
-	STRING_SET 101643 @101643
-// Identique IWDEE 36126
-	STRING_SET 101644 @101644
-// Identique IWDEE 36127
-	STRING_SET 101645 @101645
 // Inspiré de IWDEE 40028
 	STRING_SET 101646 @101646
 // Adapté de IWDEE 40028
 	STRING_SET 101647 @101647
 
 // @todo noms 101656 à 101659
-
-// Identique BGEE 29035
-	STRING_SET 101660 @101660
-	STRING_SET 101661 @101661
-// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
-	STRING_SET 101662 @101662
-// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
-	STRING_SET 101663 @101663
-	STRING_SET 101664 @101664
-	STRING_SET 101665 @101665
-// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
-	STRING_SET 101666 @101666
-// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
-	STRING_SET 101667 @101667
-	STRING_SET 101668 @101668
-	STRING_SET 101669 @101669
-// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
-	STRING_SET 101670 @101670
-// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
-	STRING_SET 101671 @101671
-// Identique BGEE 23960
-	STRING_SET 101672 @101672
-// Inspiré de BGEE 23378
-	STRING_SET 101673 @101673
-// Quasi identique BGEE 6927
-	STRING_SET 101674 @101674
-	STRING_SET 101675 @101675
-// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
-	STRING_SET 101676 @101676
-// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
-	STRING_SET 101677 @101677
-// Quasi identique BGEE 25780
-	STRING_SET 101678 @101678
-	STRING_SET 101679 @101679
-// Quasi identique BGEE 25782, modif CA
-	STRING_SET 101680 @101680
-// Quasi identique BGEE 25782, modif CA
-	STRING_SET 101681 @101681
-	STRING_SET 101682 @101682
-// Quasi identique BGEE 6681, mention enchantement traduite et modif CA et poids
-	STRING_SET 101683 @101683
-// Quasi identique BGEE 6680
-	STRING_SET 101684 @101684
-// Quasi identique BGEE 16273, modif paramètres CA et poids
-	STRING_SET 101685 @101685
-// Quasi identique BGEE 6668
-	STRING_SET 101686 @101686
-// Contribué par Freddy_Gwendo, cartouche standardisé
-	STRING_SET 101687 @101687
-// Quasi identique BGEE 22715 ; @todo Voir si on conserve Cuirasse
-	STRING_SET 101688 @101688
-	STRING_SET 101689 @101689
-	STRING_SET 101690 @101690
-// Quasi identique BGEE 22716, mention enchantement traduite et modif CA et poids
-/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -30 %
-- déplacement silencieux : -20 %
-- se cacher dans l'ombre : -20 %
-*/
-	STRING_SET 101691 @101691
-// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
-/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -30 %
-- déplacement silencieux : -20 %
-- se cacher dans l'ombre : -20 %
-*/
-	STRING_SET 101692 @101692
-// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
-/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -30 %
-- déplacement silencieux : -20 %
-- se cacher dans l'ombre : -20 %
-*/
-	STRING_SET 101693 @101693
 
 // Identique ToB 20950 (script ohhstone)
 	STRING_SET 101695 @101695
@@ -1214,9 +988,6 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique BGEE 32290
 	STRING_SET 101730 @101730
 
-// Identique IWDEE 40259
-	STRING_SET 101762 @101762
-
 // Identique IWDEE 757
 	STRING_SET 101765 @101765
 
@@ -1225,8 +996,6 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 
 // Identique BGEE 14770 (il s'agit du texte montrant l'effet appliqué à quelqu'un, "Protected" en VO)
 	STRING_SET 101780 @101780
-// Identique IWDEE 21413
-	STRING_SET 101781 @101781
 
 // Identique BGEE 31844
 	STRING_SET 101793 @101793
@@ -1281,16 +1050,13 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Quasi identique BGEE 32301, singulier au lieu de pluriel
 	STRING_SET 102510 @102510
 
-// Traduit, sort ohbcwoun créant des blessures impossibles à soigner (Greater Clay Golem)
-	STRING_SET 102518 @102518
-// Traduit, texte d'effet du sort
-	STRING_SET 102519 @102519
-
 // @todo boutique PNJ 102522 à 102524
-// @todo objets 102528, 102529, 102543 à 102545, 
+// Suite des descriptions de DLC en 95310
+	STRING_SET 102522 @102522
+	STRING_SET 102523 @102523
+	STRING_SET 102524 @102524
 
-// Contribué par Freddy_Gwendo
-	STRING_SET 102543 @102543
+// @todo objets 102528, 102529, 102543 à 102545, 
 
 // Identique IWDEE 37842 ~Click the gem to adjust the key binding~
 	STRING_SET 102620 @102620
@@ -1454,7 +1220,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 102711 @102711
 // Quasi identique IWDEE 34919
 	STRING_SET 102712 @102712
-// Quasi identique IWDEE 34920, réformulé
+// Quasi identique IWDEE 34920, reformulé
 	STRING_SET 102713 @102713
 // Quasi identique IWDEE 34921
 	STRING_SET 102714 @102714
@@ -1623,29 +1389,12 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique BGEE 32305
 	STRING_SET 102810 @102810
 
-	STRING_SET 102816 @102816
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-	STRING_SET 102817 @102817
-	STRING_SET 102818 @102818
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-	STRING_SET 102819 @102819
-
 // Identique BGEE 32308
 	STRING_SET 102832 @102832
 // Identique BGEE 32309
 	STRING_SET 102833 @102833
 // Identique BGEE 32310
 	STRING_SET 102834 @102834
-
-// Identique IWDEE 21402
-	STRING_SET 102860 @102860
-
-// Identique BGEE 12067
-	STRING_SET 102865 @102865
-// Identique BGEE 32327, à un saut de ligne près
-	STRING_SET 102866 @102866
-// Identique IWDEE 25041
-	STRING_SET 102867 @102867
 
 // Identique ToB 19458 (reprise du texte seulement)
 	STRING_SET 102870 @102870
@@ -1677,23 +1426,12 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 
 // Identique BGEE 24577 (minuscule initiale)
 	STRING_SET 103006 @103006
-// Quasi identique BGEE 26443, sauf niveau 1 et temps d'incantation 1
-	STRING_SET 103007 @103007
 
-// Identique BGEE 32328
-	STRING_SET 103009 @103009
-// Identique BGEE 32330 (1 saut de ligne près)
-	STRING_SET 103010 @103010
-// Quasi identique BGEE 32329, sauf dégâts 1d6 perforant, immunité aux armes et régénération en moins
-	STRING_SET 103011 @103011
 // Identique BGEE 23966
 	STRING_SET 103012 @103012
 // Quasi identique BGEE 23967, BGEE conservé car type de dégâts séparé de la ligne dégâts dans BG2EE (non conforme à l'habitude)
 	STRING_SET 103013 @103013
-// Quasi identique BGEE 32369, traduction Exaltation conservée de BGEE plutôt qu'Acclamation (cf 93786)
-	STRING_SET 103014 @103014
-// Identique BGEE 32371
-	STRING_SET 103015 @103015
+// @103014 Transfert dans fichier des sorts @103014, @103015
 
 // Identique BGEE 32337
 	STRING_SET 103041 @103041
@@ -1718,7 +1456,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 103057 @103057
 // Identique BGEE 32419
 	STRING_SET 103058 @103058
-// Nota : envisager de remplacer par @815 par "shaman" pour réduire l'ambiguïté avec le nom du kit de druide (reporter également dans BGEE)
+// Nota : Remplacement de "chaman" par @686 pour réduire l'ambiguïté avec le nom du kit de druide
 // Nota : reprendre pour le kit de druide le terme "druide totémique" utilisé dans BGEE V2.x
 // Identique BGEE 32441
 	STRING_SET 103059 @103059
@@ -1726,46 +1464,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 103060 @103060
 // Identique BGEE 32342
 	STRING_SET 103061 @103061
-// Identique BGEE 32348
-	STRING_SET 103062 @103062
-// Identique BGEE 32349
-	STRING_SET 103063 @103063
-// Identique BGEE 32364
-	STRING_SET 103064 @103064
-// Quasi identique BGEE 32365, correction durée 1 h au lieu de 5 ou 10 tours (défaut dans BGEE)
-	STRING_SET 103065 @103065
-// Identique BGEE 32366
-	STRING_SET 103066 @103066
-// Identique BGEE 32350
-	STRING_SET 103067 @103067
-// Identique BGEE 32351
-	STRING_SET 103068 @103068
-// Identique BGEE 32352
-	STRING_SET 103069 @103069
-// Identique BGEE 32353
-	STRING_SET 103070 @103070
-// Identique BGEE 32354
-	STRING_SET 103071 @103071
-// Identique BGEE 32355
-	STRING_SET 103072 @103072
-// Identique BGEE 32356
-	STRING_SET 103073 @103073
-// Identique BGEE 32357
-	STRING_SET 103074 @103074
-// Identique BGEE 32358
-	STRING_SET 103075 @103075
-// Identique BGEE 32359
-	STRING_SET 103076 @103076
-// Identique BGEE 32367
-	STRING_SET 103077 @103077
-// Identique BGEE 32360
-	STRING_SET 103078 @103078
-// Identique BGEE 32361
-	STRING_SET 103079 @103079
-// Identique BGEE 32362
-	STRING_SET 103080 @103080
-// Identique BGEE 32363
-	STRING_SET 103081 @103081
+
 // Identique BGEE 32428
 	STRING_SET 103082 @103082
 // Identique BGEE 32429
@@ -1803,16 +1502,6 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique BGEE 32340
 	STRING_SET 103102 @103102
 
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-	STRING_SET 103106 @103106
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-	STRING_SET 103107 @103107
-// Contribué par Freddy_Gwendo
-	STRING_SET 103108 @103108
-// Contribué par Freddy_Gwendo
-	STRING_SET 103109 @103109
-
-
 // Identique BGEE 9573
 	STRING_SET 103110 @103110
 // Identique BGEE 9572
@@ -1824,46 +1513,11 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 103118 @103118
 // Identique BGEE 32400
 	STRING_SET 103119 @103119
-// Identique BGEE 32402
-	STRING_SET 103120 @103120
-// Identique BGEE 32401
-	STRING_SET 103121 @103121
-// Identique BGEE 32403
-	STRING_SET 103122 @103122
-// Identique BGEE 32404
-	STRING_SET 103123 @103123
-// Identique BGEE 32405
-	STRING_SET 103124 @103124
-// Identique BGEE 32406
-	STRING_SET 103125 @103125
-// Identique BGEE 32407
-	STRING_SET 103126 @103126
-// Identique BGEE 32408
-	STRING_SET 103127 @103127
-// Identique BGEE 32409
-	STRING_SET 103128 @103128
-// Identique BGEE 32420
-	STRING_SET 103129 @103129
-// Identique BGEE 32421
-	STRING_SET 103130 @103130
-// Identique BGEE 32422
-	STRING_SET 103131 @103131
-// Identique BGEE 32423
-	STRING_SET 103132 @103132
-// Identique BGEE 32424
-	STRING_SET 103133 @103133
-// Identique BGEE 32425
-	STRING_SET 103134 @103134
-// Identique BGEE 32426
-	STRING_SET 103135 @103135
-// Identique BGEE 32427
-	STRING_SET 103136 @103136
+
+// 103125 à 103136 : voir Personnages_Sous-titres.tra
+
 // Identique BGEE 32345 + passage en minuscule
 	STRING_SET 103137 @103137
-// Traduit (référencé par 103065)
-	STRING_SET 103138 @103138
-// Traduit, @todo Trancher entre Invisibilité améliorée et Invisiblité majeure dans tous les textes
-	STRING_SET 103139 @103139
 
 // Identique BGEE 32706
 	STRING_SET 103141 @103141
@@ -1887,25 +1541,9 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique BGEE 32705
 	STRING_SET 103152 @103152
 
-// Identique IWDEE 24776
-	STRING_SET 103166 @103166
-
 // Traduit
 	STRING_SET 103172 @103172
-// Identique IWDEE 7642
-	STRING_SET 103173 @103173
 
-// Identique IWDEE 7645
-	STRING_SET 103175 @103175
-
-// Identique BGEE 27600
-	STRING_SET 103179 @103179
-
-// Identique BGEE 27602
-	STRING_SET 103181 @103181
-
-// Identique BGEE 32730
-	STRING_SET 103187 @103187
 // Identique BGEE 32712
 	STRING_SET 103188 @103188
 // Identique BGEE 32708
@@ -1934,10 +1572,8 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique BGEE 32715
 	STRING_SET 103205 @103205
 
-// Contribué par Freddy_Gwendo
-	STRING_SET 103207 @103207
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-	STRING_SET 103208 @103208
-
 // Identique BGEE 32170 (Baeloth)
 	STRING_SET 103210 @103210
+	STRING_SET 103211 @103211
+	STRING_SET 103212 @103212
+	STRING_SET 103213 @103213

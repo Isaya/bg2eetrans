@@ -1,0 +1,447 @@
+// Nom long (nom habituel) et nom servant dans la bulle d'aide : potentiellement different
+// @numero_nom_long = ~nom long~
+// @numero_nom_aide = ~nom aide~
+
+// Invocations du shaman : voir fichier déjà traduit
+
+// Identique BGEE 32406
+@103125 = ~Esprit renard~
+// Identique BGEE 32407
+@103126 = ~Esprit serpent~
+// Identique BGEE 32408
+@103127 = ~Esprit limier~
+// Identique BGEE 32409
+@103128 = ~Esprit ours~
+// Identique BGEE 32420
+@103129 = ~Esprit panthère~
+// Identique BGEE 32421
+@103130 = ~Esprit sanglier~
+// Identique BGEE 32422
+@103131 = ~Esprit de feu mineur~
+// Identique BGEE 32423
+@103132 = ~Esprit d'air mineur~
+// Identique BGEE 32424
+@103133 = ~Esprit de terre mineur~
+// Identique BGEE 32425
+@103134 = ~Esprit de feu~
+// Identique BGEE 32426
+@103135 = ~Esprit d'air~
+// Identique BGEE 32427
+@103136 = ~Esprit de terre~
+
+// Isaya : Pas une traduction mais un report des voix en français de BG II
+// Nom et voix des membres du groupe pré-tiré pour les Black Pits 2 ou par des personnages dans les quêtes
+// Sous-titres des voix disponibles pour le personnage principal
+
+@102413 = ~Alarion~ // BPARTY01, nom court identique
+@89095 = ~Je m'efforcerai d'être digne de cette tâche.~ [MALE4b] // BPARTY01 slot 6
+@89096 = ~Je dois prendre du repos.~ [MALE4c] // BPARTY01 slot 7
+@89097 = ~Il y a tant à faire.~ [MALE4d] // BPARTY01 slot 8
+@89094 = ~Pour le combat et la victoire !~ [MALE4a] // BPARTY01 slot 9, slot10, slot11
+@89105 = ~Aaaah !~ [MALE4l] // BPARTY01 slot 18
+@89106 = ~Aaaah ha...~ [MALE4m] // BPARTY01 slot 19
+@89098 = ~J'ai besoin d'aide pour panser mes blessures.~ [MALE4e] // BPARTY01 slot 20
+@89099 = ~Oui ?~ [MALE4f] // BPARTY01 slot 26
+@89100 = ~Quelle est ma tâche ?~ [MALE4g] // BPARTY01 slot 27
+@89101 = ~Sur mon honneur.~ [MALE4h] // BPARTY01 slot 28
+@89102 = ~Ce sera fait.~ [MALE4i] // BPARTY01 slot 32
+@89103 = ~Bien sûr.~ [MALE4j] // BPARTY01 slot 33
+@89104 = ~Je ferai de mon mieux.~ [MALE4k] // BPARTY01 slot 34
+@89107 = ~Oui.~ [MALE4s] // BPARTY01 slot 35
+@89108 = ~Très bien.~ [MALE4t] // BPARTY01 slot 36
+@89109 = ~Bien.~ [MALE4u] // BPARTY01 slot 37
+@89110 = ~Certes.~ [MALE4v] // BPARTY01 slot 38
+@89111 = ~Hum ?~ [MALE4x] // BPARTY01 slot 63
+@89112 = ~Je n'attends qu'un mot de votre part.~ [MALE4y] // BPARTY01 slot 64
+@89113 = ~Un coup puissant !~ [MALE4z] // BPARTY01 slot 65
+@100306 = ~Quelle regrettable erreur !~ [Male41] // BPARTY01 slot 66
+@100307 = ~Mon arme est inefficace !~ [Male42] // BPARTY01 slot 67
+@100308 = ~Il me faut abandonner votre objet au sol ; je ne peux rien porter de plus..~ [Male43] // BPARTY01 slot 68
+@100309 = ~J'ai récupéré quelque chose.~ [Male44] // BPARTY01 slot 69
+@100310 = ~Je suis à l'abri des yeux indiscrets.~ [Male45] // BPARTY01 slot 70
+@100311 = ~Mon sort a été interrompu !~ [Male46] // BPARTY01 slot 71
+@100312 = ~Ça y est, mon piège est en place.~ [Male47] // BPARTY01 slot 72
+
+@102412 = ~Tyras~ // BPARTY02, nom court identique
+@89035 = ~Un choix des plus judicieux.~ [MALE1b] // BPARTY02 slot 6
+@89036 = ~Il faut qu'je m'r'pose si je dois combattre.~ [MALE1c] // BPARTY02 slot 7
+@89037 = ~Quelle perte de temps.~ [MALE1d] // BPARTY02 slot 8
+@89034 = ~Rrreuhh !~ [MALE1a] // BPARTY02 slot 9, slot 10, slot 11
+@89045 = ~Euah !~ [MALE1l] // BPARTY02 slot 18
+@89046 = ~Euhh aah !~ [MALE1m] // BPARTY02 slot 19
+@89038 = ~Mes blessures doivent être pansées.~ [MALE1e] // BPARTY02 slot 20
+@89039 = ~Oui ?~ [MALE1f] // BPARTY02 slot 26
+@89040 = ~Quoi ?~ [MALE1g] // BPARTY02 slot 27
+@89041 = ~Hein ?~ [MALE1h] // BPARTY02 slot 28
+@89042 = ~Si tu veux.~ [MALE1i] // BPARTY02 slot 32
+@89043 = ~Euh.~ [MALE1j] // BPARTY02 slot 33
+@89044 = ~Oui oui.~ [MALE1k] // BPARTY02 slot 34
+@89047 = ~Ooh.~ [MALE1s] // BPARTY02 slot 35
+@89048 = ~C'est fait.~ [MALE1t] // BPARTY02 slot 36
+@89049 = ~C'est c'que j'pensais.~ [MALE1u] // BPARTY02 slot 37
+@89050 = ~Facile.~ [MALE1v] // BPARTY02 slot 38
+@89051 = ~Que veux-tu ?~ [MALE1x] // BPARTY02 slot 63
+@89052 = ~Je suis prêt.~ [MALE1y] // BPARTY02 slot 64
+@89053 = ~Euaah !~ [MALE1z] // BPARTY02 slot 65
+@100285 = ~Heuh raté !~ [Male11] // BPARTY02 slot 66
+@100286 = ~Aaah ! Cette arme ne vaut donc rien !~ [Male12] // BPARTY02 slot 67
+@100287 = ~J'peux rien porter d'plus. Ton objet est à terre.~ [Male13] // BPARTY02 slot 68
+@100288 = ~J'ai dérobé quelque chose.~ [Male14] // BPARTY02 slot 69
+@100289 = ~Je me suis caché.~ [Male15] // BPARTY02 slot 70
+@100290 = ~Euaah, mon sort est rompu.~ [Male16] // BPARTY02 slot 71
+@100291 = ~J'ai tendu un piège.~ [Male17] // BPARTY02 slot 72
+
+@102414 = ~Mireille~ // BPARTY03, nom court identique
+@88901 = ~Tout le monde y trouvera son compte.~ [female2b] // BPARTY03 slot 6
+@88902 = ~J'ai vraiment besoin de repos, vous savez.~ [female2c] // BPARTY03 slot 7
+@88903 = ~Tout cela ne mène nulle part. Il faut... faire quelque chose.~ [female2d] // BPARTY03 slot 8
+@88900 = ~Hahahaha Hahahaha !~ [female2a] // BPARTY03 slot 9, slot 10, slot 11
+@88915 = ~Aaah !~ [female2l] // BPARTY03 slot 18
+@88916 = ~Ooooh oh !~ [female2m] // BPARTY03 slot 19
+@88904 = ~Il faudra panser mes blessures.~ [female2e] // BPARTY03 slot 20
+@88905 = ~Humm ?~ [female2f] // BPARTY03 slot 26
+@88906 = ~J'attends.~ [female2g] // BPARTY03 slot 27
+@88907 = ~Oui ?~ [female2h] // BPARTY03 slot 28
+@88908 = ~Aucun problème.~ [female2i] // BPARTY03 slot 32
+@88909 = ~Très bien.~ [female2j] // BPARTY03 slot 33
+@88910 = ~Tout c'que tu voudras.~ [female2k] // BPARTY03 slot 34
+@88911 = ~Bien entendu.~ [female2s] // BPARTY03 slot 35
+@88912 = ~Bien sûr.~ [female2t] // BPARTY03 slot 36
+@88913 = ~Si c'est ce que tu veux.~ [female2u] // BPARTY03 slot 37
+@88914 = ~Il en sera fait selon tes désirs.~ [female2v] // BPARTY03 slot 38
+@88917 = ~Que puis-je faire ?~ [female2x] // BPARTY03 slot 63
+@88918 = ~À qui le dis-tu ?~ [female2y] // BPARTY03 slot 64
+@88919 = ~Aie ! Cela doit faire mal ?~ [female2z] // BPARTY03 slot 65
+@100327 = ~Ooh ! Espèce de bâtard mal dégrossi !~ [Female21] // BPARTY03 slot 66
+@100328 = ~Mon attaque est inefficace.~ [Female22] // BPARTY03 slot 67
+@100329 = ~Je ne peux rien transporter d'autre. Vous voudrez bien ramasser cela pour moi, non ?~ [Female23] // BPARTY03 slot 68
+@100330 = ~Ni vue ni connue.~ [Female24] // BPARTY03 slot 69
+@100331 = ~Je suis bien cachée.~ [Female25] // BPARTY03 slot 70
+@100332 = ~Ooh ! Mon sort a échoué.~ [Female26] // BPARTY03 slot 71
+@100333 = ~Attention, mon piège est tendu !~ [Female27] // BPARTY03 slot 72
+
+@102415 = ~Vidania~ // BPARTY04, nom court identique
+// FEMALE4 : voix commune à BPARTY04, OHDCRU01, OHDCRU04, OHDDEF02, OHDLUFCL, OHDLUFPL, OHDNEO01, OHDNEO03, OHDPPE01, OHDPPET, OHDTREE2, OHDTREE3
+@89015 = ~Bien sûr. Vous n'auriez pu mieux choisir.~ [FEMALE4b] // BPARTY04 slot 6
+@89016 = ~Il va falloir que je me repose. Je ne sais pas combattre lorsque mon corps est fatigué.~ [FEMALE4c] // BPARTY04 slot 7
+@89017 = ~Il y a bien mieux à faire que de rester là les bras ballants.~ [FEMALE4d] // BPARTY04 slot 8
+@89014 = ~Vous périrez de ma main !~ [FEMALE4a] // BPARTY04 slot 9, slot 10, slot 11
+@89025 = ~Aah !~ [FEMALE4l] // BPARTY04 slot 18
+@89026 = ~Aaaah Oh !~ [FEMALE4m] // BPARTY04 slot 19
+@89018 = ~J'ai besoin de soins. Vite !~ [FEMALE4e] // BPARTY04 slot 20
+@89019 = ~Oui ?~ [FEMALE4f] // BPARTY04 slot 26
+@89020 = ~Qu'est-ce que c'est ?~ [FEMALE4g] // BPARTY04 slot 27
+@89021 = ~Parlez.~ [FEMALE4h] // BPARTY04 slot 28
+@89022 = ~Ce sera fait.~ [FEMALE4i] // BPARTY04 slot 32
+@89023 = ~Certainement.~ [FEMALE4j] // BPARTY04 slot 33
+@89024 = ~Sans aucun doute.~ [FEMALE4k] // BPARTY04 slot 34
+@89027 = ~Vite fait, bien fait.~ [FEMALE4s] // BPARTY04 slot 35
+@89028 = ~Sans hésitation.~ [FEMALE4t] // BPARTY04 slot 36
+@89029 = ~Cela ne prendra pas longtemps.~ [FEMALE4u] // BPARTY04 slot 37
+@89030 = ~S'il le faut.~ [FEMALE4v] // BPARTY04 slot 38
+@89031 = ~Je vous écoute.~ [FEMALE4x] // BPARTY04 slot 63
+@89032 = ~Je suis à vos ordres.~ [FEMALE4y] // BPARTY04 slot 64
+@89033 = ~Oui !~ [FEMALE4z] // BPARTY04 slot 65
+@100341 = ~Ahhh ! La prochaine fois !~ [Female41] // BPARTY04 slot 66
+@100342 = ~Mon arme est sans effet.~ [Female42] // BPARTY04 slot 67
+@100343 = ~J'ne peux plus rien porter. J'ai lâché cet objet.~ [Female43] // BPARTY04 slot 68
+@100344 = ~Mon petit larcin est passé inaperçu.~ [Female44] // BPARTY04 slot 69
+@100345 = ~Je suis cachée. Nous pouvons poursuivre.~ [Female45] // BPARTY04 slot 70
+@100346 = ~Mon sort a été interrompu.~ [Female46] // BPARTY04 slot 71
+@100347 = ~Faites attention, ce piège est tendu, et bien tendu.~ [Female47] // BPARTY04 slot 72
+
+@102417 = ~Rurik~ // BPARTY05, nom court identique
+@89075 = ~Je ferai mon possible pour être un exemple.~ [MALE3b] // BPARTY05 slot 6
+@89076 = ~Je crains fort que nous allions trop vite pour moi. Je dois me reposer.~ [MALE3c] // BPARTY05 slot 7
+@89077 = ~Pourquoi rester oisif quand il y a mille et un dangers à affronter.~ [MALE3d] // BPARTY05 slot 8
+@89074 = ~À l'attaque, et pas de quartiers !~ [MALE3a] // BPARTY05 slot 9, slot 10, slot 11
+@89085 = ~Oh !~ [MALE3l] // BPARTY05 slot 18
+@89086 = ~Aaaaoh.~ [MALE3m] // BPARTY05 slot 19
+@89078 = ~Je ne voudrais surtout pas vous déranger mais... j'ai besoin d'aide.~ [MALE3e] // BPARTY05 slot 20
+@89079 = ~Oui ?~ [MALE3f] // BPARTY05 slot 26
+@89080 = ~Humm ?~ [MALE3g] // BPARTY05 slot 27
+@89081 = ~Que puis-je faire pour toi ?~ [MALE3h] // BPARTY05 slot 28
+@89082 = ~C'est entendu !~ [MALE3i] // BPARTY05 slot 32
+@89083 = ~Je m'en voudrais de refuser.~ [MALE3j] // BPARTY05 slot 33
+@89084 = ~Oh, oui !~ [MALE3k] // BPARTY05 slot 34
+@89087 = ~Je pensais bien.~ [MALE3s] // BPARTY05 slot 35
+@89088 = ~Allons-y !~ [MALE3t] // BPARTY05 slot 36
+@89089 = ~Mettons-nous à l'œuvre.~ [MALE3u] // BPARTY05 slot 37
+@89090 = ~Comme tu voudras.~ [MALE3v] // BPARTY05 slot 38
+@89091 = ~Comment puis-je te venir en aide ?~ [MALE3x] // BPARTY05 slot 63
+@89092 = ~Tu n'as qu'un mot à dire.~ [MALE3y] // BPARTY05 slot 64
+@89093 = ~Haha !~ [MALE3z] // BPARTY05 slot 65
+@100299 = ~Oh ! Dommage.~ [Male31] // BPARTY05 slot 66
+@100300 = ~Cette arme est donc totalement inutile !~ [Male32] // BPARTY05 slot 67
+@100301 = ~Non, je ne peux rien porter de plus, l'objet est au sol.~ [Male33] // BPARTY05 slot 68
+@100302 = ~Ce qui était leur est désormais à moi !~ [Male34] // BPARTY05 slot 69
+@100303 = ~Tapi dans l'ombre je frapperai.~ [Male35] // BPARTY05 slot 70
+@100304 = ~Mon sort... a été interrompu.~ [Male36] // BPARTY05 slot 71
+@100305 = ~Ah ha! Le piège est tendu et n'attend que sa proie !~ [Male37] // BPARTY05 slot 72
+
+@102416 = ~Zeris~ // BPARTY06, nom court identique
+@89055 = ~Vous pouvez m'faire confiance, avec moi, il n'y a jamais d'problème.~ [MALE2b] // BPARTY06 slot 6
+@89056 = ~Ce n'est pas mon genre de m'plaindre, mais là j'fatigue.~ [MALE2c] // BPARTY06 slot 7
+@89057 = ~J'ai besoin d'action, sinon je rouille.~ [MALE2d] // BPARTY06 slot 8
+@89054 = ~Très bien. On va faire ça vite et bien.~ [MALE2a] // BPARTY06 slot 9, slot 10, slot 11
+@89065 = ~Non Ahhh.~ [MALE2l] // BPARTY06 slot 18
+@89066 = ~Non oh ooaahhh.~ [MALE2m] // BPARTY06 slot 19
+@89058 = ~Notre collaboration risque fort de faire long feu si vous n'm'aidez pas... tout de suite !~ [MALE2e] // BPARTY06 slot 20
+@89059 = ~Ouais ?~ [MALE2f] // BPARTY06 slot 26
+@89060 = ~Je suis toute ouïe.~ [MALE2g] // BPARTY06 slot 27
+@89061 = ~J'attends.~ [MALE2h] // BPARTY06 slot 28
+@89062 = ~J'espère que ça en vaut la peine.~ [MALE2i] // BPARTY06 slot 32
+@89063 = ~J'm'en charge !~ [MALE2j] // BPARTY06 slot 33
+@89064 = ~Comme si c'était fait !~ [MALE2k] // BPARTY06 slot 34
+@89067 = ~C'est parti !~ [MALE2s] // BPARTY06 slot 35
+@89068 = ~S'il faut l'faire...~ [MALE2t] // BPARTY06 slot 36
+@89069 = ~Autant qu'je m'en charge.~ [MALE2u] // BPARTY06 slot 37
+@89070 = ~Pas d'problème.~ [MALE2v] // BPARTY06 slot 38
+@89071 = ~Chuis prêt.~ [MALE2x] // BPARTY06 slot 63
+@89072 = ~Alors ?~ [MALE2y] // BPARTY06 slot 64
+@89073 = ~Ouais ! Eh eh.~ [MALE2z] // BPARTY06 slot 65
+@100292 = ~Rah, arrête de bouger !~ [Male21] // BPARTY06 slot 66
+@100293 = ~Hah, aucun effet.~ [Male22] // BPARTY06 slot 67
+@100294 = ~Je suis déjà chargé comme un baudet.~ [Male23] // BPARTY06 slot 68
+@100295 = ~Ils n'en ont pas besoin, de toute façon.~ [Male24] // BPARTY06 slot 69
+@100296 = ~Ils vont avoir la surprise de leur vie !~ [Male25] // BPARTY06 slot 70
+@100297 = ~Ohh ! Ça n'arrive pourtant jamais.~ [Male26] // BPARTY06 slot 71
+@100298 = ~Le piège est tendu.~ [Male27] // BPARTY06 slot 72
+
+// MALE5 : commun à OHDBALD, OHDCRCUT, OHDCRU02, OHDCRU03, OHDDEF01, OHDDEF03, OHDLUMCL, OHDLUMPL, OHDNEO02, OHDNEO04, OHDPPAL, OHDPPE02, OHDRDEF, OHDTREE0, OHDTREE1
+@89115 = ~Je m'efforcerai d'être digne de cette tâche.~ [MALE5b] // OHDBALD slot 6
+@89116 = ~Je dois prendre du repos.~ [MALE5c] // OHDBALD slot 7
+@89117 = ~Il y a tant à faire.~ [MALE5d] // OHDBALD slot 8
+@89114 = ~Pour le combat et la victoire !~ [MALE5a] // OHDBALD slot 9, slot 10, slot 11
+@89125 = ~Ooooh !~ [MALE5l] // OHDBALD slot 18
+@89126 = ~Oooh ohhh...~ [MALE5m] // OHDBALD slot 19
+@89118 = ~J'ai besoin d'aide, pour panser mes blessures.~ [MALE5e] // OHDBALD slot 20
+@89119 = ~Oui ?~ [MALE5f] // OHDBALD slot 26
+@89120 = ~Quelle est ma tâche ?~ [MALE5g] // OHDBALD slot 27
+@89121 = ~Sur mon honneur.~ [MALE5h] // OHDBALD slot 28
+@89122 = ~Ce sera fait.~ [MALE5i] // OHDBALD slot 32
+@89123 = ~Considérez que c'est fait.~ [MALE5j] // OHDBALD slot 33
+@89124 = ~Je ferai de mon mieux.~ [MALE5k] // OHDBALD slot 34
+@89127 = ~Oui.~ [MALE5s] // OHDBALD slot 35
+@89128 = ~Très bien.~ [MALE5t] // OHDBALD slot 36
+@89129 = ~Bien.~ [MALE5u] // OHDBALD slot 37
+@89130 = ~À vos ordres.~ [MALE5v] // OHDBALD slot 38
+@89131 = ~Hum ?~ [MALE5x] // OHDBALD slot 63
+@89132 = ~Je n'attends qu'un mot de votre part.~ [MALE5y] // OHDBALD slot 64
+@89133 = ~Un coup puissant !~ [MALE5z] // OHDBALD slot 65
+@100313 = ~Quelle regrettable erreur !~ [Male51] // slot 66
+@100314 = ~Mon arme est inefficace !~ [Male52] // slot 67
+@100315 = ~Il me faut abandonner votre objet au sol ; je ne peux rien porter de plus.~ [Male53] // slot 68
+@100316 = ~J'ai récupéré quelque chose.~ [Male54] // slot 69
+@100317 = ~Je suis à l'abri des yeux indiscrets.~ [Male55] // slot 70
+@100318 = ~J'ai perdu ma concentration !~ [Male56] // slot 71
+@100319 = ~Mon piège est tendu.~ [Male57] // slot 72
+
+// Complément pour les voix disponibles pour le PJ, d'après les textes référencés dans CHARSND.2DA
+// couvre davantage de jeux de voix que les 6 personnages des Black Pits et ceux utilisés dans des PNJ
+// MALE (identique à MALE5), FEMALE (identique à FEMALE4), FEMALE1, FEMALE3
+
+// Female1
+@88879 = ~Aaaaaah !~ [female1a] // slot 9
+@88880 = ~Tu n'aurais pu faire meilleur choix.~ [female1b] // slot 6
+@88881 = ~Tout ceci commence à bien faire. Je suis fatiguée.~ [female1c] // slot 7
+@88882 = ~Nous perdons du temps. Hâtons-nous !~ [female1d] // slot 8
+@88883 = ~Il faut panser mes blessures, vite !~ [female1e] // slot 20
+@88884 = ~Hein ?~ [female1f] // slot 26
+@88885 = ~Quoi ?~ [female1g] // slot 27
+@88886 = ~Parle.~ [female1h] // slot 28
+@88887 = ~Très bien.~ [female1i] // slot 32
+@88888 = ~Huhum.~ [female1j] // slot 33
+@88889 = ~Oui.~ [female1k] // slot 34
+@88890 = ~Aaah !~ [female1l] // slot 18
+@88891 = ~Ahhh aaaah.~ [female1m] // slot 19
+@88892 = ~D'accord.~ [female1s] // slot 35
+@88893 = ~C'est bien ce que je pensais.~ [female1t] // slot 36
+@88895 = ~Facile !~ [female1u] // slot 37
+@88896 = ~Pas de problème.~ [female1v] // slot 38
+@88897 = ~Oui ?~ [female1x] // slot 63
+@88898 = ~Que puis-je faire ?~ [female1y] // slot 64
+@88899 = ~Ahhh ! Hahaha !~ [female1z] // slot 65
+@100320 = ~Mmm ohhh !~ [Female11] // slot 66
+@100321 = ~Mais eh !~ [Female12] // slot 67
+@100322 = ~Je n'peux rien transporter d'autre ! Ton objet est par terre.~ [Female13] // slot 68
+@100323 = ~J'ai dérobé quelque chose.~ [Female14] // slot 69
+@100324 = ~Je suis cachée aux yeux de tous.~ [Female15] // slot 70
+@100325 = ~Ahhh ! Mon sort...~ [Female16] // slot 71
+@100326 = ~Mon piège est tendu.~ [Female17] // slot 72
+
+// Female3
+@88996 = ~Bon, si on s'arrêtait ?~ [FEMALE3c] // slot 7
+@88997 = ~Y a certainement mieux à faire, non ?~ [FEMALE3d] // slot 8
+@88998 = ~Je ne tiens pas à vous plomber le moral mais j'ai vraiment besoin d'aide.~ [FEMALE3e] // slot 20
+@88999 = ~Ouais.~ [FEMALE3f] // slot 26
+@89000 = ~Z'avez b'soin de quelque chose ?~ [FEMALE3g] // slot 27
+@89001 = ~Il vous suffit de me dire par où il faut aller.~ [FEMALE3h] // slot 28
+@89002 = ~D'accord.~ [FEMALE3i] // slot 32
+@89003 = ~Bien sûr.~ [FEMALE3j] // slot 33
+@89004 = ~Si vous l'dites.~ [FEMALE3k] // slot 34
+@89005 = ~Compris.~ [FEMALE3s] // slot 35
+@89006 = ~Une seconde.~ [FEMALE3t] // slot 36
+@89007 = ~Je suis là.~ [FEMALE3u] // slot 37
+@89008 = ~C'est fait.~ [FEMALE3v] // slot 38
+@89009 = ~Ah !~ [FEMALE3l] // slot 18
+@89010 = ~Ahaaah !~ [FEMALE3m] // slot 19
+@89011 = ~Prête à partir.~ [FEMALE3x] // slot 63
+@89012 = ~Vous n'avez qu'un mot à dire !~ [FEMALE3y] // slot 64
+@89013 = ~Ouh, ça doit faire mal !~ [FEMALE3z] // slot 65
+@89134 = ~Rien ne m'arrêtera.~ [FEMALE3a]
+@89135 = ~Ahh. On va enfin pouvoir s'amuser un peu, faites-moi confiance.~ [FEMALE3b]
+@89136 = ~Ahh. On va enfin pouvoir s'amuser un peu, faites-moi confiance.~ [female3b] // slot 6
+@89137 = ~Rien ne m'arrêtera.~ [female3a] // slot 9
+@100334 = ~Ce n'est que partie remise !~ [Female31] // slot 66
+@100335 = ~C'est inutile, mon arme n'a aucun effet !~ [Female32] // slot 67
+@100336 = ~Non, je ne peux plus rien prendre. Votre babiole est à terre.~ [Female33] // slot 68
+@100337 = ~Ahhahaha !~ [Female34] // slot 69
+@100338 = ~Plus personne ne peut me voir à présent.~ [Female35] // slot 70
+@100339 = ~Ahhh ! Ce sort a fait long feu.~ [Female36] // slot 71
+@100340 = ~Héhé ! Voilà qui va faire mal !~ [Female37] // slot 72
+
+
+//////////////////////////////////////////////////////////////////////////
+// IMOEN (bigraphie)
+//////////////////////////////////////////////////////////////////////////
+
+// @16454 = ~Imoen~ // IMOEN15, IMOEN211, IMOEN213, OHB1IMOE (existant SoA+ToB)
+@74276 = ~IMOEN glousse lorsque vous la questionnez à propos de son passé, considérant que vous essayez juste de focaliser son esprit sur des souvenirs heureux. Elle se prête au jeu et s'égaie visiblement lorsqu'elle parle de la façon dont vous assez passé vos enfances ensemble à Château-Suif. Elle est arrivée là-bas comme vous, en compagnie de votre père adoptif Gorion, mais en dépit de cette similitude, elle a grandi de façon bien plus insouciante que vous. Effectivement son caractère vue enjoué l'a longtemps protégée des épreuves du monde, pourtant les horreurs qu'elle a endurées ont sans aucun doute laissé leurs traces.~ // IMOEN15 slot 74
+
+
+//////////////////////////////////////////////////////////////////////////
+// TUTORIEL
+//////////////////////////////////////////////////////////////////////////
+
+@96913 = ~Brevin~ // TTSER2, nom court identique
+
+//////////////////////////////////////////////////////////////////////////
+// Sous-titres Adalon
+//////////////////////////////////////////////////////////////////////////
+
+// @4746 = ~Adalon~ // UDSILVER (existant SoA+ToB)
+@74280 = ~Cette erreur de jugement vous sera fatale !~ [SILVER19] // UDSILVER slot 11
+@74281 = ~Vous allez périr !~ [SILVER18] // UDSILVER slot 12
+@74282 = ~Vous devez avoir une bonne raison pour venir jusqu'ici. Alors, parlez.~ [SILVER14] // UDSILVER slot 27
+@74283 = ~Je ne m'attendais pas à vous voir.~ [SILVER12] // UDSILVER slot 28
+@74284 = ~Vous pouvez paraître devant moi.~ [SILVER11] // UDSILVER slot 29
+
+
+//////////////////////////////////////////////////////////////////////////
+// RASAAD
+//////////////////////////////////////////////////////////////////////////
+
+// Rasaad
+
+@82029 = ~Rasaad~ // RASAAD10, RASAAD11, RASAAD12, RASAAD13, RASAAD8, RASAAD9, OHB1RASD, nom court identique
+@93990 = ~Mon cœur est empli de joie.~ [OH93990] // RASAAD10 slot 2
+@93991 = ~Je vais surmonter ça.~ [OH93991] // RASAAD10 slot 3
+@93992 = ~Cela ne peut plus durer.~ [OH93992] // RASAAD10 slot 4
+@93993 = ~C'est intolérable !~ [OH93993] // RASAAD10 slot 5
+@86697 = ~Je ferai tout mon possible pour me montrer digne de diriger.~ [OH86697] // RASAAD10 slot 6
+@86701 = ~Je suis fatigué. Reposons-nous un moment, mon ami.~ ~Je suis fatigué. Reposons-nous un moment, mon amie.~ [OH86701] // RASAAD10 slot 7
+@86711 = ~Je suis un homme patient, mais cette patience est mise à l'épreuve.~ [OH86711] // RASAAD10 slot 8
+@86686 = ~Paie pour tes péchés !~ [OH86686] // RASAAD10 slot 9
+@86690 = ~Je te verrai bientôt à mes pieds !~ [OH86690] // RASAAD10 slot 10
+@86695 = ~Tâte de mon pied !~ [OH86695] // RASAAD10 slot 11
+@86757 = ~Uagh !~ [OH86757] // RASAAD10 slot 18
+@86758 = ~Je crains que ce soit la fin. Gamaz, mon frère, je te reverrai bientôt.~ [OH86758] // RASAAD10 slot 19
+@86719 = ~Laissez-moi. Je ne ferai que vous ralentir.~ [OH86719] // RASAAD10 slot 20
+@86759 = ~C'est si paisible ici. Mon esprit est calme et mon cœur est moins lourd.~ [OH86759] // RASAAD10 slot 21
+@86760 = ~Cet endroit grouille de mouvement et de bruit ; il est difficile de se concentrer sur ce qui importe vraiment.~ [OH86760] // RASAAD10 slot 22
+@86761 = ~Faisons ce que nous devons faire et finissons-en avec cet endroit.~ [OH86761] // RASAAD10 slot 23
+@86762 = ~Le soleil est juste, mais sans pitié.~ [OH86762] // RASAAD10 slot 24
+@86763 = ~Jadis la lumière de Séluné calmait mon cœur et apaisait mon esprit. Plus maintenant.~ [OH86763] // RASAAD10 slot 25
+@86740 = ~Que puis-je faire ?~ [OH86740] // RASAAD10 slot 26
+@86766 = ~Laisse-moi t'aider.~ [OH86766] // RASAAD10 slot 27
+@86731 = ~J'ai besoin de quelque chose à frapper du poing ou du pied.~ [OH86731] // RASAAD10 slot 28
+@86767 = ~Que veux-tu de moi ?~ [OH86767] // RASAAD10 slot 29
+@86723 = ~Je ferai ce qu'il faut.~ [OH86723] // RASAAD10 slot 30
+@86714 = ~Nous allons agir bientôt. N'est-ce pas ?~ [OH86714] // RASAAD10 slot 31
+@86743 = ~Très bien.~ [OH86743] // RASAAD10 slot 32
+@86751 = ~Je peux m'en occuper.~ [OH86751] // RASAAD10 slot 33
+@86752 = ~Excellent.~ [OH86752] // RASAAD10 slot 34
+@86747 = ~Comme tu le souhaites.~ [OH86747] // RASAAD10 slot 35
+@86754 = ~Avec plaisir.~ [OH86754] // RASAAD10 slot 36
+@86755 = ~Certainement.~ [OH86755] // RASAAD10 slot 37
+@86756 = ~C'est tout ?~ [OH86756] // RASAAD10 slot 38
+@86764 = ~Nos ennemis vont payer un prix terrible pour ça !~ [OH86764] // RASAAD10 slot 53
+@86753 = ~La simplicité-même pour quelqu'un de formé aux techniques de l'Ordre de la Conscience Solaire.~ [OH86753] // RASAAD10 slot 63
+@86728 = ~C'est la volonté de la déesse.~ [OH86728] // RASAAD10 slot 64
+@86768 = ~Vous ne pouvez pas me vaincre. Rendez-vous maintenant, avant qu'il ne soit trop tard.~ // RASAAD10 slot 65
+@86770 = ~On ne peut pas se fier à toi !~ [OH86770] // RASAAD10 slot 66
+@86771 = ~Rien ? Alors je vais essayer quelque chose d'autre !~ [OH86771] // RASAAD10 slot 67
+@86772 = ~Chaque nouvel objet restreint davantage mon déplacement. Je ne peux plus rien porter.~ [OH86772] // RASAAD10 slot 68
+@86773 = ~Pas la façon honorable de faire les choses ; mais sans aucun doute efficace.~ [OH86773] // RASAAD10 slot 69
+@86774 = ~Tant que nous ne sommes pas vus, nous sommes en sécurité.~ [OH86774] // RASAAD10 slot 70
+@86775 = ~Tchah ! Ça n'a pas marché.~ [OH86775] // RASAAD10 slot 71
+@86776 = ~Voilà qui devrait faire réfléchir à deux fois nos ennemis.~ [OH86776] // RASAAD10 slot 72
+@86676 = ~En tant que serviteur de la déesse de lune Séluné, la vie du moine taciturne Rasaad au service de l'Ordre de la Conscience Solaire s'est achevée dans la tragédie. Il parle de son frère, Gamaz, avec un ton révérencieux, bien que Gamaz ait trahi la Conscience Solaire pour rejoindre la secte de la Lune Noire, où il a appris à vénérer Shar aux pieds d'un homme nommé Alorgoth. Bien qu'il ait tué Gamaz de ses propres mains, Rasaad tient Alorgoth responsable de la mort de son frère. Il s'est engagé à venger Gamaz et il est manifeste qu'il est prêt à quasiment tout sacrifier pour atteindre ce but.~ // RASAAD10 slot 74
+
+
+// Rasaad de Black Pits 2 : variation par rapport aux autres RASAAD en termes de textes/voix
+@86750 = ~C'est fait.~ [OH86750] // OHB1RASD slot 32
+@86765 = ~Tu peux compter sur moi.~ [OH86765] // OHB1RASD slot 63
+
+
+// Quête : SoA
+
+@81757 = ~Aldun Forgecaster~ // OHRALDUN, nom court identique
+@81998 = ~Alorgoth~ // OHRALOR, OHRALOR2, nom court identique
+@81999 = ~Garde de l'amphithéâtre~ // ~Amphitheater Guard~ // OHRAMPHI, nom court identique
+@93778 = ~Hérétique Blynnyk~ // ~Heretic Blynnyk~ // OHRBLYNN, nom court identique
+@82002 = ~Moine de la Lune Claire~ // ~Bright Moon Monk~ // OHRBMM, nom court identique
+@82001 = ~Moine du Soleil Aveuglant~ // ~Blinding Sun Monk~ // OHRBSM, nom court identique
+@82000 = ~Moine de la Conscience Solaire enchainé~ // ~Bound Sun Soul Monk~ // OHRBSSM1, OHRBSSM2, OHRBSSM3, nom court identique
+@82011 = ~Moine hérétique~ // ~Heretic Monk~ // OHRBULL1, OHRBULL2, OHRDMH1, OHRHERET, OHRHERM, OHRHMON1, OHRMEMB1, OHRMEMB2, OHRMEMB3, OHRRANHM, nom court identique
+@81758 = ~Cless Œildefer~ // ~Cless Ironeye~ // OHRCLESS, nom court identique
+@82003 = ~Personnage cagoulé~ // ~Cloaked Figure~ // OHRCLOAK, nom court identique
+@82004 = ~Collus Darathon~ // OHRCOLLU, nom court identique
+@82005 = ~Confesseur~ // ~Confessor~ // OHRCONF, nom court identique
+@93781 = ~Coren l'hérétique~ // ~Heretic Coren~ // OHRCOREN, nom court identique
+@81759 = ~Dalton~ // OHRDALTN, nom court identique
+@82006 = ~Hérétique de la Lune Noire~ // ~Dark Moon Heretic~ // OHRDMH2, nom court identique
+// @8761 = ~Wild Dog~ // OHRDOG (existant SoA+ToB)
+// @8762 = ~Wild Dog~ // OHRDOG (existant SoA+ToB)
+@82020 = ~Assassin Sharite~ // ~Sharran Assassin~ // OHRFASS2, OHRFASSA, OHRMASS2, OHRMASSA, OHRSHASS, OHRSHR21, OHRSHRN1, nom court identique
+@82007 = ~Geld Lamevive~ // ~Geld Quickblade~ // OHRGELD, nom court identique
+// @8772 = ~Dire Wolf~ // OHRGEWLF (existant SoA+ToB)
+@82008 = ~Ghell Rando~ // OHRGHELL, nom court identique
+@82010 = ~Herath~ // OHRHERAT, nom court identique
+@82012 = ~Garde hérétique~ // ~Heretic Guard~ // OHRHGUA1, OHRHGUA2, OHRHGUA3, nom court identique
+@82009 = ~Martheaume~ // ~Hammerhelm~ // OHRHHELM, nom court identique
+@82013 = ~Fenuku~ // OHRHMFEN, nom court identique
+@82014 = ~Kelner~ // OHRHMKEL, nom court identique
+@81760 = ~Hojar Bootcut~ // OHRHOJAR, nom court identique
+@93779 = ~Conscience Solaire Horvat~ // ~Sun Soul Horvat~ // OHRHORVA, nom court identique
+@81761 = ~Jaden~ // OHRJADEN, nom court identique
+@93780 = ~Jolstead~ // OHRJOLST, nom court identique
+@82015 = ~Lemzenn~ // OHRLEMZE, nom court identique
+// @3118 = ~Leopard~ // OHRLEOP (existant SoA+ToB)
+@82016 = ~Maître d'armes~ // ~Master of Combat~ // OHRMOCOM, nom court identique /* Traduction reprise des dialogues */
+// Personnage aussi présent dans les Black Pits 2 (à retirer lors de la fusion)
+@82017 = ~Élan dangereux~ // ~Dangerous Moose~ // OHRMOOSE, nom court identique
+//@93932 = ~~ [MOOSE01] // OHRMOOSE slot 14
+//@93933 = ~~ [MOOSE06] // OHRMOOSE slot 18
+//@93934 = ~~ [MOOSE07] // OHRMOOSE slot 19
+@82018 = ~Moine hôte de la Pénitence~ // ~Penance Host Monk~ // OHRPHM, nom court identique
+@82078 = ~Moine de la Chambre de la Douleur~ // ~Room of Pain Monk~ // OHRROPM1, OHRROPM2, OHRROPM3, OHRROPM4, OHRROPM5, nom court identique
+@82079 = ~Moine en chef de la Chambre de la Douleur~ // ~Room of Pain Monk Leader~ // OHRROPML, nom court identique
+@81997 = ~Sahana~ // OHRSAHAN, nom court identique
+@82023 = ~Ensorceleur Sharite~ // ~Sharran Sorcerer~ // OHRSDG1, OHRSHR23, OHRSHRN4, OHRSHSOR, nom court identique
+@82024 = ~Croisé Sharite~ // ~Sharran Crusader~ // OHRSHCRU, OHRSHR22, OHRSHRN5, nom court identique
+// Utilise le nom du kit, déjà traduit
+//@74306 = ~Dark Moon Monk~ // OHRSHDM9, OHRSHDMK, OHRSHDMM, OHRSHM9, OHRSHR30, OHRSHRAM, OHRSHRN6, nom court identique
+@82021 = ~Prêtre Sharite~ // ~Sharran Priest~ // OHRSHR12, OHRSHR31, OHRSHRN2, nom court identique
+@82022 = ~Guerrier Sharite~ // ~Sharran Warrior~ // OHRSHRN3, nom court identique
+@84585 = ~Ensorceleuse Sharite~ // ~Sharran Sorceress~ // OHRSHSOS, nom court identique
+@93782 = ~Conscience Solaire Lara~ // ~Sun Soul Lara~ // OHRSLARA, nom court identique
+@81996 = ~Sixscar~ // OHRSSCAR, nom court identique
+// Utilise le nom du kit, déjà traduit
+//@74309 = ~Sun Soul Monk~ // OHRSSM01, nom court identique
+// @10312 = ~Invisible Stalker~ // OHRSTALK (existant SoA+ToB)
+@82026 = ~Treya~ // OHRTREYA, nom court identique
+@82027 = ~La Vérité~ // ~The Truth~ // OHRTRUTH, nom court identique
+@82028 = ~Sentinelle de la Dédoublée~ // ~Twofold Sentry~ // OHRTWOFO, nom court identique
+// @6629 = ~Wolf~ // OHRWOLF (existant SoA+ToB)

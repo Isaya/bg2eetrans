@@ -1,0 +1,615 @@
+// Objets à traduire dans les textes ajoutés par BG2EE
+
+// ****************************************************************************
+// FOSSES NOIRES
+// ****************************************************************************
+
+	STRING_SET 92971 @92971
+	STRING_SET 92972 @92972
+
+	STRING_SET 90665 @90665
+	STRING_SET 90664 @90664
+
+	STRING_SET 95467 @95467
+	STRING_SET 95466 @95466
+
+	STRING_SET 94286 @94286
+	STRING_SET 94287 @94287
+
+	STRING_SET 95635 @95635
+	STRING_SET 95636 @95636
+
+// @todo harmoniser Voghiln 'the Vast', Feldrak 'the Fiend', and Gezzthemin 'the Beloved' = Voghiln " L'Immense ", Feldrak " Le Démon ", Gezzthemin " Le Bien-aimé "
+	STRING_SET 95637 @95637
+
+	STRING_SET 95638 @95638
+
+	STRING_SET 94307 @94307
+	STRING_SET 94308 @94308
+
+	STRING_SET 94309 @94309
+	STRING_SET 94310 @94310
+
+	STRING_SET 90960 @90960
+	STRING_SET 90959 @90959
+
+	STRING_SET 90965 @90965
+	STRING_SET 90966 @90966
+
+	STRING_SET 90969 @90969
+	STRING_SET 90970 @90970
+
+
+	STRING_SET 90973 @90973
+	STRING_SET 90974 @90974
+
+	STRING_SET 96049 @96049
+	STRING_SET 96050 @96050
+
+	STRING_SET 94564 @94564
+	STRING_SET 94565 @94565
+
+	STRING_SET 94566 @94566
+	STRING_SET 94567 @94567
+
+	STRING_SET 94568 @94568
+	STRING_SET 94569 @94569
+
+	STRING_SET 91259 @91259
+	STRING_SET 91260 @91260
+
+	STRING_SET 91261 @91261
+	STRING_SET 91262 @91262
+
+	STRING_SET 96051 @96051
+	STRING_SET 96052 @96052
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 101142 @101142
+// Contribué par Freddy_Gwendo
+	STRING_SET 102543 @102543
+
+	STRING_SET 94311 @94311
+	STRING_SET 94312 @94312
+
+	STRING_SET 100451 @100451
+	STRING_SET 100452 @100452
+
+	STRING_SET 92741 @92741
+	STRING_SET 92742 @92742
+
+	STRING_SET 92591 @92591
+	STRING_SET 92592 @92592
+
+	STRING_SET 94292 @94292
+	STRING_SET 94291 @94291
+
+	STRING_SET 102820 @102820
+	STRING_SET 102821 @102821
+
+	STRING_SET 101255 @101255
+	STRING_SET 101256 @101256
+
+	STRING_SET 90961 @90961
+	STRING_SET 90962 @90962
+
+	STRING_SET 90963 @90963
+	STRING_SET 90964 @90964
+
+	STRING_SET 90967 @90967
+	STRING_SET 90968 @90968
+
+	STRING_SET 91200 @91200
+	STRING_SET 91201 @91201
+
+	STRING_SET 94811 @94811
+	STRING_SET 94812 @94812
+
+	STRING_SET 92448 @92448
+	STRING_SET 92449 @92449
+
+	STRING_SET 92588 @92588
+	STRING_SET 92590 @92590
+
+	STRING_SET 90971 @90971
+	STRING_SET 90972 @90972
+
+	STRING_SET 91257 @91257
+	STRING_SET 91258 @91258
+
+	STRING_SET 101141 @101141
+	STRING_SET 103048 @103048
+
+	STRING_SET 101638 @101638
+	STRING_SET 101639 @101639
+
+	STRING_SET 100440 @100440
+	STRING_SET 100441 @100441
+
+	STRING_SET 100438 @100438
+	STRING_SET 100439 @100439
+
+	STRING_SET 100436 @100436
+	STRING_SET 100437 @100437
+
+	STRING_SET 100446 @100446
+	STRING_SET 100447 @100447
+
+	STRING_SET 100444 @100444
+	STRING_SET 100445 @100445
+
+	STRING_SET 100416 @100416
+	STRING_SET 101729 @101729
+	STRING_SET 100417 @100417
+
+	STRING_SET 101143 @101143
+
+	STRING_SET 101696 @101696
+	STRING_SET 101697 @101697
+
+	STRING_SET 102544 @102544
+	STRING_SET 102545 @102545
+
+	STRING_SET 101698 @101698
+
+	STRING_SET 94305 @94305
+	STRING_SET 94306 @94306
+
+	STRING_SET 100448 @100448
+	STRING_SET 100449 @100449
+
+	STRING_SET 102528 @102528
+	STRING_SET 102529 @102529
+
+
+// ****************************************************************************
+// DORN
+// Notes de Freddy : J'ai traduit "Resurrection Gorge" par "Gorges de la Résurrection" dans tous les fichiers d'objet. @todo : harmoniser cette référence avec toutes les références concernées.
+// id. Two Pines Creek --> ruisseau des deux Pins
+// ****************************************************************************
+
+	STRING_SET 81972 @81972
+	STRING_SET 81977 @81977
+
+	STRING_SET 90138 @90138
+	STRING_SET 90139 @90139
+
+// Note de Freddy : ou Ecaille de Dragon d'argent
+	STRING_SET 90176 @90176
+	STRING_SET 90177 @90177
+
+	STRING_SET 102782 @102782
+	STRING_SET 102783 @102783
+
+	STRING_SET 93380 @93380
+// Nota : en tant qu'épée longue, la première phrase se traduit par (@6742 dans ToB) :
+// Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires.
+	STRING_SET 93379 @93379
+
+	STRING_SET 90140 @90140
+	STRING_SET 90141 @90141
+
+	STRING_SET 90182 @90182
+	STRING_SET 90183 @90183
+
+// Note de Freddy : J'ai déjà traduit le sort @95639 Souffle acide
+	STRING_SET 90368 @90368
+	STRING_SET 90369 @90369
+
+	STRING_SET 94468 @94468
+	STRING_SET 94469 @94469
+
+	STRING_SET 90180 @90180
+// Note de Freddy : pour obtenir une description acceptable, j'ai été obligé de broder un peu sur les effets du sceptre.
+	STRING_SET 90181 @90181
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 90178 @90178
+// Contribué par Freddy_Gwendo (voir aussi IWDEE 40638)
+// Note de Freddy : correction lorsqu --> lorsque
+	STRING_SET 90179 @90179
+
+// Note de Freddy : Two Pines Creek --> ruisseau des deux Pins
+	STRING_SET 91218 @91218
+	STRING_SET 91223 @91223
+
+	STRING_SET 89730 @89730
+	STRING_SET 89729 @89729
+
+// Notes de Freddy : @todo vérifier la cohérence de l'intitulé des pierres avec les termes utilisés par les dialogues.
+// J'ai conservé WinterBrook car Ruisseau d'hiver, ça paraît un peu too much. Il faudra sans doute en débattre plus avant.
+	STRING_SET 80799 @80799
+	STRING_SET 80800 @80800
+
+	STRING_SET 80801 @80801
+	STRING_SET 80802 @80802
+
+	STRING_SET 80803 @80803
+	STRING_SET 80804 @80804
+
+	STRING_SET 90184 @90184
+	STRING_SET 90190 @90190
+
+// Remarque : les 4 descriptions suivantes varient uniquement par les bonus de "combat abilities"
+// et par le deuxième paragraphe de la description
+
+	STRING_SET 80753 @80753
+// Note de Freddy : Khazzrax The Gasping Death traduit par Khazzrax La Mort haletante ???
+	STRING_SET 80754 @80754
+
+	STRING_SET 80753 @80753
+	STRING_SET 80755 @80755
+
+	STRING_SET 80753 @80753
+	STRING_SET 80756 @80756
+
+	STRING_SET 80753 @80753
+	STRING_SET 80757 @80757
+
+	STRING_SET 94008 @94008
+// Note de Freddy : la zone d'effet de l'objet n'est pas une créature, mais une zone...
+	STRING_SET 99908 @99908
+
+
+// ****************************************************************************
+// RASAAD
+// ****************************************************************************
+
+	STRING_SET 81762 @81762
+	STRING_SET 82030 @82030
+
+	STRING_SET 84839 @84839
+	STRING_SET 84840 @84840
+
+	STRING_SET 81765 @81765
+	STRING_SET 82034 @82034
+
+	STRING_SET 99993 @99993
+	STRING_SET 99995 @99995
+	STRING_SET 99994 @99994
+	STRING_SET 99996 @99996
+
+	STRING_SET 81763 @81763
+	STRING_SET 82031 @82031
+
+	STRING_SET 81764 @81764
+	STRING_SET 82032 @82032
+
+	STRING_SET 84841 @84841
+	STRING_SET 84842 @84842
+
+// Note de Freddy : j'ai harmonisé Deepstone (Rocheprofonde) dans les textes.
+	STRING_SET 84843 @84843
+	STRING_SET 84844 @84844
+
+	STRING_SET 87260 @87260
+	STRING_SET 80043 @80043
+
+	STRING_SET 84837 @84837
+	STRING_SET 84838 @84838
+
+// Note de Freddy : le fichier itm classant l'objet dans les capes, ainsi que son icône, il est impossible de traduire Cowl par Capuche ou Capuchon. J'ai le choix entre Manteau et Pelisse. J'ai opté pour Manteau qui correspond plus à son icône de description.
+	STRING_SET 87209 @87209
+	STRING_SET 87210 @87210
+
+	STRING_SET 87211 @87211
+	STRING_SET 87212 @87212
+
+	STRING_SET 84835 @84835
+	STRING_SET 84836 @84836
+
+	STRING_SET 84831 @84831
+	STRING_SET 84832 @84832
+
+	STRING_SET 84813 @84813
+	STRING_SET 84814 @84814
+
+	STRING_SET 97323 @97323
+	STRING_SET 97324 @97324
+
+	STRING_SET 84806 @84806
+	STRING_SET 84807 @84807
+
+	STRING_SET 100282 @100282
+	STRING_SET 84833 @84833
+	STRING_SET 100283 @100283
+	STRING_SET 84834 @84834
+
+// Quasi identique ToB 7366, sans la phrase mentionnant <CHARNAME>, + mise en forme EE
+	STRING_SET 99392 @99392
+
+	STRING_SET 84817 @84817
+	STRING_SET 84818 @84818
+
+	STRING_SET 84808 @84808
+	STRING_SET 84809 @84809
+
+	STRING_SET 99998 @99998
+	STRING_SET 99999 @99999
+
+	STRING_SET 85293 @85293
+	STRING_SET 77827 @77827
+
+// Note de Freddy : j'ai harmonisé Hammerhelm (Martheaume) dans les textes.
+// ~Note~
+	STRING_SET 85024 @85024
+
+	STRING_SET 84583 @84583
+	STRING_SET 84584 @84584
+
+	STRING_SET 86670 @86670
+	STRING_SET 85028 @85028
+
+	STRING_SET 81766 @81766
+	STRING_SET 82037 @82037
+
+// ~Corde~
+	STRING_SET 79158 @79158
+
+	STRING_SET 84804 @84804
+	STRING_SET 84805 @84805
+
+	STRING_SET 85291 @85291
+	STRING_SET 85292 @85292
+
+	STRING_SET 81767 @81767
+	STRING_SET 82039 @82039
+
+	STRING_SET 87207 @87207
+	STRING_SET 87208 @87208
+
+	STRING_SET 84815 @84815
+	STRING_SET 84816 @84816
+
+// Les 5 objets suivants correspondent aux pattes de Wilson pour ses attaques (~Attaque~)
+	STRING_SET 100263 @100263
+
+	STRING_SET 100264 @100264
+
+	STRING_SET 100265 @100265
+
+	STRING_SET 100266 @100266
+
+	STRING_SET 100267 @100267
+
+
+// ********************************************************************************************************************
+// NON CLASSES
+// Note générale de Freddy : comme je ne supporte pas les traductions "mot-à-mot",
+// il m'arrive de prendre des libertés avec l'architecture des phrases à traduire.
+// @todo VERIFICATION des armures de peaux : décider si on réintègre les % de la description non définis dans le fichier ITM
+// ********************************************************************************************************************
+
+	STRING_SET 103162 @103162
+	STRING_SET 103163 @103163
+
+	STRING_SET 103183 @103183
+// Note de Freddy : à l'heure actuelle, je n'ai rien trouvé dans le jeu qui atteste de la véracité des 10 PV supplémentaires. La seule référence à ce fichier ITM se trouvant dans un fichier CRE, il est impossible de savoir si le fait de porter cette amulette accorde effectivement 10 PV supplémentaires aux esprits invoqués ; à moins que ce ne soit hardcodé.
+	STRING_SET 103184 @103184
+
+	STRING_SET 103160 @103160
+// Notes de Freddy : on peut conserver Say'an Keenedge ou bien trouver une alternative à "PointeAiguisée".
+// « Indéfectible soupe-au-lait, elle ne décolérait pas... » peut être remplacé par « C'était aussi une impétueuse tête brûlée qui ne décolérait pas... »
+	STRING_SET 103161 @103161
+
+// Identique IWDEE 7642
+	STRING_SET 103173 @103173
+	STRING_SET 103174 @103174
+// Identique IWDEE 7645
+	STRING_SET 103175 @103175
+	STRING_SET 103176 @103176
+
+// Note de Freddy : J'ai privilégié Morsure employé dans BackBiter (IWDEE).
+	STRING_SET 103170 @103170
+	STRING_SET 103171 @103171
+
+	STRING_SET 103046 @103046
+// Notes de Freddy : en tant qu'épicurien j'aurais préféré « quenelles » ou « raviolis ». Cependant, les icônes d'inventaire (IBDDUMPL) et de description (CBDDUMPL) évoquent plus des boulettes.
+	STRING_SET 103047 @103047
+
+	STRING_SET 103156 @103156
+// Notes de Freddy : préférée à « Marteau du Néant ». @todo harmoniser Bridgefort avec les autres références à traduire, ainsi que le surnom Hillcarver. Idem @103154 = ~Voidsword +3 et sa description @103155.
+	STRING_SET 103157 @103157
+
+	STRING_SET 103164 @103164
+	STRING_SET 103165 @103165
+
+// Identique IWDEE 24776
+	STRING_SET 103166 @103166
+	STRING_SET 103167 @103167
+	STRING_SET 103168 @103168
+	STRING_SET 103169 @103169
+
+// Identique BGEE 27600
+	STRING_SET 103179 @103179
+	STRING_SET 103180 @103180
+// Identique BGEE 27602
+	STRING_SET 103181 @103181
+// Note de Freddy : à l'heure actuelle, je n'ai rien trouvé dans le jeu qui atteste de la véracité des effets de bénédiction. La seule référence à ce fichier ITM se trouvant dans un fichier CRE, il est impossible de savoir si le fait de porter ce bandeau accorde effectivement une bénédiction aux esprits invoqués ; à moins que ce ne soit hardcodé.
+	STRING_SET 103182 @103182
+
+	STRING_SET 103158 @103158
+// Note de Freddy : il y a un typo dans la VO. Odesserion à la place de Odesseiron
+	STRING_SET 103159 @103159
+
+	STRING_SET 103177 @103177
+	STRING_SET 103178 @103178
+
+	STRING_SET 103154 @103154
+// Notes de Freddy : Préférée à « Épée du Néant ». @todo harmoniser Bridgefort avec les autres références à traduire, ainsi que le surnom Hillcarver. Idem @103156 = ~Voidhammer +3 et sa description @103157.
+	STRING_SET 103155 @103155
+
+	STRING_SET 103185 @103185
+	STRING_SET 103186 @103186
+
+	STRING_SET 102816 @102816
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 102817 @102817
+
+// Identique BGEE 29035
+	STRING_SET 101660 @101660
+// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101662 @101662
+
+	STRING_SET 101661 @101661
+// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101663 @101663
+
+	STRING_SET 102818 @102818
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 102819 @102819
+
+// Quasi identique BGEE 6680
+	STRING_SET 101684 @101684
+// Quasi identique BGEE 16273, modif paramètres CA et poids
+	STRING_SET 101685 @101685
+
+// Quasi identique BGEE 6927
+	STRING_SET 101674 @101674
+// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
+	STRING_SET 101676 @101676
+	STRING_SET 101675 @101675
+// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
+	STRING_SET 101677 @101677
+
+	STRING_SET 101688 @101688
+// Quasi identique BGEE 22716, mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]
+*/
+	STRING_SET 101691 @101691
+
+	STRING_SET 101689 @101689
+// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à - 10 %, et pas 30 %.
+*/
+	STRING_SET 101692 @101692
+
+	STRING_SET 101690 @101690
+// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
+/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
+- crochetage des serrures : -10 %
+- détection des pièges : -10 %
+- vol à la tire : -30 %
+- déplacement silencieux : -20 %
+- se cacher dans l'ombre : -20 %
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à - 10 %, et pas à -30 %.
+*/
+	STRING_SET 101693 @101693
+
+// Quasi identique BGEE 6668
+	STRING_SET 101686 @101686
+// Contribué par Freddy_Gwendo, cartouche standardisé
+	STRING_SET 101687 @101687
+
+	STRING_SET 101682 @101682
+// Quasi identique BGEE 6681, mention enchantement traduite et modif CA et poids
+	STRING_SET 101683 @101683
+
+// Quasi identique BGEE 25780
+	STRING_SET 101678 @101678
+// Quasi identique BGEE 25782, modif CA
+	STRING_SET 101680 @101680
+
+// Quasi identique BGEE 25780
+	STRING_SET 101679 @101679
+// Quasi identique BGEE 25782, modif CA
+	STRING_SET 101681 @101681
+
+	STRING_SET 101664 @101664
+// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101666 @101666
+
+	STRING_SET 101665 @101665
+// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
+	STRING_SET 101667 @101667
+
+	STRING_SET 101668 @101668
+// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
+// Note de Freddy : reprise des erreurs de 26725 (conjugaison) + Requiert: 6 en Force --> Nécessite : 6 en Force
+	STRING_SET 101670 @101670
+
+	STRING_SET 101669 @101669
+// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
+// Note de Freddy : correction des typos soient --> soit appelait --> appelaient
+	STRING_SET 101671 @101671
+
+// Identique BGEE 23960
+	STRING_SET 101672 @101672
+// Inspiré de BGEE 23378
+	STRING_SET 101673 @101673
+
+
+// ****************************************************************************
+// Compléments : fichiers ITM ajoutés par BG2EE hors BD* et OH*
+// ****************************************************************************
+
+// Order of text for each item
+// @unidentified_name_number = ~unidentified name~
+// @identified name_number = ~identified name~
+// @unidentified description_number = ~unidentified description~
+// @identified description_number = ~identified description~
+
+// Les numéros inférieurs à 74107 existent déjà dans BG II - ToB et ne sont pas repris ici
+
+// BELTBW unident name 6465 name 103109 unident dest 6466  desc 103106
+// Contribué par Freddy_Gwendo
+	STRING_SET 103109 @103109
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 103106 @103106
+
+// BELTSH unident name 6465 name 103108 unident dest 6466  desc 103107
+// Contribué par Freddy_Gwendo
+	STRING_SET 103108 @103108
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 103107 @103107
+
+// BELTTY unident name 6465 name 103207 unident dest 6466  desc 103208
+// Contribué par Freddy_Gwendo
+	STRING_SET 103207 @103207
+// Contribué par Freddy_Gwendo, + standardisation cartouche
+	STRING_SET 103208 @103208
+
+// CDNEBDAG unident name 6343 name 5782 unident dest 6720  desc 74279
+// @5782 = ~Atroce tranchoir de Neb~ // CDNEBDAG identified name (SoA+ToB reuse)
+// Isaya : adapté de BG II 8904
+	STRING_SET 74279 @74279
+
+// NEBELT01 unident name 6335 name 100780 unident dest 6466  desc 100781
+// Identique BGEE 31846
+	STRING_SET 100780 @100780
+// Identique BGEE 31837
+	STRING_SET 100781 @100781
+
+// RSBRAC unident name 6341 name 100782 unident dest 6791  desc 100783
+// Identique BGEE 28623
+	STRING_SET 100782 @100782
+// Identique BGEE 28624
+	STRING_SET 100783 @100783
+
+// STAFN1 unident name 6351 name 87455 unident dest 6731  desc 87456
+// Identique BGEE 27645
+	STRING_SET 87455 @87455
+// Identique BGEE 31845
+	STRING_SET 87456 @87456
+
+// Objet utilisant le nom d'une capacité spéciale de kit de moine, déjà traduite
+// SW1HWK unident name 11052 name 74317 unident dest 11054  desc 51884
+//@74317 = ~Faisceau de la Conscience Solaire~ // SW1HWK identified name
+
+// SW2HD1 unident name 6647 name 93695 unident dest 6752  desc 93696
+// Identique BGEE 28298
+	STRING_SET 93695 @93695
+// Quasi identique BGEE 28299 (nom de l'épée ajouté au début dans BG2EE)
+	STRING_SET 93696 @93696

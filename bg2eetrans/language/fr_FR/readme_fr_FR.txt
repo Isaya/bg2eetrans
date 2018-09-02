@@ -43,3 +43,10 @@ v0.6.67.3
 - Corrections diverses proposées par Freddy_Gwendo
 - Refonte complète de la gestion des textes ajoutés par BG2EE (au-delà de 74106) : il s'agit désormais d'une traduction vérifiée couvrant environ 900 textes
 - Dans cette partie BG2EE, les récupérations de textes simples tels que "merci", "au revoir", "qu'est ce que vous voulez ?" ont été neutralisées (apport quasi nul, risque de mauvais adaptation au contexte, etc.)
+
+v0.7.16.6
+- Fichier L_fr_FR.lua désormais copié dans override pour la compatibilité avec des mods GUI touchant aux textes
+- Corrections/améliorations diverses (début de fusion de travaux -> 500 environ)
+- Compléments de traduction pour BG2EE V2.5.16.6 (L_fr_FR.lua et de nouveaux textes dans BG2EE)
+- Procédure de désinstallation revue : il est possible de résinstaller le mod sans avoir du ménage à faire à la main
+TODO : ajouter objets et dialogues déjà traduits

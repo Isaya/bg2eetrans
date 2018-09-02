@@ -3,7 +3,7 @@ AUTHOR ~Isaya~
 
 // Version stated in WeiDU.log
 // The last part refers to the game version used as a reference to find texts
-VERSION ~v0.6.67.3~
+VERSION ~v0.7.16.6~
 
 // Use english readme if the selected language doesn't have a readme
 README ~bg2eetrans/language/%LANGUAGE%/readme_%LANGUAGE%.txt~ ~bg2eetrans/language/readme_en_US.txt~
@@ -43,7 +43,7 @@ ACTION_IF NOT FILE_EXISTS ~lang/%LANGUAGE%~ THEN BEGIN
 END
 COPY ~lang/en_US/dialog.tlk~ ~lang/%LANGUAGE%/dialog.tlk~
 COPY ~lang/en_US/dialog.tlk~ ~lang/%LANGUAGE%/dialogF.tlk~
-MKDIR ~lang/%LANGUAGE%/override~
+// MKDIR ~lang/%LANGUAGE%/override~
 
 // Addition to BGEE.lua moved to bg2eetransinstall.tp2 in order to add translation notes in the right language
 
@@ -63,15 +63,38 @@ ACTION_IF (~%LANGUAGE%~ STRING_EQUAL_CASE ~fr_FR~) THEN BEGIN
 END
 // Add addtional language here, increment NUMLANG for each new language
 
+// Display a text explaining that installation will be long, in order to avoid people
+// assume installation is over this first part of the mod is successfully done.
+PRINT @1000501
 
 // Run the installation in the selected language
 // Note: no auto update since it may trigger an error message and running the current tp2 should already have done it anyway
-ACTION_IF ("%WEIDU_OS%" STRING_COMPARE_CASE ~WIN32~ = 0) THEN BEGIN
+// Check that we are running installation: bg2eetrans.mrk file should exist
+ACTION_IF (FILE_EXISTS ~lang/%LANGUAGE%/bg2eetrans.mrk~) THEN BEGIN
+  ACTION_IF ("%WEIDU_OS%" STRING_COMPARE_CASE ~WIN32~ = 0) THEN BEGIN
     AT_INTERACTIVE_EXIT ~setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 1003 1004 --language %NUMLANG% --noautoupdate~
+    END ELSE BEGIN
+      // Anticipate that . may not be in the PATH on Linux or Mac OS X (zelurker feedback on Beamdog forum)
+      AT_INTERACTIVE_EXIT ~./setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 1003 1004 --language %NUMLANG% --noautoupdate~
+    END
+  END // FILE_EXISTS
+
+// Uninstall instructions
+// REQUIRE_COMPONENT used in components in bg2eetransinstall.tp2 already force uninstallation
+// when this initialisation component is uninstalled, so there is no need to force uninstallation
+// by calling bg2eetransinstall.tp2
+/*
+ACTION_IF ("%WEIDU_OS%" STRING_COMPARE_CASE ~WIN32~ = 0) THEN BEGIN
     AT_UNINSTALL ~setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-uninstall-list 1004 1003 1002 1001 --noautoupdate~
   END ELSE BEGIN
-    // Anticipate that . may not be in the PATH on Linux or Mac OS X (zelurker feedback on Beamdog forum)
-    AT_INTERACTIVE_EXIT ~./setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-install-list 1001 1002 1003 1004 --language %NUMLANG% --noautoupdate~
     AT_UNINSTALL ~./setup-bg2eetrans bg2eetrans/bg2eetransinstall.tp2 --force-uninstall-list 1004 1003 1002 1001 --noautoupdate~
   END
-
+*/
+// Since dialog.tlk and dialogF.tlk always come back after components of bg2eetransinstall.tp2
+// are installed, make sure to delete them (otherwise their presence will prevent reinstallation)
+ACTION_IF ("%WEIDU_OS%" STRING_COMPARE_CASE ~WIN32~ = 0) THEN BEGIN
+	// Note: can't delete directory with options /S /Q as / are obsviously converted to \ by WeiDU
+    AT_UNINSTALL_EXIT ~del lang/%LANGUAGE%/dialog.tlk lang/%LANGUAGE%/dialogF.tlk~
+  END ELSE BEGIN
+    AT_UNINSTALL_EXIT ~rm -rf "lang/%LANGUAGE%"~
+  END

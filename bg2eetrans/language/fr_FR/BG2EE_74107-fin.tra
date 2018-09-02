@@ -76,7 +76,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 @74147 = ~Si je venais à mourir, qui s'occuperait de mes invités ? Qui superviserait le djinn ? Qui convoquerait toujours plus de combattants pour l'arène ? Allons, ne soyez pas ridicules. Êtes-vous prêts à entendre contre qui vous allez vous battre ?~
 
 // Quasi identique BGEE 29172, reformulation mineure
-@74151 = ~Mon dieu, l'expression sur leur visage lorsqu'ils ont compris qu'ils ne reverraient plus jamais les dégoutantes cavernes qu'ils appellent maison ! Je pense que ça mérite un bonus.~
+@74151 = ~Mon dieu, l'expression sur leur visage lorsqu'ils ont compris qu'ils ne reverraient plus jamais les dégoûtantes cavernes qu'ils appellent maison ! Je pense que ça mérite un bonus.~
 // Quasi identique BGEE 29173, reformulation
 @74152 = ~J'aime assez jouer avec des lanceurs de sorts mineurs. J'ai capturé ce petit nécromancien insolent alors qu'il fuyait Menzoberranzan. Comment est-il arrivé là, je n'en sais rien. Mais il invoque des squelettes 
 pour combattre à ses côtés avec une maîtrise stupéfiante.~ 
@@ -228,13 +228,8 @@ pour combattre à ses côtés avec une maîtrise stupéfiante.~
 // Quasi identique ToB 39798 ou IWDEE 39798, dernière phrase en moins
 @74274 = ~Pensez à prévoir de l'acide ou du feu. Rien d'autre ne touche les trolls. Puissent les dieux vous accompagner.~
 
-//@74275 = ~I have a strange request... sister. I have the heart of a man that died in shame.~
-//@58237 = ~Ma requête te semblera bien étrange, mon frère... j'ai avec moi le coeur d'un homme mort dans la disgrâce.~
-
-// Très différente de la bio d'origine
-//@74276 = ~IMOEN chuckles when you ask her about her past, assuming you are just trying to keep her mind on happier times and places. She indulges you, and certainly does cheer up when speaking of how you spent your youths together in Candlekeep. She arrived there the same as you, in the company of your foster father Gorion, but despite this similarity, she grew up much more carefree than you did. Indeed, her lighthearted outlook has long kept her immune to the hardships of the world, though the horrors she has endured have definitely taken their toll.~
-//@10233 = ~IMOEN chuckles when you ask her about her past, assuming you are just trying to keep her mind on happier times and places. She indulges you, and certainly does cheer up when speaking of how you spent your youths together in Candlekeep. She arrived there the same as you, in the company of your foster father Gorion, but despite this similarity, she grew up much more carefree than you did. Indeed, her lighthearted outlook has long kept her immune to the hardships of the world, though the dark confines and horrors of your current location have definitely taken their toll.~
-//@10233 = ~Interrogée sur son passé, IMOEN vous tape sur l'épaule, facétieuse, et dit que vous devez vous le rappeler, car vous avez grandi avec elle. De fait, certains de vos meilleurs souvenirs sont ceux de votre rencontre avec ce bel ange. Elle est arrivée, tout comme vous, quoique dix ans plus tard dans la vie, à Château-Suif et elle a passé plus de temps avec ce bourru de Winthrop qu'avec Gorion. " Gros-plein-de soupe ", elle l'appelait, au grand désarroi du vieil aubergiste. Elle est restée très enfant, et elle a l'air ravie de jouer à être votre petite soeur, bien que vous soyez tous les deux du même âge. Son sourire radieux vous dit qu'elle vous suivra partout où vous irez.~
+// Identique BG II 58237, sauf brother/sister
+@74275 = ~Ma requête te semblera bien étrange, ma sœur... j'ai avec moi le cœur d'un homme mort dans la disgrâce.~
 
 // Identique IWDEE 40290
 @74278 = ~Poing +4~
@@ -257,7 +252,7 @@ pour combattre à ses côtés avec une maîtrise stupéfiante.~
 @74292 = ~copie effectuée~
 // 
 @74293 = ~Mage~
-// Identique IWDEE 34778 @todo Vérifier si cela provient d'un dialogue
+// Identique IWDEE 34778 : référencé dans OHBMC.DLG, mais ce DLG utilise des textes d'objets, interface, kits, etc.
 @74294 = ~N'importe qui.~
 // Identique BGEE 31270
 @74295 = ~Événements importants~
@@ -390,20 +385,7 @@ Inconvénients :
 - Doit être d'alignement loyal-bon.
 - Ne peut utiliser la capacité de 'Coup étourdissant'.
 - Ne peut utiliser la capacité de 'Paume vibratoire'.~
-// Identique BGEE 31985
-@74311 = ~Position Défensive~
-// Identique BGEE 31986 (compétence du Disciple du Dragon)
-@74312 = ~Souffle~
-// Identique BGEE 31989
-@74313 = ~Rayon de la Conscience Solaire~
-// Identique BGEE 31990
-@74314 = ~Poings enflammés~
-// Identique BGEE 31991
-@74315 = ~Soleil ascendant~
-// Identique BGEE 31992
-@74316 = ~Pas de l'ombre~
-// Identique BGEE 32138
-@74317 = ~Faisceau de la Conscience Solaire~
+
 // Contribution de Luren : entrées journal @todo Titres à vérifier après fusion avec travaux des bénévoles
 @74318 = ~Yoshimo doit rencontrer Renal Bloodscalp~
 // ToB 843
@@ -602,10 +584,6 @@ Inconvénients :
 
 
 
-// Identique BGEE 28304
-@77510 = ~Absorption de vie~
-// Identique BGEE 28306
-@77511 = ~Aura de désespoir~
 // Identique BGEE 28604
 @77512 = ~chevalier noir~
 // Identique BGEE 28605
@@ -702,8 +680,6 @@ Beamdog.net : Beamdog.net vous permet de parcourir les parties en cours et de vo
 // Identique IWDEE 15977
 @81606 = ~Araignée~
 
-@82029 = ~Rasaad~
-
 // @todo noms et objets 81992 - 82302, 82034, 82307, 82039
 
 // Identique BGEE 24685 (sauf quelques espaces)
@@ -783,26 +759,35 @@ Poids : 1~
 // @todo Wilson 86478, 86479, 87166 à 87206
 // @todo objets 87207 à 87212
 
+@86478 = ~Wilson~
+// Identique IWDEE 37308, quelques retouches
+@86479 = ~GRIZZLY : En général, les ours sont des créatures larges et puissantes que l'on peut trouver dans des environnements froids ou tempérés. Leur fourrure épaisse les protège des éléments, et leurs griffes dévastatrices les protègent des autres animaux. Les ours représentent le véritable sommet de la chaîne alimentaire dans les lieux qu'ils peuplent.
+
+Avantages :
+- Armes naturelles : Un grizzly peut attaquer ses adversaires avec ses griffes et ses morsures. L'ours peut porter une attaque de morsure par round infligeant 1d10 points de dégâts perforants, ainsi qu'au moins deux attaques de griffes infligeant 1d6 dégâts tranchants chacune.
+- Lorsque l'ours réussit une attaque avec ses griffes, il a 15% de chances d'effectuer une étreinte qui infligera 2d6 dégâts contondants supplémentaires à la cible. Les créatures éthérées ou de très grande taille, telles que les ombres, les élémentaux, les géants, les golems ou les dragons ne sont pas affectées par cette capacité.
+- La Classe d'Armure du grizzly commence à 6 au niveau 1, puis diminue de 2 points tous les 6 niveaux, jusqu'à un maximum de -2 au niveau 24.
+- L'ours est naturellement compétent avec ses armes naturelles (comme s'il y avait alloué une étoile).
+- Régénération : L'ours régénère ses points de vie au rythme d'un point de vie par tour.
+- Combat à deux armes parfait : un ours se bat aussi bien avec les griffes de sa patte droite que la gauche, et ne souffre d'aucun malus au TAC0 lorsqu'il combat avec ses deux pattes.
+- Un ours entraîné peut boire des potions de soin à la bouteille. Cependant il n'apprécie pas le goût des autres potions magiques.
+- Niveau 1 : l'ours peut entrer en rage une fois par jour, ce qui lui fait profiter d'un bonus de +2 au TAC0, aux dégâts, et à la Classe d'Armure, ainsi que l'immunité au charme, à la terreur, la confusion, la débilité, l'immobilisation, l'étourdissement et le sommeil pendant un tour. Par la suite, il obtient un usage supplémentaire tous les 6 niveaux.
+- Niveau 7 : les armes naturelles deviennent des armes +1 ; spécialisation dans les armes naturelles (2 étoiles).
+- Niveau 8 : bonus de +1 en force ; la cadence de régénération augmente à 2 points de vie par tour.
+- Niveau 13 : les armes naturelles deviennent des armes +2 ; maîtrise dans les armes naturelles (3 étoiles) ; l'ours peut faire trois attaques et demi par round.
+- Niveau 16 : bonus supplémentaire de +1 en force ; la cadence de régénération augmente à 3 points de vie par tour.
+- Niveau 19 : les armes naturelles deviennent des armes +3 ; haute-maîtrise dans les armes naturelles (4 étoiles) ; l'ours peut faire quatre attaques par round.
+- Niveau 24 : bonus supplémentaire de +1 en force ; la cadence de régénération augmente à 4 points de vie par tour.
+- Niveau 25 : les armes naturelles deviennent des armes +4 ; grande maîtrise dans les armes naturelles (5 étoiles) ; l'ours peut faire quatre attaques et demi par round.
+- Niveau 31 ; les armes naturelles deviennent des armes +5 ; l'ours peut faire cinq attaques par round.
+- Niveau 32 : bonus supplémentaire de +1 en force ; la cadence de régénération augmente à 5 points de vie par tour.
+- Niveau 40 : bonus supplémentaire de +1 en force ; la cadence de régénération augmente à 6 points de vie par tour.
+
+Inconvénients :
+- Ne peut pas utiliser d'équipement.
+- Ne peut pas parler la langue commune.~
+
 @87442 = ~Neera~
-
-// Identique BGEE 27645
-@87455 = ~Bâton de Neera +1~
-// Identique BGEE 31845
-@87456 = ~Ce bâton finement ciselé et gravé a été "amélioré" par Neera elle-même. Elle avait l'intention de fabriquer un bâton qui pourrait déchaîner les flammes sur ses ennemis, mais le résultat est légèrement éloigné de l'objectif qu'elle avait en tête. Même s'il peut effectivement brûler ses adversaires, il y a aussi une chance que le propriétaire subisse un retour de flamme et soit brûlé à son tour.
-
-PARAMÈTRES :
-
-Capacités de combat :
-- Lorsque le bâton touche une cible, il y a 10 % de chances que la cible ou le propriétaire subisse un point de dégâts du feu.
-
-TAC0 : +1
-Dégâts : 1d6 +1 (contondant)
-Facteur de vitesse : 3
-Type de compétence : bâton
-Type : arme à deux mains
-Nécessite : 5 en Force
-
-Poids : 4~
 
 // Identique BGEE 29121
 @87865 = ~Reginald~
@@ -837,15 +822,6 @@ Poids : 4~
 
 // @todo objets 89729, 89730, 90138 à 90141, 90176 à 90184, 
 
-// Contribué par Freddy_Gwendo
-@90178 = ~Écailles de dragon d'argent~
-// Contribué par Freddy_Gwendo (voir aussi IWDEE 40638)
-@90179 = ~Ces magnifiques écailles arrachées à la cuirasse d'un dragon d'argent scintillent et dansent sous vos yeux lorsque vous les manipulez. La légende dit qu'elles pourraient être assemblées par magie pour confectionner une armure aux grands pouvoirs.
-
-PARAMÈTRES :
-
-Poids : 15~
-
 // @todo objets 90190, 90368, 90369, 90959 à 90974
 // @todo objets 91200, 91201, 91223, 91257 à 91262, 92588, 92590 à 92592, 92741, 92742, 92971, 92972
 // @todo objets 93373 à 93380, 93428, 93596 à 93603, 93608 à 93615
@@ -866,26 +842,6 @@ Poids : 15~
 @93623 = ~Talana~
 @93624 = ~Rhian~
 @93625 = ~Zelnick~
-
-// Identique BGEE 28298
-@93695 = ~Rancœur +1~
-// Quasi identique BGEE 28299 (nom de l'épée ajouté au début dans BG2EE)
-@93696 = ~L'Épée de Dorn : Rancœur
-Cette épée noire à deux mains est recouverte d'inscriptions que vous êtes incapable de déchiffrer. Elle bourdonne faiblement en présence de Dorn Il-Khan. Les individus au cœur pur sont pris d'un sentiment de culpabilité et d'anxiété lorsqu'ils manient cette lame.
-
-PARAMÈTRES :
-
-Capacités de combat :
-- Lorsque Dorn porte cette lame, chaque adversaire abattu lui accorde une chance d'obtenir un bonus de +1 à ses jets de toucher pendant 24 heures.
-
-TAC0 : +1, +2 si elle a tué quelqu'un dans les dernières 24 heures 
-Dégâts : 1d10 +1 (tranchant)
-Facteur de vitesse : 9
-Type de compétence : épée à deux mains
-Type : arme à deux mains
-Nécessite : 14 en Force
-
-Poids : 12~
 
 // @todo objet 93700, 93701
 
@@ -916,10 +872,10 @@ FAVEUR DIVINE : Ce sort fait bénéficier au lanceur d'un bonus de +1 aux jets d
 
 Inconvénients :
 - Doit être d'alignement loyal-bon, neutre-bon ou loyal-neutre.~
-// Identique BGEE 32370
-@93787 = ~Faveur divine~
-// Conservation du terme Exaltation de BGEE (en 32368) : voir explication en 93786
-@93788 = ~Exaltation~
+// Transfert dans fichier des sorts
+//@93787 = ~Faveur divine~
+// Transfert dans fichier des sorts
+//@93788 = ~Exaltation~
 // Identique IWDEE 6695
 @93789 = ~Hache d'armes +2~
 
@@ -980,29 +936,29 @@ Poids : 5~
 
 // Complété à partir de BGEE 24630
 @95115 = ~Les nouveaux joueurs devraient commencer avec l'initiation.
-Shadows of Amn est la suite de Baldur's Gate: Enhanced Edition.~
+Les Ombres d'Amn est la suite de Baldur's Gate: Enhanced Edition.~
 // Identique BGEE 32216 + majuscule initiale
 @95116 = ~Installé~
 
 // Contribué par Freddy_Gwendo
-@95117 = ~Lampe à huile~
+@95117 = ~Lampe à huile~ // OHHOIL identified name
 // Contribué par Freddy_Gwendo
 @95118 = ~Une lampe remplie d'huile.
 
 PARAMÈTRES :
 
-Poids : 1~
+Poids : 1~ // OHHOIL identified description
 
 // @todo objets 95119, 95120
 
 // Contribué par Freddy_Gwendo
-@95121 = ~Statue dorée~
+@95121 = ~Statue dorée~ // OHHSTAT1, OHHSTATU identified name
 // Contribué par Freddy_Gwendo
 @95122 = ~Cette petite statue dorée représente un jeune garçon.
 
 PARAMÈTRES :
 
-Poids : 1~
+Poids : 1~ // OHHSTAT1, OHHSTATU identified description
 
 // Identique BGEE 25480
 @95127 = ~VOLEUR CONTRÔLÉ~
@@ -1037,7 +993,38 @@ Poids : 1~
 @95157 = ~Essaie de se cacher dans l'ombre~
 
 // @todo objets (BGII) 95161, 95162
+
 // @todo achat boutique 95310 à 95316
+@95310 = ~Un compagnon Chevalier Noir assoiffé de sang et deux nouvelles aventures qui étendent la campagne principale~
+@95311 = ~Le patron démon Ur-Gothoz récompense ceux qui obéissent, et ses récompenses sont généreuses. Abattez ses ennemis aux côtés du serviteur Chevalier Noir du patron démon, Dorn, jusqu'à ce qu'un choix se présente de lui-même : devriez-vous défier l'ennemi le plus haï d'Ur-Gothoz, ou le patron démon lui-même ?
+
+Dans Le Trône de Bhaal, les conséquences de votre choix reviendront vous hanter. Pour échapper au châtiment divin, prenez d'assaut les portes des cieux eux-mêmes et effacez votre nom du Parchemin de châtiment. En cas de succès vous obtiendrez un puissant allié mais un échec signifiera votre perte.
+
+Caractéristiques :
+– un nouveau compagnon, rencontré dans le quartier des Temples
+– une nouvelle quête dans Les Ombres d'Amn
+– une nouvelle quête dans Le Trône de Bhaal
+– 4 grands nouveaux lieux à explorer~
+@95312 = ~Une compagne mage entropique originale et deux nouvelles aventures qui étendent la campagne principale~
+@95313 = ~Les mages rouges traquent les mages entropiques sur toute la Côte des Épées et vous vous êtes retrouvé(e) impliqué(e) dans le conflit. Avec l'aide de la chef des mages entropiques, Neera, affrontez les mages rouges dans leur enclave d'Athkatla et renvoyez-les à Thay.
+
+Dans Le Trône de Bhaal, la lutte contre les mages rouges atteint son paroxysme avec une confrontation avec leur chef, Autharch Vicross. Il n'y a qu'une seule façon d'assurer votre sécurité : ne laisser personne vivant pour vous traquer.
+
+Caractéristiques :
+- Une nouvelle compagne, rencontrée dans la quartier du Pont
+– une nouvelle quête dans Les Ombres d'Amn
+– une nouvelle quête dans Le Trône de Bhaal
+– 4 grands nouveaux lieux à explorer~
+@95314 = ~Une mystérieuse compagne voleuse et deux nouvelles aventures qui étendent la campagne principale~
+@95315 = ~Six nouveaux portraits pour personnaliser votre héros/héroïne~
+@95316 = ~Concevez le héros ou l'héroïne parfait pour votre partie avec six portraits supplémentaires de l'artiste Kieran Yanner.
+
+Créez un nouveau héros ou une nouvelle héroïne et choisissez un de ces six portraits saisissants pendant la création du personnage ou donnez un nouvel aspect à un héros ou une héroïne existant en cours de partie grâce au menu Personnaliser de l'écran Fiche de personnage.
+
+Caractéristiques :
+- Trois portraits masculins
+- Trois portraits féminins~
+// Autres DLC : voir 102522
 
 // Identique BGEE 32307
 @95634 = ~Chevalier Noir Déchu~
@@ -1085,19 +1072,13 @@ Anders "hook71" Svensson
 // Quasi identique BGEE 32334, espace initial en plus
 @99389 = ~ Non affecté par les effets de <RESOURCE>~
 
-// Quasi identique ToB 7366, sans la phrase mentionant <CHARNAME>, + mise en forme EE
-@99392 = ~Anneau de Sorcellerie : 'Anneau de haute puissance'
-Cet anneau a été enchanté par un maître, il permet à son porteur de mémoriser plus de sorts que la normale.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- peut mémoriser un sort de cinquième niveau, un sort de sixième niveau et un sort de septième niveau de plus
-
-Poids : 0~
 // Identique BGEE 32306
 @99393 = ~chevalier noir déchu~
 
+// BGEE 24505 + 31759
+@99821 = ~Hiatus entropique : Je me sens reposé(e)~ // ~Wild Surge: I feel refreshed.~
+
+// TBBELT.DLG, TBBRAN[J], TBIMOEN[J], TBJAHEI[RJ], TBMINSC[J], TBSER1, TBXAN[J]
 // Identique BGEE 29986
 @99823 = ~Nous allons commencer avec la fonction de mise en pause du jeu. Vous pouvez à tout moment mettre le jeu en pause en appuyant sur l'horloge en bas à gauche de l'écran.~
 // Identique BGEE 29991
@@ -1109,7 +1090,7 @@ Poids : 0~
 // Identique BGEE 29998
 @99827 = ~Faisons un petit essai maintenant. Appuyez sur mon serviteur pour démarrer une conversation avec lui. Serviteur Jospil ! Venez donc par ici.~
 // Adapté à partir de BGEE 30001
-@99828 = ~Vous pouvez consulter votre Inventaire en appyant longuement sur le portrait de votre personnage ou en appuyant sur l'icône du sac dans la partie gauche de l'écran.~
+@99828 = ~Vous pouvez consulter votre Inventaire en appuyant longuement sur le portrait de votre personnage ou en appuyant sur l'icône du sac dans la partie gauche de l'écran.~
 // Identique BGEE 30003
 @99829 = ~Jetez un petit œil à votre Inventaire. Pour quitter l'inventaire, appuyez simplement sur le bouton de retour au jeu tout en haut à gauche de votre écran.~
 // Identique BGEE 30005
@@ -1143,7 +1124,7 @@ Poids : 0~
 // Quasi identique BGEE 30072, retrait mention du sort de soin
 @99844 = ~Vous n'avez pas encore lancé de sort, pour le moment. Appuyez sur mon bouton Lancer un Sort, choisissez un sort, et appuyez sur votre cible. Si vous n'avez pas le sort en mémoire, vous pouvez vous reposer afin de le mémoriser.~
 // Quasi identique BGEE 30157, identique 99911
-@99845 = ~Tout lanceur de sorts (hormis l'ensorceleur et le chaman) doit mémoriser ses sorts grâce au bouton Repos sur le panneau de gauche, après avoir choisi ses sorts dans le Livre de Sorts ou le Parchemin de Prêtre. Pour aller sur ces pages, appuyez et maintenez la pression sur le portrait du personnage puis choisissez l'icône de Livre de Sorts ou de Parchemin de Prêtre qui figure sur le panneau à gauche de l'écran.~
+@99845 = ~Tout lanceur de sorts (hormis l'ensorceleur et le shaman) doit mémoriser ses sorts grâce au bouton Repos sur le panneau de gauche, après avoir choisi ses sorts dans le Livre de Sorts ou le Parchemin de Prêtre. Pour aller sur ces pages, appuyez et maintenez la pression sur le portrait du personnage puis choisissez l'icône de Livre de Sorts ou de Parchemin de Prêtre qui figure sur le panneau à gauche de l'écran.~
 // Identique BGEE 30077
 @99846 = ~Choisissez les sorts que vous souhaitez mémoriser et appuyez ensuite sur le bouton de Repos. Quand vous vous êtes suffisamment reposé, tous vos sorts sont mémorisés.~ ~Choisissez les sorts que vous souhaitez mémoriser et appuyez ensuite sur le bouton de Repos. Quand vous vous êtes suffisamment reposée, tous vos sorts sont mémorisés.~
 // Identique BGEE 30091
@@ -1221,9 +1202,13 @@ Vous devrez utiliser différentes compétences au cours de votre recherche du sa
 // @todo objet 99908
 
 // Quasi identique BGEE 30074 (ou 30075 ou 30157), shaman en moins (mais conservé car ce sera vrai à terme même sur tablette) et texte adapté tablettes en plus
-@99911 = ~Tout lanceur de sorts (hormis l'ensorceleur et le chaman) doit mémoriser ses sorts grâce au bouton Repos sur le panneau de gauche, après avoir choisi ses sorts dans le Livre de Sorts ou le Parchemin de Prêtre. Pour aller sur ces pages, appuyez et maintenez la pression sur le portrait du personnage puis choisissez l'icône de Livre de Sorts ou de Parchemin de Prêtre qui figure sur le panneau à gauche de l'écran.~
+@99911 = ~Tout lanceur de sorts (hormis l'ensorceleur et le shaman) doit mémoriser ses sorts grâce au bouton Repos sur le panneau de gauche, après avoir choisi ses sorts dans le Livre de Sorts ou le Parchemin de Prêtre. Pour aller sur ces pages, appuyez et maintenez la pression sur le portrait du personnage puis choisissez l'icône de Livre de Sorts ou de Parchemin de Prêtre qui figure sur le panneau à gauche de l'écran.~
 // Identique BGEE 30035
 @99912 = ~Je vais vous laisser quelques instant pour essayer tout cela.~
+
+// Tracking.2da (autres cas en 100259)
+@99955 = ~des créatures célestes~
+@99956 = ~des morts-vivants et des êtres mécaniques~ // @todo Vérifier traduction de construct
 
 // Inspiré de ToB 71488, appel PNJ depuis le plan
 @99983 = ~Parle-moi de Neera.~
@@ -1232,8 +1217,7 @@ Vous devrez utiliser différentes compétences au cours de votre recherche du sa
 @99986 = ~Parle-moi de Dorn.~
 
 // @todo objets et noms 99987 à 99999, 100043, 100050 à 100061 (mélange), 100188, 100189
-// @todo scripts, noms, etc. 100208 à 100247, 100257, 100259 à 100262
-// @todo Wilson 100263 à 100267
+// @todo scripts, noms, etc. 100208 à 100247, 100257
 // @todo objets 100282, 100283
 
 // Identique ToB 13195
@@ -1242,8 +1226,14 @@ Vous devrez utiliser différentes compétences au cours de votre recherche du sa
 // Identique ToB 48442
 @100242 = ~Cuisine~
 
+// Tracking.2da (autres cas en 99955)
+@100259 = ~des gnolls, des ogres, des araignées et des serpents~
+@100260 = ~des humanoïdes~
+@100261 = ~des humanoïdes et des animaux sauvages~
+@100262 = ~des créatures de l'ombre~
+
 // 100284 pas besoin de traduction (crédits)
-@100284 = ~Marcelo Esteves - mlnevese
+/*@100284 = ~Marcelo Esteves - mlnevese
 Christopher Ethier - Tresset
 Greg Scott - CoM_Solaufein
 Samuel Varg Thunberg
@@ -1266,767 +1256,36 @@ Eric Van Honacker - oldschool
 Douglas Wagner - Illydth
 Piotr Wiankowski - Cahir
 Bastien Marmeth - Queynos
-Antonio Favata - alnair~
+Antonio Favata - alnair~*/
 
 // @todo 100285 à 100347 : voix pour personnage principal à retranscrire en texte
 
-// Identique BGEE 32220
-@100348 = ~Pose de piège
-
-Permet de poser un collet à l'endroit choisi lorsqu'aucune créature hostile n'est en vue. La puissance des pièges s'améliore à mesure que le voleur augmente ses niveaux. Les pièges ne peuvent être déclenchés que par les ennemis.
- Niveau 1 : le piège inflige 2d8 +5 dégâts (projectile).
- Niveau 11 : le piège inflige 2d8 +5 dégâts (projectile), plus 2d6 dégâts du poison par round pendant 3 rounds.
- Niveau 16 : le piège inflige 3d8 +5 dégâts (projectile), plus 4d8 +2 dégâts de feu.
- Niveau 21 : le piège inflige 3d8 +5 dégâts (projectile), plus 20 dégâts du poison sans jet de sauvegarde ; la cible meurt instantanément si elle échoue à un jet de sauvegarde contre la mort à +4.~
-// Identique BGEE 32221
-@100349 = ~Pose de piège spécial
-
-Permet de poser un collet à l'endroit choisi lorsqu'aucune créature hostile n'est en vue. La puissance des pièges s'améliore à mesure que le chasseur de primes augmente ses niveaux. Les pièges ne peuvent être déclenchés que par les ennemis.
- Niveau 1 : Le piège inflige 3d8 +5 dégâts (projectile) et ralentit la victime pendant 5 rounds si elle échoue à un jet de sauvegarde contre les sorts à -4.
- Niveau 11 : Le piège inflige 4d8 +5 dégâts (projectile) et immobilise la victime pendant 5 rounds si elle échoue à un jet de sauvegarde contre les sorts à -1.
- Niveau 16 : Le piège déclenche le sort de 'Sphère d'Otiluke' ciblée sur la victime pendant 7 rounds si elle échoue à un jet de sauvegarde contre les sorts.
- Niveau 21 : Le piège déclenche le sort de 'Labyrinthe' sur la victime.~
-// Identique BGEE 32222
-@100350 = ~Rayon de la Conscience Solaire
-
-Le personnage projette un rayon de lumière de sa paume, infligeant à une cible unique 1d8 dégâts du feu tous les 2 niveaux pour un maximum de 5d8 au niveau 10. Les morts-vivants subissent 6 points de dégâts supplémentaires. Il n'y pas de jet de sauvegarde contre cette capacité.~
-// Identique BGEE 32223
-@100351 = ~Soleil ascendant
-
-Le personnage se nimbe de flammes qui agissent comme un Bouclier de feu (rouge), lui conférant 50 % de résistance au feu et le protégeant des attaques à moins d'1,5 mètres : un adversaire qui frappe le personnage avec une arme ou un sort subit 1d8 +2 dégâts de feu.~
-// Quasi identique BGEE 32224, écart non significatif
-@100352 = ~Faisceau de la Conscience Solaire
-
-Le personnage provoque une explosion de lumière intense qui touche toutes les créatures à moins de 9 mètres à la ronde. Le Faisceau de la Conscience Solaire ne frappe pas automatiquement toutes les cibles, mais consiste en une attaque de corps-à-corps basée sur le TAC0 du moine, et qui bénéficie d'un bonus de +3 contre les morts-vivants. Les victimes subissent 9d6 dégâts de feu, avec un bonus de +3 contre les morts-vivants, mais peuvent diviser les dommages par deux grâce à un jet de sauvegarde contre les sorts. En outre, toutes les créatures (excepté le personnage) doivent réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglées pendant 2 heures.~
-// Identique BGEE 32225
-@100353 = ~Imposition des mains (personnelle)
-
-Le personnage puise dans l'énergie positive pour se soigner à hauteur de 2 points de vie par niveau.~
-// Identique BGEE 32226
-@100354 = ~Imposition des mains
-
-Le personnage puise dans l'énergie positive pour soigner une créature qu'il touche à hauteur de 2 points de vie par niveau.~
-// Identique BGEE 32227
-@100355 = ~Poings enflammés
-
-Le personnage concentre sa lumière intérieure dans ses attaques à mains nues, transformant ses poings en armes enflammées qui infligent 2d6 dégâts de feu supplémentaires pendant un round. La durée de cette capacité augmente jusqu'à 2 rounds au niveau 9, 3 rounds au niveau 12, 4 rounds au niveau 15 et 5 rounds au niveau 25. Cette capacité spéciale modifie automatiquement les attaques de base ; il n'y a pas besoin de changer d'arme.~
-// Quasi identique BGEE 32228, écart non significatif
-@100356 = ~Charme-animal
-
-Ce sort affecte n'importe quel animal ciblé. Ce dernier a tout de même droit à un jet de sauvegarde contre les sorts pour y échapper.
-
-En cas d'échec, il considère le lanceur comme un véritable ami et allié méritant son attention et sa protection. Ce dernier peut donner des ordres à l'animal charmé qui les exécute le plus vite possible.
-
-Si le jeteur de sorts nuit ou essaie de nuire à l'animal sous le charme par une action non déguisée, ou si un sort de Dissipation de la magie est jeté avec succès, le charme est rompu. Si plusieurs effets de charmes affectent simultanément un animal, le charme le plus récent prend le dessus. Notez que le sujet deviendra hostile lorsque le charme prendra fin. Notez aussi que vous ne pouvez faire quitter à la créature la zone dans laquelle elle a été charmée.~
-// Identique BGEE 32229
-@100357 = ~Absorption de vie
-
-Inflige 2 points de dégâts par niveau à un adversaire, et soigne le lanceur d'autant de points de vie.~
-// Quasi identique BGEE 32230, simple reformulation, texte de BGEE conservé
-@100358 = ~Aura de désespoir
-
-Cette capacité affecte tous les adversaires à moins de 9 mètres, n'autorise pas de jet de sauvegarde, et s'améliore avec les niveaux :
- Niveau 3 : pénalités de -1 aux jets de toucher et de dégâts et de +2 à la Classe d’Armure pendant 1 tour.
- Niveau 6 : pénalités de -2 aux jets de toucher et de dégâts et de +2 à la Classe d’Armure pendant 1 tour.
- Niveau 15 : tous les ennemis subissent des pénalités de -4 aux jets de toucher et de dégâts et de +4 à la Classe d’Armure pendant 1 tour ; les ennemis ayant 8 dés de vie ou moins sont également pris de panique.
- Niveau 20 : tous les ennemis subissent des pénalités de -4 aux jets de toucher et de dégâts et de +4 à la Classe d’Armure pendant 1 tour ; les ennemis ayant 18 dés de vie ou moins sont également pris de panique.~
-// Identique BGEE 32231
-@100359 = ~Tir ajusté
-
-Toute attaque à distance effectuée dans les 10 secondes qui suivent a les effets suivants (en sus des dégâts normaux) :
- Niveau 4 : La cible subit un malus de -1 au TAC0.
- Niveau 8 : La cible subit un malus de -1 aux jets de sauvegarde contre les sorts.
- Niveau 12 : La cible subit un malus de -1 à la Force.
- Niveau 16 : +2 aux dégâts du tir.~
-// Identique BGEE 32232
-@100360 = ~Kaï
-
-Toutes les attaques infligent le maximum de dégâts pendant 10 secondes.~
-// Identique BGEE 32233
-@100361 = ~Pas de l'ombre
-
-Permet d'entrer dans le Plan des Ombres et de s'y déplacer pendant 7 secondes, tandis que le temps est figé pour tout le reste du monde. Dans cet état, le Maître des Ombres ne peut ni attaquer, ni lancer de sorts.~
-// Identique BGEE 32234
-@100362 = ~Rage du barbare
-
-Pendant 5 rounds, la rage confère un bonus de +4 en Constitution et en Force, une pénalité de +2 à la Classe d'Armure et un bonus de +2 aux jets de sauvegarde contre les sorts. La rage immunise aussi contre les sorts de charme, d'immobilisation, d'effroi, de labyrinthe, d'étourdissement, de sommeil, de confusion et d'absorption de niveau.~
-// Identique BGEE 32235
-@100363 = ~Furie
-
-Cet état dure 1 tour. Sous Furie, le personnage gagne +2 au toucher, +2 aux dégâts, -2 à la Classe d'Armure, et devient immunisé aux Charmes, aux Immobilisations, à la Terreur, à la Confusion, à la Débilité, au Labyrinthe, à l'absorption de niveaux, à l'Emprisonnement, à l'Étourdissement et au Sommeil. Il gagne également 15 points de vie temporaires, qui sont retirés à la fin de la Furie, pouvant rendre le personnage inconscient.
-À la fin de la Furie, le personnage est essoufflé, et écope d'un malus de -2 au toucher, -2 aux dégâts et +2 à la Classe d'Armure. ~
-// Identique BGEE 32236
-@100364 = ~Arme empoisonnée
-
-Chaque coup réussi au cours des 5 prochains rounds empoisonnera la cible. Chaque cible ne peut être affectée qu'une fois par round. Le montant des dégâts de poison dépend du niveau du personnage :
-
-Niveau 1 : la cible subit 1 point de dégât de poison par seconde pendant 6 secondes (annulé par une sauvegarde contre la mort à +1)
-Niveau 5 : la cible subit 1 point de dégât de poison par seconde pendant 12 secondes (annulé par une sauvegarde contre la mort) et subit immédiatement 2 points de dégâts de poison (pas de sauvegarde)
-Niveau 9 : la cible subit 1 point de dégât de poison par seconde pendant 18 secondes (annulé par une sauvegarde contre la mort à -1) et subit immédiatement 4 points de dégâts de poison (pas de sauvegarde)
-Niveau 13 : la cible subit 1 point de dégât de poison par seconde pendant 24 secondes (annulé par une sauvegarde contre la mort à -2) et subit immédiatement 6 points de dégâts de poison (pas de sauvegarde)~
-// Identique BGEE 32237
-@100365 = ~Spirale offensive
-
-Durant les 4 prochains rounds, la vitesse de mouvement dur personnage est doublée et il obtient un bonus +2 au toucher et aux dégâts, ainsi qu'une attaque supplémentaire par round, et toutes les attaques font le maximum de dégâts. Ne peut être utilisée en conjonction avec 'Hâte' ou 'Hâte améliorée'.~
-// Identique BGEE 32238
-@100366 = ~Spirale défensive
-
-Durant les 4 prochains rounds, le personnage ne peut se déplacer, et il obtient un bonus de -1 à la Classe d'Armure par niveau d'expérience, avec un maximum de -10.~
-// Identique BGEE 32239
-@100367 = ~Convocation d'un Esprit animal
-
-Peut invoquer un esprit animal particulier ('Esprit ours', 'Esprit loup', 'Esprit lion' ou 'Esprit serpent') une fois par jour tous les 5 niveaux. Le personnage peut invoquer un animal d'un DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~
-// Identique BGEE 32240
-@100368 = ~Esprit serpent
-
-Le personnage peut invoquer un Esprit serpent. L'animal dispose d'un DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~
-// Identique BGEE 32241
-@100369 = ~Esprit ours
-
-Le personnage peut invoquer un Esprit ours. L'animal dispose d'un DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~
-// Identique BGEE 32242
-@100370 = ~Esprit lion
-
-Le personnage peut invoquer un Esprit lion. L'animal dispose d'un DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~
-// Identique BGEE 32243
-@100371 = ~Esprit loup
-
-Le personnage peut invoquer un Esprit loup. L'animal dispose d'un DV au niveau 1, de 3 DV au niveau 3, de 5 DV au niveau 5, de 7 DV au niveau 7 et de 10 DV au niveau 10.~
-// En partie identique BGEE 32244, perte arme +1, gain poison, bonus CA
-@100372 = ~Métamorphose en araignée
-
-Force : 16
-Dextérité : 16
-
-Classe d'Armure de base : 3
-Attaques par round : 4
-Dégâts : 1d4 (perforant), un coup porté inflige du poison : 1 point de dégât toutes les 2 secondes pendant 6 rounds (pas de sauvegarde)
-
-Capacités spéciales :
-- Classe d'Armure : bonus de 4
-- Hâte permanente
-- immunité aux toiles d'araignées~
-// En partie identique BGEE 32245, perte attaque, perte arme +2
-@100373 = ~Métamorphose en bébé wiverne
-
-Force : 16
-Dextérité : 17
-
-Classe d'Armure de base : 3
-Attaques par round : 2
-Dégâts : 1d6 (perforant), poison (jet de sauvegarde contre le poison avec pénalité de -4 pour éviter)
-Touche comme avec une arme +2
-
-Capacités spéciales :
-- immunité à l'immobilisation, à la paralysie, au ralentissement, au drain de niveau, aux toiles d'araignées, à l'enchevêtrement et aux sorts de Glisse.~
-// En partie identique BGEE 32246, modif attaques, perte Hâte et Souffle de feu
-@100374 = ~Métamorphose en salamandre de feu
-
-Force : 18/75
-Dextérité : 19
-
-Classe d'Armure de base : 2
-Attaques par round : 1
-Dégâts : 1d6 +1 (perforant)
-TAC0 : bonus de +1
-
-Capacités spéciales :
-- résistance au feu : 50 %~
-// En partie identique BGEE 32247, grosses modif CA, attaques, résistances, immunités
-@100375 = ~Métamorphose en Gelée moutarde
-
-Force : 14
-Dextérité : 9
-
-Classe d'Armure de base : 0
-Attaques par round : 1
-Dégâts : 1d6 (contondant), ralentissement (jet de sauvegarde contre la métamorphose pour éviter)
-
-Capacités spéciales :
-- hâte permanente
-- résistance à la magie : 100 %
-- résistance au froid : 50 %
-- résistance à l'électricité : 100 %
-- résistance aux dégâts tranchants : 30 %
-- résistance aux dégâts contondants : 60 %
-- résistance aux dégâts perforants : 100 %
-- résistance aux dégâts projectiles : 85 %
-- immunité aux armes non magiques, au charme, à la confusion, à la domination, à la peur, à l'immobilisation, au drain de niveau, à la panique, à la paralysie, à la pétrification, au poison, à la mort, au sommeil et à l'étourdissement.~
-// Identique BGEE 32248
-@100376 = ~Bouclier tempête
-
-Ce sort dure 1 round par niveau du lanceur de sorts. Il le protège contre l'électricité, le feu, le froid et les projectiles non-magiques.~
-// Quasi identique BGEE 32249, personnage au lieu de prêtre
-@100377 = ~Épée animée
-
-Ce sort fait apparaître une épée dans la main du personnage (ne peut être lâchée, volontairement ou non). Cette arme est considérée comme une arme +4 pour déterminer les créatures disposant d'une réduction des dégâts qu'elle peut toucher, mais ce bonus ne s'applique pas au TAC0 et aux jets de dégâts. Dotée de 3 attaques par rounds, elle inflige 2d4 points de dégâts et dure 1 round par niveau. Tant que le personnage l'a en main, il ne peut pas lancer le moindre sort.~
-// Identique BGEE 32250
-@100378 = ~Don de Lathandre
-
-Ce sort dure 1 round par niveau et confère +1 aux jets d'attaque, de dégâts et de sauvegarde, ainsi qu'une attaque supplémentaire par round. Il protège également contre le drain de niveau.~
-// Identique BGEE 32251
-@100379 = ~Coup étourdissant
-
-Toutes les attaques réussies au cours du round suivant obligent la victime à réussir un jet de sauvegarde contre les sorts sous peine d'être assommée. Ce talent spécial modifie automatiquement l'attaque normale du personnage, sans avoir besoin de viser une cible.~
-// Identique BGEE 32252
-@100380 = ~Paume vibratoire
-
-La prochaine attaque réussie force la victime à réussir un jet de sauvegarde contre les sorts ou mourir. Ce talent spécial modifie automatiquement l'attaque normale du personnage, sans avoir besoin de viser une cible.~
-// Quasi identique BGEE 32253, formulation différente
-@100381 = ~Attaque de souffle
-
-Le personnage crache une flamme qui mesure 9 mètres de longueur. Le souffle inflige 3d8 dégâts de feu à toutes les créatures prises dans le cône de 140 degrés. La flamme inflige 1d8 points de dégâts de feu supplémentaires au niveau 6 et tous les 3 niveaux par la suite, jusqu'à un maximum de 8d8 au niveau 18.~
-// Identique BGEE 32254
-@100382 = ~Position défensive
-
-Le personnage gagne un bonus de +2 aux jets de Sauvegarde, 50 % de résisance à toute forme de dégâts physiques, et une pénalité de 50 % de vitesse de mouvement pendant un tour.~
-// Identique BGEE 32255
-@100383 = ~Métamorphose druidique
-
-Cette capacité permet au personnage de se métamorphoser en ours ou en loup.~
-// Quasi identique BGEE 32256, carac et dégâts augmentés, perte arme +1, perte de la Hâte
-@100384 = ~Métamorphose en loup
-
-Force : 18
-Dextérité : 17
-
-Classe d'Armure de base : 6
-Attaques par round : 2
-Dégâts : 1d10
-
-Capacités spéciales :
-- résistance au froid : 100 %
-- résistance à l'électricité : 50 %
-- résistance au froid magique : 100 %~
-// Quasi identique BGEE 32257, dégâts augmentés, perte arme +1, perte de la Hâte
-@100385 = ~Métamorphose en ours brun
-
-Force : 18/00
-Dextérité : 12
-
-Classe d'Armure de base : 6
-Attaques par round : 3
-Dégâts : 1d8~
-// Quasi identique BGEE 32258, perte arme +1, perte de la Hâte
-@100386 = ~Métamorphose en ours noir
-
-Force : 18/00
-Dextérité : 12
-
-Classe d'Armure de base : 7
-Attaques par round : 3
-Dégâts : 1d6~
-// Identique BGEE 32259
-@100387= ~Métamorphose en forme naturelle
-
-Cette capacité permet au personnage de mettre fin à la métamorphose et de reprendre sa forme originale.~
-// Quasi identique BGEE 32260, modif dégâts minorés, TAC0 augmenté, perte de la Hâte
-@100388 = ~Métamorphose en flind
-
-Force : 17
-Dextérité : 17
-
-Classe d'Armure de base : 1
-Attaques par round : 2
-Dégâts : 1d4 (contondant)
-
-Capacités spéciales :
-- TAC0 : bonus de +4~
-// Quasi identique BGEE 32261, modif dégâts
-@100389 = ~Métamorphose en ogre
-
-Force : 18/00
-Dextérité : 9
-
-Classe d'Armure de base : 5
-Attaques par round : 1
-Dégâts : 1d10 (contondant)~
-// Identique BGEE 32262
-@100390 = ~Métamorphose en flagelleur mental
-
-Force : 10
-Dextérité : 10
-
-Classe d'Armure de base : 5
-Attaques par round : 4
-Dégâts : 1d2 (contondant), 5 points de dégâts à l'intelligence~
-// Identique BGEE 32263
-@100391 = ~Métamorphose en golem de fer
-
-Force : 24
-Dextérité : 9
-
-Classe d'Armure de base : 3
-Attaques par round : 1
-Dégâts : 4d10 (contondant)
-
-Capacités spéciales : 
-- résistance au feu : 125 %
-- résistance au froid : 100 %
-- résistance à l'électricité : 100 %
-- résistance à l'acide : 100 %
-- résistance à la magie : 100 %
-- résistance au feu magique : 125 %
-- résistance au froid magique : 100 %
-- résistance aux dégâts tranchants : 20 %
-- résistance aux dégâts contondants : 20 %
-- résistance aux dégâts perforants : 20 %
-- résistance aux dégâts projectiles : 20 %
-- immunité aux armes +2 ou moins, aux attaques sournoises, au sommeil, à la peur, à l'immobilisation, au charme, à la paralysie et au poison~
-// Identique BGEE 32264
-@100392 = ~Métamorphose en troll géant
-
-Force : 18
-Dextérité : 20
-
-Classe d'Armure de base : 4
-Attaques par round : 3
-Dégâts : 2d6 (perforant)
-
-Capacités spéciales :
-- immunité à l'étourdissement, au sommeil, à l'immobilisation
-- régénération d'un point de vie par seconde~
-// Identique BGEE 32265
-@100393 = ~Métamorphose en loup-garou majeur
-
-Force : 21
-Dextérité : 20
-
-Classe d'Armure de base : -6
-Attaques par round : 3
-Dégâts : 2d8 (tranchant)
-
-Capacités spéciales :
-- immunité aux armes, sauf aux armes en fer froid
-- résistance au feu : 50 %
-- résistance au froid : 50 %
-- résistance à l'électricité : 50 %
-- résistance à l'acide : 50 %
-- résistance à la magie : 40 %
-- régénération de 3 points de vie par seconde~
-// Identique BGEE 32266
-@100394 = ~Métamorphose en élémental de feu
-
-Force : 9
-Dextérité : 9
-
-Classe d'Armure de base : 2
-Attaques par round : 1
-Dégâts : 3d8 (contondant), +1d6 de feu
-
-Capacités spéciales :
-- résistance au feu : 100 %
-- résistance au feu magique : 100 %
-- immunité aux armes +2 ou moins~
-// Identique BGEE 32267
-@100395 = ~Métamorphose en élémental de terre
-
-Force : 19
-Dextérité : 9
-
-Classe d'Armure de base : 2 
-Attaques par round : 1
-Dégâts : 4d8 (contondant)
-
-Capacités spéciales :
-- immunité aux armes +2 ou moins~
-// Quasi identique BGEE 32268, dégâts perforants en plus
-@100396 = ~Souffle de feu
-
-La créature lance un projectile enflammé sur une cible, lui infligeant 2d6 de dégâts perforants et 2d6 dégâts de feu sur une attaque à distance.~
-// Traduit
-@100397 = ~Antichambre
-
-Cette capacité renvoie la totalité du groupe de <CHARNAME> dans l'Antichambre.~
-// Traduit (nom de capacité repris de BGEE 25929)
-@100398 = ~Inspirer le courage
-Quand Mazzy fait appel à cette capacité, elle devient immunisée à la peur et obtient un bonus de 1 au TAC0 ainsi qu'à tous les jets de sauvegarde. L'effet dure 5 tours.~
-// Traduit (nom de capacité repris de BGEE 25958) @todo Compatibilité de Œ avec la lettrine à vérifier !!!
+// Nom de capacité repris de BGEE 25958, a priori plus utilisé, voir 103003 
 @100399 = ~Œil du Chien de la Lune
 Cette capacité dissipe tous les sorts de l'école d'Illusion dans la zone et révèle également tous les pièges dans le champ de vision pendant les 10 rounds suivants.~
-// Traduit (nom de capacité repris de BGEE 25961)
+// Nom de capacité repris de BGEE 25961, a priori plus utilisé, voir 1003004
 @100400 = ~Langue soignante
 Cette capacité guérit la cible de n'importe quel effet de poison, maladie, cécité ou surdité et restitue aussi 20 points de vie au bénéficiaire. La bave est... juste un bonus supplémentaire.~
-// Traduit (nom de capacité repris de ToB 51958)
-@100401 = ~Créer Fiancées du Flasher
-Cette capacité fabrique 5 des Fiancées du Flasher Méga-Tapeur brevetées par Jan, et les place dans l'inventaire du personnage. A manipuler avec précaution !~
-// Traduction, nom repris de BGEE 26039
+// Nom de capacité repris de BGEE 26039, a priori plus utilisé, voir 103005
 @100402 = ~Hurlement du Chien de la Lune
 
 Cette capacité rend le groupe insensible à la peur tout en forçant tous les ennemis dans la zone à réussir un jet de sauvegarde contre les sorts avec une pénalité de -2 sous peine d'être paniqués. Les cibles qui ratent leur jet de sauvegarde subissent aussi 5 points de dégâts magiques.~
-// Identique BGEE 32269
-@100403 = ~Jet d'eau
-
-Le personnage lance une boule de vapeur brûlante sur une cible, infligeant 1d3 dégâts de feu. La victime doit également réussir un jet de sauvegarde contre les souffles ou être étourdie pendant un round.~
-// Identique BGEE 32270
-@100404 = ~Orage de pluie bouillonnante
-
-Le personnage invoque une tempête de pluie bouillonnante et nocive. Les adversaires dans la zone d'effet subissent 2d6 dégâts du poison, et doivent réussir un jet de sauvegarde contre les souffles sous peine d'être étourdis pendant un round.~
-// Quasi identique BGEE 32271, précision "magiques" conservée de BGEE
-@100405 = ~Boule de fumée
-
-La créature projette une boule de fumée irritante pour aveugler la cible. Cette dernière subit 1d4 dégâts magiques, à moins de réussir un jet de sauvegarde contre les souffles. Elle est également aveuglée pendant un round (pas de jet de sauvegarde).~
-// Identique BGEE 32272
-@100406 = ~Boule de magma
-
-Le personnage lance une balle de lave en fusion pour brûler la cible, qui subit 1d6 dégâts de feu.~
-// Identique BGEE 32273
-@100407 = ~Boule de suif
-
-Le personnage lance une boule de suie solidifiée qui inflige 1d4 dégâts contondants et aveugle la cible pendant un round.~
-// Identique BGEE 32274
-@100408 = ~Crachat de pierre
-
-Le personnage crache une pierre de la taille d'une bille de fronde sur sa cible, qui subit 1d6 dégâts contondants.~
-// Identique BGEE 32275
-@100409 = ~Cristaux de sel
-
-Le personnage lance un projectile composé de cristaux de sel agglomérés. À l'impact, les cristaux infligent 1d4 dégâts contondants et étourdissent la cible, à moins qu'elle ne réussisse un jet de sauvegarde contre les souffles.~
-// Identique BGEE 32276
-@100410 = ~Poussière de verre
-
-Le personnage pulvérise de la poudre de verre pilé, obligeant sa cible à réussir un jet de sauvegarde contre les souffles sous peine de souffrir une pénalité de +4 à la Classe d'armure et -2 au TAC0 pendant que les petits morceaux de verre pénètrent sous sa peau.~
-// Identique BGEE 32277
-@100411 = ~Éclat de glace
-
-Le personnage lance un projectile de glace qui inflige 1d3 dégâts de froid, +1d3 dégâts de froid si la cible échoue à un jet de sauvegarde contre les souffles.~
-// Identique BGEE 32278
-@100412 = ~Éventail de feu
-
-Le personnage fait flamber la cible, qui subit 4 points de dégâts de feu sans jet de sauvegarde.~
-// Identique BGEE 32279
-@100413 = ~Jet de flammes
-
-Le personnage fait brûler la cible, qui subit 1d4 dégâts de feu, +1d4 dégâts de feu si elle échoue à un jet de sauvegarde contre les souffles.~
-// Identique BGEE 32280
-@100414 = ~Acide de mimique
-
-Le personnage lance un globe d'acide corrosif sur la cible, qui subit 3d12 dégâts d'acide sans jet de sauvegarde.~
-// Identique BGEE 32281
-@100415 = ~Colle de mimique
-
-Le personnage lance une boule de vase poisseuse et collante qui paralyse la cible pendant 5 rounds, à moins qu'elle ne réussisse un jet de sauvegarde contre les souffles.~
 
 // @todo objets 100416 à 100449, 100451, 100452
 
 // Identique BGEE 32282
 @100778 = ~Vous devez attendre avant de refaire une pause.~
 
-// Identique BGEE 31846
-@100780 = ~Ceinturon d'Adoy~
-// Identique BGEE 31837
-@100781 = ~Le Ceinturon d'Adoy
-Cette fine ceinture en cuir de daim et en fourrure de lapin permet à son propriétaire de mieux résister aux effets de la métamorphose. Il s'agit de l'accessoire parfait pour les entropistes et leur entourage direct.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- jets de sauvegarde contre la pétrification/métamorphose : +5
-
-Poids : 2~
-// Identique BGEE 28623
-@100782 = ~Brassards scintillants~
-// Identique BGEE 28624
-@100783 = ~Ces bracelets polis réfléchissent une lumière crue dans les yeux des ennemis de leur porteur, ce qui les empêche de dévier efficacement les poings de celui-ci.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- TAC0 : +2
-
-Poids : 1~
-
-// Contribué par Freddy_Gwendo
-@101142 = ~Éclat de miroir~
-
 // @todo noms et objets 101253 à 101256
 // @todo dialogue livre dont vous être le héros 101270 à 101637
 // @todo objets 101638, 101639
 
-// Identique IWDEE 36124
-@101640= ~Double d'ombre~
-// Identique IWDEE 36125
-@101641= ~Double d'ombre
-
-Cette capacité permet de créer un double du Maître des ombres qui dure 2 tours. La créature créée possède 60% des niveaux du personnage, et possède toutes les capacités que le Maître des ombres possèderait à ce niveau. Il possède également 60% de ses points de vie. Le double d'ombre est contrôlé par le personnage.~
-// Identique IWDEE 36128
-@101642= ~Forme d'ombre~
-// Identique IWDEE 36129
-@101643= ~Forme d'ombre
-
-Cette capacité permet au personnage de se transformer partiellement en ombre, se rendant en partie désincarné. L'effet dure 5 rounds, durant lesquels toutes les attaques physiques dirigées contre le Maître des ombres n'infligent que la moitié de leurs dégâts normaux. Dans le même temps, le personnage est sous l'effet d'Invisibilité majeure, et ne peut donc être ciblé directement par des sorts.~
-// Identique IWDEE 36126
-@101644= ~Labyrinthe d'ombre~
-// Identique IWDEE 36127
-@101645 = ~Labyrinthe d'ombre
-
-Cette capacité permet d'ouvrir un portail temporaire qui mène à un espace contenu dans le Plan de l'Ombre. Tous les adversaires à moins de 3 mètres du Maître des ombres doivent réussir un jet de sauvegarde contre les sorts à -4 sous peine d'être piégé dans un dédale fait d'ombre, un peu comme le sort de Labyrinthe.~
 // Inspiré de IWDEE 40028
-@101646= ~*essaie de détecter les illusions*~
+@101646= ~*essaie de détecter les illusions*~ // GPTHIEF.bcs
 // Adapté de IWDEE 40028
-@101647 = ~*essaie de se cacher dans l'ombre*~
+@101647 = ~*essaie de se cacher dans l'ombre*~ // GPTHIEF.bcs
 
 // @todo noms 101656 à 101659
-
-// Identique BGEE 29035
-@101660= ~Gourdin +1~
-@101661= ~Gourdin +2~
-// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
-@101662 = ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus large à l'autre. Cette arme simple est utilisée depuis que l'on a découvert les outils. N'importe qui peut trouver un gros morceau de bois et le brandir, d'où l'utilisation très répandue du gourdin. Ce gourdin a été amélioré par la magie.
-
-PARAMÈTRES :
-
-TAC0 : +1
-Dégâts : 1d6 +1 (contondant)
-Facteur de vitesse : 3
-Type de compétence : gourdin
-Type : arme à une main
-Nécessite : 5 en Force
-
-Poids : 2~
-// Quasi identique BGEE 6073, ajout mention enchantement, modif TAC0, dégâts, vitesse, poids
-@101663 = ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus large à l'autre. Cette arme simple est utilisée depuis que l'on a découvert les outils. N'importe qui peut trouver un gros morceau de bois et le brandir, d'où l'utilisation très répandue du gourdin. Ce gourdin a été amélioré par la magie.
-
-PARAMÈTRES :
-
-TAC0 : +2
-Dégâts : 1d6 +2 (contondant)
-Facteur de vitesse : 2
-Type de compétence : gourdin
-Type : arme à une main
-Nécessite : 5 en Force
-
-Poids : 1~
-@101664 = ~Wakizashi +2~
-@101665 = ~Wakizashi +3~
-// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
-@101666 = ~Le wakizashi est la seconde épée du samouraï, pour qui son rôle est essentiel. C'est l'arme qu'il porte en permanence, même en intérieur, et qu'il garde à portée de main pendant son sommeil. Les maîtres Wu Jen ont caché dans ce wakizashi un grand pouvoir qui ne se libère que quand son porteur est en plein combat. On ne sait pas comment ce wakizashi est arrivé en Féérûne, mais si le samouraï qui le possédait est toujours en vie, il est certainement à sa recherche.
-
-PARAMÈTRES :
-
-TAC0 : +2
-Dégâts : 1d8 +2 (perforant)
-Facteur de vitesse : 1
-Type de compétence : cimeterre / wakizashi / ninjatō
-Type : arme à une main
-Nécessite : 5 en Force
-
-Poids : 1~
-// Quasi identique BGEE 26720, modif TAC0, dégâts, vitesse, poids
-@101667 = ~Le wakizashi est la seconde épée du samouraï, pour qui son rôle est essentiel. C'est l'arme qu'il porte en permanence, même en intérieur, et qu'il garde à portée de main pendant son sommeil. Les maîtres Wu Jen ont caché dans ce wakizashi un grand pouvoir qui ne se libère que quand son porteur est en plein combat. On ne sait pas comment ce wakizashi est arrivé en Féérûne, mais si le samouraï qui le possédait est toujours en vie, il est certainement à sa recherche.
-
-PARAMÈTRES :
-
-TAC0 : +3
-Dégâts : 1d8 +3 (perforant)
-Facteur de vitesse : 0
-Type de compétence : cimeterre / wakizashi / ninjatō
-Type : arme à une main
-Nécessite : 5 en Force
-
-Poids : 1~
-@101668 = ~Ninjatō +2~
-@101669 = ~Ninjatō +3~
-// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
-@101670 = ~Saïto Kagizu, ou 'le Chat de l'est', comme l'appelait les voleurs d'Athkatla, a apporté avec lui plusieurs de ces épées de ninja quand il est arrivé à Féérûne. Elles faisaient partie de sa collection, qu'il se les soient 'appropriées' auprès de ses rivaux ou qu'il les ait réalisées lui-même. Après sa mort, sa maîtresse fit cadeau des épées à ses autres amants, qui sont tous des voleurs accomplis.
-
-PARAMÈTRES :
-
-TAC0 : +2
-Dégâts : 1d8 +2 (tranchant)
-Facteur de vitesse : 2
-Type de compétence : cimeterre / wakizashi / ninjatō
-Type : arme à une main
-RNécessite : 6 en Force
-
-Poids : 3~
-// Quasi identique BGEE 26725, modif TAC0, dégâts, vitesse, poids
-@101671 = ~Saïto Kagizu, ou 'le Chat de l'est', comme l'appelait les voleurs d'Athkatla, a apporté avec lui plusieurs de ces épées de ninja quand il est arrivé à Féérûne. Elles faisaient partie de sa collection, qu'il se les soient 'appropriées' auprès de ses rivaux ou qu'il les ait réalisées lui-même. Après sa mort, sa maîtresse fit cadeau des épées à ses autres amants, qui sont tous des voleurs accomplis.
-
-PARAMÈTRES :
-
-TAC0 : +3
-Dégâts : 1d8 +3 (tranchant)
-Facteur de vitesse : 1
-Type de compétence : cimeterre / wakizashi / ninjatō
-Type : arme à une main
-Nécessite : 6 en Force
-
-Poids : 2~
-// Identique BGEE 23960
-@101672 = ~Cimeterre +2~
-// Inspiré de BGEE 23378
-@101673 = ~Le cimeterre, ou "shamshir", comme on l'appelait au début, a une lame à un seul tranchant très incurvée et s'effile sur une longue pointe acérée. Il est peut-être un peu plus lent que d'autres armes du même type mais il compense par le montant de dégâts dont il est capable. Cette arme est également dotée de pouvoirs magiques pour compléter le talent de celui qui la manie.
-
-PARAMÈTRES :
-
-TAC0 : +2
-Dégâts : 1d8 +2 (tranchant)
-Facteur de vitesse : 3
-Type de compétence : cimeterre / wakizashi / ninjatō
-Type : arme à une main
-Nécessite : 10 en Force
-
-Poids : 2~
-// Quasi identique BGEE 6927
-@101674 = ~Fléchettes +2~
-@101675 = ~Fléchettes +3~
-// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
-@101676 = ~La fléchette est un petit projectile facilement dissimulable lancé plutôt que catapulté par un arc ou une autre arme à distance. Les fléchettes magiques, telles que celle-ci, sont hautement appréciées des voleurs et des magiciens.
-
-PARAMÈTRES :
-
-TAC0 : +2
-Dégâts : 1d3 +2 (projectile)
-Facteur de vitesse : 0
-Type de compétence : fléchette
-Type : arme à une main
-
-Poids : 0~
-// Quasi identique BGEE 10043, modif TAC0, dégâts et vitesse
-@101677 = ~La fléchette est un petit projectile facilement dissimulable lancé plutôt que catapulté par un arc ou une autre arme à distance. Les fléchettes magiques, telles que celle-ci, sont hautement appréciées des voleurs et des magiciens.
-
-PARAMÈTRES :
-
-TAC0 : +3
-Dégâts : 1d3 +3 (projectile)
-Facteur de vitesse : 0
-Type de compétence : fléchette
-Type : arme à une main
-
-Poids : 0~
-// Quasi identique BGEE 25780
-@101678 = ~Targe +2~
-@101679 = ~Targe +3~
-// Quasi identique BGEE 25782, modif CA
-@101680 = ~Une targe est un petit bouclier de bois ou de métal, qui se fixe à l'avant-bras. Sa petite taille et son faible poids permettent de le porter sans être trop encombré. Cette targe possède un enchantement générique qui la rend plus résistante aux chocs.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- classe d'armure : +3
-- ne protège pas contre les attaques perforantes et les projectiles
-
-Nécessite : 4 en Force
-
-Poids : 2~
-// Quasi identique BGEE 25782, modif CA
-@101681 = ~Une targe est un petit bouclier de bois ou de métal, qui se fixe à l'avant-bras. Sa petite taille et son faible poids permettent de le porter sans être trop encombré. Cette targe possède un enchantement générique qui la rend plus résistante aux chocs.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- classe d'armure : +4
-- ne protège pas contre les attaques perforantes et les projectiles
-
-Nécessite : 4 en Force
-
-Poids : 2~
-@101682= ~Amure de plates +2~
-// Quasi identique BGEE 6681, mention enchantement traduite et modif CA et poids
-@101683 = ~L'armure de plates est une combinaison de cotte de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. En outre, cette armure de plates est enchantée et accorde un bonus supplémentaire à la Classe d'Armure du porteur.
-
-PARAMÈTRES :
-
-Classe d'armure : 1 (-2 contre les armes tranchantes)
-Nécessite : 12 en Force
-
-Poids : 20~
-// Quasi identique BGEE 6680
-@101684 = ~Armure feuilletée +2~
-// Quasi identique BGEE 16273, modif paramètres CA et poids
-@101685 = ~L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps ne pivote pas au milieu du torse autant qu'il peut se courber en avant, l'armure feuilletée est plus limitée dans les combats. Cette armure est enchantée, procurant au porteur un bonus supplémentaire de +2 à sa Classe d'Armure.
-
-PARAMÈTRES :
-
-Classe d'armure : 2 (1 contre les armes perforantes et projectiles, 0 contre les armes contondantes)
-Nécessite : 8 en Force
-
-Poids : 10~
-// Quasi identique BGEE 6668
-@101686 = ~Besantine +3~
-// Contribué par Freddy_Gwendo, cartouche standardisé
-@101687 = ~Cette armure est une pièce d'équipement standard de la cavalerie sur griffons et d'autres guerriers montés. Elle est légère mais offre une bonne protection, particulièrement avec la protection magique supplémentaire qui y est greffée.
-
-PARAMÈTRES :
-
-Classe d'armure : 4 (2 contre les armes tranchantes, 3 contre les armes perforantes et les projectiles)
-Nécessite : 6 en Force
-
-Poids : 6~
-// Quasi identique BGEE 22715 ; @todo Voir si on conserve Cuirasse
-@101688 = ~Armure de peau +1~
-@101689 = ~Armure de peau +2~
-@101690 = ~Armure de peau +3~
-// Quasi identique BGEE 22716, mention enchantement traduite et modif CA et poids
-/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -30 %
-- déplacement silencieux : -20 %
-- se cacher dans l'ombre : -20 %
-*/
-@101691 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
-Cette armure-ci est enchantée, elle accorde à celui qui la porte un bonus supplémentaire de protection.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -10 %
-- déplacement silencieux : -20 %
-
-Classe d'armure : 5 (7 contre les armes perforantes et les projectiles)
-Nécessite : 6 en Force
-
-Poids : 25~
-// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
-/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -30 %
-- déplacement silencieux : -20 %
-- se cacher dans l'ombre : -20 %
-*/
-@101692 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
-Cette armure-ci est enchantée, elle accorde à celui qui la porte un bonus supplémentaire de protection.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -10 %
-- déplacement silencieux : -20 %
-
-Classe d'armure : 4 (6 contre les armes perforantes et les projectiles)
-Nécessite : 6 en Force
-
-Poids : 15~
-// Quasi identique BGEE 22716 - mention enchantement traduite et modif CA et poids
-/* @todo Vérifier modif de Freddy-Gwendo sur les capacités / VO
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -30 %
-- déplacement silencieux : -20 %
-- se cacher dans l'ombre : -20 %
-*/
-@101693 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
-Cette armure-ci est enchantée, elle accorde à celui qui la porte un bonus supplémentaire de protection.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- crochetage des serrures : -10 %
-- détection des pièges : -10 %
-- vol à la tire : -10 %
-- déplacement silencieux : -20 %
-
-Classe d'armure : 3 (5 contre les armes perforantes et les projectiles)
-Nécessite : 6 en Force
-
-Poids : 10~
 
 // Identique ToB 20950 (script ohhstone)
 @101695 = ~Mettez votre main dans ma bouche~
@@ -2043,9 +1302,6 @@ Poids : 10~
 // Identique BGEE 32290
 @101730 = ~Erreur pendant l'écriture du fichier.~
 
-// Identique IWDEE 40259
-@101762= ~Aura de peur~
-
 // Identique IWDEE 757
 @101765= ~Imprécation~
 
@@ -2054,8 +1310,6 @@ Poids : 10~
 
 // Identique BGEE 14770 (il s'agit du texte montrant l'effet appliqué à quelqu'un, "Protected" en VO)
 @101780 = ~Protection contre le bien~
-// Identique IWDEE 21413
-@101781 = ~Contamination~
 
 // Identique BGEE 31844
 @101793 = ~Créer groupe~
@@ -2072,17 +1326,17 @@ Poids : 10~
 @102477 = ~Si cette option est activée, le jeu vous demandera confirmation avant de supprimer des sorts mémorisés ou de vous reposer dans une auberge. Si elle est désactivée, aucune demande de confirmation ne vous sera faite lorsque vous vous reposerez dans une auberge ou que vous supprimerez des sorts mémorisés.~
 
 // Identique BGEE 31252
-@102492 = ~GUERRIER : Les guerriers utilisent des armes de mêlée pour infliger des dégats au corps à corps. Ils ont un grand nombre de points de vie et ils peuvent équiper des armures lourdes. Ils sont aussi bons en attaque qu'en défense.~
+@102492 = ~GUERRIER : Les guerriers utilisent des armes de mêlée pour infliger des dégâts au corps à corps. Ils ont un grand nombre de points de vie et ils peuvent équiper des armures lourdes. Ils sont aussi bons en attaque qu'en défense.~
 // Identique BGEE 31253
 @102493 = ~MAGE : Le mage est le maître des énergies magiques, se formant dans les voies offensives et défensives. Ce sont d'excellent pourvoyeurs de dégâts et ils sont utiles dans la neutralisation des défenses ennemies.~
 // Identique BGEE 31254
 @102494 = ~VOLEUR : Les voleurs possèdent une large variété de compétences. Ils peuvent crocheter des serrures des coffres et des portes, désarmer des pièges et se glisser dans le dos des ennemis pour infliger de lourds dégâts.~
 // Identique BGEE 31255
-@102495 = ~CLERC : Le clerc peut faire appel aux pouvoirs divins pour soigner et protéger ses alliés. Ce sont des experts en destuction de mort-vivant.~
+@102495 = ~CLERC : Le clerc peut faire appel aux pouvoirs divins pour soigner et protéger ses alliés. Ce sont des experts en destruction de mort-vivant.~
 // Identique BGEE 31257
-@102496 = ~RÔDEUR : Les rôdeurs sont des combattants et des forestiers. Ils sont habiles avec des armes légères, ils savent se répérer en forêt. Ils sont compétents dans le maniement de deux armes à la fois, ils sont également habiles dans l'utilisation d'armes à distance.~
+@102496 = ~RÔDEUR : Les rôdeurs sont des combattants et des forestiers. Ils sont habiles avec des armes légères, ils savent se repérer en forêt. Ils sont compétents dans le maniement de deux armes à la fois, ils sont également habiles dans l'utilisation d'armes à distance.~
 // Identique BGEE 31268
-@102497 = ~BARBARE : Les barbares sont d'excellents combattants. Moins disciplinés que des guerriers, ils ne peuvent pas porter d'armures lourdes. Cependant leurs rages de beserker et leurs puissantes attaques compensent.~
+@102497 = ~BARBARE : Les barbares sont d'excellents combattants. Moins disciplinés que des guerriers, ils ne peuvent pas porter d'armures lourdes. Cependant leurs rages de berserker et leurs puissantes attaques compensent.~
 // Identique BGEE 31269
 @102498 = ~BARDE : Le barde est un roublard, qui a besoin d'alliés pour vraiment exceller. Leur spécialités consistent à améliorer le morale et la compétence de leurs compagnons avec leurs chants tout en pénalisant leurs ennemis.~
 // Quasi identique BGEE 9574, mention sur les gnomes de BGEE conservée bien qu'absente dans BG2EE anglais
@@ -2116,20 +1370,29 @@ Les gnomes peuvent choisir cette multi-classe, mais deviennent clercs / illusion
 // Quasi identique BGEE 32301, singulier au lieu de pluriel
 @102510 = ~DRUIDE : Le druide sert la cause de la nature et de la neutralité ; il vit en osmose avec sa communauté. Il utilise ses pouvoirs spéciaux pour protéger ceux qui aident la nature et s'opposer à ceux qui cherchent à lui nuire.~
 
-// Traduit, sort ohbcwoun créant des blessures impossibles à soigner (Greater Clay Golem)
-@102518 = ~Blessure maudite~
-// Traduit, texte d'effet du sort
-@102519 = ~Impossible à soigner~
-
 // @todo boutique PNJ 102522 à 102524
+// Suite des descriptions de DLC en 95310
+@102522 = ~Le culte hérétique de la Vérité Dédoublée s'efforce d'attirer des membres d'ordres rivaux à Francmarché et le moine de la Conscience Solaire Rasaad a besoin de votre aide pour découvrir pourquoi. Recherchez le temple hérétique et, à l'intérieur, affrontez quatre tests afin de découvrir le cœur malveillant du culte.
+
+Dans Le Trône de Bhaal, le cerveau à l'origine de la Vérité Dédoublée conquiert la forteresse d'un clan de nains qui détient la clé vers le plan de l'Ombre. Fouillez sous la surface et récupérez l'artefact afin de sauver la lumière de la lune des ténèbres qui s'étendent.
+
+Caractéristiques :
+– un nouveau compagnon, rencontré à Francmarché
+– une nouvelle quête dans Les Ombres d'Amn
+– une nouvelle quête dans Le Trône de Bhaal
+– 7 nouveaux lieux à explorer~
+@102523 = ~Un puissant compagnon moine et deux nouvelles aventures qui étendent la campagne principale~
+@102524 = ~Des secrets sont tapis dans les ombres du cimetière d'Athkatla. Évitez les pièges mortels et les gardiens tandis que vous descendez dans les profondeurs de la tombe de Dragomir. Alliez-vous à Hexxat, une exploratrice et voleuse au service d'un mystérieux maître, pour dévaliser des souterrains couverts de pièges à la recherche de reliques de grande valeur.
+
+Dans Le Trône de Bhaal, Hexxat reçoit son ultime mission : s'aventurer dans la crypte laboratoire de la liche paria Korkorran et l'éliminer. Le succès rapporte une grande récompense, bien qu'inattendue.
+
+Caractéristiques :
+– une nouvelle compagne, rencontrée à la Couronne de Cuivre
+– une nouvelle quête dans Les Ombres d'Amn
+– une nouvelle quête dans Le Trône de Bhaal
+– 4 nouveaux lieux à explorer~ 
+
 // @todo objets 102528, 102529, 102543 à 102545, 
-
-// Contribué par Freddy_Gwendo
-@102543 = ~Vous avez récupéré cet éclat de miroir dans la chambre de Bannor.
-
-PARAMÈTRES :
-
-Poids : 2~
 
 // Identique IWDEE 37842 ~Click the gem to adjust the key binding~
 @102620 = ~Sélectionnez le raccourci à modifier~
@@ -2293,7 +1556,7 @@ Poids : 2~
 @102711 = ~Pour vous équiper d'un objet, appuyez dessus et déplacez-le sur un emplacement d'arme rapide vide.~
 // Quasi identique IWDEE 34919
 @102712 = ~Vous pouvez rendre les objets activables depuis l'écran de jeu en appuyant dessus et en les déplaçant sur un emplacement d'objet rapide vide.~
-// Quasi identique IWDEE 34920, réformulé
+// Quasi identique IWDEE 34920, reformulé
 @102713 = ~Pour vous équiper ou enlever un objet, appuyez dessus et déplacez-le dans ou en-dehors de l'emplacement concerné.~
 // Quasi identique IWDEE 34921
 @102714 = ~Vous pouvez également lâcher des objets par terre ou les ramasser depuis l'écran d'inventaire.~
@@ -2462,47 +1725,12 @@ Poids : 2~
 // Identique BGEE 32305
 @102810 = ~Classe perdue : Chasseur de morts-vivants~
 
-@102816 = ~Flèche +4~
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-@102817 = ~Ces flèches enchantées surpassent de beaucoup la qualité de fabrication de toutes les flèches, magiques ou autres, que vous ayez jamais croisées.
-
-PARAMÈTRES :
-
-TAC0 : +4
-Dégâts : 1d6 (projectile)
-Lanceur : arc
-
-Poids : 0~
-@102818 = ~Carreau +4~
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-@102819 = ~Ces carreaux magiques surpassent de beaucoup la qualité de fabrication de tous les carreaux, magiques ou autres, que vous ayez jamais croisés.
-
-PARAMÈTRES :
-
-TAC0 : +4
-Dégâts : 1d8 (projectile)
-Lanceur : arbalète
-
-Poids : 0~
-
 // Identique BGEE 32308
 @102832 = ~L'image que vous avez choisie est trop grande.~
 // Identique BGEE 32309
 @102833 = ~Restauration des achats~
 // Identique BGEE 32310
 @102834 = ~Achats restaurés~
-
-// Identique IWDEE 21402
-@102860 = ~Rage animale~
-
-// Identique BGEE 12067
-@102865 = ~Poing de glace~
-// Identique BGEE 32327, à un saut de ligne près
-@102866 = ~Poing de glace
-
-Lorsque cette capacité est activée, les poings du Moine de la Lune Noire se nimbent d'une coquille de glace. Pendant un round par niveau, les attaques à mains nues infligent 2 dégâts du froid supplémentaires.~
-// Identique IWDEE 25041
-@102867= ~Vengeance~
 
 // Identique ToB 19458 (reprise du texte seulement)
 @102870 = ~Que Torm vous emporte !~
@@ -2534,52 +1762,7 @@ Lorsque cette capacité est activée, les poings du Moine de la Lune Noire se ni
 
 // Identique BGEE 24577 (minuscule initiale)
 @103006 = ~journal~
-// Quasi identique BGEE 26443, sauf niveau 1 et temps d'incantation 1
-@103007 = ~Dissipation de la magie
-(Abjuration)
 
-Niveau : 1
-Portée : 12 mètres
-Durée : instantanée
-Temps d'incantation : 1
-Zone d'effet : rayon de 9 mètres
-Jet de sauvegarde : aucun
-
-Un sort de Dissipation de la magie annule les effets magiques affectant toutes les créatures dans la zone : effets des sorts, des potions et de certains objets magiques comme les baguettes. Mais il n'affecte pas les objets magiques enchantés ou les protections contre les sorts (Renvoi et Déviation des sorts). Les chances de réussite du sort dépendent du niveau du magicien et du niveau de magie à dissiper, et sont de 50 % à la base. Pour chaque niveau d'expérience du magicien supérieur par rapport à celui du sort original, ses chances de succès augmentent de 5 %. Pour chaque niveau inférieur par rapport à celui du sort original, ses chances sont réduites de 5 %. Mais, malgré la différence de ces niveaux, il y a toujours au moins 1 % de chances de succès ou d'échec. Donc, si un magicien possède 10 niveaux de plus que la magie qu'il tente de dissiper, les probabilités d'échec sont de 1 % seulement. De la même manière, si le magicien possède 4 niveaux de moins que le sort qu'il tente de dissiper, il n'a que 10 % de chances de réussir. Ce sort est donc pratiquement inutile si la magie à dissiper est supérieure de 10 niveaux par rapport au magicien.
-Remarque : ce sort dissipe les effets des Glisses, des Toiles d'araignée et des Nuages puants, mais n'affecte pas leur zone d'effet.~
-
-// Identique BGEE 32328
-@103009 = ~Métamorphose en loup-garou
-
-Force : 19
-Dextérité : 16
-
-Classe d'Armure de base : 1
-Attaques par round : 2
-Dégâts : 1d6 (perforant), touche comme une arme +2
-
-Capacités spéciales :
-- résistance à la magie : 20 %~
-// Identique BGEE 32330 (1 saut de ligne près)
-@103010 = ~Berserk
-
-Minsc entre dans un état berserk pendant 2 tours, durant lesquels il obtient un bonus de +2 à la Force et à la Dextérité, ainsi que l'immunité aux charmes, à la confusion, à la terreur, à l'immobilisation, à l'étourdissement, au sommeil et aux sorts de Débilité Mentale et de Labyrinthe. En outre, il gagne 15 points de vie temporaires, qui lui sont retirés lorsque l'état berserk prend fin (ce qui peut le faire descendre en-dessous de 0 points de vie).~
-// Quasi identique BGEE 32329, sauf dégâts 1d6 perforant, immunité aux armes et régénération en moins
-@103011 = ~Métamorphose en loup-garou majeur
-
-Force : 21
-Dextérité : 20
-
-Classe d'Armure de base : -6
-Attaques par round : 3
-Dégâts : 1d6 (perforant)
-
-Capacités spéciales :
-- résistance au feu : 50 %
-- résistance au froid : 50 %
-- résistance à l'électricité : 50 %
-- résistance à l'acide : 50 %
-- résistance à la magie : 40 %~
 // Identique BGEE 23966
 @103012 = ~Le Brise-crânes de Krotan +2~
 // Quasi identique BGEE 23967, BGEE conservé car type de dégâts séparé de la ligne dégâts dans BG2EE (non conforme à l'habitude)
@@ -2596,14 +1779,7 @@ Type : arme à une main
 Nécessite : 10 en Force
 
 Poids : 7~
-// Quasi identique BGEE 32369, traduction Exaltation conservée de BGEE plutôt qu'Acclamation (cf 93786)
-@103014 = ~Exaltation
-
-Ce sort permet au prêtre de porter secours à une personne autre que lui-même. Par contact, il guérit de tout effet de peur, de sommeil, de débilité mentale, d'inconscience et d'ébriété, ainsi que les états de rage et de confusion. En outre, le bénéficiaire est protégé pendant un tour contre les sorts et attaques qui provoquent ces effets.~
-// Identique BGEE 32371
-@103015 = ~Faveur divine
-
-Ce sort fait bénéficier le lanceur d'un bonus de +1 aux jets d'attaque et de dégâts tous les 3 niveaux de prêtre pendant deux rounds.~
+// @103014 Transfert dans fichier des sorts @103014, @103015
 
 // Identique BGEE 32337
 @103041 = ~Rejoindre la partie~
@@ -2628,12 +1804,12 @@ Ce sort fait bénéficier le lanceur d'un bonus de +1 aux jets d'attaque et de d
 @103057 = ~000000001-Sauvegarde-Rapide-3~
 // Identique BGEE 32419
 @103058 = ~000000001-Sauvegarde-Rapide-4~
-// Nota : envisager de remplacer par "chaman" par "shaman" pour réduire l'ambiguïté avec le nom du kit de druide (reporter également dans BGEE)
+// Nota : Remplacement de "chaman" par "shaman" pour réduire l'ambiguïté avec le nom du kit de druide
 // Nota : reprendre pour le kit de druide le terme "druide totémique" utilisé dans BGEE V2.x
 // Identique BGEE 32441
-@103059 = ~chaman~
+@103059 = ~shaman~
 // Quasi identique BGEE 32341 (diff mineure sur forteresse), traduction adaptée
-@103060 = ~CHAMAN : Les Chamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les Druides avec la nature, mais les Chamans sont plus spirituels que primitifs. Ils puisent directement dans les énergies qui circulent à travers la terre et l'air, à travers les plantes et les animaux, et même à travers les morts, et ils façonnent ces énergies pour obéir à leur volonté. Leur capacité d'invoquer des esprits puissants comme gardiens et défenseurs, en est un parfait exemple. Partagé entre les deux mondes, les Chamans privilégient l'équilibre à la domination. 
+@103060 = ~SHAMAN : Les Shamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les Druides avec la nature, mais les Shamans sont plus spirituels que primitifs. Ils puisent directement dans les énergies qui circulent à travers la terre et l'air, à travers les plantes et les animaux, et même à travers les morts, et ils façonnent ces énergies pour obéir à leur volonté. Leur capacité d'invoquer des esprits puissants comme gardiens et défenseurs, en est un parfait exemple. Partagé entre les deux mondes, les Shamans privilégient l'équilibre à la domination. 
 
 CAPACITÉS :
 
@@ -2643,162 +1819,25 @@ CAPACITÉS :
 – Ne peut être que compétent (une étoile) dans le maniement des armes
 – Ne peut être que compétent (une étoile) dans les styles de combat
 – Peut lancer des sorts de Druide
-- Le Chaman n'apprend pas tous les sorts du niveau comme un druide. A la place, il sélectionne de nouveaux sorts à apprendre à chaque niveau ; un Chaman peut lancer des sorts sans avoir besoin de les mémoriser.
-- Le Chaman a un accès immédiat à un nombre de sorts spécifiques à sa classe, qu'il peut lancer comme n'importe quel autre sort : Protection de l'Esprit, Brouillard Putride, Lucidité Spirituelle, Feu spirituel, Rappel de l'Esprit, Verrou Spirituel, et Portail Éthéré
+- Le Shaman n'apprend pas tous les sorts du niveau comme un druide. A la place, il sélectionne de nouveaux sorts à apprendre à chaque niveau ; un Shaman peut lancer des sorts sans avoir besoin de les mémoriser.
+- Le Shaman a un accès immédiat à un nombre de sorts spécifiques à sa classe, qu'il peut lancer comme n'importe quel autre sort : Protection de l'Esprit, Brouillard Putride, Lucidité Spirituelle, Feu spirituel, Rappel de l'Esprit, Verrou Spirituel, et Portail Éthéré
 - Il acquiert la compétence Détection des illusions en débutant avec 20 %. Puis il gagne 4 % par niveau pour atteindre un maximum de 100 % au niveau 20
-- Il peut utiliser la Danse Chamanique à volonté.
+- Il peut utiliser la Danse Shamanique à volonté.
 
-DANCE CHAMANIQUE : Les Chamans peuvent invoquer des esprits alliés grâce à une danse rituelle. Durant la danse, le Chaman subit une pénalité de -4 à la classe d'armure et il ne peut se déplacer, attaquer, lancer des sorts, utiliser des objets ou des capacités spéciales, ou effectuer toute autre activité. À chque round, tandis que le Chaman danse, il a 35 % de chance de base plus 2 % pour chaque niveau supplémentaire qu'un esprit réponde à l'appel, avec un maximum de 75 % au niveau 20. Tous les esprits invoqués disparaîtront si le Chaman se déplace, arrête de danser, ou si l'esprit quitte le champs de vision. Les esprits augmentent en puissance au fur et à mesure que le Chaman gagne des niveaux supplémentaires :
+DANCE SHAMANIQUE : Les Shamans peuvent invoquer des esprits alliés grâce à une danse rituelle. Durant la danse, le Shaman subit une pénalité de -4 à la classe d'armure et il ne peut se déplacer, attaquer, lancer des sorts, utiliser des objets ou des capacités spéciales, ou effectuer toute autre activité. À chaque round, tandis que le Shaman danse, il a 35 % de chance de base plus 2 % pour chaque niveau supplémentaire qu'un esprit réponde à l'appel, avec un maximum de 75 % au niveau 20. Tous les esprits invoqués disparaîtront si le Shaman se déplace, arrête de danser, ou si l'esprit quitte le champs de vision. Les esprits augmentent en puissance au fur et à mesure que le Shaman gagne des niveaux supplémentaires :
   Niveau 1 : Esprits animal mineurs (serpent, renard, limier), jusqu'à 2 esprits en même temps
   Niveau 6 : Esprits animal majeurs (ours, panthère, sanglier), jusqu'à 3 esprits en même temps
   Niveau 12 : Esprits de la nature mineurs (esprit d'air mineur, esprit de terre mineur, esprit de feu mineur), jusqu'à 4 esprits en même temps
   Niveau 18 : Esprits de la nature majeurs (esprit d'air, esprit de terre, esprit de feu), jusqu'à 5 esprits en même temps
-Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits disponibles en fonction du niveau du Chaman. Par exemple, au niveau 12 le Chaman invoquera un esprit de la nature mineur, un esprit animal majeur ou un esprit animal mineur, mais il ne pourra pas choisir ceux qui apparaîtront. Les esprits feront de leur mieux pour protéger le Chaman mais il ne les contrôle pas directement. 
+Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits disponibles en fonction du niveau du Shaman. Par exemple, au niveau 12 le Shaman invoquera un esprit de la nature mineur, un esprit animal majeur ou un esprit animal mineur, mais il ne pourra pas choisir ceux qui apparaîtront. Les esprits feront de leur mieux pour protéger le Shaman mais il ne les contrôle pas directement. 
 
 - Aucun bonus de sorts par jour lié à une grande Sagesse
 - Doit être d'alignement neutre bon, neutre strict, ou neutre mauvais
-- Le Chaman n'est pas éligible pour une forteresse
+- Le Shaman n'est pas éligible pour une forteresse
 - Dés de vie : d8~
 // Identique BGEE 32342
-@103061 = ~Chaman~
-// Identique BGEE 32348
-@103062 = ~Protection de l'esprit~
-// Identique BGEE 32349
-@103063 = ~Protection de l'esprit
-(Abjuration)
+@103061 = ~Shaman~
 
-Niveau : 1
-Sphère : Protection
-Portée : toucher
-Durée : 3 rounds par niveau
-Temps d'incantation : 1
-Zone d'effet : 1 créature
-Jet de sauvegarde : aucun
-
-Ce sort entoure le bénéficiaire d'une barrière magique à une distance d'un pied. Les esprits, les fées, les élémentaires, et les morts-vivants spectraux subissent une pénalité de -2 au toucher lorsqu'ils attaquent une créature protégée. En outre, le bénéficiaire gagne un bonus de +3 aux jets de sauvegarde contre tous les sorts qui appartiennent à l'école d'Enchantement. Ce sort ne peut être lancé sur les esprits, les fées, les élémentaires, et les morts-vivants spectraux.~
-// Identique BGEE 32364
-@103064 = ~Élu des Esprits~
-// Quasi identique BGEE 32365, correction durée 1 h au lieu de 5 ou 10 tours (défaut dans BGEE)
-@103065 = ~Élu des Esprits
-
-Portée : personnelle
-Durée : 1 heure
-Temps d'incantation : 9
-Zone d'effet : lanceur de sort
-Jet de sauvegarde : aucun
-
-Ce puissant rite protège le chaman de la mort pendant 1 heure ou jusqu'à ce qu'il soit déchargé. Tant qu'il est sous la protection de ce rite, le chaman est immunisé contre toutes les formes de magie de mort. En outre, si le chaman voit ses points de vie descendre sous les 10 % et que le rite est actif, le chaman reçoit instantanément un sort de Guérison. La protection du rite (y compris l'immunité à la mort) est complètement déchargé dès que le sort de Guérison est déclenché.
-
-Pré-requis : Forme spirituelle~
-// Identique BGEE 32366
-@103066 = ~Protection de l'Élu des Esprits épuisée~
-// Identique BGEE 32350
-@103067 = ~Brouillard putride~
-// Identique BGEE 32351
-@103068 = ~Brouillard putride
-(Conjuration)
-
-Niveau : 2
-Sphère : Invocation
-Portée : champ visuel du lanceur de sort
-Durée : 1 tour
-Temps d'incantation : 2
-Zone d'effet : rayon de 9 mètres
-Jet de sauvegarde : spécial
-
-Ce sort invoque un nuage de brouillard putride qui glace et entrave toutes personnes dans sa zone d'effet sauf le lanceur de sort. Les créatures dans le brouillard subissent 1d3 dégâts de froid par round. En outre, il y a 20 % de chance qu'elles aient à réussir un jet de sauvegarde contre la mort, sans quoi elles sont ralenties pendant 1 round. Les créatures immunisées aux dégâts de froid ne souffrent d'aucun effet néfaste de ce sort.~
-// Identique BGEE 32352
-@103069 = ~Lucidité spirituelle~
-// Identique BGEE 32353
-@103070 = ~Lucidité spirituelle
-(Abjuration)
-
-Niveau : 3
-Sphère : Protection
-Portée : champ visuel du lanceur de sort
-Durée : instantanée
-Temps d'incantation : 9
-Zone d'effet : 1 créature
-Jet de sauvegarde : aucun
-
-Avec ce sort, le chaman renforce la détermination spirituelle d'une créature et purge l'esprit de la créature des influences négatives. Le sort supprime pour une seule créature les effets de la peur, du charme, de la confusion et de la débilité mentale.~
-// Identique BGEE 32354
-@103071 = ~Feu spirituel~
-// Identique BGEE 32355
-@103072 = ~Feu spirituel
-(Conjuration)
-
-Niveau : 4
-Sphère : Invocation
-Portée : 12 mètres
-Durée : instantanée
-Temps d'incantation : 4
-Zone d'effet : rayon de 9 mètres
-Jet de sauvegarde : spécial
-
-Lorsque le chaman lance ce sort, les énergies du monde des esprits se rassemblent et forment une sphère bleu pâle. Le chaman peut projeter la sphère afin qu'elle explose dans un éclat de flammes bleues fantomatiques, qui infligent 1d4 points de dégâts magiques par niveau du chaman (jusqu'à un maximum de 10d4). Il y a aussi 33 % de chance que tous les ennemis dans la zone d'effet soient atteints par le sort Fatalité (malus de -2 aux jets de sauvegarde et aux jets d'attaque pendant 1 tour). Un jet de sauvegarde réussi réduit les dégâts de moitié et annule l'effet de Fatalité. Les esprits, les fées, les élémentaires et les morts-vivants spectraux subissent le double de dégâts.~
-// Identique BGEE 32356
-@103073 = ~Rappel de l'Esprit~
-// Identique BGEE 32357
-@103074 = ~Rappel de l'Esprit
-(Nécromancie)
-
-Niveau : 5
-Sphère : Invocation
-Portée : champ visuel du lanceur de sort
-Durée : permanente
-Temps d'incantation : 9
-Zone d'effet : 1 personne
-Jet de sauvegarde : aucun
-
-Le chaman rappelle l'esprit d'une personne décédée s'il s'attarde à proximité du corps. En lançant ce sort, le chaman reconnecte l'esprit à son corps et ramène la personne à la vie avec 1 point de vie. La guérison naturelle ou la magie curative peuvent restaurer le reste de la vitalité de la cible.~
-// Identique BGEE 32358
-@103075 = ~Verrou spirituel~
-// Identique BGEE 32359
-@103076 = ~Verrou spirituel
-(Enchantement)
-
-Niveau : 6
-Sphère : Protection
-Portée : 12 mètres
-Durée: 1 tour + 1 round / niveau
-Temps d'incantation : 6
-Zone d'effet : 1 créature
-Jet de sauvegarde : annule
-
-La cible du verrou spirituel doit réussir son jet de sauvegarde contre les sorts avec une pénalité de -2 sous peine d'avoir son esprit temporairement scellé dans le monde des esprits. Pendant ce temps, la victime est incapable d'exécuter des actions nécessitant une pensée consciente, comme attaquer, utiliser des objets ou lancer des sorts. Les esprits, les fées, les élémentaires, et les morts-vivants spectraux doivent effectuer un jet de sauvegarde contre les sorts avec une pénalité de -4 au lieu de -2. Le Verrou spirituel est inopérant contre les sorts et les capacités qui protègent des effets de la Débilité mentale.~
-// Identique BGEE 32367
-@103077 = ~Esprit Enfermé~
-// Identique BGEE 32360
-@103078 = ~Portail Éthéré~
-// Identique BGEE 32361
-@103079 = ~Portail Éthéré
-(Transmutation)
-
-Niveau : 7
-Sphère : Voyage
-Portée : toucher
-Durée : 5 rounds
-Temps d'incantation : 3
-Zone d'effet : 1 créature
-Jet de sauvegarde : aucun
-
-Ce sort transporte une créature, choisie par le lanceur de sort, sur le Plan Éthéré. La créature disparaît pendant la durée du sort, puis elle retourne dans le monde physique à l'endroit précis où elle était avant. Tant qu'elle est dans le Plan Éthéré, la victime ne peut pas interagir avec quiconque ou quoi que ce soit résidant sur le Plan Primaire. Il n'y a pas de jet de sauvegarde contre ce sort, mais il est soumis à la résistance à la magie. Les créatures amicales peuvent réduire leurs résistances à la magie afin que le chaman puisse les cibler avec ce sort. En outre, Le Portail Éthéré est inopérant contre les sorts et les capacités qui protègent contre les effets du labyrinthe.~
-// Identique BGEE 32362
-@103080 = ~Châtiment Éthéré~
-// Identique BGEE 32363
-@103081 = ~Châtiment Éthéré
-(Conjuration)
-
-Niveau : Quête
-Sphère : Invocation
-Portée : 12 mètres
-Durée : 3 rounds
-Temps d'incantation : 8
-Zone d'effet : rayon de 9 mètres
-Jet de sauvegarde : spécial
-
-Les silhouettes fantomatiques appelées par le chaman tourbillonnent autour du champ de bataille, et tourmentent les adversaires du chaman. Tous les ennemis dans la zone d'effet subissent 3d8 points de dégâts magiques par round pour les 3 prochains rounds (pas de sauvegarde). En outre, tous les ennemis vivants (les morts-vivants et les êtres mécaniques ne sont pas affectés) doivent réussir leur jet de sauvegarde contre les sorts ou perdre 2 points de Force à chaque round pendant 5 rounds. La perte de force est cumulative, mais ce sort ne peut pas réduire la force d'une créature au-dessous de 1.~
 // Identique BGEE 32428
 @103082 = ~feu~
 // Identique BGEE 32429
@@ -2836,100 +1875,29 @@ Les silhouettes fantomatiques appelées par le chaman tourbillonnent autour du c
 // Identique BGEE 32340
 @103102 = ~Mode Histoire : désactivé~
 
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-@103106 = ~Seuls les plus nobles et les plus fidèles serviteurs du Gnome de la Forêt reçoivent ce type de récompense.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- Force : +1
-- Résistance magique : +5 %
-- Mémorisation d'un sort divin additionnel du 6ème et du 7ème niveau
-
-Poids : 0~
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-@103107 = ~Seuls les plus nobles et les plus fidèles serviteurs de la Maîtresse de la Nuit reçoivent ce type de récompense.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- Force : +1
-- Résistance magique : +5 %
-- Mémorisation d'un sort divin additionnel du 6ème et du 7ème niveau
-
-Poids : 0~
-// Contribué par Freddy_Gwendo
-@103108 = ~Symbole sacré de Shar~
-// Contribué par Freddy_Gwendo
-@103109 = ~Symbole sacré de Baervan Ermiterrant~
-
-
 // Identique BGEE 9573
 @103110 = ~GUERRIER / CLERC : Ce personnage peut utiliser les capacités d'un guerrier et d'un clerc, mais l'usage des armes est limité à celles autorisées par l'éthique du clerc. Il peut atteindre la spécialisation, mais pas la maîtrise dans le maniement des armes.~
 // Identique BGEE 9572
 @103111 = ~GUERRIER / VOLEUR : Ce personnage peut utiliser les capacités d'un guerrier et d'un voleur, mais il ne peut pas utiliser ses capacités de voleur s'il porte une armure supérieure à la besantine. Il peut atteindre la spécialisation, mais pas la maîtrise dans le maniement des armes.~
 
 // Identique BGEE 32398
-@103117 = ~Danse chamanique~
+@103117 = ~Danse shamanique~
 // Identique BGEE 32399
-@103118 = ~Danse la Danse chamanique~
+@103118 = ~Danse la Danse shamanique~
 // Identique BGEE 32400
-@103119 = ~A cessé la Danse chamanique~
-// Identique BGEE 32402
-@103120 = ~Aucun esprit ne répond à votre appel.~
-// Identique BGEE 32401
-@103121 = ~Un esprit animal mineur répond à votre appel.~
-// Identique BGEE 32403
-@103122 = ~Un esprit animal majeur répond à votre appel.~
-// Identique BGEE 32404
-@103123 = ~Un esprit de la nature mineur répond à votre appel.~
-// Identique BGEE 32405
-@103124 = ~Un esprit de la nature majeur répond à votre appel.~
-// Identique BGEE 32406
-@103125 = ~Esprit renard~
-// Identique BGEE 32407
-@103126 = ~Esprit serpent~
-// Identique BGEE 32408
-@103127 = ~Esprit limier~
-// Identique BGEE 32409
-@103128 = ~Esprit ours~
-// Identique BGEE 32420
-@103129 = ~Esprit panthère~
-// Identique BGEE 32421
-@103130 = ~Esprit sanglier~
-// Identique BGEE 32422
-@103131 = ~Esprit de feu mineur~
-// Identique BGEE 32423
-@103132 = ~Esprit d'air mineur~
-// Identique BGEE 32424
-@103133 = ~Esprit de terre mineur~
-// Identique BGEE 32425
-@103134 = ~Esprit de feu~
-// Identique BGEE 32426
-@103135 = ~Esprit d'air~
-// Identique BGEE 32427
-@103136 = ~Esprit de terre~
+@103119 = ~A cessé la Danse shamanique~
+
+// 103125 à 103136 : voir Personnages_Sous-titres.tra
+
 // Identique BGEE 32345 + passage en minuscule
 @103137 = ~prêtre de tyr~
-// Traduit (référencé par 103065)
-@103138 = ~Forme spirituelle~
-// Traduit, @todo Trancher entre Invisibilité améliorée et Invisiblité majeure dans tous les textes
-@103139 = ~Forme spirituelle
-
-Portée : personnelle
-Durée : 5 rounds
-Temps d'incantation : 1
-Zone d'effet : lanceur de sort
-Jet de sauvegarde : aucun
-
-Le chaman se faufile dans un espace entre le monde des esprits et le plan matériel, ce qui le rend partiellement désincarné. Pendant les 5 rounds suivants, toutes les attaques physiques dirigées contre le chaman ne causent que 50 % des dégâts normaux. Pendant cette période le chaman bénéficie aussi des effets d'Invisibilité améliorée et ne peut pas être directement ciblé par des sorts.~
 
 // Identique BGEE 32706
 @103141 = ~Mode histoire~
 // Identique BGEE 32707
 @103142 = ~Succession de Bhaal~
 // Identique BGEE 32344
-@103143 = ~CHAMAN : Les Chamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les Druides avec la nature, mais les Chamans sont plus spirituels que primitifs. Les Chamans sélectionnent de nouveaux sorts à apprendre quand ils gagnent des niveaux ; une fois appris, le Chaman peut les lancer tous les jours sans mémorisation.~
+@103143 = ~SHAMAN : Les Shamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les Druides avec la nature, mais les Shamans sont plus spirituels que primitifs. Les Shamans sélectionnent de nouveaux sorts à apprendre quand ils gagnent des niveaux ; une fois appris, le Shaman peut les lancer tous les jours sans mémorisation.~
 // Identique BGEE 32729
 @103144 = ~Révéler des détails~
 // Traduit 103145 à 103147
@@ -2946,29 +1914,9 @@ Le chaman se faufile dans un espace entre le monde des esprits et le plan matér
 // Identique BGEE 32705
 @103152 = ~Vous pouvez choisir un certain nombre de sorts à mettre dans votre livre de sorts. Ce seront les sorts que votre personnage connaîtra au début du jeu.~
 
-// Identique IWDEE 24776
-@103166= ~Couvre-chef~
-
 // Traduit
 @103172 = ~Pénalité à la Classe d'Armure~
-// Identique IWDEE 7642
-@103173= ~Rebec~
 
-// Identique IWDEE 7645
-@103175= ~Ce rebec tout simple en forme de poire possède huit cordes allant deux par deux, ce qui lui permet de produire de superbes mélodies. C'est un instrument très apprécié des paysans.
-
-Poids : 3~
-
-// Identique BGEE 27600
-@103179 = ~Bandeau~
-
-// Identique BGEE 27602
-@103181 = ~Un bandeau est une fine lanière de métal précieux. Il sert en général d'ornement ou à indiquer le statut de son porteur. Les bandeaux sujets à des enchantements de bas niveau sont souvent utilisés par les magiciens de Féérûne.
-
-Poids : 1~
-
-// Identique BGEE 32730
-@103187 = ~Chance augmentée de coup critique~
 // Identique BGEE 32712
 @103188 = ~Réinitialise le niveau de zoom à sa valeur par défaut et bloque toute tentative ultérieure de zoomer ou dézoomer.~
 // Identique BGEE 32708
@@ -2998,19 +1946,8 @@ Les orques sont les ennemis héréditaires des gobelins et hobgobelins, avec les
 // Identique BGEE 32715
 @103205 = ~Affiche les points de vie actuels et maximum de chacun des membres du groupe sur leur portrait.~
 
-// Contribué par Freddy_Gwendo
-@103207 = ~Symbole sacré de Tyr~
-// Contribué par Freddy_Gwendo, + standardisation cartouche
-@103208 = ~Seuls les plus nobles et les plus fidèles serviteurs du Dieu Mutilé reçoivent ce type de récompense.
-
-PARAMÈTRES :
-
-Capacités d'équipement :
-- Force : +1
-- Résistance magique : +5 %
-- Mémorisation d'un sort divin additionnel du 6ème et du 7ème niveau
-
-Poids : 0~
-
 // Identique BGEE 32170 (Baeloth)
 @103210 = ~Venez, venez tous !~
+@103211 = ~Pour le plus grand spectacle de ce côté du Plan Astral !~
+@103212 = ~Un champion d'une arène concurrente, qui fait ses débuts ici chez nous.~
+@103213 = ~Le Fléau des arènes de Baeloth !~
