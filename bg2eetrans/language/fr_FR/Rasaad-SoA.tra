@@ -2622,7 +2622,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 
 
 
-// (5) Vagrant blades camp: Dalton (M), Cless Ironeye (F) : Cless Œildefer, Aldun Forgecaster (M), Jaden (F), Hojar Bootcut (M) (player) [OHRDALTN.d] [OHRCLESS.d] [OHRALDUN.d] [OHRJADEN.d] [OHRHOJAR.d]
+// (5) Vagrant blades camp: Dalton (M), Cless Ironeye (F) : Cless Œildefer, Aldun Forgecaster (M) : Aldun Enchanteforge, Jaden (F), Hojar Bootcut (M) : Hojar Botillon, (player) [OHRDALTN.d] [OHRCLESS.d] [OHRALDUN.d] [OHRJADEN.d] [OHRHOJAR.d]
 
 @81661 = ~Le piège à pieux a déchiré MA cape, c'est donc à moi que revient la ceinture. Après tout, je suis celui qui a subi un dommage matériel !~ [OH81661]
 @81662 = ~Calme-toi, Dalton. Nous sommes ici pour récupérer la ceinture pour Jaden. Nous avons convenu qu'elle la garderait et que nous pourrions nous partager le reste du trésor.~ [OH81662]
@@ -2791,7 +2791,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 
 
 
-// Tears of Selune encounter: Sixscar (F), Ghell Rando (M), Treya (F), Sahana (F) (player) [OHRSSCAR.d] [OHRGHELL.d] [OHRTREYA.d] [OHRSAHAN.d]
+// Tears of Selune encounter: Sixscar (F) : Sixcatrice, Ghell Rando (M), Treya (F), Sahana (F) (player) [OHRSSCAR.d] [OHRGHELL.d] [OHRTREYA.d] [OHRSAHAN.d]
 
 @78444 = ~Rasaad yn Bashir ! Nous t'avons enfin retrouvé ! Subis la vengeance de Séluné !~ [OH78444]
 @78445 = ~Qui êtes-vous ?~
@@ -2829,13 +2829,13 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 
 // If answer @78539:
 // @78539 = ~Beaucoup de choses bien connues n'en sont pas véridiques pour autant.~
-@78542 = ~Peut-être qu'<PRO_HESHE> a raison, Sixscar. Rasaad était jadis le meilleur d'entre nous.~ [OH78542]
+@78542 = ~Peut-être qu'<PRO_HESHE> a raison, Sixcatrice. Rasaad était jadis le meilleur d'entre nous.~ [OH78542]
 // If Viconia in party
 @86681 = ~Je ne peux pas imaginer plus triste réalité pour la Conscience Solaire.~
 @78551 = ~Jadis Sahana. Avant qu'il ne se détourne de la Conscience Solaire.~ [OH78551]
 @78552 = ~Il ne s'est pas détourné de la philosophie de la Conscience Solaire.~
 @78553 = ~Peut-être qu'il avait une bonne raison de se détourner de vous. Vous avez essayé de le tuer, après tout.~
-@78554 = ~C'est vous qui vous êtes détournés de lui, Sixscar. Et maintenant, vous allez en payer le prix.~
+@78554 = ~C'est vous qui vous êtes détournés de lui, Sixcatrice. Et maintenant, vous allez en payer le prix.~
 
 // If answer @78552:
 // @78552 = ~Il ne s'est pas détourné de la philosophie de la Conscience Solaire.~
@@ -2846,7 +2846,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 
 // If answer @78602:
 // @78602 = ~Il les a certes combattus, mais il ne les a pas tués.~
-@78709 = ~C'est la vérité, Sixscar. Karell et les autres étaient à sa merci, mais il les a épargnés.~ [OH78709]
+@78709 = ~C'est la vérité, Sixcatrice. Karell et les autres étaient à sa merci, mais il les a épargnés.~ [OH78709]
 @78710 = ~Il n'y a que peu de choses que je ne ferai pas pour venger mon frère... mais tuer un autre membre de l'Ordre de la Conscience Solaire ? Ghell Rando, Treya... vous ne croyez tout de même pas que j'en suis le coupable.~ [OH78710]
 @78711 = ~Vous connaissez cet homme. Dites-moi, du fond du cœur, est-il vraiment capable du massacre que vous décrivez ?~
 @78712 = ~Allez, mes amis. Il n'est pas si mauvais que ça. Il en est même très loin.~
@@ -2855,39 +2855,39 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 // If answer @78711:
 // @78711 = ~Vous connaissez cet homme. Dites-moi, du fond du cœur, est-il vraiment capable du massacre que vous décrivez ?~
 // If good charism
-@78715 = ~Nous avons commis une erreur, Sixscar.~ [OH78715]
+@78715 = ~Nous avons commis une erreur, Sixcatrice.~ [OH78715]
 // If Viconia in party
 @86683 = ~Un sentiment bien familier aux disciples de la philosophie de la Conscience Solaire, j'imagine ?~
 @78716 = ~Rasaad ne peut pas être le coupable du massacre du temple.~ [OH78716]
 @78717 = ~Et la raison pour laquelle tu t'es détourné des tiens et que tu as rejoint les hérétiques, c'est que tu souhaites traquer l'assassin de ton frère ?~ [OH78717]
 @78718 = ~Une piètre excuse pour celui qui a trahi ses serments.~ [OH78718]
 @78719 = ~Mais certainement une excuse compréhensible, non ? Et s'il parvient à ses fins, la mort de Collus Darathon scellera le sort des hérétiques de la Dédoublée, ce qui ne peut être que favorable à la Conscience Solaire.~
-@78720 = ~Y a-t-il une excuse que vous trouveriez valable pour quelqu'un qui trahirait ses serments, Sixscar ?~
+@78720 = ~Y a-t-il une excuse que vous trouveriez valable pour quelqu'un qui trahirait ses serments, Sixcatrice ?~
 
 // If answer @78719:
 // @78719 = ~Mais certainement une excuse compréhensible, non ? Et s'il parvient à ses fins, la mort de Collus Darathon scellera le sort des hérétiques de la Dédoublée, ce qui ne peut être que favorable à la Conscience Solaire.~
 @78723 = ~Et le massacre du temple, que devons-nous en penser ?~ [OH78723]
 @78724 = ~Je pense que c'est évident. Quelqu'un a voulu vous faire croire que Rasaad s'est détourné de l'Ordre.~
 @78725 = ~J'espère que vous y penserez un peu plus que jusqu'ici. On vous a manipulé jusqu'à attaquer l'un de vos alliés, manifestement.~
-@96212 = ~Rasaad n'a commis aucun crime contre vous, Sixscar. Partez maintenant, et je ferai de même à votre égard.~
+@96212 = ~Rasaad n'a commis aucun crime contre vous, Sixcatrice. Partez maintenant, et je ferai de même à votre égard.~
 @78726 = ~Pensez ce que vous voulez, cela ne nous intéresse pas.~
 
 // If answer @78724 or @78725:
 // @78724 = ~Je pense que c'est évident. Quelqu'un a voulu vous faire croire que Rasaad s'est détourné de l'Ordre.~
 @78728 = ~Il s'est détourné de l'Ordre, <CHARNAME>. Même en faisant abstraction du massacre, il ne marche plus dans la lumière de Séluné. Tu étais le meilleur d'entre nous, Rasaad. Comment es-tu tombé si bas ?~ [OH78728]
-@78729 = ~Il n'est pas tombé aussi bas que vous le pensez, Sixscar. Vous considérez peut-être que ses actions sont répréhensibles, mais vous ne savez pas ce qui se trouve en son cœur.~
-@78730 = ~Il y est arrivé de la même manière que nous autres, Sixscar. Pas à pas.~
+@78729 = ~Il n'est pas tombé aussi bas que vous le pensez, Sixcatrice. Vous considérez peut-être que ses actions sont répréhensibles, mais vous ne savez pas ce qui se trouve en son cœur.~
+@78730 = ~Il y est arrivé de la même manière que nous autres, Sixcatrice. Pas à pas.~
 @78731 = ~Attention à ce que vous dites, ou vous allez pouvoir déterminer jusqu'où vous pouvez tomber... et à quelle vitesse.~
 
 // If answer @78729 or @78730:
-// @78729 = ~Il n'est pas tombé aussi bas que vous le pensez, Sixscar. Vous considérez peut-être que ses actions sont répréhensibles, mais vous ne savez pas ce qui se trouve en son cœur.~
+// @78729 = ~Il n'est pas tombé aussi bas que vous le pensez, Sixcatrice. Vous considérez peut-être que ses actions sont répréhensibles, mais vous ne savez pas ce qui se trouve en son cœur.~
 @78733 = ~Peut-être y a-t-il encore de l'espoir pour toi, Rasaad. Séluné pardonne tout. Retourne à Athkatla avec nous, et aide-nous à reconstruire notre communauté.~ [OH78733]
 @78734 = ~Je donnerais n'importe quoi pour pouvoir t'accompagner, Sahana, mais je ne peux pas, pas tant qu'Alorgoth est en vie.~ [OH78734]
 @78735 = ~Tiens, Rasaad, prends ceci. Cela te rappellera les faveurs de Séluné.~ [OH78735]
 @78736 = ~Des faveurs que tu as abandonnées.~ [OH78736]
 @78737 = ~C'est à Séluné d'en juger, et non pas à vous.~
-@78738 = ~Vous ne parvenez vraiment pas à oublier cela, n'est-ce pas, Sixscar ?~
-@78739 = ~Vous étiez obligé de retourner le couteau dans la plaie une fois de plus, n'est-ce pas, Sixscar ?~
+@78738 = ~Vous ne parvenez vraiment pas à oublier cela, n'est-ce pas, Sixcatrice ?~
+@78739 = ~Vous étiez obligé de retourner le couteau dans la plaie une fois de plus, n'est-ce pas, Sixcatrice ?~
 
 // If answer @78737 or @78738:
 // @78737 = ~C'est à Séluné d'en juger, et non pas à vous.~
@@ -2900,7 +2900,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 @86685 = ~Je ne suis pas sûr que ce soit encore POSSIBLE.~ // END
 
 // If answer @78739:
-// @78739 = ~Vous étiez obligé de retourner le couteau dans la plaie une fois de plus, n'est-ce pas, Sixscar ?~
+// @78739 = ~Vous étiez obligé de retourner le couteau dans la plaie une fois de plus, n'est-ce pas, Sixcatrice ?~
 @78740 = ~Laisse tomber, <CHARNAME>. Elle est victime de son deuil, et je me suis trouvé dans ce cas, moi aussi.~ [OH78740]
 // then leads to @78742
 
@@ -2912,9 +2912,9 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 // then leads to @78733
 
 // If answer @96212:
-// @96212 = ~Rasaad n'a commis aucun crime contre vous, Sixscar. Partez maintenant, et je ferai de même à votre égard.~
+// @96212 = ~Rasaad n'a commis aucun crime contre vous, Sixcatrice. Partez maintenant, et je ferai de même à votre égard.~
 // If good strength
-@78750 = ~Je connais la douleur que t'a causé le fait de perdre tes frères et sœurs, Sixscar, j'en souffre moi aussi. Je te prie de partir maintenant, je ne voudrais pas que cette douleur s'aggrave encore.~ [OH78750]
+@78750 = ~Je connais la douleur que t'a causé le fait de perdre tes frères et sœurs, Sixcatrice, j'en souffre moi aussi. Je te prie de partir maintenant, je ne voudrais pas que cette douleur s'aggrave encore.~ [OH78750]
 // If Viconia in party
 @86687 = ~Ou alors, restez. Nous ne sommes pas vraiment sensibles à vos sentiments.~
 @78751 = ~Les larmes de Séluné obtiendront leur vengeance, Rasaad.~ [OH78751]
@@ -2942,7 +2942,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 @78621 = ~Il tromperait ses alliés afin de gagner la confiance de ses ennemis ?~ [OH78621]
 @78622 = ~Vous comprenez enfin.~
 @78623 = ~Les supercheries sont un anathème de ceux qui jurent fidélité à la philosophie de la Conscience Solaire.~ [OH78623]
-@78624 = ~Tu dis vrai, Sixscar, et à chaque instant je suis hanté par l'idée que j'ai déçu notre maîtresse.~ [OH78624]
+@78624 = ~Tu dis vrai, Sixcatrice, et à chaque instant je suis hanté par l'idée que j'ai déçu notre maîtresse.~ [OH78624]
 @78625 = ~Pourquoi, Rasaad ? Je suis sûre qu'il y a un meilleur moyen d'anéantir les hérétiques. Qu'est-ce qui peut bien t'avoir poussé à violer tes serments ?~ [OH78625]
 @78626 = ~Il espère venger son frère.~
 @78627 = ~Rien, espèce d'imbécile. C'est bien ce que j'essaie de vous dire.~
@@ -2968,17 +2968,17 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 // @78698 = ~Vous vous méprenez sur leurs buts... ils ne veulent pas vous détruire, ils veulent que vous les rejoigniez.~
 @78699 = ~Ils voudraient que nous nous détournions de Séluné, tout comme Rasaad.~ [OH78699]
 @78700 = ~Rasaad ne s'est pas détourné de Séluné. Il cherche simplement à infiltrer les rangs des hérétiques.~
-@78701 = ~Mais pour la bonté des dieux, Sixscar, que faudra-t-il pour que vous pardonniez cela ?~
+@78701 = ~Mais pour la bonté des dieux, Sixcatrice, que faudra-t-il pour que vous pardonniez cela ?~
 @78702 = ~Oh, laissez tomber. J'en ai assez de parler avec vous, espèce d'imbécile Sélunite. Partez maintenant, ou vous quitterez l'endroit les pieds devant.~
 
 // If answer @78700:
 // @78700 = ~Rasaad ne s'est pas détourné de Séluné. Il cherche simplement à infiltrer les rangs des hérétiques.~
 @78706 = ~Aucun véritable disciple de la philosophie de la Conscience Solaire n'aurait recours à la supercherie pour parvenir à ses fins.~ [OH78706]
-@78707 = ~Pense de moi ce que tu voudras, Sixscar, et sache que je ne pense guère mieux de moi-même. Cependant, je ferai le nécessaire pour venger Gamaz.~ [OH78707]
+@78707 = ~Pense de moi ce que tu voudras, Sixcatrice, et sache que je ne pense guère mieux de moi-même. Cependant, je ferai le nécessaire pour venger Gamaz.~ [OH78707]
 @78708 = ~Trêve de rationalisations, sale traître ! Tu as violé tes serments et tu vas payer. Larmes, abattez-le !~ // END
 
 // If answer @78701:
-// @78701 = ~Mais pour la bonté des dieux, Sixscar, que faudra-t-il pour que vous pardonniez cela ?~
+// @78701 = ~Mais pour la bonté des dieux, Sixcatrice, que faudra-t-il pour que vous pardonniez cela ?~
 @78703 = ~Sa mort.~ [OH78703]
 @78704 = ~Ah. Bon, eh bien, je regrette d'avoir posé la question.~
 // then leads to @78708
@@ -3012,7 +3012,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 
 // If answer @78638:
 // @78638 = ~Et Rasaad ne se serait pas défendu sans une raison tout aussi honorable.~
-@78641 = ~Peut-être que notre ami <PRO_RACE> a raison, Sixscar.~ [OH78641] ~Peut-être que notre amie du peuple <PRO_RACE> a raison, Sixscar.~ [OH78641]
+@78641 = ~Peut-être que notre ami <PRO_RACE> a raison, Sixcatrice.~ [OH78641] ~Peut-être que notre amie du peuple <PRO_RACE> a raison, Sixcatrice.~ [OH78641]
 @78642 = ~Non, <PRO_HESHE> ment, Treya. Ne crois pas un mot qui sort de sa bouche.~ [OH78642]
 @78643 = ~Rasaad fut jadis le plus grand de nous tous. Peut-être cette affaire n'est-elle pas ce qu'elle semble être.~ [OH78643]
 @78644 = ~Assez vous toutes ! Rasaad a trahi l'Ordre, et il doit payer. Frappez maintenant, pour Séluné !~ [OH78644] // END
@@ -3081,7 +3081,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 // then leads to @78733
 
 // If answer @78720:
-// @78720 = ~Y a-t-il une excuse que vous trouveriez valable pour quelqu'un qui trahirait ses serments, Sixscar ?~
+// @78720 = ~Y a-t-il une excuse que vous trouveriez valable pour quelqu'un qui trahirait ses serments, Sixcatrice ?~
 @78721 = ~Aucune.~ [OH78721]
 @78722 = ~Bien ! Je n'aurais pas aimé constater que je vous avais mal jugée.~
 // then leads to @78723
@@ -3102,7 +3102,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 // @78603 = ~Une illusion nécessaire.~
 @78543 = ~Ceux qui demeurent fidèles à Séluné n'ont jamais recours aux illusions.~
 @78545 = ~Ce sont bien là les mots de quelqu'un qui se fait beaucoup d'illusions elle-même.~
-@78546 = ~Tous les disciples de Séluné ne sont pas aussi fermés d'esprit que vous, Sixscar.~
+@78546 = ~Tous les disciples de Séluné ne sont pas aussi fermés d'esprit que vous, Sixcatrice.~
 
 // If answer @78545:
 // @78545 = ~Ce sont bien là les mots de quelqu'un qui se fait beaucoup d'illusions elle-même.~
@@ -3110,7 +3110,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 // then leads to @78508
 
 // If answer @78546:
-// @78546 = ~Tous les disciples de Séluné ne sont pas aussi fermés d'esprit que vous, Sixscar.~
+// @78546 = ~Tous les disciples de Séluné ne sont pas aussi fermés d'esprit que vous, Sixcatrice.~
 @78605 = ~Mon esprit est clair car illuminé par la vérité de Séluné !~ [OH78605]
 @78606 = ~La vérité de la Vierge Lunaire, c'est que Séluné n'a pas vengé la mort de Gamaz, et que c'est donc à Rasaad de le faire.~
 @78607 = ~J'ai comme l'impression que votre esprit était déjà clair bien avant que Séluné ne vous mette la main dessus.~
@@ -3130,7 +3130,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 // answer @78553 leads to @78693
 
 // If answer @78554:
-// @78554 = ~C'est vous qui vous êtes détournés de lui, Sixscar. Et maintenant, vous allez en payer le prix.~
+// @78554 = ~C'est vous qui vous êtes détournés de lui, Sixcatrice. Et maintenant, vous allez en payer le prix.~
 @78507 = ~Il est du côté du traître ! Tuez-les tous !~ [OH78507] ~Elle est du côté du traître ! Tuez-les tous !~ [OH78507] // END
 
 // answer @78540 leads to @78616
@@ -3158,7 +3158,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 @78561 = ~Au moins, j'aurais essayé.~
 // leads to @78759
 
-@78562 = ~Vous transformer en cadavre véreux me suffira, Sixscar !~
+@78562 = ~Vous transformer en cadavre véreux me suffira, Sixcatrice !~
 // leads to @78762
 
 // If answer @78558:
@@ -3200,27 +3200,27 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 @78577 = ~Je... il faut que j'y réfléchisse.~ [OH78577]
 @78578 = ~Je ne vous en demande pas plus.~
 @78579 = ~Vous et les vers pourrez en discuter tant que vous voudrez !~ [OH78579]
-@78580 = ~Sixscar ! Tu ne peux tout de même pas attaquer l'une des tiens.~ [OH78580]
+@78580 = ~Sixcatrice ! Tu ne peux tout de même pas attaquer l'une des tiens.~ [OH78580]
 @78581 = ~L'hérésie de Treya en fait une ennemie de l'Ordre.~ [OH78581]
-@78582 = ~Vous trouvez des ennemis bien trop facilement, Sixscar. Contre qui allez-vous vous retourner ensuite ? Lui ? Elle ? Votre propre reflet ?~
+@78582 = ~Vous trouvez des ennemis bien trop facilement, Sixcatrice. Contre qui allez-vous vous retourner ensuite ? Lui ? Elle ? Votre propre reflet ?~
 @78583 = ~Parfois, j'ai l'impression que le moindre signe de libre-pensée est suffisant pour être estampillé ennemi de l'Ordre.~
-@78584 = ~Et vous vous retournez contre vos propres hommes. Vous êtes un chacal, Sixscar.~
+@78584 = ~Et vous vous retournez contre vos propres hommes. Vous êtes un chacal, Sixcatrice.~
 
 // If answer @78582:
-// @78582 = ~Vous trouvez des ennemis bien trop facilement, Sixscar. Contre qui allez-vous vous retourner ensuite ? Lui ? Elle ? Votre propre reflet ?~
+// @78582 = ~Vous trouvez des ennemis bien trop facilement, Sixcatrice. Contre qui allez-vous vous retourner ensuite ? Lui ? Elle ? Votre propre reflet ?~
 @78592 = ~Qui êtes-vous pour côtoyer Rasaad le boucher et me traiter de folle ?~ [OH78592]
-@78593 = ~Je n'ai jamais dit que vous étiez folle Sixscar, mais il n'y a que la vérité qui blesse...~
+@78593 = ~Je n'ai jamais dit que vous étiez folle Sixcatrice, mais il n'y a que la vérité qui blesse...~
 @78594 = ~Hé, c'est vous qui vous retournez contre vos amis dès qu'ils remettent en question la rectitude de vos actions.~
 @78595 = ~Vous vous comportez comme une folle, que voulez-vous que je dise ?~
 
 // If answer @78593 or @78595:
-// @78593 = ~Je n'ai jamais dit que vous étiez folle Sixscar, mais il n'y a que la vérité qui blesse...~
-@78596 = ~Si Sixscar est folle, c'est à cause de son désespoir, et c'est une souffrance que je ne connais que trop bien.~ [OH78596]
+// @78593 = ~Je n'ai jamais dit que vous étiez folle Sixcatrice, mais il n'y a que la vérité qui blesse...~
+@78596 = ~Si Sixcatrice est folle, c'est à cause de son désespoir, et c'est une souffrance que je ne connais que trop bien.~ [OH78596]
 @78597 = ~Comment oses-tu ? Comment oses-tu prétendre connaître notre souffrance avec sur tes mains le sang de nos amis ?~ [OH78597]
-@78598 = ~C'est terminé, Sixscar.~
+@78598 = ~C'est terminé, Sixcatrice.~
 @78588 = ~Nous partons, Rasaad. Que la chance t'accompagne, quelle que soit la route que tu choisiras.~ [OH78588]
 @78589 = ~Je ne parviens pas à croire à ce que je vois ! Nous avons fait tout ce chemin et maintenant vous allez laisser ce... ce traître s'échapper, comme ça ? Non, non, je n'accepterai pas !~ [OH78589]
-@78590 = ~Par les dieux, Sixscar, ne rends pas la chose encore plus difficile qu'elle n'est...~ [OH78590]
+@78590 = ~Par les dieux, Sixcatrice, ne rends pas la chose encore plus difficile qu'elle n'est...~ [OH78590]
 @78591 = ~Que les Abysses vous emportent tous ! Au nom de Séluné, je vaincrai !~ [OH78591] // END
 
 // If answer @78594:
@@ -3370,7 +3370,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 
 // If answer @78504:
 // @78504 = ~Croyez-moi, cela me concerne aussi.~
-@78449 = ~Tu ne comprends pas, Sixscar, tu n'as pas connaissance de tous les éléments.~ [OH78449]
+@78449 = ~Tu ne comprends pas, Sixcatrice, tu n'as pas connaissance de tous les éléments.~ [OH78449]
 @78450 = ~Je comprends que tu es un traître et un assassin et que tu paieras pour tes crimes.~ [OH78450]
 @78451 = ~Vous accusez Rasaad de meurtre ? Je ne le crois pas.~
 @78452 = ~Revenons en arrière un instant. Qui êtes-vous, déjà ?~
@@ -3712,7 +3712,7 @@ Le fait que Rasaad se soit dissocié de l'Ordre de la Conscience Solaire semble 
 
 
 // If only Sixscar hostile, after the fight
-@78806 = ~Je t'ai suppliée, Sixscar. Je t'ai suppliée de ne pas laisser les choses en arriver là.~ [OH78806]
+@78806 = ~Je t'ai suppliée, Sixcatrice. Je t'ai suppliée de ne pas laisser les choses en arriver là.~ [OH78806]
 @78807 = ~Pardonne-lui, Rasaad. Depuis le temple, le deuil nous a rongés, nous a conduits aux frontières de la folie.~ [OH78807] // Note de Freddy : et s'il reste un homme vivant ?
 // If Neera in party
 @78808 = ~Au moins, vous autres vous êtes arrêtés à temps~ [OH78808]

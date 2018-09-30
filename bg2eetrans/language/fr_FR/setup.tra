@@ -58,36 +58,64 @@ mod, il sera preserve.~
 @1001005 = ~BG2EE V2.x detecte (presence de engine.lua) mais version de WeiDU incompatible (minimum requis : 240)~
 
 // Texts added to the game for translation description
-@1002001 = ~Traduction française partielle à partir de ToB original et d'extraits de BGEE
+@1002001 = %~ Traduction française ~
 
-Le texte français est issu de Baldur's Gate II et Throne of Bhaal et bénéficie du patch correctif de la Couronne de Cuivre pour les textes pour BG II et ToB version 1.2 réalisé par Mornagest et Anomaly avec l'aide d'autres contributeurs.
-D'autres textes ont été repris de BGEE et proviennent de la version 2.3, sans oublier des textes d'IWDEE.
+~ Chef de projet / Coordination ~
+Lionel "La Voix" Bayle-Denise (jusqu'à 2016)
+Denis "Isaya" Ribayrol (depuis 2017)
 
-La recherche de correspondance entre les textes anglais de BG2EE et les textes anglais a d'abord été réalisée par le programme Translation Retriever écrit par Isaya. Elle a été complétée en partie à la main par Isaya pour les fichiers de traduction partielle pour BG2EE V1.2 et la version originale de ce mod pour BG2EE V2.0 et supérieur.
-De très nombreux compléments et corrections ont été apportés par dricks, zelurker, Luren, Freddy_Gwendo et Isaya.
-Luren a également adapté les intitulés d'entrée de journal afin qu'ils apparaissent en français et quelques textes différant légèrement entre BGEE et BG2EE ont été ajustés pour BG2EE.
+~ Traduction ~
+un traducteur payé par Beamdog pour l'essentiel de la quête de Rasaad dans SoA
+Freddy_Gwendo
+Isaya
+Luren
 
-Merci à zelurker pour l'idée de proposer des notes en français au lieu des textes anglais.~
+~ Traduction de l'interface graphique ~
+une société mandatée par Beamdog (2016)
+mises à jour, compléments et corrections par Isaya, avec l'aide de suggestions de Kerozevok
+
+~ Relecture ~
+Freddy_Gwendo, Isaya
+
+~ Analyses des textes ~
+Marie-Violaine "Calawen" Polonowski
+
+~ Remerciements du coordinateur et de l'équipe ~
+Calawen, pour l'immense travail d'analyse des textes du jeu, qui est une aide incommensurable pour la traduction
+les membres de l'équipe de traduction : Freddy_Gwendo, Isaya, McGregor777, N3ige, Scylla, slip, sombrepiaf
+les contributeurs membres du forum La Couronne de Cuivre pour leurs suggestions de traduction
+Graoumf, qui s'est efforcé de relancer l'intérêt pour cette traduction et m'a persuadé de m'en occuper ;-)
+zelurker, qui a eu le premier l'idée de proposer des notes de traduction en français dans sa déclinaison du mod
+
+
+~ Appel à volontaires ~
+Nous sommes à la recherche de volontaires pour participer à la suite de la traduction de BG2EE. Bien entendu des traducteurs supplémentaires mais aussi des relecteurs et aussi des joueurs motivés pour signaler les défauts de la traduction disponible dans le mod.
+Pour plus de précisions, vous pouvez consultez le forum de l'équipe de traduction sur le forum La Couronne de Cuivre : https://www.baldursgateworld.fr/lacouronne/traduction-participative-de-bg2ee/.
+Merci d'avance de l'aide que vous pourrez apporter à ce projet.%
 @1002002 = ~[Notes de la version française]
 
+Le texte français de la partie correspondant aux jeux originaux est issu de Baldur's Gate II et Throne of Bhaal et bénéficie du patch correctif de la Couronne de Cuivre pour les textes pour BG II et ToB version 1.2 réalisé par Mornagest et Anomaly avec l'aide d'autres contributeurs. D'autres textes ont été repris des traductions de BGEE et de IWDEE.
+
+La recherche de correspondance entre les textes anglais de BG2EE et les textes anglais du jeu original, de BGEE et de IWDEE a d'abord été réalisée par le programme Translation Retriever écrit par Isaya. Elle a été mise à jour en 2017 à partir des textes des versions 2.3 de BGEE et BG2EE et 1.4 de IWDEE. Plusieurs personnes (dricks, zelurker, Luren, Freddy_Gwendo et Isaya) ont contribué à améliorer le résultat de la récupération de textes, soit en corrigeant manuellement des rapprochements hasardeux faits par le programme, soit en modifiant des traductions lorsque le texte VO de BG2EE s'était écarté de celui du jeu original.
+Cette méthode de travail n'a pas retenu les textes traduits lorsque le nouveau texte anglais différait trop du texte original, ce qui a pour conséquence que quelques milliers de textes restent en anglais.
+
 La traduction partielle en français est composée de deux ensembles distincts :
-- une récupération de textes depuis la traduction originale de BG II - ToB avec application des corrections du mod CorrecFr publié sur la Couronne de Cuivre, ainsi qu'une récupération de textes à partir la traduction de BGEE et celle d'IWDEE pour ce qui a évolué dans les Enhanced Edition ; cette récupération, réalisée par programme, est incomplète et peut également comporter des erreurs de texte
-- une traduction proprement dite pour une partie du contenu ajouté par Beamdog
+- pour les textes d'origine BG II - ToB, une récupération presque complète de textes depuis la traduction originale (y compris les corrections du mod CorrecFr publié sur la Couronne de Cuivre) ; un petit nombre de textes ayant beaucoup changé dans BG2EE a aussi fait l'objet d'une traduction
+- pour les textes ajoutés par BG2EE, outre un peu de récupérations à partir des traductions de BGEE et IWDEE, une traduction en bonne et due forme pour une partie du nouveau contenu :
+  - la quête de Rasaad dans SoA : dialogues, scripts, sous-titres des voix, lieux
+  - les objets et les sorts
+  - les sous-titres des voix pour le personnage principal
+  - les éléments de l'interface, les règles, les kits et classes, les tutoriels
 
-Contributeurs :
-- Récupération de textes :
-  * Mornagest, Anomaly et toutes les personnes ayant rapporté des défauts ou proposé des corrections
-  * Luren pour la fusion des travaux de dricks et zelurker et de la récupération automatique
-  * Luren pour les intitulés d'entrée de journal
-  * Freddy_Gwendo, Luren et Isaya pour diverses adaptations des textes pour BG2EE
-- Traduction des textes ajoutés :
-  * un traducteur payé par Beamdog pour l'essentiel de la quête de Rasaad dans SoA
-  * Freddy_Gwendo et Isaya, avec le soutien ponctuel de l'équipe et des membres du forum La Couronne de Cuivre
-- Textes de l'interface graphique :
-  * initialement traduits par une société mandatée par Beamdog
-  * maintenus et corrigés par Isaya, avec l'aide de suggestions de Kerozevok
+Le second ensemble s'est considérablement étoffé depuis la précédente version du mod.
 
-Merci également à la nouvelle équipe de traduction : Freddy_Gwendo, McGregor77, N3ige, Scylla, ...~
+Les parties traduites de BG2EE sont pour l'essentiel à jour des compléments et modifications éventuels de la version 2.5 de BG2EE. Il reste toutefois de nombreux reports à faire dans les textes repris du jeu original.
+
+N'hésitez pas à nous signaler les défauts que vous constatez, en particulier les textes restés en anglais et qui vous semblent directement liés à ce qui est déjà traduit. Vous pouvez le faire :
+- dans le forum de travail de l'équipe de traduction : https://www.baldursgateworld.fr/lacouronne/traduction-participative-de-bg2ee/31539-signalement-de-defaut-de-traduction-ou-d-absence-anormale-de-traduction.html
+- dans le forum officiel de Beamdog : https://forums.beamdog.com/discussion/72773/signalement-de-defaut-de-traduction-ou-dabsence-anormale-de-traduction/p1
+
+Merci d'avance.~
 
 
 // Text to explain to the player that he can choose whatever game language to start installation

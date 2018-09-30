@@ -10503,14 +10503,14 @@ Historique*/
 	STRING_SET ~10498~ @10498	// Exact match
 	STRING_SET ~10499~ @10499	// Exact match
 	STRING_SET ~10500~ @10500	// Exact match
-	STRING_SET ~10501~ @10497	// Very likely 100.0 
-	STRING_SET ~10502~ @10498	// Exact match
+	STRING_SET ~10501~ @10501	// Very likely 100.0 corrigé mais identique
+	STRING_SET ~10502~ @10502	// Exact match corrigé mais identique
 	STRING_SET ~10503~ @10503	// Exact match
-	STRING_SET ~10504~ @10270	// Exact match
+	STRING_SET ~10504~ @10504	// Exact match corrigé car VF très différente
 	STRING_SET ~10505~ @10500	// Exact match
-	STRING_SET ~10506~ @10270	// Exact match
-	STRING_SET ~10507~ @10497	// Very likely 100.0 
-	STRING_SET ~10508~ @10498	// Exact match
+	STRING_SET ~10506~ @10506	// Exact match corrigé car VF très différente
+	STRING_SET ~10507~ @10507	// Very likely 100.0 corrigé mais identique
+	STRING_SET ~10508~ @10508	// Exact match corrigé mais identique
 	STRING_SET ~10509~ @10509	// Exact match
 	STRING_SET ~10510~ @10510	// Exact match
 	STRING_SET ~10511~ @10511	// Exact match
@@ -11320,7 +11320,7 @@ Historique*/
 	STRING_SET ~11315~ @11315	// Exact match
 	STRING_SET ~11316~ @11316	// Exact match
 	STRING_SET ~11317~ @11317	// Exact match
-	STRING_SET ~11318~ @5069	// Exact match
+	STRING_SET ~11318~ @11318	// Exact match erroné corrigé
 	STRING_SET ~11319~ @11319	// Exact match
 	STRING_SET ~11320~ @11320	// Exact match
 	STRING_SET ~11321~ @11321	// Exact match
@@ -12014,7 +12014,7 @@ Historique*/
 	STRING_SET ~12009~ @7220	// Exact match
 	STRING_SET ~12010~ @4950	// Exact match
 	STRING_SET ~12011~ @12011	// Exact match
-	STRING_SET ~12012~ @4937	// Exact match
+	STRING_SET ~12012~ @12012	// manuel
 	STRING_SET ~12013~ @12013	// Exact match
 	STRING_SET ~12014~ @12014	// Exact match
 	STRING_SET ~12015~ @12015	// Exact match
@@ -12026,14 +12026,14 @@ Historique*/
 	STRING_SET ~12021~ @12021	// Exact match
 	STRING_SET ~12022~ @12022	// Exact match
 	STRING_SET ~12023~ @12023	// Exact match
-	STRING_SET ~12024~ @7266	// Exact match
-	STRING_SET ~12025~ @10953	// Exact match
+	STRING_SET ~12024~ @12024	// manuel
+	STRING_SET ~12025~ @12025	// manuel
 	STRING_SET ~12026~ @12026	// Exact match
 	STRING_SET ~12027~ @12027	// Exact match
 	STRING_SET ~12028~ @12028	// Exact match
 	STRING_SET ~12029~ @12029	// Exact match
 	STRING_SET ~12030~ @12030	// Exact match
-	STRING_SET ~12031~ @11997	// Exact match
+	STRING_SET ~12031~ @12031	// manuel
 	STRING_SET ~12032~ @12032	// Exact match
 	STRING_SET ~12033~ @12033	// Exact match
 	STRING_SET ~12034~ @12034	// Exact match
@@ -12121,7 +12121,7 @@ Historique*/
 	STRING_SET ~12116~ @12116	// Exact match
 	STRING_SET ~12117~ @12117	// Exact match
 	STRING_SET ~12118~ @10950	// Exact match
-	STRING_SET ~12119~ @1454	// Exact match
+	STRING_SET ~12119~ @12119	// manuel
 //	STRING_SET ~12120~ @12120	// Empty text
 	STRING_SET ~12121~ @12121	// Exact match
 	STRING_SET ~12122~ @12122	// Exact match
@@ -23651,7 +23651,7 @@ Historique*/
 	STRING_SET ~23646~ @23646	// manuel 
 	STRING_SET ~23647~ @23647	// Exact match
 	STRING_SET ~23648~ @23648	// Exact match
-	STRING_SET ~23649~ @5069	// Exact match
+	STRING_SET ~23649~ @23649	// Exact match erroné corrigé
 	STRING_SET ~23650~ @11319	// Exact match
 	STRING_SET ~23651~ @23651	// Exact match
 	STRING_SET ~23652~ @23652	// Exact match
@@ -27484,8 +27484,8 @@ Historique*/
 	STRING_SET ~27479~ @27479	// Exact match
 	STRING_SET ~27480~ @27480	// Exact match
 	STRING_SET ~27481~ @27481	// Exact match
-	STRING_SET ~27482~ @1050	// Exact match
-	STRING_SET ~27483~ @1051	// Exact match
+	STRING_SET ~27482~ @27482	// manuel Exact match corrigé par Isaya
+	STRING_SET ~27483~ @27483	// manuel Exact match corrigé par Isaya
 	STRING_SET ~27484~ @27484	// Exact match
 	STRING_SET ~27485~ @27485	// Exact match
 	STRING_SET ~27486~ @27486	// Exact match
@@ -33503,7 +33503,7 @@ Historique*/
 	STRING_SET ~33498~ @33498	// Exact match
 	STRING_SET ~33499~ @33499	// Exact match
 	STRING_SET ~33500~ @33500	// Exact match
-	STRING_SET ~33501~ @5069	// Exact match
+	STRING_SET ~33501~ @33501	// Exact match erroné corrigé
 	STRING_SET ~33502~ @33502	// Exact match
 	STRING_SET ~33503~ @33503	// Exact match
 	STRING_SET ~33504~ @33504	// Exact match
@@ -50685,17 +50685,17 @@ Historique*/
 	STRING_SET ~50679~ @50679	// manuel
 	STRING_SET ~50680~ @50680	// Very likely 100.0 
 	STRING_SET ~50681~ @50681	// Very likely 99.7 
-	STRING_SET ~50682~ @50662	// Exact match
+	STRING_SET ~50682~ @50682	// Exact match corrigé
 	STRING_SET ~50683~ @50683	// Exact match
 	STRING_SET ~50684~ @50684	// Exact match
 	STRING_SET ~50685~ @50685	// Exact match
 	STRING_SET ~50686~ @50686	// Exact match
 	STRING_SET ~50687~ @50687	// Exact match
-	STRING_SET ~50688~ @50666	// Exact match
+	STRING_SET ~50688~ @50688	// Exact match corrigé
 	STRING_SET ~50689~ @50689	// Exact match
-	STRING_SET ~50690~ @50661	// Exact match
+	STRING_SET ~50690~ @50690	// Exact match corrigé
 	STRING_SET ~50691~ @50691	// Very likely 99.9 
-	STRING_SET ~50692~ @50666	// Exact match
+	STRING_SET ~50692~ @50692	// Exact match corrigé
 	STRING_SET ~50693~ @50693	// Exact match
 	STRING_SET ~50694~ @50694	// Very likely 96.6 
 	STRING_SET ~50695~ @50695	// Exact match
@@ -61557,11 +61557,11 @@ Historique*/
 	STRING_SET ~61543~ @61543	// Exact match
 	STRING_SET ~61544~ @61544	// Very likely 100.0 
 	STRING_SET ~61545~ @61545	// Exact match
-	STRING_SET ~61546~ @5069	// Exact match
+	STRING_SET ~61546~ @61546	// Exact match erroné corrigé
 	STRING_SET ~61547~ @61547	// Exact match
 	STRING_SET ~61548~ @61548	// Exact match
 	STRING_SET ~61549~ @61549	// Exact match
-	STRING_SET ~61550~ @5069	// Exact match
+	STRING_SET ~61550~ @61550	// Exact match erroné corrigé (5069)
 	STRING_SET ~61551~ @21353	// Exact match
 	STRING_SET ~61552~ @61552	// manuel 
 	STRING_SET ~61553~ @61553	// Exact match
@@ -68311,7 +68311,7 @@ Historique*/
 	STRING_SET ~68297~ @68297	// Very likely 99.9 
 	STRING_SET ~68298~ @68298	// Very likely 97.0 
 	STRING_SET ~68299~ @68299	// Very likely 99.7 
-	STRING_SET ~68300~ @5069	// Exact match
+	STRING_SET ~68300~ @68300	// Exact match erroné corrigé
 	STRING_SET ~68301~ @68301	// Very likely 99.9 
 //	STRING_SET ~68302~ @68302	// Empty text
 	STRING_SET ~68303~ @68303	// Exact match
@@ -68393,10 +68393,10 @@ Historique*/
 	STRING_SET ~68379~ @68379	// Exact match
 	STRING_SET ~68380~ @68380	// Exact match
 	STRING_SET ~68381~ @68381	// Exact match
-	STRING_SET ~68382~ @5069	// Exact match
+	STRING_SET ~68382~ @68382	// Exact match erroné corrigé
 	STRING_SET ~68383~ @68383	// Exact match
 	STRING_SET ~68384~ @68384	// Exact match
-	STRING_SET ~68385~ @5069	// Exact match
+	STRING_SET ~68385~ @68385	// Exact match erroné corrigé
 	STRING_SET ~68386~ @68386	// Exact match
 	STRING_SET ~68387~ @68387	// Exact match
 	STRING_SET ~68388~ @68388	// Exact match
@@ -70093,7 +70093,7 @@ Historique*/
 	STRING_SET ~70079~ @70079	// Exact match
 	STRING_SET ~70080~ @70080	// Exact match
 	STRING_SET ~70081~ @70081	// Very likely 99.7 
-	STRING_SET ~70082~ @5069	// Exact match
+	STRING_SET ~70082~ @70082	// Exact match erroné corrigé
 	STRING_SET ~70083~ @11319	// Exact match
 	STRING_SET ~70084~ @70084	// Exact match
 	STRING_SET ~70085~ @70085	// Very likely 100.0 

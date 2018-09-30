@@ -1,0 +1,895 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+/*<![CDATA[*/
+	<!-- 
+	body {
+		margin: 0;
+		padding: 0;
+		cursor: default;
+		text-align: center;
+		color: #D1D1D1;
+		background: #000 url('images/bg_lcc2.png');
+	}
+
+/*	En-tête  */
+	#cartouche {
+		text-align: left;
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 88%;
+		font-family: Verdana, Tahoma, Arial, sans-serif;
+		font-size: 12px;
+		color: #D1D1D1;
+*		background-repeat: repeat-x;
+*		background: url("images/degrade_titre.png");
+	}
+
+	#header {
+		text-align: center;
+*		background: #303030;
+		background-image: linear-gradient(#666666, #040404);
+		border: 1px solid #FFCC33;
+		border-top: 5px solid #FFCC33;
+		border-bottom: 5px solid #FFCC33;
+		padding: 5px 0 13px 0;
+		height: 310px;
+		border-radius: 3px 4px 3px 3px;
+		box-shadow: 8px 8px 15px black;
+	}
+/*    le décalage horizontal de l'ombre ;
+    le décalage vertical de l'ombre ;
+    l'adoucissement du dégradé ;
+    la couleur de l'ombre.
+*/
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+/*		font-style: italic;
+		color: #555;*/
+		text-decoration: none;
+	}
+	#header .about a:link,
+	#header .about a:visited {
+	}
+	#header .about a:focus,
+	#header .about a:hover {
+		text-decoration: none;
+		color: #deded9;
+		border: 0;
+	}
+
+/*	Menu  */
+	#menu {
+		font-weight: bold;
+		margin: 0;
+		margin-top: 20px;
+		text-align: center;
+		color: #FFCC33;
+		background-repeat: repeat-x;
+		background: url("images/degrade_titre.png");
+		border-radius: 3px 4px 3px 3px;
+*		heigth: 50px;
+		line-height: 400%;
+*vertical-align:middle;
+	}
+	#menu a:link,
+	#menu a:visited {
+	}
+	#menu a:focus,
+	#menu a:hover {
+		text-decoration: none;
+		color: #deded9;
+		border: 0;
+	}
+
+
+/*	Sections  */
+	#maindiv {
+		margin: 0 auto;
+		margin-top: -20px;
+		width: 100%;
+	}
+
+	#maindiv .content {
+		color: #deded9;
+		background-color: #5F5F5F;
+		padding: 0 0 25px 0;
+		margin: 50px auto;
+		border-width: 1px 1px 4px 10px;
+		border-style: solid;
+		border-color: #FFBF00;
+/*ou		border: 1px solid #FFCC33;
+		border-left: 10px solid #FFCC33;
+		border-bottom: 4px solid #FFCC33;*/
+		position: relative;
+		border-radius: 4px 4px 4px 5px;
+		box-shadow: 8px 8px 15px black;
+		display: block;
+	}
+
+	#maindiv address {
+		font-size: 95%;
+		font-style: normal;
+		font-weight: bold;
+		text-decoration: none;
+		color: #303030;
+		background-color: #FFBF00;
+		padding: 3px 0px 0px;
+		margin: 0px;
+		width: 100%;
+		position: absolute;
+		bottom: -1px;
+		left: 0px;
+		display: block;
+		text-align: right;
+	}
+	#maindiv address a:link,
+	#maindiv address a:visited {
+		font-weight: bold;
+		text-decoration: underline;
+		background-color: transparent;
+		color: #000 !important;
+		padding-right: 5px;
+		padding-left: 6px;
+	}
+	#maindiv address a:focus,
+	#maindiv address a:hover {
+		text-decoration: none;
+		color: #000;
+	}
+
+	/*	Corps de texte  */
+	#maindiv p {
+		text-align: justify;
+		font-size: 110%;
+		font-style: normal;
+		text-decoration: none;
+		line-height: 150%;
+		padding: 0px;
+		margin: 10px auto;
+		width: 90%;
+		display: block;
+	}
+
+	/*	Listes  */
+	#maindiv ul {
+		line-height: 170%;
+		margin: 0px 0 0 70px;/*-10*/
+		*margin-left: 65px;
+		/*width: 90%;*/
+	}
+	#maindiv ul li {
+		/*list-style-type: square;*/
+		line-height: 170%;
+		margin-right: 20px;
+	}
+/* INUTILISE = liste numériques
+      #maindiv ol {
+        margin: 0px 0 0 35px;
+        *margin-left: 70px;
+      }
+      #maindiv ol li {
+        line-height: 170%;
+      }
+*/
+
+	/*	Titre des versions  */
+	#maindiv .version {
+		display: block;
+		width: 90%;
+		background-color: transparent;
+		text-align: left;
+/*		text-indent: 30px; */
+		font-weight: bold;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		border-bottom: solid 1px #FFCC33;
+		border-top: solid 1px #FFCC33;
+	}
+
+	/*	Liens internet  */
+	a:link,
+	a:visited {
+		color: #FFCC33;
+		/*font-weight: bold; */
+		text-decoration: none;
+	}
+	a:focus,
+	a:hover {
+		text-decoration: underline;
+		*color: #deded9;
+	}
+
+	h1 {
+		line-height: 170%;
+		font-size: 225%;
+		color: #FFCC33; *5F5F5F
+		padding: 5px 0 5px 0;
+		margin: 0;
+		width: 100%;
+	}
+	/*	Titre de section (160 %)  */
+	h2 {
+		line-height: 170%;
+		display: block;
+		font-family: Verdana, Trebuchet MS, Arial, serif;
+		text-align: left;
+		text-indent: 30px;
+		padding: 0px;
+		margin: 20px 0 0 0;
+		border-bottom: dotted 2px #d0d0d0;
+		background: #303030;
+		font-size: 160%;
+	}
+	h2::first-letter {
+		color: #FFCC33;
+		background-color: transparent;
+	}
+
+	/*	Titres  */
+      h3, h4, h5, h6 {
+		line-height: 170%;
+		margin: 10px auto;
+		width: 90%;
+		padding: 0;
+	}
+      h3 {
+		font-size: 140%;
+	}
+      h4 {
+		font-size: 125%;
+		/*font-style: italic;*/
+	}
+
+	 h5 {
+		/*margin: 10px auto;*/
+        font-size: 110%;
+	}
+      h6 {
+		font-size: 125%;
+		font-style: italic;
+	}
+
+/*      h5 {
+        font-size: 100%;
+      }
+*/
+	/*	Ligne dorée  */
+	hr {
+		/*margin: 10px 10 10px 10;*/
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 90%;
+		/*padding: 0; */
+		height: 1px;
+		border: 0;
+		color: #FFCC33;
+		background-color: #FFCC33;
+	}
+	/*	Image d'en-tête */
+	img.image_left {
+		float: left;
+		padding:0px 5px 0px 70px;
+		overflow: auto;
+	}
+		
+
+	/*	Tableaux */
+	table {
+		/*text-align: center;*/
+		width: 90%;
+		padding: 10px;
+		border-collapse: collapse;
+		/*margin-left: 70px;*/
+		/*padding: 20px 25px;*/
+		/*position: relative;*/
+	}
+	td, th {
+		font-size: 12px;
+		text-align: center;
+		*vertical-align: baseline;
+		padding-top: 4px;
+		padding-bottom: 4px;
+*  border: 1px outset #eee;
+	border: 1px solid #aaa;
+	}
+	th {
+		background-color: #303030; *#000099;
+		*color: #fff;
+		font-weight: bold;
+*  border:none;
+	}
+*tr {)
+
+.leftalign, table.leftalign tr th, table.leftalign tr td (
+		text-align: left;
+	}
+
+	-->
+	/*]]>*/
+
+	</style>
+	<title>
+		La Couronne de Cuivre - bg2eetrans
+	</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+  <div id="cartouche">
+	<a name="top" id="top"></a>
+	<div id="header">
+		<h1>
+			bg2eetrans
+		</h1>
+
+		<strong>Un mod développé sur <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour <acronym title="Baldur's Gate II : Enhanced Edition">BG2EE</acronym></strong>
+
+<hr>
+		<img src="images/logo_lcc.png" title="La Couronne de Cuivre" alt="La Couronne de Cuivre" class="image_left" />
+		<br><br><br>
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<strong>Auteur :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/members/isaya.html">Isaya</a>
+		</p>
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<strong>Version :</strong> 0.7.16.6
+		</p>
+		<p class="about" style="text-align: left;margin-left: 70%">
+		<strong>Langues :</strong> Français
+		</p>
+		<p class="about" style="text-align: left;margin-left: 70%">
+		<strong>Plateforme :</strong> Windows (testé), Mac OS X et Linux (non testés)
+		</p>
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<a href="https://www.baldursgateworld.fr/lacouronne/traduction-participative-de-bg2ee/">Site internet du mod</a> &#8226;
+			<a href="https://www.baldursgateworld.fr/lacouronne/traduction-participative-de-bg2ee/">Forum du mod</a> &#8226;
+			<a href="https://github.com/Isaya/bg2eetrans/releases">Téléchargement</a> &#8226;
+			<a href="https://github.com/Isaya/bg2eetrans">GitHub</a>
+		</p>
+
+	</div>
+
+	<div id="menu">
+		<a href="#intro">Introduction</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#compon">Composants</a> &#8226; <a href="#trouble">Dépannage</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a>
+	</div>
+
+	<div id="maindiv">
+	<!-- ================== I n t r o d u c t i o n ================== -->
+	  <a name="intro" id="intro"></a>
+		<div class="content">
+		<h2>
+			Introduction
+		</h2><br>
+		<p>
+			L'objet de ce mod est d'ajouter la langue française dans Baldur's Gate II : Enhanced Edition et de traduire progressivement une part plus importante des textes à chaque nouvelle version.
+		</p>
+		<p>
+			Ce mod installe une traduction partielle des textes pour BG2EE à partir des textes récupérés de BG II + ToB (original) et des traductions de BGEE (V2.5) et IWDEE (V2.5) mais également une traduction d'une partie des textes ajoutés dans BG2EE.
+		</p>
+		<p>
+			Remarque : le mod est basé sur une recherche de correspondance entre les textes en anglais de BG2EE et ceux de BG II + ToB et de BGEE date des versions 2.3 de BG2EE et de BGEE. Par conséquent il ne remplace en français que les textes suffisamment proches en anglais. Lorsque les textes de BG2EE ont trop changé par rapport à BG II + ToB, le mod préfère préserver le texte anglais plutôt que remplacer par une traduction qui pourrait s'avérer fausse, particulièrement pour les aspects techniques du jeu (description des classes, kits, sorts, objets). Une partie de ces textes non récupérés a été traité à la main, soit en confirmant par un humain que le texte original convenait soit en modifiant le texte pour assurer une bonne traduction.
+		</p>
+		<p>
+			Par ailleurs le mod modifie la liste de langues disponibles dans BG2EE (V2.0 et supérieur) afin d'ajouter le français dans la liste et fournit le fichier de traduction de l'interface du jeu.
+		</p>
+
+			<address>
+				<span class="footer">bg2eetrans &gt; Introduction</span> &#8226; <a href="#top">Haut de page</a>
+			</address>
+		</div>
+
+	<!-- ================= C o m p a t i b i l i t y ================= -->
+	  <a name="compat" id="compat"></a>
+		<div class="content">
+		<h2>
+			Compatibilité
+		</h2><br>
+
+		<p>
+			Ce mod fonctionne exclusivement avec Baldur's Gate II : Enhanced Edition (BG2EE). Il est prévu pour fonctionner avec les versions 2.3 et 2.5 du jeu.
+		</p>
+		<p>
+			Il doit être installé en tout premier afin que la langue française devienne disponible pour l'ajout des textes des autres mods qui vous intéressent.
+		</p>
+
+<hr>
+		<p>
+			De par sa nature, le mod devrait être compatible avec tous les autres mods.
+		</p>
+		<p>
+			Toutefois l'utilisation du Big World Setup (BWS) pour installer des mods n'apprécie pas la présence d'un mod déjà installé. Comme indiqué par piea dans <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31413-installation-bg1ee-bg2ee-eet-bws-trad-fr.html#post456738">ce message</a>, il faudra supprimer le fichier WeiDU.log (ou plutôt le renommer, cela pourrait être utile de pouvoir le remettre en place pour désinstaller le mod de traduction après avoir désinstallé tous les mods du BWS) afin que BWS veuille bien fonctionner.
+		</p>
+
+
+			<address>
+				<span class="footer">bg2eetrans &gt; Compatibilité</span> &#8226; <a href="#top">Haut de page</a>
+			</address>
+		</div>
+
+	<!-- ================== I n s t a l l a t i o n ================== -->
+	  <a name="installation" id="installation"></a>
+		<div class="content">
+		<h2>
+			Installation
+		</h2><br>
+
+		<h3>
+			Mise en garde
+		</h3>
+		<p>
+			<em>Si vous avez installé la version précédente, il est nécessaire de la désinstaller d'abord. Pour cela, lancez setup-bg2eetrans.exe et choisissez l'option de désinstallation. <strong>Une fois la désinstallation achevée, il vous faudra également supprimer a minima les fichiers dialog.tlk et dialogF.tlk dans le répertoire lang/fr_FR. Enfin supprimez le répertoire bg2eetrans et le fichier setup-bg2eetrans.exe (version Windows) avant d'extraire la nouvelle version du mod.</strong></em>
+		</p>
+		<p>
+			<em>A noter que le besoin de supprimer ces fichiers à la main est résolu dans cette version (0.7.16.6) et que la désinstallation du mod ne nécessitera à l'avenir plus d'action a posteriori.</em>
+		</p>
+		<p>
+			<em>Lorsque vous installez ou désinstallez, <strong>ne fermez pas la fenêtre <acronym title="Disk Operating System">DOS</acronym></strong> en cliquant sur le bouton <strong>X</strong> ! Au lieu de cela, appuyez sur la touche <strong>Entrée</strong> lorsque l'invite de commande vous le demande.</em>
+		</p>
+		<p>
+			<em>Par précaution, <strong>désactivez les antivirus</strong> ou tout logiciel résidant en mémoire avant d'installer ce mod, ou tout autre mod. Certains (en particulier avast et Norton !) ont une fâcheuse tendance à déclarer les exécutables des mods comme des faux positifs, provoquant ainsi l'échec de la procédure d'installation.</em>
+		</p>
+
+		<h3>
+			Note pour les jeux en Édition Améliorée (EE)
+		</h3>
+		<p>
+			Les Éditions améliorées sont des jeux activement développés. N'oubliez pas que chaque patch de mise à jour effacera les mods que vous avez installés ! Ce mod ne fera pas exception à la règle.
+		</p>
+		<p>
+			Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie moddée (si vous en avez la possibilité, notamment chez Beamdog et Good Old Games), n'oubliez pas que même après avoir réinstallé les mods sur un nouveau patch, vous ne pourrez peut-être pas continuer le jeu avec vos anciennes sauvegardes, en particulier à cause de noms de personnages, de lieux, etc. qui pourraient être incorrects. Pour y remédier, copiez tout le dossier du jeu dans un nouveau dossier dans lequel vous installerez vos mods, et qui ne sera pas modifié par les patchs de mise à jour.
+		</p>
+		<p>
+			Lors de l'installation du premier mod, WeiDU vous demande habituellement dans quelle langue du jeu vous souhaitez ajouter les textes :<br>
+			<div style="margin-left: 100px;">
+				<code>
+					Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.<br>
+					Si par la suite vous desirez jouer au jeu dans une langue differente, il vous<br>
+					faudra editer le fichier weidu.conf et reinstaller vos mods.<br>
+				</code>
+			</div>
+		</p>
+		<p>
+			<strong>Sachez que l'installation de bg2eetrans forcera ce réglage pour la langue française qu'il viendra d'installer.</strong> Ainsi le choix ne vous sera plus proposé et les textes de vos futurs mods seront bien ajoutés au jeu pour la langue française.
+		</p>
+
+<hr>
+
+		<h3>
+			Windows
+		</h3>
+		<p>
+			bg2eetrans pour Windows est livré et installé avec WeiDU, et est diffusé sous forme d'archive.
+		</p>
+		<p>
+			Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>) à l'aide de <a href="http://www.7-zip.org/download.html">7zip</a> ou de <a href="http://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire <strong>bg2eetrans</strong> et le fichier <strong>setup-bg2eetrans.exe</strong> dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur <strong>setup-bg2eetrans.exe</strong> et de suivre les instructions affichées à l'écran.
+		</p>
+		<p>
+			Vous pouvez lancer <strong>setup-bg2eetrans.exe</strong> dans votre répertoire de jeu pour réinstaller ou désinstaller le mod.
+		</p><br />
+ 
+<hr>
+		<h3>
+			Mac OS X
+		</h3>
+		<p>
+			Il n'existe pas d'archive spécifiquement destiné à l'utilisation sous Mac OS X. Néanmoins, en suivant 
+<a href="https://forums.beamdog.com/discussion/31155/the-hitchhikers-guide-to-installing-mods-on-osx/p1">ce tutoriel</a> (en anglais), l'installation doit pouvoir s'effectuer à partir de l'archive pour Windows. Le tutoriel vous indiquera notamment un outil de lancement simplifié ne nécessitant pas de passer par le terminal et qui se chargera de nommer comme il faut le programme d'installation WeiDU pour que l'installation puisse opérer.
+		</p>
+		<p>
+			<strong>Je n'ai pas de certitude que l'installation réussira de cette manière.</strong> Néanmoins le mod prévoit, pour lancer l'exécutable responsable de la seconde partie de l'installation (cf. le chapitre <a href="#compon">Composants</a>), des appels de commandes adaptés à Mac OS X et conforme à ce qu'effectue l'outil de lancement, d'après sa description et la vidéo de présentation.
+		</p>
+
+<hr>
+		<h3>
+			Linux
+		</h3>
+		<p>
+			bg2eetrans ne dispose pas d'une archive dédiée à Linux. Néanmoins l'archive pour Windows peut être utilisée. Faute d'expérience de l'installation sous Linux, les instructions ci-dessous sont reprises de mods existants à l'exception d'une recommandation spécifique.
+		</p>
+		<p>
+			Extrayez le contenu du mod dans le répertoire du jeu que vous voulez moder. Supprimez l'exécutable setup-bg2eetrans.exe inutile après extraction.
+		</p>
+		<p>
+			Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="http://www.weidu.org/%7Ethebigg/">WeiDU.org</a> et copiez WeiDU et WeInstall dans /usr/bin. Ouvrez ensuite un terminal et allez (<strong>cd</strong>) dans le répertoire d'installation de votre jeu, lancez « tolower » et répondez Y aux deux questions. Vous pouvez éviter d'exécuter la seconde option (Linux.ini) si vous l'avez déjà lancée une fois dans le même dossier. Si vous avez un doute, il vaut mieux exécuter tolower et accepter les deux options.
+		</p>
+		<p>
+			<strong>Particularité pour ce mod</strong> : copiez l'exécutable WeiDU dans le répertoire principal du jeu, renommez la copie sous le nom setup-bg2eetrans et assurez-vous qu'elle a bien les droits d'exécution (commande "chmod +x setup-bg2eetrans" à taper depuis le terminal).
+		</p>
+		<p>
+			Lancez <strong>WeInstall setup-bg2eetrans</strong> depuis le dossier de votre jeu pour installer le mod.
+		</p>
+
+<hr>
+		<h3>
+			Détails de l'installation
+		</h3>
+		<p>
+			Au démarrage de l'installation, WeiDU devrait vous demander de choisir la langue dans laquelle vous désirez jouer au jeu. Comme dans le cas de ce mod ce choix est évident (si vous installez la traduction, c'est pour jouer avec, n'est-ce pas ?), vous aurez droit à un message personnalisé :<br>
+			<div style="margin-left: 100px;">
+				<code>
+					Choisissez une langue quelconque parmi celles deja disponibles dans le jeu.<br>
+					L'installation de ce mod creera la langue francaise a partir de l'anglais et<br>
+					les textes non traduits par le mod resteront donc en anglais.<br>
+					Nota : il vous faudra passer vous-meme le jeu en francais apres l'installation.<br>
+				</code>
+			</div>
+		</p>
+		<p>
+			Après une séquence rapide d'initialisation, le mod sera prêt à installer les textes. Cette opération est un peu longue et dépend des performances de l'ordinateur. Le mod vous invitera à patienter.
+		</p>
+		<p>
+			<div style="margin-left: 100px;">
+				<code>
+					Le repertoire pour la langue francaise vient d'etre ajoute au jeu.<br>
+					L'installation va desormais se poursuivre par la mise des textes en francais<br>
+					et par l'ajout de la langue francaise dans le menu du jeu.<br>
+					Ces operations sont decomposees en quatre composants qui vont s'installer<br>
+					automatiquement. Elles peuvent prendre plusieurs minutes. La duree exacte<br>
+					depend des performances de votre ordinateur.<br>
+
+					Merci de votre patience.<br>
+
+					Remarque : pour avoir le jeu en francais, il vous faudra faire le choix dans<br>
+					le menu du jeu. Si vous aviez deja fait ce choix et que vous reinstallez le<br>
+					mod, il sera preserve.<br>
+				</code>
+			</div>
+		</p>
+		<p>
+			Le mod va alors installer ses différents composants. A la fin, WeiDU devrait vous signaler le succès des installations.
+		</p>
+		<p>
+			<div style="margin-left: 100px;">
+				<code>
+					INSTALLATION REUSSIE Textes repris de BGII-ToB<br>
+					INSTALLATION REUSSIE Textes repris de BGEE<br>
+					INSTALLATION REUSSIE Ajout de la langue au menu + credits (BG2EE V2.0 et plus)<br>
+					INSTALLATION REUSSIE Textes de BG2EE traduits et controles<br>
+				</code>
+			</div>
+		</p>
+		<p>
+			Vous pouvez maintenant lancer le jeu. Allez les options, choisissez Language et sélectionnez le français, puis quittez le jeu (les textes de l'interface sont passées instantanément en français, mais ce ne sera pas le cas pour le reste du jeu). Au lancement suivant le jeu sera bel et bien en français et vous pourrez alors consulter
+		</p>
+
+<hr>
+		<h3>
+			Note pour effectuer une désinstallation complète
+		</h3>
+		<p>
+			En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant <strong>setup-bg2eetrans --uninstall</strong> dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.
+		</p><br>
+
+
+			<address>
+				<span class="footer">bg2eetrans &gt; Installation</span> &#8226; <a href="#top">Haut de page</a>
+			</address>
+		</div>
+
+	<!-- =================== C o m p o n e n t s ==================== -->
+	  <a name="compon" id="compon"></a>
+		<div class="content">
+		<h2>
+			Composants
+		</h2><br>
+
+		<p>
+			L'installateur est décomposé en deux parties :
+			<ul>
+				<li>une première partie d'initialisation, pour créer le répertoire lang/fr_FR, y copier le fichier dialog.tlk anglais afin de servir de base au patch, et préparer WeiDU à utiliser la nouvelle langue française pour installer les autres composants,</li>
+				<li>une seconde partie d'installation des textes, décomposée en plusieurs composants, qui remplace les textes pour lesquels une traduction est disponible.</li>
+			</ul>
+		</p>
+		<p>
+			Le mod n'offre pas la possibilité de choisir les composants d'installation et force la sélection de tous.
+		</p>
+
+		<h3>
+			Textes repris de BGII-ToB
+		</h3>
+		<p>
+			Ce composant s'appuie sur l'identification des textes de BG2EE n'ayant pas ou peu changé par rapport à BG II - ToB par l'intermédiaire de l'outil Translation Retriever. Il exploite un fichier des textes de BG II - ToB en partie retouché pour intégrer des modifications pour certains textes qui différaient (travail en cours, à compléter).
+		</p>
+		<h3>
+			Textes repris de BGEE
+		</h3>
+		<p>
+			Ce composant s'appuie sur l'identification des textes de BG2EE identiques à BGEE, parmi ceux qui n'avaient pas pu être récupérés à partir de BG II - ToB.
+		</p>
+		<h3>
+			Ajout de la langue au menu + crédits (BG2EE V2.0 et plus)
+		</h3>
+		<p>
+			Depuis la version 2.0, le fait de créer dans lang un dossier contenant un fichier dialog.tlk ne suffit plus au jeu pour qu'il reconnaisse une nouvelle langue. Ce composant patche le fichier permettant d'ajouter la langue française à l'écran de sélection du jeu et ajoute des textes de crédits et de notes de traduction.
+		</p>
+		<h3>
+			Textes de BG2EE traduits et contrôlés
+		</h3>
+		<p>
+			Ce composant installe les textes traduits parmi ceux ajoutés par Beamdog au-delà des textes d'origine BG II - ToB. Une partie est reprise et parfois adaptée de BGEE et IWDEE (kits et classes propres aux jeux EE, tutoriel pour tablette et téléphone, descriptions de capacités de kits auparavant non décrites dans BG II - ToB, etc.) La plus grande part est constituée par les traductions de l'équipe.
+		</p>
+		<p>
+			Nota : <em>l'équipe de traduction a pris la décision de n'inclure dans le mod que des parties complètes. Par conséquent les fichiers déjà traduits pour d'autres thèmes tels que la quête de Dorn et les Fosses noires que l'on peut trouver dans le forum de travail de l'équipe ne sont pas inclus.</em>
+		</p>
+
+
+			<address>
+				<span class="footer">bg2eetrans &gt; Composants</span> &#8226; <a href="#top">Haut de page</a>
+			</address>
+		</div>
+
+	<!-- ============== T r o u b l e s h o o t i n g =============== -->
+	  <a name="trouble" id="trouble"></a>
+		<div class="content">
+		<h2>
+			Dépannage
+		</h2><br>
+
+		<h5>Textes Invalid xxxx apparaissant lors du choix du français dans le menu des langues du jeu</h5>
+		<p>
+			Cette situation est inévitable. L'installation d'un mod ne peut ajouter des textes au jeu que dans une seule langue. Par conséquent, les textes contenant les crédits (équipe) et les notes de traduction ne sont disponibles que lorsque la langue française est activée. Pour que ces textes s'affichent il a fallu modifier un fichier du jeu qui recense les langues disponibles et les numéros de texte pour les crédits et les notes. Lorsque vous faites le choix initial, c'est typiquement l'anglais qui est activé et les numéros de texte n'existent pas dans son fichier dialog.tlk.
+		</p>
+
+<hr>
+		<p>
+			Si vous faites face à un problème d'installation ou d'utilisation du mod non couvert par les informations précédentes, signalez-le à l'auteur sur un des sites suivants :
+			<ul>
+				<li>la <a href="https://www.baldursgateworld.fr/lacouronne/bg2-ee/31540-mod-semi-officiel-de-traduction-de-partielle-de-bg2ee.html">discussion dédiée au mod</a> dans le forum La Couronne de Cuivre, qui héberge aussi la section de l'équipe de traduction</li>
+				<li>la <a href="https://forums.beamdog.com/discussion/72781/mod-semi-officiel-de-traduction-partielle-de-bg2ee/p1">discussion dédiée au mod</a> dans le forum officiel de Beamdog</li>
+			</ul>
+
+<hr>
+ 		<p>
+			Si vous trouvez des fautes, des défauts de traduction ou des textes dont la traduction manque bien qu'ils fassent partie des aspects traduits (objet, sort, capacité, dialogue de la quête de Rasaad dans SoA), n'hésitez pas à les signaler sur un des sites suivants :
+			<ul>
+				<li>dans la <a href="https://www.baldursgateworld.fr/lacouronne/traduction-participative-de-bg2ee/31539-signalement-de-defaut-de-traduction-ou-d-absence-anormale-de-traduction.html">discussion de signalement de défaut</a> dans le forum de l'équipe de traduction</li>
+				<li>dans la <a href="https://forums.beamdog.com/discussion/72773/signalement-de-defaut-de-traduction-ou-dabsence-anormale-de-traduction/p1">discussion de signalement de défaut</a> dans le forum officiel de Beamdog</li>
+			</ul>
+		</p>
+
+		<p>
+			Par ailleurs, bg2eetrans est <a href="https://github.com/Isaya/bg2eetrans">disponible sur GitHub</a>, où la communauté peut soumettre des correctifs et des modifications.
+		</p><br>
+
+
+			<address>
+				<span class="footer">bg2eetrans &gt; Dépannage</span> &#8226; <a href="#top">Haut de page</a>
+			</address>
+		</div>
+
+	<!-- ======================= C r e d i t s ====================== -->
+	  <a name="credits" id="credits"></a>
+		<div class="content">
+		<h2>
+			Crédits et remerciements
+		</h2><br>
+
+		<h3>
+			Crédits de la traduction française
+		</h3>
+		<h4>
+			Chef de projet / Coordination
+		</h4>
+		<ul>
+			<li>Lionel "La Voix" Bayle-Denise (jusqu'à 2016)</li>
+			<li>Denis "Isaya" Ribayrol (depuis 2017)</li>
+		</ul>
+
+		<h4>
+			Traduction (pour la partie déjà disponible)
+		</h4>
+		<ul>
+			<li>un traducteur payé par Beamdog pour l'essentiel de la quête de Rasaad dans SoA</li>
+			<li>Freddy_Gwendo</li>
+			<li>Isaya</li>
+			<li>Luren</li>
+		</ul>
+
+		<h4>
+			Traduction de l'interface graphique
+		</h4>
+		<ul>
+			<li>une société mandatée par Beamdog (2016)</li>
+			<li>mises à jour, compléments et corrections par Isaya, avec l'aide de suggestions de Kerozevok</li>
+		</ul>
+
+		<h4>
+			Relecture
+		</h4>
+		<ul>
+			<li>Freddy_Gwendo</li>
+			<li>Isaya</li>
+		</ul>
+
+		<h4>
+			Analyses des textes
+		</h4>
+		<ul>
+			<li>Marie-Violaine "Calawen" Polonowski</li>
+			<li>Graoumf</li>
+		</ul>
+
+		<h3>
+			Remerciements particuliers
+		</h3>
+
+		<ul>
+			<li>L'équipe de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour l'hébergement du forum de l'équipe de traduction de BG2EE.</li>
+			<li>Calawen, pour le travail considérable d'analyse du contenu du jeu et la rédaction de fichiers d'analyse présentant le contexte, sans lequel la traduction sera beaucoup plus compliquée et la qualité moindre.</li>
+ 			<li>les membres de l'équipe de traduction : Freddy_Gwendo, Isaya, McGregor777, N3ige, Scylla, slip, sombrepiaf</li>
+			<li>les contributeurs membres du forum La Couronne de Cuivre pour leurs suggestions de traduction</li>
+			<li>Graoumf, qui s'est efforcé de relancer l'intérêt pour cette traduction et m'a persuadé de m'en occuper &#128521;</li>
+			<li>zelurker, qui a eu le premier l'idée de proposer des notes de traduction en français dans sa déclinaison du mod</li>
+			<li>Beamdog, pour avoir donné leur accord pour travailler hors de leur site et autorisé l'intégration dans le mod de la traduction réalisée par un professionnel qu'ils avaient payé</li>
+		</ul>
+
+<hr>
+		<h3>
+			Appel à volontaires
+		</h3>
+		<p>
+			Nous sommes à la recherche de volontaires pour participer à la suite de la traduction de BG2EE. Bien entendu des traducteurs supplémentaires mais aussi des relecteurs et aussi des joueurs motivés pour signaler les défauts de la traduction disponible dans le mod.
+		</p>
+		<p>
+			Pour plus de précisions, vous pouvez consultez le <a href="https://www.baldursgateworld.fr/lacouronne/traduction-participative-de-bg2ee/">forum de l'équipe de traduction</a> sur le forum La Couronne de Cuivre.
+		</p>
+		<p>
+			Merci d'avance de l'aide que vous pourrez apporter à ce projet.
+		</p>
+
+<hr>
+		<h3>
+			Logiciels et outils utilisés pour la réalisation de ce mod :
+		</h3>
+		<ul>
+			<li>
+			  <a href="http://www.weidu.org/~thebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> de Wes Weimer, the bigg et Wisp.
+			</li>
+			<li>
+			  <a href="http://www.shsforums.net/topic/45358-nearinfinity/">Near Infinity</a> de Jon Olav Hauglid, FredSRichardson et Argent77.
+			</li>
+			<li>
+			  <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintenu par igi et lynx.
+ 			</li>
+			<li>
+			  <a href="http://notepad-plus-plus.org/">Notepad++</a> Don Ho et le plugin de correction orthographique.
+ 			</li>
+			<li>
+			  <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters </a> de Argent77.
+ 			</li>
+		</ul><br>
+
+<hr>
+		<h3>
+			Information sur les droits d'auteur
+		</h3>
+
+		<p>
+			La traduction de la quête de Rasaad et de sa romance a été effectuée par un traducteur payé par Beamdog (en 2014/2015). Nous avons obtenu l'autorisation de l'extraire de leur outil de traduction et l'intégrer à ce mod. Bien que le mod lui-même soit ouvert et que le reste soit traduit par des volontaires, les textes de la traduction concernant Rasaad ne peuvent pas être exploités sans un accord de Beamdog. Par conséquent, toute éventuelle dérivation du mod devra soit obtenir l'accord de Beamdog soit retirer les fichiers "Rasaad-SoA.tph" et "Rasaad-SoA.tra".
+		</p>
+		<p>
+			Compte tenu de la difficulté à mener à bien un tel projet de traduction, j'appelle plutôt les personnes intéressées à faire évoluer le mod à prendre contact avec l'équipe de traduction et l'auteur du mod pour proposer leur contribution qui sera sans doute bien accueillie plutôt que de chercher à œuvrer de leur côté sur une version dérivée.
+		</p>
+
+
+			<address>
+				<span class="footer">bg2eetrans &gt; Crédits et remerciements</span> &#8226; <a href="#top">Haut de page</a>
+			</address>
+		</div>
+
+	<!-- ======================= V e r s i o n s ====================== -->
+	  <a name="versions" id="versions"></a>
+		<div class="content">
+		<h2>
+			Historique des versions
+		</h2><br>
+
+		<p>
+			Remarque : la version s'écrit sous la forme X.Y.révision_du_jeu
+		</p>
+		<p>
+			La révision du jeu est la révision de BG2EE à partir de laquelle l'algorithme de recherche de correspondance de textes avec ceux de ToB et BGEE a été faite ou la dernière pour laquelle les textes ajoutés ou modifiés ont été pris en compte. Ce n'est pas nécessairement la dernière en cours. Cette révision n'a pas d'incidence sur la compatibilité du mod avec une version particulière du jeu.
+		</p>
+		<p>
+			La conséquence est que les textes ajoutés par Beamdog après la révision indiquée ne sont pas pris en compte et resteront en anglais quoi qu'il arrive. En cas de modification de texte, le mod ne tiendra pas non plus compte du changement. Néanmoins le risque est assez faible qu'il y ait eu des changements remettant en cause la validité du choix de reprendre la traduction d'origine ou de laisser le texte en anglais (pour les textes du jeu original).
+		</p>
+
+		<p class="version">
+			v0.7.16.6 - 29 septembre 2018
+		</p>
+		<ul>
+			<li>Ajout majeur de contenu traduit
+				<ul>
+					<li>quête de Rasaad dans SoA : dialogues, lieux, personnages (des noms de créatures peuvent ne pas être traduits)</li>
+					<li>sous-titre des voix pour le personnage principal et pour Rasaad</li>
+					<li>objets ajoutés par BG2EE</li>
+					<li>sorts ajoutés par BG2EE</li>
+				</ul>
+			</li>
+			<li>fichier L_fr_FR.lua désormais copié dans override pour la compatibilité avec des mods GUI touchant aux textes</li>
+			<li>corrections/améliorations diverses dans les textes repris de ToB (début de fusion de travaux 0 -> 500 environ)</li>
+			<li>compléments de traduction pour BG2EE V2.5.16.6 (L_fr_FR.lua et de nouveaux textes dans BG2EE)</li>
+			<li>procédure de désinstallation revue : il est possible de résinstaller le mod sans avoir du ménage à faire à la main</li>
+			<li>ajout d'un fichier readme plus détaillé</li>
+		</ul>
+
+		<p class="version">
+			v0.6.67.3 - 15 février 2017
+		</p>
+		<ul>
+			<li>corrections diverses proposées par Freddy_Gwendo</li>
+			<li>refonte complète de la gestion des textes ajoutés par BG2EE (au-delà de 74106) : il s'agit désormais d'une traduction vérifiée couvrant environ 900 textes</li>
+			<li>dans cette partie BG2EE, les récupérations de textes simples tels que "merci", "au revoir", "qu'est ce que vous voulez ?" ont été neutralisées (apport quasi nul, risque de mauvais adaptation au contexte, etc.)</li>
+		</ul>
+
+		<p class="version">
+			v0.5.67.3 - 8 janvier 2017
+		</p>
+		<ul>
+			<li>modification de la récupération de texte à partir de BGEE pour qu'elle ne prenne pas le pas sur de meilleurs textes trouvés dans ToB</li>
+			<li>nombreuses améliorations et corrections diverses de Freddy_Gwendo
+				<ul>
+					<li>respect de l'affichage avec ou sans majuscule initiale pour les noms de kits</li>
+					<li>corrections de mots, uniformisation avec les EE (ensorceleur, cavalier), retraits des "Utilisable par" restants</li>
+					<li>uniformisation de l'affichage des bonus des armes +n (sans espace)</li>
+					<li>des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits, en particulier pour les objets</li>
+				</ul>
+			</li>
+		</ul>
+
+		<p class="version">
+			v0.4.67.3 - 18 décembre 2016
+		</p>
+		<ul>
+			<li>récupération d'une centaine de traductions depuis BGEE V2.3.67.3</li>
+			<li>ajout de notes sur la version française (idée de zelurker)</li>
+			<li>nombreuses corrections de correspondances de textes grâce aux efforts de dricks, zelurker, Luren et Freddy_Gwendo
+				<ul>
+					<li>des correspondances inexactes ont été corrigées</li>
+					<li>des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits</li>
+					<li>restauration de voix et de sons ayant disparu ou incorrects (notamment sur des personnages recrutables)</li>
+				</ul>
+			</li>
+		</ul>
+
+		<p class="version">
+			V0.3.2064
+		</p>
+		<ul>
+			<li>correction du fichier de traduction de l'interface</li>
+			<li>différentiation Windows / Linux et Mac sur la manière de lancer l'installation des textes (retour de zelurker)</li>
+			<li>complément de détection d'erreur pour signaler l'utilisation d'une version insuffisante de WeiDU pour BG2EE V2.x</li>
+		</ul>
+
+		<p class="version">
+			V0.2.2064 - 28 mai 2016
+		</p>
+		<ul>
+			<li>récupération de texte relancée à partir des textes des versions 1.3 de BG2EE et BGEE<li>
+			<li>prise en compte de BG2EE V2.x ; ajout de la langue française dans BGEE.lua afin qu'elle soit accessible dans l'écran des options</li>
+			<li>ajout du fichier de traduction de l'interface du jeu pour BG2EE V2.x</li>
+		</ul>
+
+		<p class="version">
+			V0.1.2030 - 23 décembre 2013
+		</p>
+		<ul>
+			<li>version non diffusée ayant permis de générer les fichiers dialog.tlk et dialogF.tlk mis à disposition pour les versions 1.2 et ultérieurement 1.3 de BG2EE</li>
+		</ul>
+
+
+			<address>
+				<span class="footer">bg2eetrans &gt; Historique des versions</span> &#8226; <a href="#top">Haut de page</a>
+			</address>
+		</div>
+
+	</div>
+  </div>
+</body>
+</html>
+

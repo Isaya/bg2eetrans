@@ -51,7 +51,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 @74136 = ~Je peux t'enteeeeeendre !~
 
 // Quasi identique BGEE 29154, reformulation, correction traduction peripatetic
-@74137 = ~Il vous en a fallu du temps espèce de pathétique tas de péripatétiens ! Êtes-vous prêts pour votre tout premier combat dans mon arène ? J'ai une foule qui attend et je veux qu'ils assistent à un bon spectacle !~
+@74137 = ~Il vous en a fallu du temps espèce de pathétique tas de péripatéticiens ! Êtes-vous prêts pour votre tout premier combat dans mon arène ? J'ai une foule qui attend et je veux qu'ils assistent à un bon spectacle !~
 
 // Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29155
 @74138 = ~Nous sommes prêts.~
@@ -60,7 +60,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29157, likeliness 99.7 %
 @74140 = ~S'il vous plaît, libérez-nous et laissez-nous rentrer chez nous.~
 // Translation Retriever: perfect match found in file dialogEnBGEE_23cp1252.tra at Id 29158
-@74141 = ~Entrez dans l'arène avec nous Baeloth ! Nous vous abattrons et gagnerons notre liberté !~
+@74141 = ~Entrez dans l'arène avec nous, Baeloth ! Nous vous abattrons et gagnerons notre liberté !~
 
 //@74142 = ~Huzzah! Now then, are you ready to hear about what you'll be fighting? I do love to dangle fate above my pets.~
 //@29159 = ~Huzzah! Now then, are you ready to hear what fearsome foes you'll fight first?~
@@ -72,14 +72,13 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 @74145 = ~Et si on refuse ?~
 // Quasi identique BGEE 29163, reformulation mineure
 @74146 = ~Je vous tuerai bien sûr ! Et peut-être vos familles aussi ! Allons, arborez de grands sourires et... oh, bon sang, ne souriez pas peut-être. Vous devriez faire examiner ça par un clerc. Bref, revenons-en à nos affaires. Êtes-vous prêts à entendre contre qui vous allez vous battre ?~
-// Quasi identique BGEE 29164, retrait première phrase, remplacement du nom du djinn, 
+// Quasi identique BGEE 29164, retrait première phrase, remplacement du nom du djinn,
 @74147 = ~Si je venais à mourir, qui s'occuperait de mes invités ? Qui superviserait le djinn ? Qui convoquerait toujours plus de combattants pour l'arène ? Allons, ne soyez pas ridicules. Êtes-vous prêts à entendre contre qui vous allez vous battre ?~
 
 // Quasi identique BGEE 29172, reformulation mineure
 @74151 = ~Mon dieu, l'expression sur leur visage lorsqu'ils ont compris qu'ils ne reverraient plus jamais les dégoûtantes cavernes qu'ils appellent maison ! Je pense que ça mérite un bonus.~
 // Quasi identique BGEE 29173, reformulation
-@74152 = ~J'aime assez jouer avec des lanceurs de sorts mineurs. J'ai capturé ce petit nécromancien insolent alors qu'il fuyait Menzoberranzan. Comment est-il arrivé là, je n'en sais rien. Mais il invoque des squelettes 
-pour combattre à ses côtés avec une maîtrise stupéfiante.~ 
+@74152 = ~J'aime assez jouer avec des lanceurs de sorts mineurs. J'ai capturé ce petit nécromancien insolent alors qu'il fuyait Menzoberranzan. Comment est-il arrivé là, je n'en sais rien. Mais il invoque des squelettes pour combattre à ses côtés avec une maîtrise stupéfiante.~
 
 // Identique BGEE 29174, petite correction de la traduction
 @74153 = ~Troublant ! Vous semblez avoir le truc pour tuer les choses qui sont déjà mortes. Si seulement vous pouviez faire montre de plus de style et d'enthousiasme dans votre travail.~
@@ -156,7 +155,7 @@ pour combattre à ses côtés avec une maîtrise stupéfiante.~
 @74233 = ~Attendez ! Baeloth a dit que vous étiez esclave. Ensemble nous pourrions nous dresser contre lui !~
 
 // Translation Retriever: case sensitive exact match found in file dialogEnIWDEE_14cp1252.tra at Id 35955
-@74236 = ~Non. Tous les djinns ici sont sujet à un sort de Quête permanent, une magie puissante qui nous interdit de lui désobéir. Sans ce sort, nous l'aurions massacré il y a bien longtemps.~
+@74236 = ~Non. Tous les djinns ici sont sujets à un sort de Quête permanent, une magie puissante qui nous interdit de lui désobéir. Sans ce sort, nous l'aurions massacré il y a bien longtemps.~
 
 // Translation Retriever: Very likely string found in file dialogEnBGEE_23cp1252.tra at Id 29800, likeliness 99.8 %
 @74239 = ~Impressionnant, mortel. Vos exploits dans l'arène sont devenus... un sujet de conversation fréquent. Peut-être allez-vous établir un nouveau record pour le combattant ayant survécu le plus longtemps.~ ~Impressionnant, mortelle. Vos exploits dans l'arène sont devenus... un sujet de conversation fréquent. Peut-être allez-vous établir un nouveau record pour le combattant ayant survécu le plus longtemps.~
@@ -184,11 +183,11 @@ pour combattre à ses côtés avec une maîtrise stupéfiante.~
 // Identique BGEE 31828
 @74252 = ~Utilisable par :~
 // Identique BGEE 31492
-@74253 = ~Bien que votre père adoptif ait fait de son mieux pour vous guider sur le chemin de la vertu, vous avez toujours été fasciné par la puissance qui peut être obtenue en embrassant le mal. Peu intéressé par les grimoires ou la connaissance divine, vous suppliez vos tuteurs de vous enseigner l'art mortel du combat martial. Tous vos professeurs, de plus en plus gênés par votre attitude malveillante, ont refusé de vous en apprendre d'avantage. Pour autant, vous avez simplement changé de tuteur en négligeant les précédents. Votre soif du pouvoir vous a finalement mené à un tome interdit dans les profondeurs de Château-Suif, un tome qui vous a mis en contact avec un extérieur maléfique. En échange d’un sombre pouvoir, vous avez consenti à ce qu’il devienne votre protecteur. Maintenant, vous ne cherchez rien d'autre qu'une excuse pour quitter Château-Suif et exercer vos nouvelles capacités dans ce monde insoupçonné.~ ~Bien que votre père adoptif ait fait de son mieux pour vous guider sur le chemin de la vertu, vous avez toujours été fascinée par la puissance qui peut être obtenue en embrassant le mal. Peu intéressée par les grimoires ou la connaissance divine, vous suppliiez vos tuteurs de vous enseigner l'art mortel du combat martial. Tous vos professeurs, de plus en plus gênés par votre attitude malveillante, ont refusé de vous en apprendre d'avantage. Pour autant, vous avez simplement changé de tuteur en négligeant les précédents. Votre soif du pouvoir vous a finalement menée à un tome interdit dans les profondeurs de Château-Suif, un tome qui vous a mis en contact avec un extérieur maléfique. En échange d’un sombre pouvoir, vous avez consenti à ce qu’il devienne votre protecteur. Maintenant, vous ne cherchez rien d'autre qu'une excuse pour quitter Château-Suif et exercer vos nouvelles capacités dans ce monde insoupçonné.~
+@74253 = ~Bien que votre père adoptif ait fait de son mieux pour vous guider sur le chemin de la vertu, vous avez toujours été fasciné par la puissance qui peut être obtenue en embrassant le mal. Peu intéressé par les grimoires ou la connaissance divine, vous suppliiez vos tuteurs de vous enseigner l'art mortel du combat martial. Tous vos professeurs, de plus en plus gênés par votre attitude malveillante, ont refusé de vous en apprendre d'avantage. Pour autant, vous avez simplement changé de tuteur en négligeant les précédents. Votre soif de pouvoir vous a finalement mené à un tome interdit dans les profondeurs de Château-Suif, un tome qui vous a mis en contact avec un extérieur maléfique. En échange d’un sombre pouvoir, vous avez consenti à ce qu’il devienne votre protecteur. Maintenant, vous ne cherchez rien d'autre qu'une excuse pour quitter Château-Suif et exercer vos nouvelles capacités dans ce monde insoupçonné.~ ~Bien que votre père adoptif ait fait de son mieux pour vous guider sur le chemin de la vertu, vous avez toujours été fascinée par la puissance qui peut être obtenue en embrassant le mal. Peu intéressée par les grimoires ou la connaissance divine, vous suppliiez vos tuteurs de vous enseigner l'art mortel du combat martial. Tous vos professeurs, de plus en plus gênés par votre attitude malveillante, ont refusé de vous en apprendre d'avantage. Pour autant, vous avez simplement changé de tuteur en négligeant les précédents. Votre soif de pouvoir vous a finalement menée à un tome interdit dans les profondeurs de Château-Suif, un tome qui vous a mis en contact avec un extérieur maléfique. En échange d’un sombre pouvoir, vous avez consenti à ce qu’il devienne votre protecteur. Maintenant, vous ne cherchez rien d'autre qu'une excuse pour quitter Château-Suif et exercer vos nouvelles capacités dans ce monde insoupçonné.~
 // Identique BGEE 31493
-@74254 = ~À la grande irritation de votre père adoptif adoré, vous avez toujours eu un esprit sauvage. Les livres n’avaient aucun intérêt pour vous, ni même la discipline au combat. Les tuteurs ont passé des années à se demander que faire de vous, jusqu'au jour où une barbare Uthgardte du Val de Bise a rapporté un ancien parchemin à Château-Suif. Le peu de temps qu’elle est restée a eu un impact profond sur vous. Elle vous a enseigné la voie du barbare, la connexion avec les esprits de la nature, et la façon de libérer votre rage sauvage. Lorsqu'elle est partie, vous saviez que vous pourriez suivre le même chemin. Sa visite c’est déroulée il y a des années, depuis, vous avez trouvé les murs de Château-Suif étouffant.~
+@74254 = ~À la grande irritation de votre père adoptif adoré, vous avez toujours eu un esprit sauvage. Les livres n’avaient aucun intérêt pour vous, ni même la discipline au combat. Les tuteurs ont passé des années à se demander que faire de vous, jusqu'au jour où une barbare Uthgardte du Val de Bise a rapporté un ancien parchemin à Château-Suif. Le peu de temps qu’elle est restée a eu un impact profond sur vous. Elle vous a enseigné la voie du barbare, la connexion avec les esprits de la nature, et la façon de libérer votre rage sauvage. Lorsqu'elle est partie, vous saviez que vous pourriez suivre le même chemin. Sa visite c’est déroulée il y a des années, depuis, vous avez trouvé les murs de Château-Suif étouffants.~
 // Identique BGEE 31494
-@74255 = ~Votre jeunesse a été marquée par deux influences majeures : Gorion, votre père adoptif, et un groupe de moines au service de Bahamut qui a passé plusieurs années au sein de Château-Suif. Alors que Gorion travaillait à développer votre intelligence et votre bonté, ces moines apparemment étranges ont favorisé votre sagesse et votre discipline. Après leur départ, vous avez adopté leurs voies comme la vôtre, et vous vous faites appeler légitimement moine. Alors que vous chérissez ces années passées à Château-Suif, vous sentez maintenant l'envie de développer votre éveil spirituel.~
+@74255 = ~Votre jeunesse a été marquée par deux influences majeures : Gorion, votre père adoptif, et un groupe de moines au service de Bahamut qui a passé plusieurs années au sein de Château-Suif. Alors que Gorion travaillait à développer votre intelligence et votre bonté, ces moines apparemment étranges ont favorisé votre sagesse et votre discipline. Après leur départ, vous avez adopté leur voie comme la vôtre, et vous vous faites appeler légitimement moine. Alors que vous chérissez ces années passées à Château-Suif, vous sentez maintenant l'envie de développer votre éveil spirituel.~
 // Identique BGEE 31495
 @74256 = ~Inspiré par la connaissance de votre père adoptif dans les arts magiques, vous avez pris des mesures pour dupliquer ses capacités. Peu intéressé par une étude structurée de la magie, vous avez choisi d'exploiter la magie brute et la manière dont vous en ferez le meilleur usage. Gorion eu la gentillesse de vous donner des indications çà et là, mais il n'a jamais été très à l'aise avec votre approche téméraire de la magie. Après des années de pratique, vous sentez maintenant que vous êtes un ensorceleur capable, mais vous en apprendriez beaucoup plus en parcourant les Royaumes à la recherche d'une plus grande connaissance.~ ~Inspirée par la connaissance de votre père adoptif dans les arts magiques, vous avez pris des mesures pour dupliquer ses capacités. Peu intéressée par une étude structurée de la magie, vous avez choisi d'exploiter la magie brute et la manière dont vous en ferez le meilleur usage. Gorion eu la gentillesse de vous donner des indications çà et là, mais il n'a jamais été très à l'aise avec votre approche téméraire de la magie. Après des années de pratique, vous sentez maintenant que vous êtes une ensorceleuse capable, mais vous en apprendriez beaucoup plus en parcourant les Royaumes à la recherche d'une plus grande connaissance.~
 // Identique IWDEE 17318 ~jouer~ ou au contraire ToB 17318 ~lecture~
@@ -235,11 +234,11 @@ pour combattre à ses côtés avec une maîtrise stupéfiante.~
 @74278 = ~Poing +4~
 
 // Adapté de ToB 7407, utilisé par les versions à deux têtes
-@74285 = ~Fléau de l'Eternité +2~
+@74285 = ~Fléau de l'Éternité +2~
 // Repris de ToB 2496
 @74286 = ~Katana +1 de Yoshimo~
 // utilisé par RODSWORD, description en 93790, créé par Sceptre de puissance altière (ToB et IWDEE 38872, 39619), ~Épée longue de feu +1~ (ToB 39619) ~Épée longue enflammée +1~ (IWDEE 39619)
-@74287 = ~Épée longue enflammée +1~ 
+@74287 = ~Épée longue enflammée +1~
 // Identique IWDEE 40287
 @74288 = ~Poing +1~
 // Identique IWDEE 40288
@@ -250,7 +249,7 @@ pour combattre à ses côtés avec une maîtrise stupéfiante.~
 @74291 = ~RECOPIER~
 // Identique IWDEE 34776
 @74292 = ~copie effectuée~
-// 
+//
 @74293 = ~Mage~
 // Identique IWDEE 34778 : référencé dans OHBMC.DLG, mais ce DLG utilise des textes d'objets, interface, kits, etc.
 @74294 = ~N'importe qui.~
@@ -259,25 +258,25 @@ pour combattre à ses côtés avec une maîtrise stupéfiante.~
 // Identique BGEE 31970
 @74296 = ~maître des ombres~
 // Identique BGEE 31971
-@74297 = ~Maître des Ombres~
+@74297 = ~Maître des ombres~
 // Identique BGEE 31972
-@74298 = ~MAÎTRE DES OMBRES : Les Maîtres des Ombres font appel à la magie pour améliorer leurs capacités à se rendre discrets. Énigmatiques et dangereux, ces voleurs aux compétences uniques possèdent la capacité de se fondre parfaitement dans les ombres, mieux qu'aucun roublard commun, pour frapper sans crier gare... parfois avec une rapidité surnaturelle.
+@74298 = ~MAÎTRE DES OMBRES : Les Maîtres des ombres font appel à la magie pour améliorer leurs capacités à se rendre discrets. Énigmatiques et dangereux, ces voleurs aux compétences uniques possèdent la capacité de se fondre parfaitement dans les ombres, mieux qu'aucun roublard ordinaire, pour frapper sans crier gare... parfois avec une rapidité surnaturelle.
 
 Avantages :
-- Bonus de +10 % en Déplacement silencieux et Se cacher dans l'ombre.
-- Discrétion totale : le Maître des Ombres peut se cacher dans l'ombre même s'il est observé.
-- Esprit fuyant : bonus de +1 aux jets de sauvegarde.
+- Bonus de 10 % en Déplacement silencieux et Se cacher dans l'ombre.
+- Discrétion totale : le Maître des ombres peut se cacher dans l'ombre même s'il est observé.
+- Esprit fuyant : bonus de 1 aux jets de sauvegarde.
 - 'Pas de l'ombre' une fois par jour tous les 5 niveaux.
 
-PAS DE L'OMBRE : Permet d'entrer dans le Plan des Ombres et de s'y déplacer pendant 7 secondes, tandis que le temps est figé pour tout le reste du monde. Dans cet état, le Maître des Ombres ne peut ni attaquer, ni lancer de sorts.
+PAS DE L'OMBRE : Permet d'entrer dans le Plan de l'Ombre et de s'y déplacer pendant 7 secondes, tandis que le temps est figé pour tout le reste du monde. Dans cet état, le Maître des ombres ne peut ni attaquer, ni lancer de sorts.
 
 Inconvénients :
 - Ne peut être d'alignement loyal.
-- Il a recours à une version moins puissante de l'attaque sournoise des voleurs : 
-Niveaux 1 à 4 : x1 (pas de multiplicateur)
-Niveaux 5 à 8 : x2
-Niveaux 9 à 12 : x3
-Niveau 13+ : x4
+- Il a recours à une version moins puissante de l'attaque sournoise des voleurs :
+  Niveaux 1 à 4 : x1 (pas de multiplicateur)
+  Niveaux 5 à 8 : x2
+  Niveaux 9 à 12 : x3
+  Niveau 13+ : x4
 - Il n'a que 20 points de compétence par niveau (30 au premier niveau) à répartir dans les talents de voleur.
 - Ne peut pas poser de pièges.
 
@@ -285,20 +284,20 @@ Caractéristiques requises pour le jumelage : Force, Dextérité, Charisme.~
 // Identique BGEE 31973
 @74299 = ~protecteur nain~
 // Identique BGEE 31974
-@74300 = ~Protecteur Nain~
+@74300 = ~Protecteur nain~
 // Identique BGEE 31975
-@74301 = ~PROTECTEUR NAIN : Le Protecteur Nain est un formidable guerrier qui a la réputation de valoir deux soldats de toute autre race. Ayant reçu un entraînement intensif dans les techniques de combat naines, une poignée de ces robustes combattants peut rendre une ligne de front quasi-infranchissable.
+@74301 = ~PROTECTEUR NAIN : Le Protecteur nain est un formidable guerrier qui a la réputation de valoir deux soldats de toute autre race. Ayant reçu un entraînement intensif dans les techniques de combat naines, une poignée de ces robustes combattants peut rendre une ligne de front quasi-infranchissable.
 
 Avantages :
 - Dés de vie : d12.
 - Gagne 5 % de résistance aux dégâts tranchants, perforants, contondants et projectiles par tranche de 5 niveaux, jusqu'à un maximum de 20 % au niveau 20.
 - 'Position défensive' une fois par jour tous les 4 niveaux (une utilisation au niveau 1).
 
-POSITION DÉFENSIVE : Le Protecteur Nain gagne un bonus de +2 aux jets de Sauvegarde, 50 % de résistance à toute forme de dégâts physiques, et une pénalité de 50 % de vitesse de mouvement pendant un tour.
+POSITION DÉFENSIVE : Le Protecteur nain gagne un bonus de 2 à ses jets de sauvegarde, 50 % de résistance à toute forme de dégâts physiques, et une pénalité de 50 % à sa vitesse de déplacement pendant un tour.
 
 Inconvénients :
 - Doit être un nain.
-- Ne peut atteindre que la maîtrise (quatre étoiles) avec la Hache et le Marteau de guerre
+- Ne peut atteindre que la maîtrise (quatre étoiles) avec la hache et le marteau de guerre
 - Ne peut que se spécialiser (deux étoiles) dans le maniement de n'importe quelle autre arme.~
 // Identique BGEE 31976
 @74302 = ~disciple du dragon~
@@ -309,24 +308,24 @@ Inconvénients :
 
 Avantages :
 - Dés de vie : d6.
-- Niveau 1 : Bonus de +1 à la Classe d'armure.
+- Niveau 1 : Bonus de 1 à la Classe d'armure.
 - Niveau 3 : Attaque de souffle une fois par jour.
 
-ATTAQUE DE SOUFFLE : Le Disciple du dragon crache une flamme qui mesure 9 mètres de longueur. Le souffle inflige 3d8 dégâts de feu à toutes les créatures prises dans le cône de 140 degrés.
+ATTAQUE DE SOUFFLE : Le Disciple du dragon crache une flamme qui mesure 9 mètres de longueur. Le souffle inflige 3d8 dégâts de feu à toutes les créatures prises dans un cône de 140 degrés.
 
 - Niveau 4 : 25 % de résistance au feu.
-- Niveau 5 : Bonus de +1 à la Classe d'armure et à la Constitution.
+- Niveau 5 : Bonus de 1 à la Classe d'armure et à la Constitution.
 - Niveau 6 : Les dégâts de l'attaque de souffle augmentent jusqu'à 4d8.
 - Niveau 8 : 50 % de résistance au feu.
 - Niveau 9 : Les dégâts de l'attaque de souffle augmentent jusqu'à 5d8.
-- Niveau 10 : Bonus de +1 à la Classe d'armure.
+- Niveau 10 : Bonus de 1 à la Classe d'armure.
 - Niveau 12 : Les dégâts de l'attaque de souffle augmentent jusqu'à 6d8.
 - Niveau 12 : 75 % de résistance au feu.
 - Niveau 15 : Les dégâts de l'attaque de souffle augmentent jusqu'à 7d8.
-- Niveau 15 : Bonus de +1 à la Classe d'armure et à la Constitution.
+- Niveau 15 : Bonus de 1 à la Classe d'armure et à la Constitution.
 - Niveau 16 : 100 % de résistance au feu.
 - Niveau 18 : Les dégâts de l'attaque de souffle augmentent jusqu'à 8d8.
-- Niveau 20 : Bonus de +1 à la Classe d'armure.
+- Niveau 20 : Bonus de 1 à la Classe d'armure.
 
 Inconvénients :
 - Lance un sort de moins par niveau et par jour que l'ensorceleur.~
@@ -338,7 +337,7 @@ Inconvénients :
 @74307 = ~MOINE DE LA LUNE NOIRE : L'Ordre de la Lune Noire est un ordre monastique secret qui suit les préceptes de la sombre déesse Shar. Les Moines de la Lune Noire ont recours à leurs prouesses physiques, à la magie noire et à beaucoup de subterfuges différents pour dissimuler leurs activités et frapper avec une précision mortelle.
 
 Avantages :
-- Peut investir des points dans la compétence de Détection des illusions.
+- Peut investir des points dans la compétence Détection des illusions.
 - Bonus de +10 % en Détection des illusions.
 - Peut lancer 'Poing de glace' une fois par jour tous les 4 niveaux (une utilisation au niveau 1).
 
@@ -349,42 +348,42 @@ POING DE GLACE : Lorsque cette capacité est activée, les poings du Moine de l
 - Niveau 7 : 'Toucher vampirique' une fois par jour.
 - Niveau 11 : 'Image miroir' une fois par jour.
 
-Inconvénients : 
+Inconvénients :
 - Doit être d'alignement loyal-mauvais.
-- Ne peut utiliser la capacité d' 'Imposition des mains'.
-- Ne peut utiliser la capacité de 'Coup étourdissant'.~
+- Ne peut utiliser la capacité 'Imposition des mains'.
+- Ne peut utiliser la capacité 'Coup étourdissant'.~
 // Identique BGEE 31982
 @74308 = ~moine de la conscience solaire~
 // Identique BGEE 31983
 @74309 = ~Moine de la Conscience Solaire~
 // Quasi identique BGEE 31984 (typo en anglais), précision "9d6 dégâts de feu" conservée de BGEE car vérifié par Freddy_Gwendo
-@74310 = ~MOINE DE LA CONSCIENCE SOLAIRE : Les Moines de la Conscience Solaire étaient les suivants d'Amaunator au temps de Néthéril, mais aujourd'hui, leur culte est divisé entre Lathandre, Séluné et Sunie. Les Moines de la Conscience Solaire suivent strictement la loi, et ont recours à leur arts martiaux et leurs capacités magiques pour repousser le mal et la corruption où qu'ils se trouvent. 
+@74310 = ~MOINE DE LA CONSCIENCE SOLAIRE : Les Moines de la Conscience Solaire étaient les suivants d'Amaunator au temps de Néthéril, mais aujourd'hui, leur culte est divisé entre Lathandre, Séluné et Sunie. Les Moines de la Conscience Solaire suivent strictement la loi, et ont recours à leur arts martiaux et leurs capacités magiques pour repousser le mal et la corruption où qu'ils se trouvent.
 
 Avantages :
 - Niveau 2 : 'Rayon de la Conscience Solaire' une fois par jour.
 
-RAYON DE LA CONSCIENCE SOLAIRE : Le Moine de la Conscience Solaire projette un rayon de lumière de sa paume, infligeant à une cible unique 1d8 dégâts du feu tous les 2 niveaux pour un maximum de 5d8 au niveau 10. Les morts-vivants subissent 6 points de dégâts supplémentaires.
+RAYON DE LA CONSCIENCE SOLAIRE : Le Moine de la Conscience Solaire projette un rayon de lumière de sa paume, infligeant à une cible unique 1d8 points de dégâts du feu tous les 2 niveaux, avec un maximum de 5d8 au niveau 10. Les morts-vivants subissent 6 points de dégâts supplémentaires.
 
 - Niveau 5 : 'Poings enflammés' une fois par jour.
 
-POINGS ENFLAMMÉS : Le Moine de la Conscience Solaire concentre sa lumière intérieure dans ses attaques à mains nues, transformant ses poings en armes enflammées qui infligent 2d6 dégâts de feu supplémentaires pendant un round. La durée de cette capacité augmente jusqu'à 2 rounds au niveau 9, 3 rounds au niveau 12, 4 rounds au niveau 15 et 5 rounds au niveau 25. Cette capacité spéciale modifie automatiquement les attaques de base ; il n'y a pas besoin de changer d'arme.
+POINGS ENFLAMMÉS : Le Moine de la Conscience Solaire concentre sa lumière intérieure dans ses attaques à mains nues, transformant ses poings en armes enflammées qui infligent 2d6 points de dégâts de feu supplémentaires pendant un round. La durée de cette capacité augmente jusqu'à 2 rounds au niveau 9, 3 rounds au niveau 12, 4 rounds au niveau 15 et 5 rounds au niveau 25. Cette capacité spéciale modifie automatiquement les attaques de base ; il n'y a pas besoin de changer d'arme.
 
 - Niveau 6 : Peut avoir recours à 'Rayon de la Conscience Solaire' deux fois par jour.
-- Niveau 8 : 'Soleil Ascendant' une fois par jour.
+- Niveau 8 : 'Soleil ascendant' une fois par jour.
 
-SOLEIL ASCENDANT : Le Moine de la Conscience Solaire se nimbe de flammes qui agissent comme un Bouclier de feu (rouge), lui conférant 50 % de résistance au feu et le protégeant des attaques à moins d'1,5 mètres : un adversaire qui frappe le personnage avec une arme ou un sort subit 1d8 +2 dégâts de feu.
+SOLEIL ASCENDANT : Le Moine de la Conscience Solaire se nimbe de flammes qui agissent comme un Bouclier de feu (rouge), lui conférant 50 % de résistance au feu et le protégeant des attaques à moins de 1,5 mètres : un adversaire qui frappe le personnage avec une arme ou un sort subit 1d8 +2 points de dégâts de feu.
 
 - Niveau 10 : Peut avoir recours à 'Rayon de la Conscience Solaire' trois fois par jour.
 - Niveau 13 : 'Faisceau de la Conscience Solaire' une fois par jour.
 
-FAISCEAU DE LA CONSCIENCE SOLAIRE : Le Moine de la Conscience Solaire provoque une explosion de lumière intense qui touche toutes les créatures à moins de 9 mètres à la ronde. Le Faisceau de la Conscience Solaire ne frappe pas automatiquement toutes les cibles, mais consiste en une attaque de corps-à-corps basée sur le TAC0 du moine, et qui bénéficie d'un bonus de +3 contre les morts-vivants. Les victimes subissent 9d6 dégâts de feu, avec un bonus de +3 contre les morts-vivants, mais peuvent diviser les dommages par deux grâce à un jet de sauvegarde contre les sorts. En outre, toutes les créatures (excepté le personnage) doivent réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglées pendant 2 heures.
+FAISCEAU DE LA CONSCIENCE SOLAIRE : Le Moine de la Conscience Solaire provoque une explosion de lumière intense qui touche toutes les créatures à moins de 9 mètres à la ronde. Le Faisceau de la Conscience Solaire ne frappe pas automatiquement toutes les cibles, mais consiste en une attaque de corps-à-corps basée sur le TAC0 du moine, et qui bénéficie d'un bonus de 3 contre les morts-vivants. Les victimes subissent 9d6 points de dégâts de feu, avec un bonus de +3 contre les morts-vivants, mais peuvent diviser les dommages par deux grâce à un jet de sauvegarde contre les sorts. En outre, toutes les créatures (excepté le personnage) doivent réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglées pendant 2 heures.
 
 - Niveau 15 : Peut avoir recours à 'Rayon de la Conscience Solaire' quatre fois par jour.
 
 Inconvénients :
 - Doit être d'alignement loyal-bon.
-- Ne peut utiliser la capacité de 'Coup étourdissant'.
-- Ne peut utiliser la capacité de 'Paume vibratoire'.~
+- Ne peut utiliser la capacité 'Coup étourdissant'.
+- Ne peut utiliser la capacité 'Paume vibratoire'.~
 
 // Contribution de Luren : entrées journal @todo Titres à vérifier après fusion avec travaux des bénévoles
 @74318 = ~Yoshimo doit rencontrer Renal Bloodscalp~
@@ -423,7 +422,7 @@ Inconvénients :
 @74350 = ~Un Spectateur et son coffre sont inséparables~
 @74351 = ~Le donjon d'Arnise a été envahi~
 @74352 = ~Au service de l'esprit du Bosquet~
-@74353 = ~Chapitre 7~
+@74353 = ~Chapitre Sept~
 @74354 = ~Diriger le Théâtre des Cinq Chopes~
 @74355 = ~Le Rituel des Elfes Noirs~
 @74356 = ~Enlèvement de Nalia par Isaea Roenal~
@@ -460,7 +459,7 @@ Inconvénients :
 @74387 = ~L'enfant de Garren est sauvé~
 @74388 = ~La Transformation et le Rêve~
 @74389 = ~La rencontre avec Tolgerias le Mage Cagoulé~
-@74390 = ~Chapitre 3~
+@74390 = ~Chapitre Trois~
 @74391 = ~Dans l'asile~
 @74392 = ~Enquêter sur les activités de la Couronne de Cuivre~
 @74393 = ~Fin des meurtres dans les collines d'Umar~
@@ -469,23 +468,23 @@ Inconvénients :
 @74396 = ~La quête de la famille de Valygar s'achève~
 @74397 = ~Aux mains des Flagelleurs Mentaux !~
 @74398 = ~Vakola veut se venger de Keldorn~
-@74399 = ~Chapitre 5~
-@74400 = ~Chapitre 6~
+@74399 = ~Chapitre Cinq~
+@74400 = ~Chapitre Six~
 @74401 = ~Le vrai Firkraag~
 @74402 = ~Drizzt Do'Urden à la rescousse~
 @74403 = ~Jaheira renonce à son statuts de Ménestrel~
 @74404 = ~Jaheira jugée pas les Ménestrels~
 @74405 = ~Libération de Jan Jansen~
 @74406 = ~Anomen refuse de venger la mort de sa soeur~
-@74407 = ~Chapitre 4~
+@74407 = ~Chapitre Quatre~
 @74408 = ~Retour au Quartier Général des Ménestrels~
 @74409 = ~Bodhi remplit sa part du marché~
 // Identique BGEE 31283 : ~Un pense-bête de Belt~ (initiation)
 @74410 = ~Rappel de Belt~
 @74411 = ~Tuer le troll des mers pour Roger~
-@74412 = ~Chapitre 2~
+@74412 = ~Chapitre 2~ // Resté en chiffre car @16204 est déjà en lettre (BG II et BG2EE VO)
 @74413 = ~Mazzy Fentan sauvée des griffes du Seigneur de l'Ombre~
-@74414 = ~Chapitre 1~
+@74414 = ~Chapitre 1~ // Resté en chiffre car @16203 est déjà en lettre (BG II et BG2EE VO)
 @74415 = ~Au secours des dryades d'Irenicus~
 @74416 = ~La libération du Djinn~
 @74417 = ~Trouver un moyen de libérer Jaheira de sa cellule~
@@ -589,16 +588,16 @@ Inconvénients :
 // Identique BGEE 28605
 @77513 = ~Chevalier noir~
 // Quasi identique BGEE 28606 (diff mineure de forme en anglais), repris à l'identique de BGEE
-@77514 = ~CHEVALIER NOIR : Le Chevalier Noir est l'incarnation du mal. C'est plus un démon qui a pris forme humaine qu'un mortel. Ce scélérat mérite amplement sa réputation de noirceur. S'acoquinant avec les diables et les démons, servant les divinités maléfiques, le chevalier noir est craint et détesté de tous. Certaines vont jusqu'à appeler ces êtres perfides "anti-paladin", eu égard à leur nature complètement malfaisante.
+@77514 = ~CHEVALIER NOIR : Le chevalier noir est l'incarnation du mal. C'est plus un démon qui a pris forme humaine qu'un mortel. Ce scélérat mérite amplement sa réputation de noirceur. S'acoquinant avec les diables et les démons, servant les divinités maléfiques, le chevalier noir est craint et détesté de tous. Certaines vont jusqu'à appeler ces êtres perfides « anti-paladin », eu égard à leur nature complètement malfaisante.
 
 Avantages :
-- Immunité à l'absorption de niveau et la peur.
+- Immunité à l'absorption de niveau et à la peur.
 - Peut repousser les morts-vivants comme un Paladin de même niveau.
 - Peut utiliser 'Absorption de vie' une fois par jour.
 
 ABSORPTION DE VIE :
 
-Inflige 2 points de dégâts par niveau à un adversaire, et soigne le Chevalier Noir d'autant de points de vie.
+Inflige 2 points de dégâts par niveau à un adversaire, et soigne le chevalier noir d'autant de points de vie.
 
 - Peut utiliser 'Arme empoisonnée' une fois par jour tous les 5 niveaux (une utilisation au niveau 1).
 
@@ -606,27 +605,27 @@ ARME EMPOISONNÉE :
 
 Chaque coup réussi au cours des 5 prochains rounds empoisonnera la cible. Chaque cible ne peut être affectée qu'une fois par round. Le montant des dégâts de poison dépend du niveau du personnage :
 
-Niveau 1 : la cible subit 1 point de dégât de poison par seconde pendant 6 secondes (annulé par une sauvegarde contre la mort à +1)
-Niveau 5 : la cible subit 1 point de dégât de poison par seconde pendant 12 secondes (annulé par une sauvegarde contre la mort) et subit immédiatement 2 points de dégâts de poison (pas de sauvegarde)
-Niveau 9 : la cible subit 1 point de dégât de poison par seconde pendant 18 secondes (annulé par une sauvegarde contre la mort à -1) et subit immédiatement 4 points de dégâts de poison (pas de sauvegarde)
-Niveau 13 : la cible subit 1 point de dégât de poison par seconde pendant 24 secondes (annulé par une sauvegarde contre la mort à -2) et subit immédiatement 6 points de dégâts de poison (pas de sauvegarde)
+Niveau 1 : la cible subit 1 point de dégât de poison par seconde pendant 6 secondes (annulé par un jet de sauvegarde contre la mort à +1)
+Niveau 5 : la cible subit 1 point de dégât de poison par seconde pendant 12 secondes (annulé par un jet de sauvegarde contre la mort) et subit immédiatement 2 points de dégâts de poison (pas de sauvegarde)
+Niveau 9 : la cible subit 1 point de dégât de poison par seconde pendant 18 secondes (annulé par un jet de sauvegarde contre la mort à -1) et subit immédiatement 4 points de dégâts de poison (pas de sauvegarde)
+Niveau 13 : la cible subit 1 point de dégât de poison par seconde pendant 24 secondes (annulé par un jet de sauvegarde contre la mort à -2) et subit immédiatement 6 points de dégâts de poison (pas de sauvegarde)
 
 - Peut utiliser 'Aura de désespoir' une fois par jour à partir du niveau 3.
 
 AURA DE DÉSESPOIR :
 
-Lorsque cette capacité est utilisée, tous les ennemis situés à moins 9 mètres du Chevalier Noir subissent des effets néfastes en fonction du niveau du Chevalier Noir :
+Lorsque cette capacité est utilisée, tous les ennemis situés à moins 9 mètres du chevalier noir subissent des effets néfastes en fonction du niveau du chevalier noir :
 
-Niveau 3 : Inflige aux ennemis une pénalité de -1 aux jets de toucher et de dégâts et une pénalité de +2 à la Classe d’Armure pendant 1 tour.
-Niveau 6 : Inflige aux ennemis une pénalité de -2 aux jets de toucher et de dégâts et une pénalité de +2 à la Classe d’Armure pendant 1 tour.
-Niveau 15 : Inflige aux ennemis une pénalité de -4 aux jets de toucher et de dégâts et une pénalité de +4 à la Classe d’Armure pendant 1 tour, et cause la panique des ennemis de niveau 8 et inférieur.
-Niveau 20 : Inflige aux ennemis une pénalité de -4 aux jets de toucher et de dégâts et une pénalité de +4 à la Classe d’Armure pendant 1 tour, et cause la panique des ennemis de niveau 18 et inférieur.
+Niveau 3 : Inflige aux ennemis une pénalité de 1 à leurs jets de toucher et de dégâts et une pénalité de 2 à leur Classe d’armure pendant 1 tour.
+Niveau 6 : Inflige aux ennemis une pénalité de 2 à leurs jets de toucher et de dégâts et une pénalité de 2 à leur Classe d’armure pendant 1 tour.
+Niveau 15 : Inflige aux ennemis une pénalité de 4 à leurs jets de toucher et de dégâts et une pénalité de 4 à leur Classe d’armure pendant 1 tour, et cause la panique des ennemis de niveau 8 et inférieur.
+Niveau 20 : Inflige aux ennemis une pénalité de 4 à leurs jets de toucher et de dégâts et une pénalité de 4 à leur Classe d’armure pendant 1 tour, et cause la panique des ennemis de niveau 18 et inférieur.
 
 Inconvénients :
 - Doit être d'alignement mauvais.
-- Ne peut utiliser la capacité de 'Détection du mal'.
-- Ne peut utiliser la capacité d' 'Imposition des mains'.
-- Ne peut utiliser la capacité de 'Protection contre le mal'.~
+- Ne peut utiliser la capacité 'Détection du mal'.
+- Ne peut utiliser la capacité 'Imposition des mains'.
+- Ne peut utiliser la capacité 'Protection contre le mal'.~
 // Identique BGEE 1212
 @77515 = ~Page~
 // Identique BGEE 1213
@@ -750,12 +749,12 @@ Alex Boitsau~
 
 PARAMÈTRES :
 
-Capacités d'équipement :
+Capacité d'équipement :
 - classe d'armure : +2
 
 Poids : 1~
 
-// @todo objets, scripts, 85179, 85180, 85191, 85192, 85291 à 85299, 
+// @todo objets, scripts, 85179, 85180, 85191, 85192, 85291 à 85299,
 // @todo Wilson 86478, 86479, 87166 à 87206
 // @todo objets 87207 à 87212
 
@@ -764,24 +763,24 @@ Poids : 1~
 @86479 = ~GRIZZLY : En général, les ours sont des créatures larges et puissantes que l'on peut trouver dans des environnements froids ou tempérés. Leur fourrure épaisse les protège des éléments, et leurs griffes dévastatrices les protègent des autres animaux. Les ours représentent le véritable sommet de la chaîne alimentaire dans les lieux qu'ils peuplent.
 
 Avantages :
-- Armes naturelles : Un grizzly peut attaquer ses adversaires avec ses griffes et ses morsures. L'ours peut porter une attaque de morsure par round infligeant 1d10 points de dégâts perforants, ainsi qu'au moins deux attaques de griffes infligeant 1d6 dégâts tranchants chacune.
-- Lorsque l'ours réussit une attaque avec ses griffes, il a 15% de chances d'effectuer une étreinte qui infligera 2d6 dégâts contondants supplémentaires à la cible. Les créatures éthérées ou de très grande taille, telles que les ombres, les élémentaux, les géants, les golems ou les dragons ne sont pas affectées par cette capacité.
-- La Classe d'Armure du grizzly commence à 6 au niveau 1, puis diminue de 2 points tous les 6 niveaux, jusqu'à un maximum de -2 au niveau 24.
+- Armes naturelles : Un grizzly peut attaquer ses adversaires avec ses griffes et ses morsures. L'ours peut porter une attaque de morsure par round infligeant 1d10 points de dégâts perforants, ainsi qu'au moins deux attaques de griffes infligeant 1d6 points de dégâts tranchants chacune.
+- Lorsque l'ours réussit une attaque avec ses griffes, il a 15 % de chances d'effectuer une étreinte qui infligera 2d6 points de dégâts contondants supplémentaires à la cible. Les créatures éthérées ou de très grande taille, telles que les ombres, les élémentaires, les géants, les golems ou les dragons ne sont pas affectées par cette capacité.
+- La Classe d'armure du grizzly commence à 6 au niveau 1, puis diminue de 2 points tous les 6 niveaux, jusqu'à un maximum de -2 au niveau 24.
 - L'ours est naturellement compétent avec ses armes naturelles (comme s'il y avait alloué une étoile).
 - Régénération : L'ours régénère ses points de vie au rythme d'un point de vie par tour.
 - Combat à deux armes parfait : un ours se bat aussi bien avec les griffes de sa patte droite que la gauche, et ne souffre d'aucun malus au TAC0 lorsqu'il combat avec ses deux pattes.
-- Un ours entraîné peut boire des potions de soin à la bouteille. Cependant il n'apprécie pas le goût des autres potions magiques.
-- Niveau 1 : l'ours peut entrer en rage une fois par jour, ce qui lui fait profiter d'un bonus de +2 au TAC0, aux dégâts, et à la Classe d'Armure, ainsi que l'immunité au charme, à la terreur, la confusion, la débilité, l'immobilisation, l'étourdissement et le sommeil pendant un tour. Par la suite, il obtient un usage supplémentaire tous les 6 niveaux.
-- Niveau 7 : les armes naturelles deviennent des armes +1 ; spécialisation dans les armes naturelles (2 étoiles).
-- Niveau 8 : bonus de +1 en force ; la cadence de régénération augmente à 2 points de vie par tour.
-- Niveau 13 : les armes naturelles deviennent des armes +2 ; maîtrise dans les armes naturelles (3 étoiles) ; l'ours peut faire trois attaques et demi par round.
-- Niveau 16 : bonus supplémentaire de +1 en force ; la cadence de régénération augmente à 3 points de vie par tour.
-- Niveau 19 : les armes naturelles deviennent des armes +3 ; haute-maîtrise dans les armes naturelles (4 étoiles) ; l'ours peut faire quatre attaques par round.
-- Niveau 24 : bonus supplémentaire de +1 en force ; la cadence de régénération augmente à 4 points de vie par tour.
-- Niveau 25 : les armes naturelles deviennent des armes +4 ; grande maîtrise dans les armes naturelles (5 étoiles) ; l'ours peut faire quatre attaques et demi par round.
-- Niveau 31 ; les armes naturelles deviennent des armes +5 ; l'ours peut faire cinq attaques par round.
-- Niveau 32 : bonus supplémentaire de +1 en force ; la cadence de régénération augmente à 5 points de vie par tour.
-- Niveau 40 : bonus supplémentaire de +1 en force ; la cadence de régénération augmente à 6 points de vie par tour.
+- Un ours entraîné peut boire des potions de soin à la bouteille. Cependant, il n'apprécie pas le goût des autres potions magiques.
+- Niveau 1 : l'ours peut entrer en rage une fois par jour, ce qui lui fait profiter d'un bonus de 2 au TAC0, aux dégâts et à la Classe d'armure, ainsi que de l'immunité au charme, à la terreur, la confusion, la débilité, l'immobilisation, l'étourdissement et le sommeil pendant un tour. Par la suite, il obtient un usage supplémentaire tous les 6 niveaux.
+- Niveau 7 : ses armes naturelles deviennent des armes +1 ; spécialisation dans les armes naturelles (2 étoiles).
+- Niveau 8 : bonus de 1 en force ; la cadence de régénération augmente à 2 points de vie par tour.
+- Niveau 13 : ses armes naturelles deviennent des armes +2 ; maîtrise dans les armes naturelles (3 étoiles) ; l'ours peut faire trois attaques et demi par round.
+- Niveau 16 : bonus supplémentaire de 1 en force ; la cadence de régénération augmente à 3 points de vie par tour.
+- Niveau 19 : ses armes naturelles deviennent des armes +3 ; haute-maîtrise dans les armes naturelles (4 étoiles) ; l'ours peut faire quatre attaques par round.
+- Niveau 24 : bonus supplémentaire de 1 en force ; la cadence de régénération augmente à 4 points de vie par tour.
+- Niveau 25 : ses armes naturelles deviennent des armes +4 ; grande maîtrise dans les armes naturelles (5 étoiles) ; l'ours peut faire quatre attaques et demi par round.
+- Niveau 31 : ses armes naturelles deviennent des armes +5 ; l'ours peut faire cinq attaques par round.
+- Niveau 32 : bonus supplémentaire de 1 en force ; la cadence de régénération augmente à 5 points de vie par tour.
+- Niveau 40 : bonus supplémentaire de 1 en force ; la cadence de régénération augmente à 6 points de vie par tour.
 
 Inconvénients :
 - Ne peut pas utiliser d'équipement.
@@ -801,26 +800,9 @@ Inconvénients :
 // @todo noms 88426 à 88429
 // @todo objets 88856 à 88878
 
-// @todo 88879 à 88919, 88996 à 89137 voix personnage principal à retranscrire en texte
-/*********************************************************************
-  @todo A revoir 89094 à 89113 concernent Male4 et non Male005 comme @16235 à 16247
-  16235 à 16247 conviendraient mieux à 89114 à 89133, sauf que le son est Male5 et non Male005
-  ********************************************************************/
-//	STRING_SET ~89094~ @16235	// manuel 
-//	STRING_SET ~89095~ @16236	// manuel
-//	STRING_SET ~89096~ @16237	// manuel
-//	STRING_SET ~89097~ @16238	// manuel
-//	STRING_SET ~89098~ @16239	// manuel
-//	STRING_SET ~89099~ @16240	// manuel
-//	STRING_SET ~89100~ @16241	// manuel
-//	STRING_SET ~89101~ @16242	// manuel
-//	STRING_SET ~89102~ @16243	// manuel
-//	STRING_SET ~89103~ @16244	// manuel
-//	STRING_SET ~89104~ @16245	// manuel
-//	STRING_SET ~89105~ @16246	// manuel
-//	STRING_SET ~89106~ @16247	// manuel
+// 88879 à 88919, 88996 à 89137 (suite voir 100285 à 100347) : voix personnage principal, cf fichier Personnages
 
-// @todo objets 89729, 89730, 90138 à 90141, 90176 à 90184, 
+// @todo objets 89729, 89730, 90138 à 90141, 90176 à 90184,
 
 // @todo objets 90190, 90368, 90369, 90959 à 90974
 // @todo objets 91200, 91201, 91223, 91257 à 91262, 92588, 92590 à 92592, 92741, 92742, 92971, 92972
@@ -862,13 +844,13 @@ Remarque : si la résolution de votre écran est inférieure à 1024x768, cette 
 @93786 = ~PRÊTRE DE TYR : Tyr est la divinité de la justice et de la loi. Ses principales préoccupations sont le châtiment des criminels et la promotion de la loi et du bien dans le monde. La croyance en la justice rendue par l'exercice bienveillant de la force, ou du moins la vigilance armée, est sa raison d'être. Tyr est une divinité d'importance dans le panthéon Féérûnien grâce à sa position de leader de la Triade, un trio de dieux d'alignement loyal-bon qui représentent chacun les concepts de courage, de justice, de persévérance, de devoir, d'obéissance, d'honneur, de soulagement de la souffrance et, dans une certaine mesure, de martyre vertueux.
 
 Avantages :
-- 'Exaltation' une fois par jour tous les 5 niveaux (une utilisation au niveau 1). 
+- 'Exaltation' une fois par jour tous les 5 niveaux (une utilisation au niveau 1).
 
 EXALTATION : Ce sort permet au prêtre de porter secours à une personne autre que lui-même. En touchant la cible, il la guérit de tout effet de peur, de sommeil, de débilité mentale, d'inconscience, d'ébriété, de rage et de confusion. En outre, la cible est protégée de tous les effets précédemment décrits pendant un tour.
 
 - 'Faveur divine' une fois par jour tous les 10 niveaux (une utilisation au niveau 1).
 
-FAVEUR DIVINE : Ce sort fait bénéficier au lanceur d'un bonus de +1 aux jets d'attaque et de dégâts tous les 3 niveaux de prêtre pendant deux rounds.
+FAVEUR DIVINE : Ce sort fait bénéficier au lanceur d'un bonus de 1 à ses jets d'attaque et de dégâts tous les 3 niveaux de prêtre pendant deux rounds.
 
 Inconvénients :
 - Doit être d'alignement loyal-bon, neutre-bon ou loyal-neutre.~
@@ -879,42 +861,42 @@ Inconvénients :
 // Identique IWDEE 6695
 @93789 = ~Hache d'armes +2~
 
-// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre)
-@93790 = ~Cette épée a été créée par l'intermédiaire du Sceptre de Puissance Altière. Utilisez sa capacité spéciale pour revenir à la forme du sceptre et pouvoir choisir une autre arme.
+// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre) - Note de Freddy : correction du correcfr (Sceptre de puissance altière)
+@93790 = ~Cette épée a été créée par l'intermédiaire du Sceptre de puissance altière. Utilisez sa capacité spéciale pour revenir à la forme du sceptre et pouvoir choisir une autre arme.
 
 PARAMÈTRES :
 
-Capacités de combat:
+Capacités de combat :
 - la cible doit réussir un jet de sauvegarde contre les sorts (à +5) ou être immobilisée pendant cinq rounds
 
 TAC0 : +1
 Dégâts : 1d8 +1 (tranchant)
-Facteur de vitesse: 4
+Facteur de vitesse : 4
 Type de compétence : épée longue
 Type : arme à une main
-Nécessite : 6 en force
+Nécessite : 6 en Force
 
 Poids : 4~
-// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre)
-@93791 = ~Cette lance a été créée par l'intermédiaire du Sceptre de Puissance Altière. Utilisez sa capacité spéciale pour revenir à la forme du sceptre et pouvoir choisir une autre arme.
+// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre) - id.
+@93791 = ~Cette lance a été créée par l'intermédiaire du Sceptre de puissance altière. Utilisez sa capacité spéciale pour revenir à la forme du sceptre et pouvoir choisir une autre arme.
 
 PARAMÈTRES :
 
-Capacités de combat:
+Capacités de combat :
 - la cible doit réussir un jet de sauvegarde contre les sorts (à +6) ou subir 2d4 points de dégâts magiques
 
 TAC0 : +3
 Dégâts : 1d6 +3 (perforant)
-Facteur de vitesse: 3
+Facteur de vitesse : 3
 Type de compétence : lance
 Type : arme à deux mains
-Nécessite : 5 en force
+Nécessite : 5 en Force
 
 Poids : 5~
 
 // Identique BGEE 30190
 @93792 = ~Armure de cuir +2~
-// Identique BGEE 6663
+// Identique BGEE 6663 - Note de Freddy : traduire Mist of Shadows par Brumes d'Ombres me gêne un tantinet.
 @93793 = ~Le Protecteur du Second
 Les Brumes d'Ombres étaient un groupe d'élite d'elfes rôdeurs habitant la forêt de Cormanthor, terrifiant bandits et monstres. Cette armure était celle d'Indeera Lakhan, l'un des officiers les plus décorés de ce groupe, dont elle était le commandant en second. L'armure porte son nom, mais on ignore dans quelles circonstances Indeera en a été séparée.
 
@@ -936,34 +918,16 @@ Poids : 5~
 
 // Complété à partir de BGEE 24630
 @95115 = ~Les nouveaux joueurs devraient commencer avec l'initiation.
-Les Ombres d'Amn est la suite de Baldur's Gate: Enhanced Edition.~
+Les Ombres d'Amn est la suite de Baldur's Gate : Enhanced Edition.~
 // Identique BGEE 32216 + majuscule initiale
 @95116 = ~Installé~
 
-// Contribué par Freddy_Gwendo
-@95117 = ~Lampe à huile~ // OHHOIL identified name
-// Contribué par Freddy_Gwendo
-@95118 = ~Une lampe remplie d'huile.
-
-PARAMÈTRES :
-
-Poids : 1~ // OHHOIL identified description
-
 // @todo objets 95119, 95120
-
-// Contribué par Freddy_Gwendo
-@95121 = ~Statue dorée~ // OHHSTAT1, OHHSTATU identified name
-// Contribué par Freddy_Gwendo
-@95122 = ~Cette petite statue dorée représente un jeune garçon.
-
-PARAMÈTRES :
-
-Poids : 1~ // OHHSTAT1, OHHSTATU identified description
 
 // Identique BGEE 25480
 @95127 = ~VOLEUR CONTRÔLÉ~
 // Identique BGEE 25481
-@95128 = ~Ce script permet à un voleur d'avoir recours soit à sa compétence de détection des pièges, soit à sa capacité à se cacher dans l'ombre lorsqu'il est inactif. Par défaut, le voleur détecte les pièges lorsqu'il n'y a aucun ennemi à proximité. Appuyer sur la touche "D" permet de modifier ce comportement, et faire en sorte que le voleur tente de se cacher dans l'ombre dès lors qu'aucun ennemi n'est en vue. Remarquez qu'un voleur ne peut ni attaquer d'adversaire, ni se défendre lorsque l'un de ces compétence est active. Appuyer sur la touche "V" permet de modifier ce comportement, et faire en sorte que le voleur cesse d'utiliser ces capacités de classe pour attaquer l'ennemi le plus proche. (<script>)~
+@95128 = ~Ce script permet à un voleur d'avoir recours soit à sa compétence de détection des pièges, soit à sa capacité à se cacher dans l'ombre lorsqu'il est inactif. Par défaut, le voleur détecte les pièges lorsqu'il n'y a aucun ennemi à proximité. Appuyer sur la touche "D" permet de modifier ce comportement, et faire en sorte que le voleur tente de se cacher dans l'ombre dès lors qu'aucun ennemi n'est en vue. Remarquez qu'un voleur ne peut ni attaquer d'adversaire, ni se défendre lorsque l'une de ces compétence est active. Appuyer sur la touche "V" permet de modifier ce comportement, et faire en sorte que le voleur cesse d'utiliser ces capacités de classe pour attaquer l'ennemi le plus proche. (<script>)~
 // Identique BGEE 25484
 @95129 = ~BARDE CONTRÔLÉ~
 // Identique BGEE 25485
@@ -971,7 +935,7 @@ Poids : 1~ // OHHSTAT1, OHHSTATU identified description
 // Identique BGEE 25491
 @95131 = ~CLERC CONTRÔLÉ~
 // Identique BGEE 25492
-@95132 = ~Ce script permet à un clerc ou un paladin d'avoir recours à sa capacité à repousser les morts-vivants lorsqu'il est inactif. Par défaut, le personnage ne repousse les morts-vivants que lorsqu'un ennemi mort-vivant est à proximité, et cesse lorsqu'il n'y a plus d'adversaire mort-vivant en vue. Appuyer sur la touche "D" permet de modifier ce comportement, et faire en sorte que le personnage repousse les morts-vivants continuellement, ennemi en vue ou pas. Remarquez qu'un clerc ou un paladin ne peut ni attaquer d'adversaire, ni se défendre lorsque la capacité de repousser les morts-vivants est active. Appuyer sur la touche "V" permet de modifier ce comportement, et faire en sorte que le personnage cesse de repousser les morts-vivants pour attaquer l'ennemi le plus proche. Appuyer sur "V" une deuxième fois permet au personnage d'attaquer les ennemis non-morts-vivants à vue, et avoir automatiquement recours à la capacité de repousser les morts-vivants lorsqu'un adversaire mort-vivant est à proximité. (<script>)~
+@95132 = ~Ce script permet à un clerc ou un paladin d'avoir recours à sa capacité à repousser les morts-vivants lorsqu'il est inactif. Par défaut, le personnage ne repousse les morts-vivants que lorsqu'un ennemi mort-vivant est à proximité, et cesse lorsqu'il n'y a plus d'adversaire mort-vivant en vue. Appuyer sur la touche "D" permet de modifier ce comportement, et faire en sorte que le personnage repousse les morts-vivants continuellement, ennemi en vue ou pas. Remarquez qu'un clerc ou un paladin ne peut ni attaquer d'adversaire, ni se défendre lorsque la capacité à repousser les morts-vivants est active. Appuyer sur la touche "V" permet de modifier ce comportement, et faire en sorte que le personnage cesse de repousser les morts-vivants pour attaquer l'ennemi le plus proche. Appuyer sur "V" une deuxième fois permet au personnage d'attaquer les ennemis non-morts-vivants à vue, et avoir automatiquement recours à la capacité à repousser les morts-vivants lorsqu'un adversaire mort-vivant est à proximité. (<script>)~
 // Identique BGEE 25493
 @95133 = ~Repousse les morts-vivants constamment si inactif~
 // Identique BGEE 25494
@@ -995,39 +959,39 @@ Poids : 1~ // OHHSTAT1, OHHSTATU identified description
 // @todo objets (BGII) 95161, 95162
 
 // @todo achat boutique 95310 à 95316
-@95310 = ~Un compagnon Chevalier Noir assoiffé de sang et deux nouvelles aventures qui étendent la campagne principale~
-@95311 = ~Le patron démon Ur-Gothoz récompense ceux qui obéissent, et ses récompenses sont généreuses. Abattez ses ennemis aux côtés du serviteur Chevalier Noir du patron démon, Dorn, jusqu'à ce qu'un choix se présente de lui-même : devriez-vous défier l'ennemi le plus haï d'Ur-Gothoz, ou le patron démon lui-même ?
+@95310 = ~Un compagnon Chevalier noir assoiffé de sang et deux nouvelles aventures qui étendent la campagne principale~
+@95311 = ~Le patron démon Ur-Gothoz récompense ceux qui obéissent, et ses récompenses sont généreuses. Abattez ses ennemis aux côtés du serviteur Chevalier noir du patron démon, Dorn, jusqu'à ce qu'un choix se présente de lui-même : devriez-vous défier l'ennemi le plus haï d'Ur-Gothoz, ou le patron démon lui-même ?
 
-Dans Le Trône de Bhaal, les conséquences de votre choix reviendront vous hanter. Pour échapper au châtiment divin, prenez d'assaut les portes des cieux eux-mêmes et effacez votre nom du Parchemin de châtiment. En cas de succès vous obtiendrez un puissant allié mais un échec signifiera votre perte.
+Dans Le Trône de Bhaal, les conséquences de votre choix reviendront vous hanter. Pour échapper au châtiment divin, prenez d'assaut les portes des cieux eux-mêmes et effacez votre nom du Parchemin de châtiment. En cas de succès vous obtiendrez un puissant allié, mais un échec signifiera votre perte.
 
 Caractéristiques :
-– un nouveau compagnon, rencontré dans le quartier des Temples
-– une nouvelle quête dans Les Ombres d'Amn
-– une nouvelle quête dans Le Trône de Bhaal
-– 4 grands nouveaux lieux à explorer~
+– un nouveau compagnon, rencontré dans le quartier des Temples,
+– une nouvelle quête dans Les Ombres d'Amn,
+– une nouvelle quête dans Le Trône de Bhaal,
+– 4 grands nouveaux lieux à explorer.~
 @95312 = ~Une compagne mage entropique originale et deux nouvelles aventures qui étendent la campagne principale~
 @95313 = ~Les mages rouges traquent les mages entropiques sur toute la Côte des Épées et vous vous êtes retrouvé(e) impliqué(e) dans le conflit. Avec l'aide de la chef des mages entropiques, Neera, affrontez les mages rouges dans leur enclave d'Athkatla et renvoyez-les à Thay.
 
-Dans Le Trône de Bhaal, la lutte contre les mages rouges atteint son paroxysme avec une confrontation avec leur chef, Autharch Vicross. Il n'y a qu'une seule façon d'assurer votre sécurité : ne laisser personne vivant pour vous traquer.
+Dans Le Trône de Bhaal, la lutte contre les mages rouges atteint son paroxysme avec une confrontation avec leur chef, l'Autharch Vicross. Il n'y a qu'une seule façon d'assurer votre sécurité : ne laisser personne vivant pour vous traquer.
 
 Caractéristiques :
-- Une nouvelle compagne, rencontrée dans la quartier du Pont
-– une nouvelle quête dans Les Ombres d'Amn
-– une nouvelle quête dans Le Trône de Bhaal
-– 4 grands nouveaux lieux à explorer~
+- une nouvelle compagne, rencontrée dans la quartier du Pont,
+– une nouvelle quête dans Les Ombres d'Amn,
+– une nouvelle quête dans Le Trône de Bhaal,
+– 4 grands nouveaux lieux à explorer.~ // NOTE de Freddy ; Autarch est un titre, pas un prénom.
 @95314 = ~Une mystérieuse compagne voleuse et deux nouvelles aventures qui étendent la campagne principale~
 @95315 = ~Six nouveaux portraits pour personnaliser votre héros/héroïne~
 @95316 = ~Concevez le héros ou l'héroïne parfait pour votre partie avec six portraits supplémentaires de l'artiste Kieran Yanner.
 
-Créez un nouveau héros ou une nouvelle héroïne et choisissez un de ces six portraits saisissants pendant la création du personnage ou donnez un nouvel aspect à un héros ou une héroïne existant en cours de partie grâce au menu Personnaliser de l'écran Fiche de personnage.
+Créez un nouveau héros ou une nouvelle héroïne et choisissez un de ces six portraits saisissants pendant la création du personnage, ou donnez un nouvel aspect à un héros ou une héroïne existant en cours de partie grâce au menu Personnaliser de l'écran Fiche de personnage.
 
 Caractéristiques :
-- Trois portraits masculins
-- Trois portraits féminins~
+- trois portraits masculins,
+- trois portraits féminins.~
 // Autres DLC : voir 102522
 
 // Identique BGEE 32307
-@95634 = ~Chevalier Noir Déchu~
+@95634 = ~Chevalier noir déchu~
 
 // @todo objets 95635 à 95641
 
@@ -1035,7 +999,7 @@ Caractéristiques :
 @95641 = ~Épée courte +2~
 
 // Identique IWDEE 6684
-@96053 = ~Armure de plates complète + 1~
+@96053 = ~Armure de plates complète +1~
 // Identique IWDEE 6722
 @96054 = ~Dague +2~
 // IDWEE 6714 pour le même texte, traduction ~La Lame de Suryris +2~
@@ -1053,10 +1017,10 @@ Caractéristiques :
 // @todo textes de journal BG II 96383 à 96393, 96437, 96469, 96521, 96522, 96528
 // 96562, 96563, 96576, 96586, 96636, 9663è, 96642, 96648, 96650, 96655, 96656, 96686 à 96688,
 // 97314 jusqu'à 97358
-// @todo objets 97323, 97324, 
+// @todo objets 97323, 97324,
 
 // Traduit
-@99385 = ~Contributeurs volontaires pour la langue Anglaise
+@99385 = ~Contributeurs volontaires pour la langue anglaise
 
 Giuseppe "Aedan" Calì
 Gaëtan "Headbomb" Landry
@@ -1102,7 +1066,7 @@ Anders "hook71" Svensson
 // Traduction en partie reprise de BGEE 30012 (texte incomplet pour BGEE mais correct pour BG2EE)
 @99833 = ~Maintenez appuyé sur l'arme pour l'attraper. Glissez-la sur le mannequin de votre personnage et appuyez à nouveau.~
 // Identique BGEE 30014
-@99834 = ~Bien joué ! Il est temps pour nous de monter à l'étage. Si vous appuyez sur les escaliers, vous verrez que l'icône  d'escaliers apparaît.~
+@99834 = ~Bien joué ! Il est temps pour nous de monter à l'étage. Si vous appuyez sur les escaliers, vous verrez que l'icône d'escaliers apparaît.~
 // Identique BGEE 30016
 @99835 = ~Quand une icône comme celle-ci apparaît, cela signifie que vous êtes sur le point d'effectuer une action autre que se déplacer.~
 // Identique BGEE 30018
@@ -1122,31 +1086,31 @@ Anders "hook71" Svensson
 // Identique BGEE 30069
 @99843 = ~Appuyez sur mon bouton Lancer un Sort, choisissez un sort, et appuyez sur votre cible. Mon bouton de lancement de sorts est l'icône de Sort en bas de l'écran. Vous devez me sélectionner pour avoir accès à mes sorts.~
 // Quasi identique BGEE 30072, retrait mention du sort de soin
-@99844 = ~Vous n'avez pas encore lancé de sort, pour le moment. Appuyez sur mon bouton Lancer un Sort, choisissez un sort, et appuyez sur votre cible. Si vous n'avez pas le sort en mémoire, vous pouvez vous reposer afin de le mémoriser.~
+@99844 = ~Vous n'avez pas encore lancé de sort pour le moment. Appuyez sur mon bouton Lancer un Sort, choisissez un sort, et appuyez sur votre cible. Si vous n'avez pas le sort en mémoire, vous pouvez vous reposer afin de le mémoriser.~
 // Quasi identique BGEE 30157, identique 99911
-@99845 = ~Tout lanceur de sorts (hormis l'ensorceleur et le shaman) doit mémoriser ses sorts grâce au bouton Repos sur le panneau de gauche, après avoir choisi ses sorts dans le Livre de Sorts ou le Parchemin de Prêtre. Pour aller sur ces pages, appuyez et maintenez la pression sur le portrait du personnage puis choisissez l'icône de Livre de Sorts ou de Parchemin de Prêtre qui figure sur le panneau à gauche de l'écran.~
+@99845 = ~Tout lanceur de sorts (hormis l'ensorceleur et le shaman) doit mémoriser ses sorts grâce au bouton Repos sur le panneau de gauche, après avoir choisi ses sorts dans le Livre de Sorts ou le Parchemin de Prêtre. Pour aller sur ces pages, appuyez et maintenez la pression sur le portrait du personnage, puis choisissez l'icône de Livre de Sorts ou de Parchemin de Prêtre qui figure sur le panneau à gauche de l'écran.~
 // Identique BGEE 30077
 @99846 = ~Choisissez les sorts que vous souhaitez mémoriser et appuyez ensuite sur le bouton de Repos. Quand vous vous êtes suffisamment reposé, tous vos sorts sont mémorisés.~ ~Choisissez les sorts que vous souhaitez mémoriser et appuyez ensuite sur le bouton de Repos. Quand vous vous êtes suffisamment reposée, tous vos sorts sont mémorisés.~
 // Identique BGEE 30091
 @99847 = ~Pour utiliser cette compétence, il faut appuyer sur le bouton de Larcin en bas de l'écran. Ce bouton n'apparaît bien entendu que si un voleur est sélectionné. Le bouton Larcin est représenté par une icône de masque, que les voleurs sont réputés porter occasionnellement.~
-// Identique BGEE 30093
-@99848 = ~Une fois le bouton de Larcin activé, appuies sur la personne dont tu souhaites faire les poches.~
+// Identique BGEE 30093 - Note de Freddy : pourquoi passez au tutoiement ? Isaya : c'est Imoen qui parle, a priori, comme les textes qui suivent (dialogue du tutoriel de BG II)
+@99848 = ~Une fois le bouton de Larcin activé, appuie sur la personne dont tu souhaites faire les poches.~
 // Identique BGEE 30096
 @99849 = ~Tu n'as pas encore la gemme. Qu'est-ce qui te prend autant de temps ? Pour utiliser cette compétence tu dois activer le bouton Larcin en bas de ton écran. Après avoir sélectionné le bouton Larcin, appuie sur le personnage que tu souhaites dépouiller. Rappelle-toi, le bouton Larcin est représenté par une icône de masque. Vole la gemme de Belt !~
 // Identique BGEE 30101
 @99850 = ~Pour désarmer un piège, tu dois activer le bouton Larcin. Tu dois ensuite appuyer sur le piège dessiné en rouge. Mais attention ! Si tu échoues à le désarmer, le piège peut se déclencher.~
 // Identique BGEE 30104
-@99851 = ~Pourquoi mets-tu si longtemps à le désamorcer ?! Dépêche-toi ! Rappelle-toi , pour désarmer un piège, tu dois activer le bouton Larcin. Tu dois ensuite appuyer sur le piège en rouge.  Le bouton Larcin est représenté par une icône de masque.~
+@99851 = ~Pourquoi mets-tu si longtemps à le désamorcer ?! Dépêche-toi ! Rappelle-toi, pour désarmer un piège, tu dois activer le bouton Larcin. Tu dois ensuite appuyer sur le piège en rouge. Le bouton Larcin est représenté par une icône de masque.~
 // Identique BGEE 30107
 @99852 = ~La prochaine compétence que tu dois apprendre est la capacité à crocheter des serrures. Pour crocheter une serrure, tu dois activer le bouton Larcin et ensuite appuyer sur tout conteneur verrouillé que tu veux ouvrir. Encore une fois, le bouton Larcin est représenté par une icône de masque.~
 // Identique BGEE 30110
-@99853 = ~Alors, on se tourne les pouces ?! Pour crocheter une serrure tu dois activer le bouton Larcin et ensuite appuyer sur tout conteneur verrouillé que tu souhaites ouvrir.  Encore une fois, le bouton Larcin est représenté par une icône de masque.~
+@99853 = ~Alors, on se tourne les pouces ?! Pour crocheter une serrure, tu dois activer le bouton Larcin et ensuite appuyer sur tout conteneur verrouillé que tu souhaites ouvrir. Encore une fois, le bouton Larcin est représenté par une icône de masque.~
 // Identique BGEE 30113
-@99854 = ~Tu as peut-être remarqué qu'en bas de l'écran il y a un bouton Furtivité. Appuie simplement sur ce bouton et le voleur va tenter de "se cacher dans l'ombre". Le bouton Furtivité est représenté  par un visage à moitié dans l'ombre.~
+@99854 = ~Tu as peut-être remarqué qu'en bas de l'écran il y a un bouton Furtivité. Appuie simplement sur ce bouton et le voleur va tenter de "se cacher dans l'ombre". Le bouton Furtivité est représenté par un visage à moitié dans l'ombre.~
 // Identique BGEE 30118
 @99855 = ~Pour poser un piège, tu dois d'abord aller dans les Capacités Spéciales. Pour cela, appuie sur le bouton des Capacités Spéciales en bas à droite de ton écran. Ce bouton est une icône d'étoile à quatre branches.~
 // Identique BGEE 30120
-@99856 = ~Quand tu appuies sur le bouton des Capacités Spéciales cela va faire apparaître toutes les compétences spéciales. L'une d'elles s'appelle "Poser des Pièges". Appuie simplement sur ce bouton, puis appuies sur l'endroit où tu veux que le piège soit posé.~
+@99856 = ~Quand tu appuies sur le bouton des Capacités Spéciales, cela va faire apparaître toutes les compétences spéciales. L'une d'elles s'appelle "Poser des Pièges". Appuie simplement sur ce bouton, puis appuies sur l'endroit où tu veux que le piège soit posé.~
 // Quasi identique BGEE 30124
 @99857 = ~Ceci est une potion de grands soins. Pour ingurgiter une potion, appuie simplement dessus, maintiens appuyé puis relâche, et appuies sur "Boire". Tu peux également placer la potion dans une case d'objet rapide et y accéder ainsi sans passer par l'écran d'inventaire.~
 // Identique BGEE 30142
@@ -1166,13 +1130,13 @@ Anders "hook71" Svensson
 // Identique BGEE 30166
 @99865 = ~Je n'ai pas encore appris ce sort. Souvenez-vous, restez juste appuyé sur le parchemin, puis appuyez sur le bouton "Écrire Magie" en bas de l'écran de description.~
 // Quasi identique BGEE 30168, traduction peu fidèle améliorée
-@99866 = ~Bien. Je vais maintenant vous apprendre à identifier des objets. Lorsque vous trouverez un objet magique, vous ne saurez pas forcément ses capacités. Pour le découvrir, vous devez d'abord appuyer et maintenir appuyé sur l'objet.~
+@99866 = ~Bien. Je vais maintenant vous apprendre à identifier des objets. Lorsque vous trouverez un objet magique, vous ne connaîtrez pas forcément ses capacités. Pour les découvrir, vous devez d'abord appuyer et maintenir appuyé sur l'objet.~
 // Identique BGEE 30170
-@99867 = ~En bas de l'écran de description de l'objet vous verrez un bouton intitulé "Identifier". Appuyez dessus. Si celui qui a l'objet dans son inventaire a également un sort d'identification en mémoire, ou possède un parchemin d'identification, alors l'objet va être identifié.~
-// Quasi identique BGEE 30176, 
+@99867 = ~En bas de l'écran de description de l'objet, vous verrez un bouton intitulé "Identifier". Appuyez dessus. Si celui qui a l'objet dans son inventaire a également un sort d'identification en mémoire, ou possède un parchemin d'identification, alors l'objet va être identifié.~
+// Quasi identique BGEE 30176,
 @99868 = ~Vous n'avez pas encore identifié le bouclier. Pour l'identifier, s'il vous plaît, appuyez, maintenez appuyé dessus puis relâchez et sélectionnez l'option Identifier.~
-// Quasi identique BGEE 31697, "en bas à gauche" au lieu de "... droite"
-@99869 = ~Il y a un coffre verrouillé dans la partie ouest de cet étage. Utilises mes compétences pour crocheter la serrure du coffre et voler la gemme à l'intérieur. Pour t'aider à trouver les coffres et autres contenants, tu peux utiliser le bouton d'indice. Le bouton d'indice est en bas à gauche de l'écran, et est représenté par une loupe sur un tonneau. Quand tu appuies sur ce bouton, les objets avec lesquels tu peux interagir seront brièvement mis en évidence.~
+// Quasi identique BGEE 31697
+@99869 = ~Il y a un coffre verrouillé dans la partie ouest de cet étage. Utilise mes compétences pour crocheter la serrure du coffre et voler la gemme à l'intérieur. Pour t'aider à trouver les coffres et autres conteneurs, tu peux utiliser le bouton d'indice. Le bouton d'indice est en bas à droite de l'écran, et est représenté par une loupe sur un tonneau. Quand tu appuies sur ce bouton, les objets avec lesquels tu peux interagir seront brièvement mis en évidence.~
 // Identique BGEE 30010
 @99870 = ~Vous n'avez pas encore équipé votre arme. Souvenez-vous, appuyez juste sur le portrait de votre personnage et vous trouverez votre arme en bas de votre écran dans l'inventaire.~
 // Identique BGEE 30136
@@ -1208,7 +1172,7 @@ Vous devrez utiliser différentes compétences au cours de votre recherche du sa
 
 // Tracking.2da (autres cas en 100259)
 @99955 = ~des créatures célestes~
-@99956 = ~des morts-vivants et des êtres mécaniques~ // @todo Vérifier traduction de construct
+@99956 = ~des morts-vivants et des créatures artificielles~ // @todo Vérifier traduction de construct - Note de Freddy : les bestiaires font référence à l'archétype des « Créatures artificielles »
 
 // Inspiré de ToB 71488, appel PNJ depuis le plan
 @99983 = ~Parle-moi de Neera.~
@@ -1258,18 +1222,20 @@ Piotr Wiankowski - Cahir
 Bastien Marmeth - Queynos
 Antonio Favata - alnair~*/
 
-// @todo 100285 à 100347 : voix pour personnage principal à retranscrire en texte
+// 100285 à 100347 (début voir 88879 à 88919, 88996 à 89137) : voix personnage principal, cf fichier Personnages
 
-// Nom de capacité repris de BGEE 25958, a priori plus utilisé, voir 103003 
+// Nom de capacité repris de BGEE 25958, a priori plus utilisé, voir 103003
 @100399 = ~Œil du Chien de la Lune
+
 Cette capacité dissipe tous les sorts de l'école d'Illusion dans la zone et révèle également tous les pièges dans le champ de vision pendant les 10 rounds suivants.~
 // Nom de capacité repris de BGEE 25961, a priori plus utilisé, voir 1003004
 @100400 = ~Langue soignante
+
 Cette capacité guérit la cible de n'importe quel effet de poison, maladie, cécité ou surdité et restitue aussi 20 points de vie au bénéficiaire. La bave est... juste un bonus supplémentaire.~
 // Nom de capacité repris de BGEE 26039, a priori plus utilisé, voir 103005
 @100402 = ~Hurlement du Chien de la Lune
 
-Cette capacité rend le groupe insensible à la peur tout en forçant tous les ennemis dans la zone à réussir un jet de sauvegarde contre les sorts avec une pénalité de -2 sous peine d'être paniqués. Les cibles qui ratent leur jet de sauvegarde subissent aussi 5 points de dégâts magiques.~
+Cette capacité rend le groupe insensible à la peur tout en forçant tous les ennemis dans la zone à réussir un jet de sauvegarde contre les sorts avec une pénalité de 2 sous peine d'être paniqués. Les cibles qui ratent leur jet de sauvegarde subissent aussi 5 points de dégâts magiques.~
 
 // @todo objets 100416 à 100449, 100451, 100452
 
@@ -1281,14 +1247,14 @@ Cette capacité rend le groupe insensible à la peur tout en forçant tous les e
 // @todo objets 101638, 101639
 
 // Inspiré de IWDEE 40028
-@101646= ~*essaie de détecter les illusions*~ // GPTHIEF.bcs
+@101646 = ~*essaie de détecter les illusions*~ // GPTHIEF.bcs
 // Adapté de IWDEE 40028
 @101647 = ~*essaie de se cacher dans l'ombre*~ // GPTHIEF.bcs
 
 // @todo noms 101656 à 101659
 
 // Identique ToB 20950 (script ohhstone)
-@101695 = ~Mettez votre main dans ma bouche~
+@101695 = ~Mettez votre main dans ma bouche.~
 
 // @todo objets 101696 à 101706
 // @todo noms 101707 à 101727, 101729
@@ -1303,7 +1269,7 @@ Cette capacité rend le groupe insensible à la peur tout en forçant tous les e
 @101730 = ~Erreur pendant l'écriture du fichier.~
 
 // Identique IWDEE 757
-@101765= ~Imprécation~
+@101765 = ~Imprécation~
 
 // Identique BGEE 32291
 @101768 = ~Vous avez déjà appris ce sort.~
@@ -1318,7 +1284,7 @@ Cette capacité rend le groupe insensible à la peur tout en forçant tous les e
 @102289 = ~Que cherchez-vous à faire ? Je peux faire interner des gens à Spellhold, mais pourquoi me le demandez-vous ?~
 
 // Identique BGEE 30124
-@102411 = ~Ceci est une potion de grands soins. Pour ingurgiter une potion, restes simplement appuyé dessus, et appuies sur "Boire". Tu peux également placer la potion dans une case d'objet rapide et y accéder ainsi sans passer par l'écran d'inventaire.~
+@102411 = ~Ceci est une potion de grands soins. Pour ingurgiter une potion, reste simplement appuyé dessus, et appuies sur "Boire". Tu peux également placer la potion dans une case d'objet rapide et y accéder ainsi sans passer par l'écran d'inventaire.~
 
 // Identique BGEE 32295 + majuscule
 @102476 = ~Activer la confirmation~
@@ -1326,19 +1292,19 @@ Cette capacité rend le groupe insensible à la peur tout en forçant tous les e
 @102477 = ~Si cette option est activée, le jeu vous demandera confirmation avant de supprimer des sorts mémorisés ou de vous reposer dans une auberge. Si elle est désactivée, aucune demande de confirmation ne vous sera faite lorsque vous vous reposerez dans une auberge ou que vous supprimerez des sorts mémorisés.~
 
 // Identique BGEE 31252
-@102492 = ~GUERRIER : Les guerriers utilisent des armes de mêlée pour infliger des dégâts au corps à corps. Ils ont un grand nombre de points de vie et ils peuvent équiper des armures lourdes. Ils sont aussi bons en attaque qu'en défense.~
-// Identique BGEE 31253
-@102493 = ~MAGE : Le mage est le maître des énergies magiques, se formant dans les voies offensives et défensives. Ce sont d'excellent pourvoyeurs de dégâts et ils sont utiles dans la neutralisation des défenses ennemies.~
+@102492 = ~GUERRIER : Les guerriers utilisent des armes de mêlée pour infliger des dégâts au corps à corps. Ils ont un grand nombre de points de vie et ils peuvent porter des armures lourdes. Ils sont aussi bons en attaque qu'en défense.~
+// Identique BGEE 31253 - Note de Freddy : pluriel par soucis de cohérence
+@102493 = ~MAGE : Les mages sont les maîtres des énergies magiques, se formant dans les voies offensives et défensives. Ce sont d'excellents pourvoyeurs de dégâts et ils sont utiles pour neutraliser les défenses ennemies.~
 // Identique BGEE 31254
-@102494 = ~VOLEUR : Les voleurs possèdent une large variété de compétences. Ils peuvent crocheter des serrures des coffres et des portes, désarmer des pièges et se glisser dans le dos des ennemis pour infliger de lourds dégâts.~
-// Identique BGEE 31255
-@102495 = ~CLERC : Le clerc peut faire appel aux pouvoirs divins pour soigner et protéger ses alliés. Ce sont des experts en destruction de mort-vivant.~
+@102494 = ~VOLEUR : Les voleurs possèdent une large variété de compétences. Ils peuvent crocheter des serrures des coffres et des portes, désarmer des pièges et se glisser dans le dos des ennemis pour leur infliger de lourds dégâts.~
+// Identique BGEE 31255 - Note de Freddy : pluriel par soucis de cohérence
+@102495 = ~CLERC : Les clercs peuvent faire appel aux pouvoirs divins pour soigner et protéger leurs alliés. Ce sont des experts en destruction de mort-vivant.~
 // Identique BGEE 31257
 @102496 = ~RÔDEUR : Les rôdeurs sont des combattants et des forestiers. Ils sont habiles avec des armes légères, ils savent se repérer en forêt. Ils sont compétents dans le maniement de deux armes à la fois, ils sont également habiles dans l'utilisation d'armes à distance.~
 // Identique BGEE 31268
 @102497 = ~BARBARE : Les barbares sont d'excellents combattants. Moins disciplinés que des guerriers, ils ne peuvent pas porter d'armures lourdes. Cependant leurs rages de berserker et leurs puissantes attaques compensent.~
-// Identique BGEE 31269
-@102498 = ~BARDE : Le barde est un roublard, qui a besoin d'alliés pour vraiment exceller. Leur spécialités consistent à améliorer le morale et la compétence de leurs compagnons avec leurs chants tout en pénalisant leurs ennemis.~
+// Identique BGEE 31269 - Note de Freddy : pluriel par soucis de cohérence
+@102498 = ~BARDE : Les bardes sont des roublards, qui ont besoin d'alliés pour vraiment exceller. Leurs spécialités consistent à améliorer le morale et la compétence de leurs compagnons avec leurs chants tout en pénalisant leurs ennemis.~
 // Quasi identique BGEE 9574, mention sur les gnomes de BGEE conservée bien qu'absente dans BG2EE anglais
 @102499 = ~GUERRIER / MAGE: Ce personnage peut utiliser les capacités d'un guerrier et d'un mage, toutefois il ne peut lancer de sort tant qu'il porte une armure. Il peut atteindre la spécialisation, mais pas la maîtrise dans le maniement des armes.
 
@@ -1352,7 +1318,7 @@ Les gnomes peuvent choisir cette multi-classe, mais deviennent guerriers / illus
 
 Les gnomes peuvent choisir cette multi-classe, mais deviennent voleurs / illusionnistes par défaut. Les gnomes sont la seule race à pouvoir associer une classe de mage spécialisé à une multi-classe.~
 // Quasi identique BGEE 9577, mention sur les gnomes de BGEE conservée bien qu'absente dans BG2EE anglais, ajout de la remarque sur les armes en VF qui manque dans BGEE
-@102503 = ~MAGE / CLERC : Ce personnage peut utiliser les capacités d'un mage et d'un clerc, même s'il est restreint aux armes autorisées par les valeurs du prêtre. Il ne peut cependant pas jeter de sorts de mage s'il porte une armure.
+@102503 = ~MAGE / CLERC : Ce personnage peut utiliser les capacités d'un mage et d'un clerc, même s'il est restreint aux armes autorisées par l'éthique du prêtre. Il ne peut cependant pas jeter de sorts de mage s'il porte une armure.
 
 Les gnomes peuvent choisir cette multi-classe, mais deviennent clercs / illusionnistes par défaut. Les gnomes sont la seule race à pouvoir associer une classe de mage spécialisé à une multi-classe.~
 // Identique BGEE 9578
@@ -1370,29 +1336,29 @@ Les gnomes peuvent choisir cette multi-classe, mais deviennent clercs / illusion
 // Quasi identique BGEE 32301, singulier au lieu de pluriel
 @102510 = ~DRUIDE : Le druide sert la cause de la nature et de la neutralité ; il vit en osmose avec sa communauté. Il utilise ses pouvoirs spéciaux pour protéger ceux qui aident la nature et s'opposer à ceux qui cherchent à lui nuire.~
 
-// @todo boutique PNJ 102522 à 102524
+// Boutique PNJ 102522 à 102524
 // Suite des descriptions de DLC en 95310
-@102522 = ~Le culte hérétique de la Vérité Dédoublée s'efforce d'attirer des membres d'ordres rivaux à Francmarché et le moine de la Conscience Solaire Rasaad a besoin de votre aide pour découvrir pourquoi. Recherchez le temple hérétique et, à l'intérieur, affrontez quatre tests afin de découvrir le cœur malveillant du culte.
+@102522 = ~Le culte hérétique de la Vérité Dédoublée s'efforce d'attirer des membres d'ordres rivaux à Franc-Marché et le moine de la Conscience Solaire Rasaad a besoin de votre aide pour découvrir pourquoi. Recherchez le temple hérétique et, à l'intérieur, affrontez quatre tests afin de découvrir le cœur malveillant du culte.
 
-Dans Le Trône de Bhaal, le cerveau à l'origine de la Vérité Dédoublée conquiert la forteresse d'un clan de nains qui détient la clé vers le plan de l'Ombre. Fouillez sous la surface et récupérez l'artefact afin de sauver la lumière de la lune des ténèbres qui s'étendent.
+Dans Le Trône de Bhaal, le cerveau à l'origine de la Vérité Dédoublée conquiert la forteresse d'un clan de nains qui détient la clé vers le Plan de l'Ombre. Fouillez sous la surface et récupérez l'artefact afin de sauver la lumière de la lune des ténèbres qui s'étendent.
 
 Caractéristiques :
-– un nouveau compagnon, rencontré à Francmarché
-– une nouvelle quête dans Les Ombres d'Amn
-– une nouvelle quête dans Le Trône de Bhaal
-– 7 nouveaux lieux à explorer~
+– un nouveau compagnon, rencontré à Franc-Marché,
+– une nouvelle quête dans Les Ombres d'Amn,
+– une nouvelle quête dans Le Trône de Bhaal,
+– 7 nouveaux lieux à explorer.~
 @102523 = ~Un puissant compagnon moine et deux nouvelles aventures qui étendent la campagne principale~
 @102524 = ~Des secrets sont tapis dans les ombres du cimetière d'Athkatla. Évitez les pièges mortels et les gardiens tandis que vous descendez dans les profondeurs de la tombe de Dragomir. Alliez-vous à Hexxat, une exploratrice et voleuse au service d'un mystérieux maître, pour dévaliser des souterrains couverts de pièges à la recherche de reliques de grande valeur.
 
 Dans Le Trône de Bhaal, Hexxat reçoit son ultime mission : s'aventurer dans la crypte laboratoire de la liche paria Korkorran et l'éliminer. Le succès rapporte une grande récompense, bien qu'inattendue.
 
 Caractéristiques :
-– une nouvelle compagne, rencontrée à la Couronne de Cuivre
-– une nouvelle quête dans Les Ombres d'Amn
-– une nouvelle quête dans Le Trône de Bhaal
-– 4 nouveaux lieux à explorer~ 
+– une nouvelle compagne, rencontrée à la Couronne de Cuivre,
+– une nouvelle quête dans Les Ombres d'Amn,
+– une nouvelle quête dans Le Trône de Bhaal,
+– 4 nouveaux lieux à explorer.~ 
 
-// @todo objets 102528, 102529, 102543 à 102545, 
+// @todo objets 102528, 102529, 102543 à 102545,
 
 // Identique IWDEE 37842 ~Click the gem to adjust the key binding~
 @102620 = ~Sélectionnez le raccourci à modifier~
@@ -1407,7 +1373,7 @@ Caractéristiques :
 // Identique BGEE 32130
 @102625 = ~Langue~
 // Identique BGEE 32208 (premier paragraphe seulement)
-@102626 = ~Baldur's Gate : Enhanced Edition est actuellement en cours de traduction par des dizaines de volontaires courageux. De futures mises à jour verront l'ajout de nouvelles langues de jeu à mesure qu'elles seront disponibles. Pour savoir dans quelles langues le jeu pourra être disponible, veuillez vous rendre sur : forum.baldursgate.com.~
+@102626 = ~Baldur's Gate II : Enhanced Edition est actuellement en cours de traduction par des dizaines de volontaires courageux. De futures mises à jour verront l'ajout de nouvelles langues de jeu à mesure qu'elles seront disponibles. Pour savoir dans quelles langues le jeu pourra être disponible, veuillez vous rendre sur : forum.baldursgate.com.~
 // Identique BGEE 32209
 @102627 = ~Afficher les sous-titres~
 // Identique BGEE 32210
@@ -1523,9 +1489,9 @@ Caractéristiques :
 // Identique IWDEE 34904
 @102694 = ~Capacités de magicien~
 // sans doute non utilisé
-@102695= ~titre du film tutoriel 13~
-@102696= ~titre du film tutoriel 14~
-@102697= ~titre du film tutoriel 15~
+@102695 = ~titre du film tutoriel 13~
+@102696 = ~titre du film tutoriel 14~
+@102697 = ~titre du film tutoriel 15~
 // Identique IWDEE 17142
 @102698 = ~Jeu~
 // Identique IWDEE 34906
@@ -1537,13 +1503,13 @@ Caractéristiques :
 // Quasi identique 34909
 @102702 = ~Vous pouvez ouvrir et fermer les entrées du journal en cliquant dessus.~
 // Identique IWDEE 34910
-@102703 = ~Les quêtes que vous avez terminées se trouvent dans la sections "Quêtes terminées".~
+@102703 = ~Les quêtes que vous avez terminées se trouvent dans la section « Quêtes terminées ».~
 // Identique IWDEE 34911
 @102704 = ~Le journal garde trace de tout ce qu'il vous est arrivé.~
 // Identique IWDEE 34912
 @102705 = ~Vérifiez votre journal pour avoir des indices sur la prochaine étape.~
 // Quasi identique IWDEE 34913, "list of things that impact" en plus (déjà dans VF IWDEE)
-@102706 = ~Voici la liste de tous les effets qui agissent sur votre Classe d'Armure (CA). Plus basse est votre CA, plus il sera difficile pour l'ennemi de vous toucher en combat.~
+@102706 = ~Voici la liste de tous les effets qui agissent sur votre Classe d'armure (CA). Plus basse est votre CA, plus il sera difficile pour l'ennemi de vous toucher en combat.~
 // Identique IWDEE 34914
 @102707 = ~Voici comment vos points de vie actuels et maximum sont calculés.~
 // Quasi identique IWDEE 34915, ajout des points de vie (déjà dans VF IWDEE)
@@ -1567,7 +1533,7 @@ Caractéristiques :
 // Identique IWDEE 34924, reformulé
 @102717 = ~Voici vos scores de caractéristiques. Un score affiché en rouge indique que la caractéristique associée est altérée par un objet ou un effet.~
 // Identique BG2EE 102706, quasi identique IWDEE 34913
-@102718 = ~Voici la liste de tous les effets qui agissent sur votre Classe d'Armure (CA). Plus basse est votre CA, plus il sera difficile pour l'ennemi de vous toucher en combat.~
+@102718 = ~Voici la liste de tous les effets qui agissent sur votre Classe d'armure (CA). Plus basse est votre CA, plus il sera difficile pour l'ennemi de vous toucher en combat.~
 // Identique IWDEE 34914
 @102719 = ~Voici comment vos points de vie actuels et maximum sont calculés.~
 // Quasi identique IWDEE 34927, explication acronyme en plus, traduction incorrecte reformulée
@@ -1597,11 +1563,11 @@ Caractéristiques :
 // Quasi identique IWDEE 34939, "scroll" erroné dans IWDEE, modif tablette
 @102732 = ~Pour avoir des informations détaillées sur un sort, appuyez longuement ou faites un clic droit sur l'icône qui le représente.~
 // Identique IWDEE 34940
-@102733= ~Le parchemin de prêtre est divisé en niveaux de sort. Voici la liste des sorts de niveau 1.~
+@102733 = ~Le parchemin de prêtre est divisé en niveaux de sort. Voici la liste des sorts de niveau 1.~
 // Quasi identique IWDEE 34941
 @102734 = ~Voici les sorts divins que connaît votre personnage. Il apprendra des sorts supplémentaires à mesure qu'il gagnera des niveaux.~
 // Identique IWDEE 34942
-@102735= ~Voici les emplacements de sorts mémorisés. Pour préparer un sort, il doit être sélectionné à partir du grimoire, puis le personnage doit se reposer pour le mémoriser.~
+@102735 = ~Voici les emplacements de sorts mémorisés. Pour préparer un sort, il doit être sélectionné à partir du grimoire, puis le personnage doit se reposer pour le mémoriser.~
 // Identique BG2EE 102731, Identique IWDEE 34943
 @102736 = ~Un même sort peut être mémorisé à de multiples reprises.~
 // Identique BG2EE 102730, quasi identique IWDEE 34944
@@ -1631,7 +1597,7 @@ Caractéristiques :
 // Quasi identique IWDEE 34956, formulation allégée
 @102749 = ~Les voleurs peuvent avoir recours au Vol à la tire, ce qui leur permet de voler à leur victime de l'or ou des objets utiles.~
 // Identique IWDEE 34957
-@102750 = ~Les voleurs peuvent également Se cacher dans l'ombre, ce qui leur permet de se rendre invisible aux yeux des autres.~
+@102750 = ~Les voleurs peuvent également Se cacher dans l'ombre, ce qui leur permet de se rendre invisibles aux yeux des autres.~
 // Identique IWDEE 34958
 @102751 = ~Un voleur caché dans l'ombre peut explorer la zone de jeu ou effectuer une attaque sournoise sur un adversaire, ce qui lui occasionnera des dégâts supplémentaires.~
 // Identique IWDEE 34959
@@ -1673,7 +1639,7 @@ Caractéristiques :
 // Quasi identique IWDEE 34974, traduction imprécise corrigée
 @102769 = ~La fonctionnalité de Butin rapide est activée avec cette gemme rouge. Elle affiche tous les objets au sol à proximité.~
 // Repris de IWDEE VF 34975, qui n'est pas la traduction de 34975 VO !!!
-@102770 = ~Votre personnage se déplacera automatiquement pour ramasser l'objet sur lequel vous sélectionnez.~
+@102770 = ~Votre personnage se déplacera automatiquement pour ramasser l'objet que vous avez sélectionné.~
 
 // Identique IWDEE 35557
 @102774 = ~Points de vie réduits par Mise à mal~
@@ -1692,7 +1658,7 @@ Caractéristiques :
 // Identique IWDEE 34980
 @102786 = ~Au début du combat, n'hésitez pas à lancer tous les sorts améliorant l'efficacité des membres de votre groupe que vous pouvez.~
 // Identique IWDEE 34981, corrigé
-@102787 = ~Gardez les lanceurs de sorts derrière la ligne de front, et faites-les attaquer l'adversaire à l'aide de leurs sorts, comme par exemple avec un sort de Projectile Magique.~
+@102787 = ~Gardez les lanceurs de sorts derrière la ligne de front, et faites-les attaquer l'adversaire à l'aide de leurs sorts, comme par exemple avec un sort de Projectile magique.~
 // Identique IWDEE 34982
 @102788 = ~Mettez souvent le jeu en pause pour réévaluer la situation et assigner de nouvelles cibles aux membres de votre groupe.~
 // Identique IWDEE 34983
@@ -1717,7 +1683,7 @@ Caractéristiques :
 @102798 = ~Combat magique basique~
 
 // Identique BGEE 32302
-@102807 = ~Classe perdue : Chevalier Noir~
+@102807 = ~Classe perdue : Chevalier noir~
 // Identique BGEE 32303
 @102808 = ~Classe perdue : Cavalier~
 // Identique BGEE 32304
@@ -1725,12 +1691,278 @@ Caractéristiques :
 // Identique BGEE 32305
 @102810 = ~Classe perdue : Chasseur de morts-vivants~
 
+// 1028022, 23 : OHBDEMI.BCS
+
+/* A partir de @102824, textes postérieurs à la version initiale */
+
+// 102824-31 : crédits BG II (manuel ou film)
+@102824 = ~Dédié à la mémoire de Daniel Walker
+
+Producteurs exécutifs
+Raymond Muzyka, Greg Zeschuk
+
+Producteurs de la gamme
+Andrew Nobbs, Nathan Plewes
+
+Producteur
+Ben Smedstad
+
+Responsable écriture et conception
+James Ohlen
+
+Concepteur en chef
+Kevin Martens
+
+Concepteurs
+David Gaider, Brent Knowles, Lukas Kristjanson, John Winski
+
+Script et saisie de données
+Kevin Craig, Ross Gardner, Michael Geist, Andrew Nobbs
+
+Concepteurs additionnels
+Rob Bartel, John Samuel Gallagher, Drew Karpyshyn
+
+Concepteurs du jeu Baldur's Gate original
+Scott Greig, Raymond Muzyka, James Ohlen, Greg Zeschuk~
+@102825 = ~Programmeur en chef - Mark Darrah
+
+Programmeurs - Daniel Morris, Paul Roffel
+
+Programmeurs Réseau - Nark Brockington, Paul Roffel
+
+Programmeur outils en chef - Don Moar
+
+Programmeurs outils
+Marc Audy, Patrick Chan, Chris Christou, Aaryn Flynn, Jeremy Sheldon
+
+Programmeurs additionnels
+Gilles Beauparlant, Noel Borstad, Rob Boyd, Mark Brockington, Howard Chung, Michael Devine, Brenon Holmes, Casey Hudson, Charles Randall
+
+Programmeurs Infinity Engine
+Gilles Beauparlant, Mark Brockington, Mark Darrah, David Falkner, Scott Greig, Daniel Morris, Cameron Tofer, John Winski, Don Yakielashek
+
+Responsable assurance qualité - Scott Langevin
+
+Assurance qualité
+Derrick Collins, Jonathan Epp, Nathan Frederick, Ross Gardner, Scott Horner, Michael Jorgensen, Raymond Prach, Karl Schreiner
+
+Assurance qualité autre
+Noel Borstad, Brenon Holmes, Bob McCabe, Scott Rodrique, Aidan Scanlan, Keith Soleski, Preston Watamaniuk~
+@102826 = ~Responsable artistique - Marcia Tofer
+
+Artiste en chef - John Samuel Gallagher
+
+Artistes principaux
+Dean Andersen, Matthew M. Goldman, Kelly Goodine, Yunkyung Kim, Arnel Labarda, Christopher Mann, Elben Schafers
+
+Création interface - Todd Grenier
+
+Interfaces additionnelles - Matthew M. Goldman
+
+Art promotionnel et des portraits - Michael Sass
+
+Art promotionnel et des portraits additionnel
+Dean Andersen, Matthew M. Goldman, Todd Grenier, Marc Holmes
+
+Artistes additionnels - Michael Grills, Rob Sugama
+
+Effets spéciaux et animations d'arrière-plan
+Christopher Mann, Russell Rice, Elben Schafers, Alex Scott
+
+Éléments de BG et de la Légende de l'île perdue repris
+Scott Greig, Marc Holmes, Kalvin Lyle, Cassidy Scott, Daniel Walker
+
+Responsable animation - Steven Gilmour
+
+Animation
+Rick Li, Enrique Deo Perez, Larry Stevens, Henrik Vasquez, Tony de Waal
+
+Directeur animation - David Hibbeln
+
+Modélisation
+Lindsay Jorgensen, Michael Sass, Elben Schafers, Alex Scott, Cassidy Scott
+
+Modélisation additionnelle - Ryan Blanchard, Matthew M. Goldman,David Hibbeln~
+@102827 = ~Textures des cinématiques
+Ryan Blanchard, Matthew M. Goldman, Marc Holmes, Michael Sass
+
+Textures additionnelles
+Yunkyung Kim, Rick Li, Enrique Deo Perez
+
+Scripts des cinématiques
+Steven Gilmour, David Hibbeln, Lukas Kristjanson
+
+Ébauches des cinématiques
+John Samuel Gallagher, Marc Holmes, Michael Sass
+
+Storyboards
+Steven Gilmour, Kelly Goodine, David Hibbeln
+
+Art des vidéos - Matthew Fischer
+
+Animation des cinématiques
+Steven Gilmour, Rick Li, Enrique Deo Perez, Larry Stevens, Henrik Vasquez,Tony de Waal
+
+Effets des animations
+David Hibbeln, Russell Rice, Alex Scott, Tony de Waal
+
+Éclairage et organisation
+Rick Li, Enrique Deo Perez, Russell Rice, Michael Sass
+
+Éclairage et organisation additionnelles
+Ryan Blanchard, Steven Gilmour, David Hibbeln, Larry Stevens, Henrik Vasquez
+
+Édition sonore
+Stephen Miller, J. P. Walton, Frank Szick, Caron Weidner, Eight Ball Sound
+
+Audio - David Chan
+
+Responsable Communication - Brad Grier~
+@102828 = ~Écriture / édition du manuel
+Drew Karpyshyn, Lukas Kristjanson, Raymond Muzyka, James Ohlen
+
+Équipe manuel
+Ross Gardner, Kevin Martens
+
+Réception et assistances
+Theresa Baxter, Juliette Irish, Teresa Stevenson
+
+Administration système
+David Hamel
+
+Administrateur système en chef
+David Hamel
+
+Administrateurs système
+Michael K. Nudel, Chris Zeschuk
+
+Responsable conception audio
+Charles Deenen
+
+Superviseur audio
+Craig Duman
+
+Concepteurs sonores
+David Farmer, Michael Kamper, Adam Levenson, Paul Menichini, John K. Morris, Al Nelson, Ann Scibelli, Tim Walston
+
+Effets spéciaux sonores
+Chris Borders, Ana Deenen, Charles Deenen, John Paul Fasal, Al Nelson, Frank Szick
+
+Musique
+Michael Hoenig, Howard Drossin (Yo11 Productions)
+
+Édition musicale
+Howard Drossin, Rick Jackson, Ronald Valdez
+
+Mastering musical
+Tom Baker, Craig Duman, Frank Szick
+
+Assistant mastering
+Ronald Valdez~
+@102829 = ~Superviseur casting / direction Voix
+Chris Borders
+
+Montage Voix - Stephen Miller, Jeremy Simpson, Frank Szick, J. P. Walton
+
+Voix originales
+Charles Adler, Dee Bradley Baker, Michael Bell, Jeff Glenn Bennett, Gregg Berger, Cam Clarke, Jonathan Cook, Jim Cummings, Grey DeLisle, Melissa Disney, Bill Farmer, Michael Gough, Wayne Grace, Jennifer Hale, Amber Hood, James Horan, Roger L. Jackson, Charity James, Nick Jameson, Maurice LaMarche, John Mariano, Jason Marsden, Bill E. Martin, Jim Meskimen, Tress MacNeille, Alan Oppenheimer, Jeff Osterhage, Valerie Pappas, Rob Paulsen, Diane Pershing, David Prince, Kevin Michael Richardson, Jack Roth, Dwight Schultz, Heidi Shannon, Jane Singer, Kath E. Soucie, John Vernon, B. J. Ward, David Warner, Frank Welker, Billy West, Donovan Workun
+
+Voix d'ambiance
+John Demita, Anneliese Goldman, Daamen Krall, Marsha Kramer, Richard Penn, David J. Randolph
+
+Enregistrements des voix - Screenmusic Studios
+
+Ingénieur son - Mike Draghi
+
+Assistant son - Eric Lewis
+
+Casting voix de fond - Barbara Harris Loop-Group Casting
+
+Enregistrement des voix d'ambiance - WarnerBrothers Hollywood
+
+Casting voix additionnel - Lisa Wasserman (Virtual Casting)
+
+Conception des sons - Tim Gedemer (Audio Group)
+
+Mixeur des bruitages - Eric Thompson (EFX)
+
+Artiste bruiteur - Laura Macias (EFX)
+
+Merci à Shannon Woods pour son aide à la Renaissance Pleasure Faire~
+@102830 = ~Service vidéo - Dan L. Williams, David Cravens, Bill Stoudt
+
+Directeur assurance qualité - Michael Motoda
+
+Responsable assurance qualité - Greg Baumeister (Moose)
+
+Responsable des opérations assurance qualité - Monica Vallejo
+
+Supervieurs de projet assurance qualité
+Edward Hyland, John Kirkland, Damien Evans, Eric Fong, Erick Lujan
+
+Testeurs expérimentés assurance qualité
+Henry C. Lee, Danny Martinez, Kristopher Giampa, Gary Tesdall, Harold Kim, Bradford Dutton
+
+Testeurs assurance qualité
+Damien Foletto, David Vodhanel, Albert Perez Jr., Adam Parker, Thomas Edmonds, Greg Didieu, Mark Holtzclaw, Matthew Golembiewski, Donald Ramakers, Michael Los, Rafael López, John Hoover, Joseph Isip, Eric Pribish, Joseph Chang, Reuben Park
+
+Éditeur localisation espagnole - Rafael López
+
+Éditeur localisation allemande - Kevin Yee
+
+Techniciens assurance qualité IS - Bill Delk, Thomas Quast
+
+Superviseur compatibilité - Derek Gibbs
+
+Techniciens compatibilité
+Joshua Walters, David Parkyn, Jack Parker, Tony Piccoli
+
+Directeur marketing
+Margo Engel, Stacy Bremmer~
+@102831 = ~Responsable relations publiques - Lisa Bucek-Jensen
+
+Équipe Internet
+Sean Patton, Edward Arandia, Steve Jobes, Terry Spier, Sandi Spier
+
+Responsable services créatifs - Kathy Helgason
+
+Logistique - Kathryne Wahl
+
+Conception et mise en page du manuel (US) - Lee Fleshman
+
+Pré-enregistrements
+Lance Brown, Marc Fishman
+
+Musique mixé en Dolby Surround à 4MC
+
+Directeur de la division Black Isle Studios - Feargus Urquhart
+
+Producteur - Chris Parker
+
+Producteur associé - Douglas W. Avery
+
+Producteur de la localisation - Fred Hatch
+
+Responsable de la division opérations - Benson
+
+Assistant de la division opérations - Primo Pulanco
+
+Esquisses promotionnelles - Jason Manley
+
+Remerciements particuliers à l'équipe d'Icewind Dale team, Elephant and Castle, Delta Centre Suites, Eaton Centre, Jim Gardner~
 // Identique BGEE 32308
 @102832 = ~L'image que vous avez choisie est trop grande.~
+
+/* A partir de @102833, textes postérieurs au patch 1.2.2032 */
+
 // Identique BGEE 32309
 @102833 = ~Restauration des achats~
 // Identique BGEE 32310
 @102834 = ~Achats restaurés~
+// Quasi-identique BGEE 32311 (majuscules, s final en moins) ; désormais dans le fichier lua
+@102835 = ~RESTAURER LES ACHATS~
+
+// @102036 - 102930 : phrases de scripts ? notamment Dorn
 
 // Identique ToB 19458 (reprise du texte seulement)
 @102870 = ~Que Torm vous emporte !~
@@ -1740,25 +1972,82 @@ Caractéristiques :
 // Identique BGEE 32313
 @102932 = ~Vous avez perdu votre connexion aux serveurs Beamdog.net. Pour vous reconnecter, sauvegardez et créez une nouvelle partie multijoueur.~
 
-// Identique BGEE 32321
-@102937 = ~Impossible de charger le contenu de : <MISSING_CONTENT>. Si vous ne l'avez pas encore acheté, vous pouvez acquérir ce contenu dans le store.~
-// Identique BGEE 32319
-@102938 = ~Téléchargement complété à <PERCENT_COMPLETE> %, il reste <TIME_REMAINING>.~
-// Identique BGEE 32320
-@102939 = ~Téléchargement complété à <PERCENT_COMPLETE> %.~
+// 102933 - 36 : textes de présentation pour boutique en ligne (Mac, iPad, ...) ?
+// 33 / 34 : diff "to mac" / "back to life"
+// 34 / 35 : ajout "ABOUT THE GAME"
+// 33 / 36 : "to mac" / "to iPad", "New party members" revu pour dire 1 inclus, 3 DLC
+@102933 = ~Enlevé(e). Emprisonné(e). Torturé(e). Le mage Irenicus vous retient en captivité dans sa forteresse,tandis qu'il essaie de vous dépouiller des pouvoirs qui sont votre héritage.
 
+Pourrez-vous résister au mal au coeur de vous, vous forger une légende de dimension héroïque et en fin de compte détruire l'essence sombre qui hante vos rêves ? Ou embrasserez-vous votre nature monstrueuse, détruirez-vous tout sur votre passage à travers les royaumes et atteindrez-vous la divinité en tant que nouveau Seigneur du Meurtre ?
+
+Baldur's Gate II : Enhanced Edition apporte cette expérience du jeu de rôle applaudie par la critique au Mac.
+
+Caractéristiques :
+* Le chapitre final – Baldur's Gate II : Enhanced Edition inclut Baldur's Gate II : Les ombres d'Amn et Baldur's Gate II : Le trône de Bhaal, la fin épique de la saga de l'enfant de Bhaal.
+* Quatre nouveaux membres du groupe – Livrés avec Baldur's Gate II : Enhanced Edition, quatre nouveaux personnages peuvent se joindre à vous dans votre voyage.
+* Les Fosses noires 2 : Les gladiateurs de Thay – Découvrez la profondeur tactique du combat de haut niveau de Donjons & Dragons. Ébranlez vos ravisseurs et exploitez leurs faiblesses tandis que vous esquivez les pièges et que vous vous battez pour votre vie contre des demi-liches, des flagelleurs mentaux et des githyanki.
+* Multijoueur facilité – Baldur's Gate II : Enhanced Edition rend aisé de trouver, lister et se joindre à des parties en multijoueur, même derrière un parefeu.
+* Écran large et plus – Baldur's Gate II : Enhanced Edition est doté d'un support complet des écrans larges, d'illustrations des zones remasterisées à partir des rendus originaux et une foule d'autres améliorations de l'interface et de la jouabilité.~
+@102934 = ~Enlevé(e). Emprisonné(e). Torturé(e). Le mage Irenicus vous retient en captivité dans sa forteresse,tandis qu'il essaie de vous dépouiller des pouvoirs qui sont votre héritage.
+
+Pourrez-vous résister au mal au coeur de vous, vous forger une légende de dimension héroïque et en fin de compte détruire l'essence sombre qui hante vos rêves ? Ou embrasserez-vous votre nature monstrueuse, détruirez-vous tout sur votre passage à travers les royaumes et atteindrez-vous la divinité en tant que nouveau Seigneur du Meurtre ?
+
+Baldur's Gate II : Enhanced Edition revigore cette expérience du jeu de rôle applaudie par la critique.
+
+Caractéristiques :
+* Le chapitre final – Baldur's Gate II : Enhanced Edition inclut Baldur's Gate II : Les ombres d'Amn et Baldur's Gate II : Le trône de Bhaal, la fin épique de la saga de l'enfant de Bhaal.
+* Quatre nouveaux membres du groupe – Livrés avec Baldur's Gate II : Enhanced Edition, quatre nouveaux personnages peuvent se joindre à vous dans votre voyage.
+* Les Fosses noires 2 : Les gladiateurs de Thay – Découvrez la profondeur tactique du combat de haut niveau de Donjons & Dragons. Ébranlez vos ravisseurs et exploitez leurs faiblesses tandis que vous esquivez les pièges et que vous vous battez pour votre vie contre des demi-liches, des flagelleurs mentaux et des githyanki.
+* Multijoueur facilité – Baldur's Gate II : Enhanced Edition rend aisé de trouver, lister et se joindre à des parties en multijoueur, même derrière un parefeu.
+* Écran large et plus – Baldur's Gate II : Enhanced Edition est doté d'un support complet des écrans larges, d'illustrations des zones remasterisées à partir des rendus originaux et une foule d'autres améliorations de l'interface et de la jouabilité.~
+@102935 = ~À PROPOS DU JEU
+Enlevé(e). Emprisonné(e). Torturé(e). Le mage Irenicus vous retient en captivité dans sa forteresse,tandis qu'il essaie de vous dépouiller des pouvoirs qui sont votre héritage.
+
+Pourrez-vous résister au mal au coeur de vous, vous forger une légende de dimension héroïque et en fin de compte détruire l'essence sombre qui hante vos rêves ? Ou embrasserez-vous votre nature monstrueuse, détruirez-vous tout sur votre passage à travers les royaumes et atteindrez-vous la divinité en tant que nouveau Seigneur du Meurtre ?
+
+Baldur's Gate II : Enhanced Edition revigore cette expérience du jeu de rôle applaudie par la critique.
+
+Caractéristiques :
+* Le chapitre final – Baldur's Gate II : Enhanced Edition inclut Baldur's Gate II : Les ombres d'Amn et Baldur's Gate II : Le trône de Bhaal, la fin épique de la saga de l'enfant de Bhaal.
+* Quatre nouveaux membres du groupe – Livrés avec Baldur's Gate II : Enhanced Edition, quatre nouveaux personnages peuvent se joindre à vous dans votre voyage.
+* Les Fosses noires 2 : Les gladiateurs de Thay – Découvrez la profondeur tactique du combat de haut niveau de Donjons & Dragons. Ébranlez vos ravisseurs et exploitez leurs faiblesses tandis que vous esquivez les pièges et que vous vous battez pour votre vie contre des demi-liches, des flagelleurs mentaux et des githyanki.
+* Multijoueur facilité – Baldur's Gate II : Enhanced Edition rend aisé de trouver, lister et se joindre à des parties en multijoueur, même derrière un parefeu.
+* Écran large et plus – Baldur's Gate II : Enhanced Edition est doté d'un support complet des écrans larges, d'illustrations des zones remasterisées à partir des rendus originaux et une foule d'autres améliorations de l'interface et de la jouabilité.~
+@102936 = ~Enlevé(e). Emprisonné(e). Torturé(e). Le mage Irenicus vous retient en captivité dans sa forteresse,tandis qu'il essaie de vous dépouiller des pouvoirs qui sont votre héritage.
+
+Pourrez-vous résister au mal au coeur de vous, vous forger une légende de dimension héroïque et en fin de compte détruire l'essence sombre qui hante vos rêves ? Ou embrasserez-vous votre nature monstrueuse, détruirez-vous tout sur votre passage à travers les royaumes et atteindrez-vous la divinité en tant que nouveau Seigneur du Meurtre ?
+
+Baldur's Gate II : Enhanced Edition apporte cette expérience du jeu de rôle applaudie par la critique à l'iPad.
+
+Caractéristiques :
+* Le chapitre final – Baldur's Gate II : Enhanced Edition inclut Baldur's Gate II : Les ombres d'Amn et Baldur's Gate II : Le trône de Bhaal, la fin épique de la saga de l'enfant de Bhaal.
+* De nouveaux membres du groupe – Livré avec Baldur's Gate II : Enhanced Edition, un nouveau personnage peut se joindre à vous, et trois personnages supplémentaires sont disponibles via l'achat depuis l'application.
+* Les Fosses noires 2 : Les gladiateurs de Thay – Découvrez la profondeur tactique du combat de haut niveau de Donjons & Dragons. Ébranlez vos ravisseurs et exploitez leurs faiblesses tandis que vous esquivez les pièges et que vous vous battez pour votre vie contre des demi-liches, des flagelleurs mentaux et des githyanki.
+* Multijoueur facilité – Baldur's Gate II : Enhanced Edition rend aisé de trouver, lister et se joindre à des parties en multijoueur, même derrière un parefeu.
+* Écran large et plus – Baldur's Gate II : Enhanced Edition est doté d'un support complet des écrans larges, d'illustrations des zones remasterisées à partir des rendus originaux et une foule d'autres améliorations de l'interface et de la jouabilité.~
+// Identique BGEE 32321, correction vocabulaire
+@102937 = ~Impossible de charger le contenu de : <MISSING_CONTENT>. Si vous ne l'avez pas encore acheté, vous pouvez acquérir ce contenu dans la boutique.~
+// Identique BGEE 32319, correction traduction
+@102938 = ~Téléchargement achevé à <PERCENT_COMPLETE> %, il reste <TIME_REMAINING>.~
+// Identique BGEE 32320, correction traduction
+@102939 = ~Téléchargement achevé à <PERCENT_COMPLETE> %.~
+
+// @102940 - 102993 : complément Black Pits, pas trouvé dans l'analyse
+
+// Pas trouvé par Near Infinity
+@102994 = ~Bonus aux dégâts~
 // Identique IWDEE 40143
-@102995= ~Est-ce que tu veux que je quitte le groupe ?~
+@102995 = ~Est-ce que tu veux que je quitte le groupe ?~
 // Identique IWDEE 40144
-@102996= ~Non, reste dans le groupe.~
+@102996 = ~Non, reste dans le groupe.~
 // Identique IWDEE 40145
-@102997= ~Oui. Attends-nous ici, s'il te plaît.~
+@102997 = ~Oui. Attends-nous ici, s'il te plaît.~
 // Identique IWDEE 40146
-@102998= ~Est-ce que tu as encore besoin de moi ?~
+@102998 = ~Est-ce que tu as encore besoin de moi ?~
 // Identique IWDEE 40147
-@102999= ~Oui, rejoins le groupe, s'il te plaît.~
+@102999 = ~Oui, rejoins le groupe, s'il te plaît.~
 // Identique BGEE 21074 IWDEE 40148
-@103000= ~Non, pas pour le moment.~
+@103000 = ~Non, pas pour le moment.~
 
 // Identique BGEE 24577 (minuscule initiale)
 @103006 = ~journal~
@@ -1767,7 +2056,7 @@ Caractéristiques :
 @103012 = ~Le Brise-crânes de Krotan +2~
 // Quasi identique BGEE 23967, BGEE conservé car type de dégâts séparé de la ligne dégâts dans BG2EE (non conforme à l'habitude)
 @103013 = ~Le Brise-Crânes de Krotan
-Même les hordes ont leurs héros et, s'ils sont peu appréciés dans les sociétés civilisées, certains de leurs faits d'armes n'en sont pas moins impressionnants. Krotan, un orque d'une intelligence exceptionnelle pour sa race, commandait une légion formée d'ogres, d'orques, de hobgobelins et autres créatures du même type pendant l'Année de la Dame Morte, 1241. Cette année-là, un groupe de bandits orques aurait kidnappé et tué une femme de la noblesse téthyrienne, et en guise de représailles, les autorités massacrèrent tous les orques vivant dans le sud. Krotan organisa des forces de défense pour protéger son peuple qui, déjà chassé de ses terres, était menacé d'anéantissement. Krotan lui-même tomba dans les derniers jours du conflit et sa tête fut exposée à l'extérieur du cimetière où était enterrée la jeune femme. Fait intéressant, les orques appelèrent cette période " l'Année des Abus ".
+Même les hordes ont leurs héros et, s'ils sont peu appréciés dans les sociétés civilisées, certains de leurs faits d'armes n'en sont pas moins impressionnants. Krotan, un orque d'une intelligence exceptionnelle pour sa race, commandait une légion formée d'ogres, d'orques, de hobgobelins et autres créatures du même type pendant l'Année de la Dame Morte, 1241. Cette année-là, un groupe de bandits orques aurait kidnappé et tué une femme de la noblesse téthyrienne, et en guise de représailles, les autorités massacrèrent tous les orques vivant dans le sud. Krotan organisa des forces de défense pour protéger son peuple qui, déjà chassé de ses terres, était menacé d'anéantissement. Krotan lui-même tomba dans les derniers jours du conflit et sa tête fut exposée à l'extérieur du cimetière où était enterrée la jeune femme. Fait intéressant, les orques appelèrent cette période « l'Année des Abus ».
 
 PARAMÈTRES :
 
@@ -1781,8 +2070,12 @@ Nécessite : 10 en Force
 Poids : 7~
 // @103014 Transfert dans fichier des sorts @103014, @103015
 
+// @103017 à 103036 : complément quête de l'oeil aveugle et choix des temples
+
 // Identique BGEE 32337
 @103041 = ~Rejoindre la partie~
+
+/* A partir de @103044, textes postérieurs au patch 1.3.2064 */
 
 // Identique BGEE 32410
 @103049 = ~000000000-Sauvegarde-Auto~
@@ -1808,33 +2101,34 @@ Poids : 7~
 // Nota : reprendre pour le kit de druide le terme "druide totémique" utilisé dans BGEE V2.x
 // Identique BGEE 32441
 @103059 = ~shaman~
-// Quasi identique BGEE 32341 (diff mineure sur forteresse), traduction adaptée
-@103060 = ~SHAMAN : Les Shamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les Druides avec la nature, mais les Shamans sont plus spirituels que primitifs. Ils puisent directement dans les énergies qui circulent à travers la terre et l'air, à travers les plantes et les animaux, et même à travers les morts, et ils façonnent ces énergies pour obéir à leur volonté. Leur capacité d'invoquer des esprits puissants comme gardiens et défenseurs, en est un parfait exemple. Partagé entre les deux mondes, les Shamans privilégient l'équilibre à la domination. 
+// Quasi identique BGEE 32341 (diff mineure sur forteresse), traduction adaptée - Note de Freddy : correction effectuée après traduction du mod Improved shamanic Dance (dans le mod, seule l'avant-dernière ligne concernant la forteresse diffère).
+@103060 = ~SHAMAN : Les shamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les druides avec la nature, mais les shamans sont plus spirituels que primitifs. Ils puisent directement dans les énergies qui circulent à travers la terre et l'air, à travers les plantes et les animaux, et même à travers les morts, et ils façonnent ces énergies pour obéir à leur volonté. Leur capacité d'invoquer des esprits puissants comme gardiens et défenseurs, en est un parfait exemple. Partagés entre les deux mondes, les shamans privilégient l'équilibre à la domination.
 
 CAPACITÉS :
 
-– Peut porter uniquement l'armure de cuir, la besantine et l'armure de peau
-– Ne peut utiliser de bouclier plus lourd que la targe
-– Ne peut utiliser que les armes suivantes : dague, gourdin, lance, hache, bâton, fléchette, fronde et arc court
-– Ne peut être que compétent (une étoile) dans le maniement des armes
-– Ne peut être que compétent (une étoile) dans les styles de combat
-– Peut lancer des sorts de Druide
-- Le Shaman n'apprend pas tous les sorts du niveau comme un druide. A la place, il sélectionne de nouveaux sorts à apprendre à chaque niveau ; un Shaman peut lancer des sorts sans avoir besoin de les mémoriser.
-- Le Shaman a un accès immédiat à un nombre de sorts spécifiques à sa classe, qu'il peut lancer comme n'importe quel autre sort : Protection de l'Esprit, Brouillard Putride, Lucidité Spirituelle, Feu spirituel, Rappel de l'Esprit, Verrou Spirituel, et Portail Éthéré
-- Il acquiert la compétence Détection des illusions en débutant avec 20 %. Puis il gagne 4 % par niveau pour atteindre un maximum de 100 % au niveau 20
-- Il peut utiliser la Danse Shamanique à volonté.
+– Peut porter uniquement l'armure de cuir, la besantine et l'armure de peau.
+– Ne peut utiliser de bouclier plus lourd que la targe.
+– Ne peut utiliser que les armes suivantes : dague, gourdin, lance, hache, bâton, fléchette, fronde et arc court.
+– Ne peut être que compétent (une étoile) dans le maniement des armes.
+– Ne peut être que compétent (une étoile) dans les styles de combat.
+– Peut lancer des sorts de druide.
+– Le shaman n'apprend pas tous les sorts du niveau comme un druide. À la place, il sélectionne de nouveaux sorts à apprendre à chaque niveau ; un shaman peut lancer des sorts sans avoir besoin de les mémoriser.
+– Le shaman a un accès immédiat à un nombre de sorts spécifiques à sa classe, qu'il peut lancer comme n'importe quel autre sort : Protection de l'esprit, Brouillard putride, Lucidité spirituelle, Feu spirituel, Rappel de l'esprit, Verrou spirituel et Portail éthéré.
+– Il acquiert la compétence Détection des illusions en débutant avec 20 %. Puis il gagne 4 % par niveau pour atteindre un maximum de 100 % au niveau 20.
+– Il peut utiliser la Danse shamanique à volonté.
 
-DANCE SHAMANIQUE : Les Shamans peuvent invoquer des esprits alliés grâce à une danse rituelle. Durant la danse, le Shaman subit une pénalité de -4 à la classe d'armure et il ne peut se déplacer, attaquer, lancer des sorts, utiliser des objets ou des capacités spéciales, ou effectuer toute autre activité. À chaque round, tandis que le Shaman danse, il a 35 % de chance de base plus 2 % pour chaque niveau supplémentaire qu'un esprit réponde à l'appel, avec un maximum de 75 % au niveau 20. Tous les esprits invoqués disparaîtront si le Shaman se déplace, arrête de danser, ou si l'esprit quitte le champs de vision. Les esprits augmentent en puissance au fur et à mesure que le Shaman gagne des niveaux supplémentaires :
-  Niveau 1 : Esprits animal mineurs (serpent, renard, limier), jusqu'à 2 esprits en même temps
-  Niveau 6 : Esprits animal majeurs (ours, panthère, sanglier), jusqu'à 3 esprits en même temps
-  Niveau 12 : Esprits de la nature mineurs (esprit d'air mineur, esprit de terre mineur, esprit de feu mineur), jusqu'à 4 esprits en même temps
-  Niveau 18 : Esprits de la nature majeurs (esprit d'air, esprit de terre, esprit de feu), jusqu'à 5 esprits en même temps
-Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits disponibles en fonction du niveau du Shaman. Par exemple, au niveau 12 le Shaman invoquera un esprit de la nature mineur, un esprit animal majeur ou un esprit animal mineur, mais il ne pourra pas choisir ceux qui apparaîtront. Les esprits feront de leur mieux pour protéger le Shaman mais il ne les contrôle pas directement. 
+DANCE SHAMANIQUE : Les shamans peuvent invoquer des esprits alliés grâce à une danse rituelle. Durant la danse, le shaman subit une pénalité de 4 à la classe d'armure et il ne peut se déplacer, attaquer, lancer des sorts, utiliser des objets ou des capacités spéciales, ou effectuer toute autre activité. À chaque round, tandis que le shaman danse, il a 35 % de chance de base plus 2 % pour chaque niveau supplémentaire qu'un esprit réponde à l'appel, avec un maximum de 75 % au niveau 20. Tous les esprits invoqués disparaîtront si le shaman se déplace, arrête de danser, ou si l'esprit quitte son champ de vision. Les esprits augmentent en puissance au fur et à mesure que le shaman gagne des niveaux supplémentaires :
+  Niveau 1 : Esprits animal mineurs (serpent, renard, limier), jusqu'à 2 esprits en même temps.
+  Niveau 6 : Esprits animal majeurs (ours, panthère, sanglier), jusqu'à 3 esprits en même temps.
+  Niveau 12 : Esprits de la nature mineurs (esprit d'air mineur, esprit de terre mineur, esprit de feu mineur), jusqu'à 4 esprits en même temps.
+  Niveau 18 : Esprits de la nature majeurs (esprit d'air, esprit de terre, esprit de feu), jusqu'à 5 esprits en même temps.
+Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits disponibles en fonction du niveau du shaman. Par exemple, au niveau 12 le shaman invoquera soit un esprit de la nature mineur, soit un esprit animal majeur, soit un esprit animal mineur, mais il ne pourra pas choisir ceux qui apparaîtront. Les esprits feront de leur mieux pour protéger le shaman, mais il ne les contrôle pas directement.
 
-- Aucun bonus de sorts par jour lié à une grande Sagesse
-- Doit être d'alignement neutre bon, neutre strict, ou neutre mauvais
-- Le Shaman n'est pas éligible pour une forteresse
-- Dés de vie : d8~
+– Aucun bonus de sorts par jour lié à une grande Sagesse.
+– Doit être d'alignement neutre bon, neutre strict ou neutre mauvais.
+– Ne peut pas être bi-classé ou multi-classé.
+– Le shaman n'est pas éligible pour une forteresse.
+– Dés de vie : d8.~
 // Identique BGEE 32342
 @103061 = ~Shaman~
 
@@ -1868,7 +2162,7 @@ Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits dispo
 @103095 = ~Armure de plates de Fallorain +1~
 
 // Identique IWDEE 19377
-@103098= ~Le groupe a été tué. Vous devez redémarrer le jeu.~
+@103098 = ~Le groupe a été tué. Vous devez redémarrer le jeu.~
 
 // Identique BGEE 32339
 @103101 = ~Mode Histoire : activé~
@@ -1897,7 +2191,7 @@ Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits dispo
 // Identique BGEE 32707
 @103142 = ~Succession de Bhaal~
 // Identique BGEE 32344
-@103143 = ~SHAMAN : Les Shamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les Druides avec la nature, mais les Shamans sont plus spirituels que primitifs. Les Shamans sélectionnent de nouveaux sorts à apprendre quand ils gagnent des niveaux ; une fois appris, le Shaman peut les lancer tous les jours sans mémorisation.~
+@103143 = ~SHAMAN : Les shamans forgent une connexion divine avec le monde naturel, semblable à la voie empruntée par les druides avec la nature, mais les shamans sont plus spirituels que primitifs. Ils sélectionnent de nouveaux sorts à apprendre quand ils gagnent des niveaux ; une fois appris, le shaman peut les lancer tous les jours sans mémorisation.~
 // Identique BGEE 32729
 @103144 = ~Révéler des détails~
 // Traduit 103145 à 103147
@@ -1913,9 +2207,11 @@ Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits dispo
 @103151 = ~Nombre max de sorts connus/niveau~
 // Identique BGEE 32705
 @103152 = ~Vous pouvez choisir un certain nombre de sorts à mettre dans votre livre de sorts. Ce seront les sorts que votre personnage connaîtra au début du jeu.~
+// Complément dialogue BRUS2.DLG
+@103153 = ~La meilleure chance pour quelqu'un comme vous de trouver quelqu'chose à faire, quelqu'chose qui paie j'veux dire, c'est d'aller à la Couronne de Cuivre. Vous voulez que j'vous y amène ?~ // ~Best bet fer someone like yerself to find somethin' t'do—somethin' that pays, I mean—is t'go to the Copper Coronet. Want me to take you there?~
 
 // Traduit
-@103172 = ~Pénalité à la Classe d'Armure~
+@103172 = ~Pénalité à la Classe d'armure~ // bddart01.ITM
 
 // Identique BGEE 32712
 @103188 = ~Réinitialise le niveau de zoom à sa valeur par défaut et bloque toute tentative ultérieure de zoomer ou dézoomer.~
@@ -1931,7 +2227,7 @@ Le type d'esprit invoqué est déterminé aléatoirement parmi les esprits dispo
 @103193 = ~Orque~
 // Identique BGEE 32741
 @103194 = ~Orque
-Les orques sont les ennemis héréditaires des gobelins et hobgobelins, avec lesquels ils sont perpétuellement en compétition. Ces carnivores raisonnablement intelligents font constamment la guerre aux autres races pour conserver la cohésion de leur tribu, ce qui élimine les faibles en leur procurant les ressources dont ils ont besoin. Les orques ont la réputation d'être de puissants guerriers. Certains magiciens ont tenté de donner vie à des créatures apparentées aux orques pour profiter de la force et de la férocité de ces derniers.~
+Les orques sont les ennemis héréditaires des gobelins et des hobgobelins, avec lesquels ils sont perpétuellement en compétition. Ces carnivores raisonnablement intelligents font constamment la guerre aux autres races pour conserver la cohésion de leur tribu, ce qui élimine les faibles en leur procurant les ressources dont ils ont besoin. Les orques ont la réputation d'être de puissants guerriers. Certains magiciens ont tenté de donner vie à des créatures apparentées aux orques pour profiter de la force et de la férocité de ces derniers.~
 // Traduit 103195 à 103204
 @103195 = ~000000007-Début du chapitre 1~
 @103196 = ~000000008-Début du chapitre 2~

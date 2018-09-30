@@ -1,14 +1,14 @@
-// Tous textes non couverts par les autres thËmes identifiÈs
-// En particulier, il s'agit de types de textes qui sont parfois prÈsents dans
-// les fichiers d'analyse, mais dont certains ont ÈchappÈ ‡ l'auteur ou qui ont
-// ÈtÈ ajoutÈs aprËs l'analyse.
+// Tous textes non couverts par les autres th√®mes identifi√©s
+// En particulier, il s'agit de types de textes qui sont parfois pr√©sents dans
+// les fichiers d'analyse, mais dont certains ont √©chapp√© √† l'auteur ou qui ont
+// √©t√© ajout√©s apr√®s l'analyse.
 //
-// - …lÈments plus ou moins directement liÈes aux cartes
+// - √âl√©ments plus ou moins directement li√©es aux cartes
 //   * scripts de zone,
 //   * triggers de zone,
-//   * cinÈmatiques,
+//   * cin√©matiques,
 //   * scripts de personnages apparaissant dans les zones
-// - Autres ‡ prÈciser (notamment extraits de BG2EE_74107-fin.tra aprËs tri)
+// - Autres √† pr√©ciser (notamment extraits de BG2EE_74107-fin.tra apr√®s tri)
 
 // ****************************************************************************
 // -*- coding: utf-8 -*-
@@ -25,18 +25,23 @@
 // Sans condition
 	STRING_SET 80309 @80309
 
-// alÈatoire, GlobalLT("OHR_PLOT","GLOBAL",6)
+// al√©atoire, GlobalLT("OHR_PLOT","GLOBAL",6)
 	STRING_SET 95145 @95145
 	STRING_SET 95146 @95146
 	STRING_SET 95147 @95147
 	STRING_SET 95148 @95148
 
-// alÈatoire, GlobalGT("OHR_PLOT","GLOBAL",5)
+// al√©atoire, GlobalGT("OHR_PLOT","GLOBAL",5)
 	STRING_SET 95151 @95151
 	STRING_SET 95152 @95152
 	STRING_SET 95153 @95153
 	STRING_SET 95154 @95154
 
+
+
+// Fichier GPHEALER.baf, GPSHOUT.baf, USEITEM.baf : pas de texte propre BG2EE
+// Fichier CMONK20B.baf, 13 DisplayString, 1 seul propre BG2EE : @101647
+// GPTHIEF.baf : 2 textes propres BG2EE dont @101646 et @101647 -> voir BG2EE_74107-fin.tra
 
 // script = OH4000 (1 Journal)
 	STRING_SET 100281 @100281
@@ -61,3 +66,116 @@
 	STRING_SET 85055 @85055
 	STRING_SET 85078 @85078
 	STRING_SET 85083 @85083
+
+// Nouveaux compl√©ments
+// OHRHGUA1.d
+	STRING_SET 85039 @85039
+
+// OHRHMKEL.d
+	STRING_SET 85018 @85018
+// OHRHMFEN.d
+	STRING_SET 85019 @85019
+// RASAADJ.d
+	STRING_SET 85020 @85020
+// OHRHHELM.d
+	STRING_SET 85021 @85021
+// OHRHHELM.d
+	STRING_SET 85022 @85022
+
+// OHRHHELM.d, RASAADJ.d
+	STRING_SET 85026 @85026
+// OHRMEMB2.d
+	STRING_SET 85027 @85027
+// OHRSSCAR.d
+	STRING_SET 85029 @85029
+// OHRSSCAR.d
+	STRING_SET 85030 @85030
+// OHRSAHAN.d
+	STRING_SET 85031 @85031
+// RASAAD.baf
+	STRING_SET 85032 @85032
+// OHRHERAT.d
+	STRING_SET 85036 @85036
+// OHRHERAT.d
+	STRING_SET 85037 @85037
+// OHRHGUA2.d
+	STRING_SET 85040 @85040
+// OHRHGUA2.d
+	STRING_SET 85041 @85041
+// OHRHGUA2.d, VICONIJ.d
+	STRING_SET 85042 @85042
+// OHRBSSM1.d, OHRBSSM2.d
+	STRING_SET 85045 @85045
+// OHRBSSM1.d
+	STRING_SET 85046 @85046
+// OHRBSSM1.d
+	STRING_SET 85047 @85047
+// WILSON.d
+	STRING_SET 85049 @85049
+// WILSON.d
+	STRING_SET 85050 @85050
+// OHRJOLST.d
+	STRING_SET 85051 @85051
+// OHRLEMZE.d
+	STRING_SET 85052 @85052
+// OHRLEMZE.d
+	STRING_SET 85053 @85053
+// OHRLEMZE.d
+	STRING_SET 85054 @85054
+// OHRCOLLU.d
+	STRING_SET 85057 @85057
+// OHRCOLLU.d
+	STRING_SET 85059 @85059
+// OHRMOCOM.d
+	STRING_SET 85060 @85060
+// OHRMOCOM.d
+	STRING_SET 85061 @85061
+// OHRMOCOM.d, RASAADJ.d
+	STRING_SET 85062 @85062
+// OHRMOCOM.d, OHRTWOFO.d
+	STRING_SET 85063 @85063
+// OHRMOCOM.d
+	STRING_SET 85064 @85064
+// RASAADJ.d
+	STRING_SET 85065 @85065
+// OHRROPML.d
+	STRING_SET 85070 @85070
+// OHRROPML.d
+	STRING_SET 85071 @85071
+// OHRBSM.d
+	STRING_SET 85072 @85072
+// ni d ni bcs
+	STRING_SET 85073 @85073
+// ni d ni bcs
+	STRING_SET 85074 @85074
+// ni d ni bcs
+	STRING_SET 85075 @85075
+// OHRTRUTH.d
+	STRING_SET 85076 @85076
+// OHRBMM.d
+	STRING_SET 85077 @85077
+// ni d ni bcs
+	STRING_SET 85079 @85079
+// ni d ni bcs
+	STRING_SET 85080 @85080
+// ni d ni bcs
+	STRING_SET 85081 @85081
+// OHRCONF.d
+	STRING_SET 85082 @85082
+// OHRCONF.d
+	STRING_SET 85084 @85084
+// OHRMOCOM.d, RASAADJ.d
+	STRING_SET 85088 @85088
+// OHRDMH2.d, OHRMOCOM.d
+	STRING_SET 85089 @85089
+// OHRDMH2.d
+	STRING_SET 85090 @85090
+// OHRDMH2.d
+	STRING_SET 85091 @85091
+// OHRDMH2.d, OHRMOCOM.d
+	STRING_SET 85092 @85092
+// RASAADJ.d
+	STRING_SET 85093 @85093
+
+// RASAADJ.d
+	STRING_SET 102675 @102675

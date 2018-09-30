@@ -252,6 +252,187 @@
 
 
 // ****************************************************************************
+// HEXXAT
+// ****************************************************************************
+
+	STRING_SET 81673 @81673
+	STRING_SET 84854 @84854
+	STRING_SET 81677 @81677
+
+	STRING_SET 85179 @85179
+	STRING_SET 85180 @85180
+
+	STRING_SET 86497 @86497
+	STRING_SET 86498 @86498
+
+// Pour les 8 objets suivants, le titre est ~Livre poussiéreux~
+
+	STRING_SET 101699 @101699
+
+	STRING_SET 101700 @101700
+
+	STRING_SET 101701 @101701
+
+	STRING_SET 101702 @101702
+
+	STRING_SET 101703 @101703
+
+	STRING_SET 101704 @101704
+
+	STRING_SET 101705 @101705
+
+	STRING_SET 101706 @101706
+
+	STRING_SET 81667 @81667
+	STRING_SET 81670 @81670
+
+	STRING_SET 84974 @84974
+	STRING_SET 84975 @84975
+
+	STRING_SET 81692 @81692
+	STRING_SET 81695 @81695
+
+	STRING_SET 81992 @81992
+	STRING_SET 81993 @81993
+
+	STRING_SET 81683 @81683
+	STRING_SET 81687 @81687
+
+	STRING_SET 84061 @84061
+	STRING_SET 84062 @84062
+
+	STRING_SET 81994 @81994
+	STRING_SET 81995 @81995
+
+	STRING_SET 86485 @86485
+	STRING_SET 86486 @86486
+
+	STRING_SET 93767 @93767
+	STRING_SET 83510 @83510
+
+	STRING_SET 100060 @100060
+// Note de Freddy : les jets de sauvegarde sont de -1 dans le fichier ! Où est la protection ? Quant au degré de protection, il est erroné (parameter 2 = 3 ==> inutile pour les morts vivants qui n'en disposent pas !)
+	STRING_SET 100061 @100061
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 95117 @95117
+// Contribué par Freddy_Gwendo ==> corrigé.
+	STRING_SET 95118 @95118
+
+	STRING_SET 84021 @84021
+	STRING_SET 84026 @84026
+// piégeage
+	STRING_SET 86481 @86481
+	STRING_SET 86482 @86482
+
+	STRING_SET 81951 @81951
+	STRING_SET 81965 @81965
+
+	STRING_SET 85191 @85191
+	STRING_SET 85192 @85192
+
+	STRING_SET 95119 @95119
+	STRING_SET 95120 @95120
+
+// Contribué par Freddy_Gwendo
+	STRING_SET 95121 @95121
+// Contribué par Freddy_Gwendo
+	STRING_SET 95122 @95122
+
+
+// ****************************************************************************
+// NEERA
+// ****************************************************************************
+
+	STRING_SET 88859 @88859
+	STRING_SET 88860 @88860
+
+	STRING_SET 88875 @88875
+	STRING_SET 88876 @88876
+
+	STRING_SET 88871 @88871
+	STRING_SET 88872 @88872
+
+	STRING_SET 88865 @88865
+	STRING_SET 88866 @88866
+
+	STRING_SET 96065 @96065
+	STRING_SET 96066 @96066
+
+	STRING_SET 100273 @100273
+	STRING_SET 100043 @100043
+
+	STRING_SET 88867 @88867
+	STRING_SET 88868 @88868
+
+	STRING_SET 88873 @88873
+	STRING_SET 88874 @88874
+
+// Note de Freddy : j'aimais bien "Parpaing", mais pourquoi pas Brique ? Isaya : oui, plutôt brique vu la taille pour en faire un objet à lancer
+	STRING_SET 88877 @88877
+	STRING_SET 88878 @88878
+
+	STRING_SET 93723 @93723
+
+	STRING_SET 93724 @93724
+
+	STRING_SET 93598 @93598
+	STRING_SET 93599 @93599
+
+	STRING_SET 88857 @88857
+	STRING_SET 88858 @88858
+
+	STRING_SET 93172 @93172
+	STRING_SET 93179 @93179
+
+	STRING_SET 93608 @93608
+	STRING_SET 93609 @93609
+
+	STRING_SET 93600 @93600
+	STRING_SET 93601 @93601
+
+	STRING_SET 93373 @93373
+	STRING_SET 93374 @93374
+// Note de Freddy : le fichier dialog.tlk contient une référence @100051 identique !
+
+// ~Lettre~
+	STRING_SET 93375 @93375
+
+	STRING_SET 93610 @93610
+	STRING_SET 93611 @93611
+
+	STRING_SET 93700 @93700
+	STRING_SET 93701 @93701
+
+	STRING_SET 96058 @96058
+	STRING_SET 96057 @96057
+
+	STRING_SET 93614 @93614
+	STRING_SET 93615 @93615
+
+	STRING_SET 93597 @93597
+	STRING_SET 93428 @93428
+
+	STRING_SET 96061 @96061
+	STRING_SET 96062 @96062
+
+	STRING_SET 96063 @96063
+	STRING_SET 96064 @96064
+
+	STRING_SET 88861 @88861
+	STRING_SET 88862 @88862
+//10871 Renvoi des sorts = Retour de sort
+	STRING_SET 88863 @88863
+	STRING_SET 88864 @88864
+
+	STRING_SET 88869 @88869
+	STRING_SET 88870 @88870
+
+	STRING_SET 96059 @96059
+	STRING_SET 96060 @96060
+
+
+// ****************************************************************************
 // RASAAD
 // ****************************************************************************
 
@@ -329,6 +510,7 @@
 
 	STRING_SET 85293 @85293
 	STRING_SET 77827 @77827
+// Freddy : ajout de la version F, au cas où
 
 // Note de Freddy : j'ai harmonisé Hammerhelm (Martheaume) dans les textes.
 // ~Note~
@@ -492,7 +674,7 @@
 - vol à la tire : -30 %
 - déplacement silencieux : -20 %
 - se cacher dans l'ombre : -20 %
->> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à - 10 %, et pas 30 %.
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à -10 %, et pas 30 %.
 */
 	STRING_SET 101692 @101692
 
@@ -504,7 +686,7 @@
 - vol à la tire : -30 %
 - déplacement silencieux : -20 %
 - se cacher dans l'ombre : -20 %
->> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à - 10 %, et pas à -30 %.
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à -10 %, et pas à -30 %.
 */
 	STRING_SET 101693 @101693
 
@@ -554,12 +736,6 @@
 // ****************************************************************************
 // Compléments : fichiers ITM ajoutés par BG2EE hors BD* et OH*
 // ****************************************************************************
-
-// Order of text for each item
-// @unidentified_name_number = ~unidentified name~
-// @identified name_number = ~identified name~
-// @unidentified description_number = ~unidentified description~
-// @identified description_number = ~identified description~
 
 // Les numéros inférieurs à 74107 existent déjà dans BG II - ToB et ne sont pas repris ici
 

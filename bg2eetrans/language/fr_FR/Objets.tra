@@ -287,7 +287,7 @@ PARAMÈTRES :
 Poids : 0~ // OHBPTN05 identified description
 
 @92448 = ~Poison de Feldrak~ // OHBPTN06 identified name
-@92449 = ~Feldrak "Le Démon" Feldraki a créé ce poison pour l'utiliser contre Joker.
+@92449 = ~Feldrak « Le Démon » Feldraki a créé ce poison pour l'utiliser contre Joker.
 
 PARAMÈTRES :
 
@@ -335,7 +335,7 @@ Capacité de charge :
 Poids : 0~ // OHBREW01 identified description
 
 @100438 = ~[Faulty]Fléau des Abysses +4~ // OHBREW02 identified name
-@100439 = ~Peu nombreux sont les magiciens qui tenteraient de fabriquer une arme ciblant spécifiquement les démons ou les diables, et encore plus rares sont ceux qui voudraient les tester. Halrass Daystar, de Sembie, en fait partie, et ses efforts ont contribué à repousser un démon convoqué par erreur qui menaçait d'anéantir un village entier. Bien que Halrass ait réussi à vaincre le démon, ce dernier se vengea des années plus tard, et, jusqu'à ce jour, le magicien travaille continuellement comme esclave dans les neuf enfers.
+@100439 = ~Peu nombreux sont les magiciens qui tenteraient de fabriquer une arme ciblant spécifiquement les démons ou les diables, et encore plus rares sont ceux qui voudraient les tester. Halrass Étoiledujour, de Sembie, en fait partie, et ses efforts ont contribué à repousser un démon convoqué par erreur qui menaçait d'anéantir un village entier. Bien que Halrass ait réussi à vaincre le démon, ce dernier se vengea des années plus tard, et, jusqu'à ce jour, le magicien travaille continuellement comme esclave dans les neuf enfers.
 
 PARAMÈTRES :
 
@@ -364,7 +364,7 @@ Capacités de charge :
 
 Poids : 5~ // OHBREW03 identified description
 
-@100446 = ~[Faulty]Rivière Sinueuse~ // OHBREW04 identified name Eau sinueuse
+@100446 = ~[Faulty]Rivière Sinueuse~ // OHBREW04 identified name
 @100447 = ~Ce petit flacon contient de l'eau puisée dans la rivière qui coule sous le pont de Boreskyr, très loin, le long de la Côte des Épées, sur le site où Bhaal, ancien dieu du meurtre, a péri.
 
 Dennaton prétend que cette eau brûlera comme de l'acide tout disciple de Bhaal qui en serait aspergé.~ // OHBREW04 identified description
@@ -773,6 +773,561 @@ Poids : 1~ // OHDWAND1 identified description
 
 
 // ****************************************************************************
+// HEXXAT
+// ****************************************************************************
+
+@81673 = ~Sac de Hexxat~ // OHHBAG unidentified name
+@84854 = ~Répit de Dragomir~ // OHHBAG identified name
+@81677 = ~Il s'agit d'un sac de contenance modifié qui appartenait à Dragomir le Seigneur de guerre, un puissant vampire. Lors de ses incessantes campagnes militaires, Dragomir se trouvait fréquemment aux premiers rangs des combats et, malgré ses capacités vampiriques, fut blessé à plus d'une occasion. En prenant forme gazeuse, il devait parcourir une longue distance jusqu'à son camp afin de retrouver son cercueil pour se régénérer. Ainsi, chaque fois qu'il était blessé, il lui suffisait de rejoindre un chevalier de confiance qui ne le quittait pas et gardait son sac pour lui.
+
+Cependant, c'est cette confiance trahie qui l'a conduit à être enseveli pendant des siècles.
+
+Le sac lui-même est un sac de tissu classique, d'environ 60 cm sur 1,20 m. Il s'ouvre sur un espace non dimensionnel, et l'intérieur est considérablement plus grand que l'extérieur. Son poids reste inchangé, quels que soient les objets qui y sont déposés. Peu importe si l'intérieur d'un sac de contenance est dénué d'atmosphère, les vampires n'ont pas besoin de respirer et peuvent s'y reposer confortablement.
+
+PARAMÈTRES :
+
+Poids : 5~ // OHHBAG unidentified description
+
+@85179 = ~Histoire du Prophète non révélé~ // OHHBOOK unidentified name
+@85180 = ~Histoire du Prophète non révélé
+
+Il y a des siècles, dans le désert de Zakhara, quatre hakima, Rabi'ah, Aminah, Bilqis et Sukayna, prédirent la naissance d'un grand prophète qui conduirait Halwa vers un âge doré de prospérité et sur la Voie de l'Illumination. La mère de cet enfant de bon augure devait être une femme nommée Badiat, qui ne savait même pas qu'elle était enceinte jusqu'à ce que son mari, Muharr, soit tué en combattant des bandits à la demande du calife.
+
+Les hakima invitèrent Badiat à vivre sous la protection du calife. La qualité des djellabas et des magnifiques caftans qu'elle tissait impressionna rapidement le calife qui l'intégra à son harem et ordonna à ses marchands de lui livrer les soies les plus fines en provenance de chaque recoin de la péninsule.
+
+Cependant, cela engendra la jalousie de la première femme du calife, Raffiyah, précédente responsable de tout le tissage de la maison du calife. Trouvant une allié auprès de la quatrième hakima, une femme méchante, elle conspira pour empoisonner Badiat. Les comploteurs tuèrent la mère et l'enfant, l'enfant à naître devenant « un prophète non révélé ».
+
+Mais il était trop tard. Les trois hakima vertueuses découvrirent le crime et le révélèrent au calife. Furieux, ce dernier ordonna que les quatre hakima soient enterrées avec Badiat et son enfant à naître, en guise de punition pour avoir failli à leurs devoirs, non seulement envers lui, mais envers tous les habitants d'Halwa.~ // OHHBOOK unidentified description
+
+@86497 = ~Du simulacre et de la santé mentale~ // OHHBOOK2 unidentified name - Note de Freddy : Sanity = santé mentale, raison, bon sens
+@86498 = ~Ce livre ancien décrit les moindres détails du processus de création et d'animation des simulacres, des doubles intelligents faits de glace et de neige.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOK2 unidentified description
+
+// Pour les 8 objets suivants, le titre est ~Livre poussiéreux~
+
+@101699 = ~Ce livre usé semble dater de plusieurs siècles, ses pages sont jaunies et l'encre de ses caractères est décolorée par le temps. Il est écrit dans une langue oubliée depuis longtemps et, malgré tous vos efforts, vous ne parvenez pas à déchiffrer cette écriture étrangère.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOKA unidentified description
+
+@101700 = ~Bien que vous ne sachiez pas lire le texte griffonné dans une langue étrangère, ce livre est rempli de belles illustrations représentant un monde étrange et merveilleux que vous n'avez jamais vu. Sur une page, vous remarquez ce que vous soupçonnez être un génie, tenant une lampe rudimentaire.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOKB unidentified description
+
+@101701 = ~Il y a bien longtemps, un pauvre maladroit a répandu du liquide sur toutes les pages de ce texte ancien, le transformant en une énigme floue et étrange.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOKC unidentified description
+
+@101702 = ~En feuilletant soigneusement les pages de cet ouvrage imposant, vous tombez sur un fragment de texte écrit en langue commune, apparemment le gribouillage d'un fou.
+
+« ... placez la main du suppliant dans la cavité centrale... ne laissez pas les réponses se fondre dans les sables du temps, et laissez la tragédie... »
+
+Le reste du texte est à moitié effacé et illisible.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOKD unidentified description
+
+@101703 = ~Bien que ce livre semble dépourvu de magie et totalement inoffensif, le crépitement produit par les pages rigides que vous tournez ne ressemble pas vraiment à celui d'un feu doux.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOKE unidentified description
+
+@101704 = ~La couverture de ce tome ouvragé est décorée de gravures aux couleurs et aux motifs complexes et tourbillonnants. Vous parvenez difficilement à déchiffrer sa première page, qui détaille le couronnement d'un prince oublié depuis longtemps, et décidez de ne pas poursuivre votre lecture.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOKF unidentified description
+
+@101705 = ~Ce livre semble détailler la lignée héréditaire du Prophète non révélé, mais les noms n'ont aucun sens pour vous. Vous remarquez cependant un détail curieux : son père est inconnu ; seule sa mère, Badiat, est mentionnée.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOKG unidentified description
+
+@101706 = ~Ce beau petit livre semble être un recueil de poésie. Bien que vous ne puissiez pas saisir la signification de ses pages, vous pensez qu'un bon acheteur paierait cher pour l'obtenir.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHBOOKH unidentified description
+
+@81667 = ~Cercueil vide~ // OHHCASK unidentified name
+@81670 = ~Ce cercueil semble être lié par magie au sac de contenance dans lequel vous l'avez trouvé, et on ne peut pas l'en retirer. Sa taille réelle permet à une personne de corpulence moyenne de s'y allonger facilement.~ // OHHCASK unidentified description
+
+@84974 = ~Cercueil de Hexxat~ // OHHCASK2 unidentified name
+@84975 = ~Ce cercueil semble être lié par magie au sac de contenance dans lequel vous l'avez trouvé, et on ne peut pas l'en retirer. À l'intérieur, la vampire Hexxat dort et se régénère.~ // OHHCASK2 unidentified description
+
+@81692 = ~Casque de Dragomir~ // OHHCASQ identified name
+@81695 = ~Ce sont les partisans de Dragomir qui fabriquèrent ce casque lorsqu'ils réalisèrent que sa soif vampirique de puissance et de destruction finirait par entraîner leur perte. Craignant et respectant à la fois Dragomir, ils décidèrent de l'immobiliser et de l'enterrer plutôt que de tenter de le détruire. C'est en élaborant ce plan qu'ils conçurent ce casque. La magie puissante qu'il renferme étourdit la créature mort-vivante sur la tête de laquelle il est posé, et l'empêche de se déplacer et de bouger tant que le casque reste sur sa tête. Sans s'en rendre compte, Hexxat a par méprise tiré Dragomir de son sommeil lorsqu'elle a tenté de voler le casque.
+
+Le Casque de Dragomir établit un lien puissant avec la magie de la non-mort, et dispose de nombreuses propriétés intéressantes qui dépassent de loin ce que ses créateurs avaient prévu.
+
+PARAMÈTRES :
+
+Poids : 3~ // OHHCASQ identified description
+
+@81992 = ~Griffe du Léopard noir~ // OHHCLAW identified name
+@81993 = ~La griffe du Léopard noir est un sceptre incrusté de joyaux utilisé autrefois par Nan Kung Chi, grand prêtre du culte du Léopard noir, pour invoquer un esprit démoniaque félin afin de terrasser ses ennemis.
+
+Nan Kung Chi fut finalement vaincu par le légendaire Tan Chin et son frère de sang, Kar Wuan, lorsque Tan Chin brisa les liens de la chaîne d'ivoire qui liait la panthère à la volonté de Nan Kung Chi.
+
+Bien que le spectre ne puisse plus invoquer la panthère, il conserve toutefois une puissante aura de magie.
+
+PARAMÈTRES :
+
+Poids : 2~ // OHHCLAW identified description
+
+@81683 = ~Cape de Dragomir~ // OHHCLOAK identified name
+@81687 = ~Cette cape a été fabriquée et imprégnée d'une puissante magie de non-mort par la nécromancienne Zulann Fass quand elle était au service du seigneur de guerre Dragomir. Devenu vampire et ne voulant pas abandonner sa vie précédente, ce dernier exigea que Zulann lui confectionne un vêtement magique qui lui permettrait de voyager à la lumière du soleil sans être détruit. Si la cape confectionnée par Zulann remplissait son œuvre, elle n'en diminuait pas moins grandement nombre des capacités vampiriques dont Dragomir raffolait.
+
+Pour ce désagrément, Dragomir vida Zulann de son sang et la laissa mourir.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Permet à un vampire de se déplacer en plein jour, à la lumière du soleil, mais avec les pénalités suivantes :
+ Force : -6
+ Dextérité : -4
+ Intelligence : -2
+ Sagesse : -2
+ Charisme : -4
+
+Utilisable uniquement par des vampires.
+
+Poids : 3~ // OHHCLOAK identified description
+
+@84061 = ~Croc de jade~ // OHHDAG01 identified name
+@84062 = ~Le tranchant de cette dague taillée dans un bloc de jade permettrait aisément de couper les cheveux en quatre. Qu'elle soit historique ou culturelle, la signification des décorations complexes et ostentatoires qui ornent la surface de sa lame a été oubliée depuis longtemps.
+
+Le Croc de jade était l'arme de prédilection du célèbre voleur de Shou Lung, Niu Weidan, qui l'utilisait pour immobiliser ses adversaires avant de les vider de leur force vitale pour renforcer la sienne. Les innombrables fois où Niu s'est retrouvé acculé, cette dague lui a toujours permis de s'échapper. Au bout du compte, ce n'est ni un ennemi, ni une de ses victimes vindicatives, qui finit par venir à bout de lui, mais la vieillesse. La lame a été transmise en héritage parmi les membres de sa famille, et n'a plus jamais été utilisée comme arme.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– 5 % de chances d'étourdir la cible pendant 10 secondes
+– Chaque coup réussi soigne 1 PV du porteur
+
+TAC0 : +3
+Dégâts : 1d4 +3 (perforant)
+Facteur de vitesse : 0
+Type de compétence : dague
+Type : arme à une main
+Nécessite : 3 en Force
+
+Poids : 1~ // OHHDAG01 identified description
+
+@81994 = ~Amulette de Hexxat~ // OHHEXAM0, OHHEXAM1, OHHEXAM2, OHHEXAM3, OHHEXAM4, OHHEXAM5, OHHEXAM9 identified name
+@81995 = ~Hexxat refuse de vous laisser examiner cette amulette de près, mais de loin, son aspect exotique laisse présager qu'elle provient de quelque part dans Chult.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHHEXAM0, OHHEXAM1, OHHEXAM2, OHHEXAM3, OHHEXAM4, OHHEXAM5, OHHEXAM9 identified description
+
+@86485 = ~Journal de Umolex le clairvoyant~ // OHHJOUR unidentified name
+@86486 = ~En feuilletant ce journal défraîchi, vous remarquez le passage suivant :
+
+« Korkorran est un imbécile de défier son ancien maître, mais ça ne me regarde pas. S'il devait être tué par ses anciennes relations, ma connaissance des arcanes aura encore grandi à pas de géant sous son tutorat. Et tout ce que j'ai eu à faire fut de partager quelques détails peu connus sur la création de simulacres. À propos, nos efforts ont porté leurs fruits et nous avons réussi à créer un duplicata magistral. Mais c'est assez, je suis fatigué et mon lit m'appelle. I shall detail my egg-painting exploits tomorrow. »~ // OHHJOUR unidentified description - Freddy : @todo traduire "I shall detail my egg-painting exploits tomorrow."
+
+@93767 = ~Clef de la crypte du Maître~ // OHHKEY unidentified name
+@83510 = ~Cette clef ouvre la dernière chambre de la tombe de Nan Kung Chi.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHHKEY unidentified description
+
+@100060 = ~Cagoule de Korkorran~ // OHHKORK identified name
+// Note de Freddy : les jets de sauvegarde sont de -1 dans le fichier ! Où est la protection ? Quant au degré de protection, il est erroné (parameter 2 = 3 ==> inutile pour les morts vivants qui n'en disposent pas !)
+@100061 = ~Cette cagoule en lambeaux et à l'aspect miteux dégage une aura de puissante magie et une vague odeur de chair en décomposition. Créée par la liche Korkorran pour se protéger contre les attaques non provoquées - et souvent provoquées -, elle protège également contre la lumière du soleil et le feu.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Jets de sauvegarde : +1
+– Résistance au feu : 20 %
+– Permet aux vampires et autres morts-vivants sensibles au soleil de se déplacer en plein jour, mais avec les pénalités suivantes :
+  Force : -5
+  Dextérité : -5
+  Sagesse : -1
+  Charisme : -3
+
+Utilisable uniquement par des morts-vivants.
+
+Poids : 3~ // OHHKORK identified description
+
+// Contribué par Freddy_Gwendo
+@95117 = ~Lampe à huile~ // OHHOIL identified name
+// Contribué par Freddy_Gwendo ==> corrigé.
+@95118 = ~Il s'agit d'une lampe remplie d'huile.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHHOIL identified description
+
+@84021 = ~Clef des érudits~ // OHHONKEY unidentified name
+@84026 = ~Cette clef ouvre une porte conduisant à la crypte des érudits, dans la tombe de Nan Kung Chi.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHHONKEY unidentified description
+// piégeage
+@86481 = ~Casque piégeur~ // OHHPRISN identified name
+@86482 = ~S'il y prêtait attention, n'importe quel étudiant des traditions remarquerait qu'il s'agit de l'ancien Casque de Dragomir, mais qu'il a été largement modifié. Des éléments du Linceul du Prophète non révélé et de la Griffe du Léopard noir y ont été incorporés. Ce nouveau casque irradie une aura d'énergie nécromantique malsaine.
+
+PARAMÈTRES :
+
+Poids : 5~ // OHHPRISN identified description - Isaya : "des traditions" -> "du savoir"
+
+@81951 = ~Tige en fer~ // OHHROD identified name
+@81965 = ~Cette tige en fer de quinze centimètres de long est gravée de motifs complexes et délicats. Si l'on en juge par les encoches taillées à ses extrémités, elle soit s'insérer dans un dispositif plus important.
+
+PARAMÈTRES :
+
+Poids : 5~ // OHHROD identified description
+
+@85191 = ~Linceul du Prophète non révélé~ // OHHSHROU unidentified name
+@85192 = ~Même s'il porte le nom de Linceul du Prophète non révélé, il serait plus approprié de décrire ce morceau de tissu comme étant le linceul de la mère du prophète à naître. On lui prête des propriétés magiques importantes. Malheureusement, vous ne pouvez pas en déterminer la nature.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHHSHROU unidentified description
+
+@95119 = ~Morceau de soie~ // OHHSILK identified name
+@95120 = ~Un rouleau de tissu en soie précieuse.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHHSILK identified description
+
+// Contribué par Freddy_Gwendo
+@95121 = ~Statue dorée~ // OHHSTAT1, OHHSTATU identified name
+// Contribué par Freddy_Gwendo
+@95122 = ~Cette petite statue dorée représente un jeune garçon.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHHSTAT1, OHHSTATU identified description
+
+
+// ****************************************************************************
+// NEERA
+// ****************************************************************************
+
+@88859 = ~Talisman du foyer~ // OHNAMUL1 identified name
+@88860 = ~Lorsqu'on empoigne fermement ce genre de talisman, on est immédiatement transporté par des moyens magiques dans un lieu prédéfini. Celui-ci, le talisman du foyer, a été créé pour transporter quiconque l'utilise dans un refuge caché au cœur d'une forêt de l'Amn.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHNAMUL1 identified description
+
+@88875 = ~Collier du cheval de bois~ // OHNAMUL2 identified name
+@88876 = ~À première vue, ce collier ne ressemble à rien d'autre qu'à une figurine de cheval en bois attachée à un bout de ficelle. Cependant, un examen approfondi révèle qu'une amulette de protection a été sertie à l'intérieur de la figurine.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Jets de sauvegarde : +2
+
+Poids : 1~ // OHNAMUL2 identified description
+
+@88871 = ~Réconfort du Halfelin~ // OHNCASK identified name
+@88872 = ~Cette barrique porte une étiquette estampillée « BELUIR ». Elle contient un breuvage appelé le Réconfort du Halfelin, une bière de blé, blonde et légère, originaire de Luiren, pays des petites-personnes au sud de Féérûne. Mironda, la magicienne entropiste naine pour laquelle vous l'avez récupérée dans le Pub de Vyatri à Franc-Marché, espérait qu'elle serait à la hauteur de sa réputation. Les amateurs décrivent le Réconfort du Halfelin comme une bière blanche pétillante au goût de fraise et de prairies ensoleillées, fortement alcoolisée.
+
+PARAMÈTRES :
+
+Poids : 10~ // OHNCASK identified description
+
+@88865 = ~Chat tigré~ // OHNCAT identified name
+@88866 = ~Pas réputés pour leur amabilité et leur volonté de rester assis dans des espaces clos, les chats sauvages préfèrent la liberté à tout autre chose, sauf au poisson. Celui-ci, un chat tigré « appartenant » à Barad Ding, ne fait pas exception à la règle. En ce moment, il hurle et griffe vigoureusement pour tenter de se libérer.
+
+PARAMÈTRES :
+
+5 % de chances de s'échapper de votre inventaire tous les deux rounds.~ // OHNCAT identified description
+
+@96065 = ~Collier à clochette~ // OHNCOLL unidentified name
+@96066 = ~Le magicien entropiste Barad Ding aimait les chats et s'entourait de ces bêtes miauleuses. Sauvages et non domestiqués, ses animaux de compagnie partaient souvent en vadrouille et disparaissaient pendant des jours, à la plus grande préoccupation de Barad. Après des semaines d'inquiétude, ce dernier décida de faire porter à ses compagnons des colliers en cuir dotés de minuscules clochettes magiques. Chaque fois qu'il prononcerait le mot de commande, toutes les clochettes situées dans un rayon donné produiraient un son mélodieux qui révélerait leur emplacement.
+
+Mais en enchantant ces clochettes, Barad provoquait parfois des hiatus entropiques, certains inoffensifs, d'autres beaucoup moins. Le hiatus produit quand il conçut celle-ci a amplifié son enchantement à l'extrême - au lieu d'un tintement doux, elle émet un son assourdissant, capable de réveiller instantanément n'importe qui, même du sommeil le plus profond.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Trois fois par jour, la clochette réveille quiconque se trouve dans un rayon de 9 mètres. Quiconque rate un jet de sauvegarde contre les sorts devient sourd pendant un tour.
+
+Poids : 1~ // OHNCOLL unidentified description
+
+@100273 = ~Dings~ // OHNDINGS identified name
+@100043 = ~Dings, c'est son nom, est un petit chat tigré que vous a donné le magicien entropiste Barad Ding. Dings passe son temps à dormir et à chasser des « présents » qu'il revient vous apporter.
+
+PARAMÈTRES :
+
+Poids : 7~ // OHNDINGS identified description
+
+@88867 = ~Nourriture pour chat~ // OHNFOOD unidentified name
+@88868 = ~Cette pâtée brunâtre et huileuse dégage l'odeur caractéristique du poisson.
+
+PARAMÈTRES :
+
+Utilisée pour attirer les chats retournés à l'état sauvage.
+
+Poids : 2~ // OHNFOOD unidentified description
+
+@88873 = ~Bandeau~ // OHNHAIRB unidentified name
+@88874 = ~C'est un bandeau tout simple. Modeste et fonctionnel, c'est le genre de bandeau souvent porté par les roturiers. Il a appartenu à la mère de Mereth, une jeune magicienne entropiste.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHNHAIRB unidentified description - Isaya : Mereth est une fille / femme d'après l'analyse
+
+// Note de Freddy : j'aimais bien "Parpaing", mais pourquoi pas Brique ? Isaya : oui, plutôt brique vu la taille pour en faire un objet à lancer
+@88877 = ~Parpaing +2~ // OHNHAMM1 identified name
+@88878 = ~En règle générale, lorsque les magiciens sélectionnent des objets qu'ils souhaitent enchanter, ils choisissent des armes ou des armures finement ouvragées. Le magicien entropiste Reginald a jeté son dévolu sur un bout de bois avec une brique attachée à son extrémité. Bien qu'efficace, il n'est pas esthétique.
+
+En plus d'irradier une aura de magie entropique, le Parpaing revient comme par magie dans la main de son propriétaire lorsqu'il est lancé sur un ennemi. Chaque coup qu'il porte perturbe toute incantation de sort prononcée à proximité.
+
+« Personne ne bat le Parpaing ! »
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– Zone de magie entropique : 10 % de chances qu'un sort lancé par quiconque dans un rayon de 3 mètres autour de l'utilisateur soit affecté par un hiatus entropique.
+
+Capacités de combat :
+– Revient dans la main du lanceur après chaque attaque
+– La cible subit 1d12 points de dégâts magiques et a 100 % de chances de rater ses incantations lors du prochain round (un jet de sauvegarde contre les sorts annule cet effet).
+
+TAC0 : +2
+Dégâts : 1d4 +3
+Type de dégâts (mêlée) : contondant
+Type de dégâts (lancer) : projectile
+Facteur de vitesse : 2
+Type de compétence : marteau de guerre
+Type : arme à une main
+Nécessite : 9 en Force
+
+Poids : 4~ // OHNHAMM1 identified description
+
+@93723 = ~Bandeau thayen~ // OHNHELM1 identified name
+
+@93724 = ~Les Sorciers Rouges de Thay estiment que la magie entropique est dangereuse et interdisent à leur membre de la pratiquer. Aucun magicien entropiste n'est accepté dans leurs rangs.
+
+Malgré sa peur d'être découverte, Vicross, une jeune et ambitieuse magicienne entropiste, désirait si ardemment maîtriser sa magie capricieuse qu'elle parvint à dissimuler son statut et à s'élever dans la hiérarchie des Sorciers Rouges. Elle devint une autharch pour Aznar Thrul, le tharchion de Priador. Elle utilisa sa position pour créer l'Ordre des Huit Bâtons, conçu pour étudier la magie entropique. Pendant des années, Vicross et ses subordonnés pourchassèrent et capturèrent des magiciens entropistes à travers tout Féérûne, pratiquèrent diverses expériences sur leurs prisonniers, recueillirent et analysèrent leurs résultats.
+
+Vicross finit par mettre au point des techniques capables de contrôler partiellement les hiatus entropiques. Elle réussit à enchanter ce bandeau afin de réduire la probabilité d'éruption de hiatus entropique et d'en minimiser les effets négatifs. Craignant ses compagnons Sorciers Rouges toujours aussi suspicieux, elle le portait tout le temps pour ne pas être trahie par sa magie entropique.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+– +15 % de chances qu'un hiatus entropique ait des effets bénéfiques.
+
+Poids : 1~ // OHNHELM1 identified description
+
+@93598 = ~Tunique ensanglantée de Hayes~ // OHNHTUNI identified name
+@93599 = ~Cette tunique banale appartenait à Hayes, l'homme qui a trahi les magiciens du Refuge caché - y compris sa propre femme, Telana. Vous l'avez tué à Franc-Marché pour le punir de sa trahison. Telana apprécierait peut-être de savoir ce qui est arrivé à son mari, et reconnaîtrait certainement cette tunique comme étant la sienne.~ // OHNHTUNI identified description
+
+@88857 = ~Tas de cailloux~ // OHNKEY01 identified name
+@88858 = ~Un assortiment disparate de petites pierres. Idéales pour être lancées ou partagées avec des amis.
+
+PARAMÈTRES :
+
+Poids : 3~ // OHNKEY01 identified description
+
+@93172 = ~Clef des cellules des esclaves~ // OHNKEY02 identified name
+@93179 = ~Il s'agit de la clef des cellules des esclaves de l'Enclave des Sorciers Rouges.
+
+PARAMÈTRES :
+
+Poids : 0~ // OHNKEY02 identified description
+
+@93608 = ~Clef du laboratoire~ // OHNKEY03 identified name
+@93609 = ~C'est la clef du laboratoire de Lanneth, où sont détenus les magiciens entropistes prisonniers.
+
+PARAMÈTRES :
+
+Poids : 1~ // OHNKEY03 identified description
+
+@93600 = ~Oiseau mécanique~ // OHNMBIRD identified name
+@93601 = ~Cet oiseau mécanique est entièrement fait de laiton, à l'exception de ses yeux qui sont de minuscules perles de verre bleu foncé. Il est petit et semble fragile, mais ses ailes et son bec délicats - qui s'ouvrent et se ferment - résistent bien aux manipulations. De temps en temps, il chante une mélodie métallique. Neera l'a fabriqué avec l'aide de Knocktor Pétardmouillé, l'artisan magicien entropiste. Nul doute que des enchantements mineurs sont à l'œuvre dans cet objet.
+
+
+PARAMÈTRES :
+
+Poids : 1~ // OHNMBIRD identified description
+
+@93373 = ~Contrat~ // OHNNOTE1 identified name
+@93374 = ~Ce document garantit à son signataire, GOODMAN HAYES, résidant dernièrement dans les villes d'Athkatla et de Franc-Marché, 500 pièces d'or en échange d'informations sur les allées et venues et les identités de tous les magiciens entropistes dont il a connaissance. En signant ce contrat, il en accepte les termes, qui précisent qu'il doit divulguer tout ce qu'il sait à LANNETH FAR-SEER ou à ses agents désignés ; qu'il ne doit pas divulguer l'objet de sa mission à toute autre personne ou organisation ; et que tout manquement à l'une ou l'autre des clauses de ce contrat rendra caduque sa propre sécurité. Par le sceau des tharchions apposé sur la présente, ce contrat est légal à Thay et sera fait strictement respecter par sa représentante à l'étranger, LANNETH FAR-SEER.
+
+Lu et approuvé,
+Lanneth Far-Seer
+Hayes
+Gul Dukeem, témoin~ // OHNNOTE1 identified description - Isaya : "toute", voir https://www.projet-voltaire.fr/regles-orthographe/tout-autre-ou-toute-autre/
+// Note de Freddy : le fichier dialog.tlk contient une référence @100051 identique !
+
+// ~Lettre~
+@93375 = ~Chère Lanneth,
+
+LONG SOUPIR. Vous savez à quel point je déteste écrire des lettres. Maintenant qu'Ekandor est mort, j'espère vraiment que vous pourrez faire un meilleur travail. Jusqu'à présent, la présence de notre Ordre dans l'ouest n'a pas rapporté grand-chose. J'ai appris que vous aviez capturé quelques magiciens entropistes ; j'en étais absolument ravie, croyez-moi ! Surtout après ce qui est arrivé à Ekandor et à l'hôte que nous avons envoyé à la poursuite de la demi-elfe Neera. Mais ensuite, j'ai appris que vous les aviez perdus d'une manière ou d'une autre. J'étais encore une fois toute contrariée. Puis, j'ai appris que vous en aviez capturé un autre ! Puis que vous l'aviez perdu. Ce sempiternel cycle ennuyeux nuit vraiment à ma santé.
+
+Mais rien qu'un peu de vacances ne puisse guérir. Vous serez heureuse d'apprendre que je viendrai bientôt vous rendre visite. Dans les prochains mois, je prévois de me rendre à Esmeltaran, Purskul et Athkatla. Je suis certaine que les choses s'amélioreront avant mon arrivée. Oh ! Je dois vous parler du merveilleux sac que je viens de commander pour le voyage : il est spacieux, tissé de velours (rouge, évidemment !), et a une jolie bordure dorée. J'ai aussi fait broder votre nom à l'intérieur, au cas où je devrais ramener votre tête à Thay.
+
+Cordialement,
+Autharch Vicross
+Chef de l'Ordre des Huit Bâtons~ // OHNNOTE2 identified description - Isaya : "demi", voir https://www.projet-voltaire.fr/regles-orthographe/demi-ou-demie/
+
+@93610 = ~Journal de Lanneth~ // OHNNOTE3 identified name
+@93611 = ~Ce cahier relié de cuir abîmé contient des inscriptions gribouillées et à peine lisibles.
+
+Il comporte de nombreuses observations, des plus banales (« Tout a meilleur goût avec du fromage ») aux plus savantes (« S'il est clair pour moi que la toile pourrait être décrite comme une mare, ou même un océan d'énergie mystique, il est également certain que ce parallèle évident ne sera jamais reconnu par les institutions de magie. »).
+
+Parmi ces notes se trouve l'ordre approprié pour ouvrir sans danger les cages des magiciens entropistes emprisonnés par Lanneth. Selon ses notes, le sujet 55 devrait être relâché en premier, suivi par le sujet 13. Puis, ce doit être le tour du numéro 11, puis du 42. Le journal reste vague sur ce qui se passerait si les cages étaient ouvertes dans le mauvais ordre, qualifiant une telle situation de « malheureuse et à éviter sans aucun doute. »~ // OHNNOTE3 identified description
+
+@93700 = ~Journal de Fadell Œildefer~ // OHNNOTE4 identified name - Note de Freddy : harmoniser Fadell Ironeye (OHNFADEL = @87880) et Stream-Near-The-Hollow dans une réplique de dialogue (@90775).
+@93701 = ~Les premières pages de ce petit journal relié en cuir contiennent des informations sur la gestion d'un petit contingent de mercenaires - salaires, dates de recrutement et coûts d'équipement. Les derniers paragraphes sont de nature moins professionnelle :
+
+« Comme les Sorciers Rouges refusent d'utiliser leur magie dans la forêt, nous devons la traverser lentement et déclencher tous les pièges. Ce n'est pas une tâche adaptée pour des gens comme nous. Il n'y a aucun combat. Ce garçon au nom interminable, Ruisseau-près-de-la-cuvette, celui qui vient de cette ville de buveurs d'hydromel dans l'île de Ruathym, a été le premier à tomber. Je lèverai un verre d'hydromel en son honneur ce soir. »
+
+« Nous avons amené une autre cible, aujourd'hui, mais cela a coûté la vie à Ellis et Warwick. Ces deux-là devaient s'installer ensemble dans les bas quartiers. Désormais, ils resteront ensemble dans la rivière, dans laquelle le sorcier s'est débarrassé de leurs corps. Ils aimaient leur whisky ; j'en porterai un toast à leur santé ce soir. »
+
+« Chez Delosar, ça a été une boucherie. Nous ne sommes pas assez payés pour justifier ça, et même si c'était le cas, je ne me sentirais pas mieux. Alinda est morte. C'était son premier combat. Je boirai une tasse pour chacun de ceux qui sont tombés, et trois pour elle. »~ // OHNNOTE4 identified description
+
+@96058 = ~Journal de Vicross~ // OHNNOTE5 unidentified name
+@96057 = ~Rédigé de l'écriture étonnamment bâclée de l'ancienne autharch Vicross, chef de l'Ordre des Huit Bâtons, désormais dissout, ce journal contient une mine d'informations à lire à une date ultérieure. Un passage concernant Neera attire votre attention :
+
+« Journée exécrable. Des tempêtes de vent et de sable. Izer, le messager, m'a apporté de mauvaises nouvelles : la proie d'Ekandor, la demie-elfe Neera, lui échappe encore. La façon dont la lettre la décrit me terrifie. Ce n'est pas qu'elle soit particulièrement dangereuse. Il y a bien d'autres magiciens entropistes plus puissants qu'elle, et bien qu'elle ait rejoint ce que Ekandor décrit comme une bande « impressionnante » d'aventuriers, je suis certaine que l'Ordre la mettra au pas. Non, mon cher journal, ce n'est pas ce qui m'effraie le plus chez Neera. C'est ce que j'entends de ce que raconte Ekandor, ce que je lis des retranscriptions des paroles de Neera. Et j'ai pris conscience d'une vérité terrifiante avec une absolue et terrible certitude. Si j'étais née dans la Haute Forêt et non à Thay ; si j'avais été bannie et forcée de survivre ; si j'avais cherché à vivre avec ma magie entropique au lieu d'apprendre à la contrôler, comme je l'ai presque, presque, PRESQUE fait, eh bien, j'aurais pu être elle.
+
+P.S. : j'ai besoin d'embaucher un nouveau messager. L'un de mes hiatus a eu raison de Izer. »~ // OHNNOTE5 unidentified description
+
+@93614 = ~Potion de dragon vert~ // OHNPOTN1 identified name
+@93615 = ~Cet étrange breuvage a été concocté par Zaviak, un magicien entropiste et un alchimiste, qui a, peut-être, un peu trop expérimenté son produit. Zaviak a expliqué que la potion rendrait son buveur « vraiment fort », mais a négligé de mentionner un certain nombre d'effets secondaires, au mieux amusants, au pire carrément atroces, comme la conscience totale et inéluctable de son existence en tant que grain de poussière insignifiant dans l'immensité du multivers. Zaviak a de vrais problèmes, mec.
+
+PARAMÈTRES :
+
+Force : 25
+Intelligence : 3
+Constitution : 3
+
+Quiconque la boit est ralenti pendant toute la durée de ces effets.
+
+Durée : 24 heures
+
+Poids : 1~ // OHNPOTN1 identified description
+
+@93597 = ~Robe de Goodman Hayes~ // OHNROBE1 identified name
+@93428 = ~Cette robe a été confectionnée pour Hayes, le mari de Telana, le traître, peu de temps après qu'il ait découvert ses talents de magicien entropiste. Très riche à l'époque, il demanda à des sorciers Halruaan de la tisser en soie, de la teindre avec des colorants coûteux et de la doter d'enchantements qui compléteraient ses talents uniques.
+
+Malheureusement, il ne l'a portée que deux fois : sa richesse et sa nature clairement magique ont attiré l'attention des Sorciers Rouges qui l'ont très vite traqué. Hayes finit par renoncer à la magie, à moins que ce ne soit absolument nécessaire, cacha la robe, et se mit à porter une simple tunique. Sa femme a récupéré la robe et l'a donnée à <CHARNAME>.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Bouclier du chaos permanent
+– Classe d'armure : pénalité de 1
+
+Poids : 3~ // OHNROBE1 identified description
+
+@96061 = ~Robe d'invocation~ // OHNROBE2 identified name
+@96062 = ~Certains déploient beaucoup d'efforts pour assurer leur propre sécurité en portant des protections pour minimiser les dégâts causés par leurs propres boules de feu. Cette robe fait partie de ces objets, et octroie à quiconque la porte une résistance accrue aux énergies élémentaires.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Résistance au feu : +20 %
+– Résistance au froid : +20 %
+– Résistance à l'acide : +20 %
+– Résistance à l'électricité : +20 %
+
+Poids : 6~ // OHNROBE2 identified description
+
+@96063 = ~Tunique de l'Aveuglé~ // OHNROBE3 identified name
+@96064 = ~Le magicien entropiste Nareth l'Aveuglé était un riche érudit de La Porte de Baldur. Ayant entendu des rumeurs en provenance de toute la région selon lesquelles des Sorciers Rouges thayens enlevaient des magiciens entropistes, Nareth en conclut qu'il serait préférable d'affronter ses ennemis à sa façon. Avant de fuir la ville, il imprégna ses vêtements de voyage d'une forte magie entropique. Bien que cela affecterait tout le monde pendant un combat, il était plus expérimenté que ses ennemis pour contrôler les hiatus entropiques. Même si elle était efficace, la tunique n'a pas empêché Nareth d'être capturé par l'Ordre des Huit Bâtons. On ne sait pas ce qu'il est devenu.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Zone entropique une fois par jour
+  Tous les sorts lancés dans un rayon de 9 mètres sont traités comme des hiatus entropiques pendant 1 tour (un jet de sauvegarde contre les sorts l'annule)
+
+Capacités d'équipement :
+– Vitesse de déplacement augmentée de 2 (la base normale est 10)
+– Résistance aux dégâts magiques : +25 %
+
+Poids : 3~ // OHNROBE3 identified description
+
+@88861 = ~Bouclier +2 de Fyrus Khal~ // OHNSHLD1 identified name
+@88862 = ~Fyrus Khal et son épouse Amanis étaient des artistes renommés à travers le Calimshan. Ils voyageaient de ville en ville, de festival en festival, où ils exécutaient des prouesses magiques et acrobatiques. Dans leur numéro, Fyrus feignait une fausse dispute avec sa femme, qui, dans un accès de colère, lui lançait des sortilèges. Son bouclier, décoré d'un motif coloré et complexe, faisait rebondir les sorts - bien entendu inoffensifs - et les renvoyait sur son épouse, pour le plus grand plaisir de la foule.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +3
+– Résistance au feu : +10 %
+– Résistance au froid : +10 %
+– Résistance à l'acide : +10 %
+– Résistance à l'électricité : +10 %
+– Aura de protection magique : tous les alliés dans un rayon de 3 mètres bénéficient de +5 % de résistance à la magie.
+
+Capacité spéciale :
+– Renvoi des sorts une fois par jour
+  Spécial : Renvoie 12 niveaux de sorts ciblant l'utilisateur
+  Durée : 45 rounds
+
+Force nécessaire : 12
+
+Poids : 7~ // OHNSHLD1 identified description - Isaya : "centrés" est ambigu, en principe cela ne doit pas concerner des sorts de zone
+//10871 Renvoi des sorts = Retour de sort
+@88863 = ~Fronde entropique +1~ // OHNSLNG1 identified name
+@88864 = ~Chaque fois que des magiciens entropistes se réunissent, des choses étranges se produisent : des objets acquièrent des propriétés bizarres, et les sortilèges lancés par des magiciens non-entropistes peuvent surgir de manière inattendue. Cette fronde fait partie de ces objets qui ont été modifiés par une grande concentration de magie entropique.
+
+Une bille lancée par cette fronde absorbe l'énergie magique entropique et la transfère à la cible qu'elle frappe. En plus d'être très douloureuse, la bille affectera d'un hiatus entropique tout sort lancé par la cible pendant le round suivant.
+
+PARAMÈTRES :
+
+Capacité de combat :
+– La cible doit réussir un jet de sauvegarde contre les sorts sous peine d'avoir 100 % de chances de déclencher un hiatus entropique pendant 1 round.
+
+TAC0 : +1
+Dégâts : +1 (projectile)
+Facteur de vitesse : 5
+Type de compétence : fronde
+Type : arme à une main
+Nécessite : 3 en Force
+
+Poids : 1~ // OHNSLNG1 identified description
+
+@88869 = ~Chope de <CHARNAME>~ // OHNTANK unidentified name
+@88870 = ~Cette belle chope en étain épouse étonnamment bien la forme de votre main - ou peut-être pas si étonnamment, car c'est la vôtre. Le nom « <CHARNAME> » y a été gravé en gros caractères angulaires. Vous ressentez une étrange force vous traverser lorsque vous la tenez, non sans rappeler la brève euphorie qui précède souvent d'un long sommeil agité, un jour d'abattement encore plus long. Le chope est un cadeau de Mironda, la magicienne entropiste naine, amatrice de bière.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Restaure 2d8 points de vie, trois fois par jour.
+
+Poids : 3~ // OHNTANK unidentified description
+
+@96059 = ~Baguette de fouets~ // OHNWAND1 identified name
+@96060 = ~Seuls les magiciens peuvent utiliser une baguette de fouets. Une fois activée, elle envoie un champ de force magique, blanche et scintillante, en forme de fouet, à une portée maximale de 7,5 mètres. Le magicien nomme alors une créature et la regarde, ou se concentre sur elle. Le fouet de force attaque alors cette créature, la frappe une fois par round en lui infligeant 1d6 +1 points de dégâts, et la ligote fermement si elle rate un jet de sauvegarde contre les sorts à -4 chaque fois qu'elle est touchée. Un adversaire ligoté ne subit aucun dégât supplémentaire, mais ne peut ni bouger, ni effectuer d'autre action.
+
+PARAMÈTRES :
+
+Capacité de charge :
+– Un fouet de force frappe la cible et lui inflige 1d6 +1 points de dégâts magiques par round jusqu'à ce qu'elle rate un jet de sauvegarde contre les sorts à -4 et soit paralysée pour le reste de la durée du sort. Chaque charge dure 4 rounds, après quoi le fouet se dissipe.
+  Portée : 7,5 mètres
+  Durée : 4 rounds
+  Zone d'effet : 1 créature
+
+Poids : 1~ // OHNWAND1 identified description - Note de Freddy : coquille dans le corps de la description (mais pas dans la capacité de charge) : le malus au JS est de -4, pas de -2.
+
+
+// ****************************************************************************
 // RASAAD
 // ****************************************************************************
 
@@ -949,7 +1504,7 @@ PARAMÈTRES :
 Capacités d'équipement :
 – Classe d'armure : +2
 – Jets de sauvegarde : +2 la nuit
-– Immunité à la Cécité
+– Immunité à la cécité
 
 Capacité de charge :
 – Protection contre l'énergie magique 3 fois par jour
@@ -1270,7 +1825,7 @@ Poids : 2~ // BDBELT02 identified description
 @103175 = ~Ce cistre tout simple en forme de poire possède huit cordes allant deux par deux, ce qui lui permet de produire de superbes mélodies. C'est un instrument très apprécié des paysans.
 
 Poids : 3~ // BDBRD03 unidentified description
-@103176 = ~A première vue, il semble impossible de tirer une sonorité acceptable de ce cistre aux cordes entrelacées et effilochées. Cependant, lorsqu'on en joue, il produit une mélodie douce et cristalline. Un barde expérimenté peut apprendre à jouer en même temps de toutes les cordes enchevêtrées pour interpréter une ritournelle retentissante qui perturbe sans coup férir ses auditeurs.
+@103176 = ~À première vue, il semble impossible de tirer une sonorité acceptable de ce cistre aux cordes entrelacées et effilochées. Cependant, lorsqu'on en joue, il produit une mélodie douce et cristalline. Un barde expérimenté peut apprendre à jouer en même temps de toutes les cordes enchevêtrées pour interpréter une ritournelle retentissante qui perturbe sans coup férir ses auditeurs.
 
 PARAMÈTRES :
 
@@ -1286,7 +1841,7 @@ Poids : 3~ // BDBRD03 identified description
 PARAMÈTRES :
 
 Capacités de combat :
-– 10 % de chances par coup réussi d'infliger à la CA de la cible un malus de 1 point, cumulatif, pendant 1 tour (Jet de sauvegarde contre les souffles pour annuler).
+– 10 % de chances par coup réussi d'infliger à la CA de la cible un malus de 1 point, cumulatif, pendant 1 tour (jet de sauvegarde contre les souffles pour annuler).
 – La fléchette revient instantanément dans les mains du lanceur après chaque attaque.
 
 TAC0 : +2
@@ -1318,7 +1873,7 @@ Capacité d'équipement :
 – Force : -1
 
 Capacités de combat :
-– Chaque coup réussi réduit de 1 point pendant 5 rounds la force de la cible, jusqu'à un minimum de 1 (Jet de sauvegarde contre les sorts pour annuler).
+– Chaque coup réussi réduit de 1 point pendant 5 rounds la force de la cible, jusqu'à un minimum de 1 (jet de sauvegarde contre les sorts pour annuler).
 – Inefficace contre les morts-vivants.
 – Les bonus au toucher et aux dégâts liés à la Force ne s'appliquent pas à cette arme.
 
@@ -1352,7 +1907,7 @@ Poids : 1~ // BDHELM09 identified description
 PARAMÈTRES :
 
 Capacités d'équipement :
-– Immunité au Silence et à la Surdité.
+– Immunité au silence et à la surdité.
 – Les effets du Chant du barde durent deux rounds supplémentaires après que le barde ait arrêté de chanter.
 
 Poids : 0~ // BDHELM11 identified description
@@ -1411,7 +1966,7 @@ Capacité d'équipement :
 – Force : -1
 
 Capacités de combat :
-– Chaque coup réussi réduit de 1 point pendant 5 rounds la force de la cible, jusqu'à un minimum de 1 (Jet de sauvegarde contre les sorts pour annuler).
+– Chaque coup réussi réduit de 1 point pendant 5 rounds la force de la cible, jusqu'à un minimum de 1 (jet de sauvegarde contre les sorts pour annuler).
 – Inefficace contre les morts-vivants.
 – Les bonus au toucher et aux dégâts liés à la Force ne s'appliquent pas à cette arme.
 
@@ -1573,7 +2128,7 @@ Poids : 25~ // OHLEAT50 identified description
 - vol à la tire : -30 %
 - déplacement silencieux : -20 %
 - se cacher dans l'ombre : -20 %
->> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à - 10 %, et pas 30 %.
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à -10 %, et pas 30 %.
 */
 @101692 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais, parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
 Celle-ci est enchantée et accorde à quiconque la porte un bonus supplémentaire de protection.
@@ -1599,7 +2154,7 @@ Poids : 15~ // OHLEAT51 identified description
 - vol à la tire : -30 %
 - déplacement silencieux : -20 %
 - se cacher dans l'ombre : -20 %
->> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à - 10 %, et pas à -30 %.
+>> Note de Freddy : re-vérifié ! Les effets globaux ne mentionnent que l'opcode Stat: Stealth Modifier [59], et pas l'opcode Stat: Hide in Shadows Modifier [275]. Quant à l'effet Stat: Open Locks Modifier [90], il est bien à -10 %, et pas à -30 %.
 */
 @101693 = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais, parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
 Celle-ci est enchantée et accorde à quiconque la porte un bonus supplémentaire de protection.
@@ -1753,12 +2308,6 @@ Poids : 2~ // OHSW1H55 identified description
 // Compléments : fichiers ITM ajoutés par BG2EE hors BD* et OH*
 // ****************************************************************************
 
-// Order of text for each item
-// @unidentified_name_number = ~unidentified name~
-// @identified name_number = ~identified name~
-// @unidentified description_number = ~unidentified description~
-// @identified description_number = ~identified description~
-
 // Les numéros inférieurs à 74107 existent déjà dans BG II - ToB et ne sont pas repris ici
 
 // BELTBW unident name 6465 name 103109 unident dest 6466  desc 103106
@@ -1832,7 +2381,7 @@ Cette fine ceinture en cuir de daim et en fourrure de lapin permet à son propri
 PARAMÈTRES :
 
 Capacité d'équipement :
-- jets de sauvegarde contre la pétrification/métamorphose : +5
+- Jets de sauvegarde contre la pétrification/métamorphose : +5
 
 Poids : 2~ // NEBELT01 identified description
 

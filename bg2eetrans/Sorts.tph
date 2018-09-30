@@ -167,16 +167,17 @@
 // Quasi identique BGEE 32228, écart non significatif
 	STRING_SET 100356 @100356
 
-// @34654 = ~Enrage~ // SPCL321 unidentified name (SoA+ToB reuse) // @todo Revoir, traduction BG II : Exaspération
+// @34654 = ~Enrage~ // SPCL321 unidentified name (SoA+ToB reuse) // Nota : traduction de ce terme à reprendre de BGEE, celle de BG II est incorrecte ("Exaspération")
 // Identique BGEE 32235, remise des immunités dans l'ordre de la VO
 	STRING_SET 100363 @100363
 
-// @todo Traduire ! A récupérer de BGEE ou IWDEE (ajouté en 2.5)
+// Quasi identique BGEE 32888, différences sur les dégâts, l'exemple, les familiers
 	STRING_SET 103008 @103008
 
 // @36351 = ~Set Snare~ // SPCL412 unidentified name (SoA+ToB reuse)
 // Identique BGEE 32220
 	STRING_SET 100348 @100348
+
 // @52927 = ~Set Special Snare~ // SPCL414 unidentified name (SoA+ToB reuse)
 // Identique BGEE 32221
 	STRING_SET 100349 @100349
@@ -194,15 +195,15 @@
 
 // @19794 = ~Shapeshift: Brown Bear~ // SPCL611 unidentified name (SoA+ToB reuse)
 // Identique BGEE 32257 V2.5
-	STRING_SET 32257 @32257
+	STRING_SET 100385 @100385
 
 // @19793 = ~Shapeshift: Wolf~ // SPCL612 unidentified name (SoA+ToB reuse)
 // Identique BGEE 32256 V2.5
-	STRING_SET 32256 @32256
+	STRING_SET 100384 @100384
 
 // @19792 = ~Shapeshift: Black Bear~ // SPCL613 unidentified name (SoA+ToB reuse)
 // Identique BGEE 32258 V2.5
-	STRING_SET 32258 @32258
+	STRING_SET 100386 @100386
 
 // @34710 = ~Summon Spirit Animal~ // SPCL621 unidentified name (SoA+ToB reuse)
 // Identique BGEE 32239
@@ -225,16 +226,16 @@
 	STRING_SET 100371 @100371
 
 // @34734 = ~Shapeshift: Baby Wyvern~ // SPCL633 unidentified name (SoA+ToB reuse)
-// Identique BGEE 32245 V2.5
+// Identique BGEE 32245 V2.5 - Note de Freddy : ATTENTION ! Pas la même définition pour la version 2.3 !
 	STRING_SET 100373 @100373
 
 // @34743 = ~Shapeshift: Fire Salamander~ // SPCL634 unidentified name (SoA+ToB reuse)
-// Identique BGEE 32246 V2.5
+// Identique BGEE 32246 V2.5 - Note de Freddy : ATTENTION ! Pas la même définition pour la version 2.3 !
 	STRING_SET 100374 @100374
 
 // @52637 = ~Shapeshift: Werewolf~ // SPCL643 unidentified name (SoA+ToB reuse)
 // Identique BGEE 32328 V2.5
-	STRING_SET 32328 @32328
+	STRING_SET 103009 @103009
 
 // @52502 = ~Shapeshift: Greater Werewolf~ // SPCL644 unidentified name (SoA+ToB reuse)
 // Identique BGEE 32329 V2.5
@@ -318,7 +319,7 @@
 	STRING_SET 100387 @100387
 
 // @23472 = ~Shapeshift: Spider~ // SPIN125 unidentified name (SoA+ToB reuse)
-// Identique BGEE 32244 V2.5
+// Identique BGEE 32244 V2.5 - Note de Freddy : ATTENTION ! Pas la même définition pour la version 2.3 !
 	STRING_SET 100372 @100372
 
 // @18626 = ~Shapechange: Mind Flayer~ // SPIN152 unidentified name (SoA+ToB reuse)
@@ -360,11 +361,11 @@
 // Nom de capacité repris de BGEE 25958, proche de @100399 (plus utilisé) @todo Compatibilité de Œ avec la lettrine à vérifier !!!
 	STRING_SET 103003 @103003
 
-// @todo A traduire
+// Adapté de BGEE 12142
 	STRING_SET 103001 @103001
 
 // @12021 = ~Improved Invisibility~ // SPIN698 unidentified name (SoA+ToB reuse)
-// @todo A traduire
+// Adapté de BGEE 4736 ou BG II 4736
 	STRING_SET 103002 @103002
 
 // @2961 = ~Healing Lick~ // SPIN699 unidentified name (SoA+ToB reuse)
@@ -375,15 +376,12 @@
 	STRING_SET 102815 @102815
 
 // @12077 = ~Strength~ // SPIN826 unidentified name (SoA+ToB reuse)
-// @todo A traduire
 	STRING_SET 103103 @103103
 
 // @12032 = ~Lay On Hands~ // SPIN827 unidentified name (SoA+ToB reuse)
-// @todo A traduire
 	STRING_SET 103105 @103105
 
 // @12080 = ~Haste~ // SPIN828 unidentified name (SoA+ToB reuse)
-// @todo A traduire
 	STRING_SET 103104 @103104
 
 // @51958 = ~Create Bruiser Mates~ // SPIN829 unidentified name (SoA+ToB reuse)
@@ -391,7 +389,7 @@
 	STRING_SET 100401 @100401
 
 // @22614 = ~Domination~ // SPIN883 unidentified name (SoA+ToB reuse)
-// @todo A traduire
+// Proche de BGEE / BG II 22615 mais traduction revue
 	STRING_SET 102780 @102780
 
 // @2962 = ~Moon Dog Howl~ // SPIN891 unidentified name (SoA+ToB reuse)
@@ -399,7 +397,7 @@
 	STRING_SET 103005 @103005
 
 // @34278 = ~Mimic Acid~ // SPIN913 unidentified name (SoA+ToB reuse)
-// Identique BGEE 32280
+// Identique BGEE 32280 - Note de Freddy valable pour toutes les références suivantes. La VO utilise la formule "This ability... ". Comme ses capacités sont propres à des monstres, j'ai beaucoup de mal avec la formulation utilisée ("Le personnage"). Je l'ai donc remplacée par "La créature", comme dans @100405.
 	STRING_SET 100414 @100414
 
 // @34270 = ~Mimic Glue~ // SPIN914 unidentified name (SoA+ToB reuse)
@@ -520,19 +518,8 @@
 	STRING_SET 100389 @100389
 
 // @23471 = ~Shapeshift: Mustard Jelly~ // SPWI496 unidentified name (SoA+ToB reuse)
-// En partie identique BGEE 32247, grosses modif CA, attaques, résistances, immunités
+// En partie identique BGEE 32247, grosses modif CA, attaques, résistances, immunités - Note de Freddy : ATTENTION ! Pas la même définition pour la version 2.3 !
 	STRING_SET 100375 @100375
-
-
-
-
-
-
-
-
-
-
-
 
 // V2.5 (mis dans un fichier à part pour ne pas bloquer l'installation avec une version 2.3)
 // @103224 à @103227

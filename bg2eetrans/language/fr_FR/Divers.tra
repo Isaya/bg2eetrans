@@ -29,7 +29,7 @@
 @95145 = ~Soyez vigilant. La Lune Noire a des yeux et des oreilles partout.~ ~Soyez vigilante. La Lune Noire a des yeux et des oreilles partout.~
 @95146 = ~Quel malheur que tant ne puissent pas voir plus loin que la sottise de leurs habitudes et refusent de se baigner dans la gloire de la Déesse Dédoublée.~
 @95147 = ~Les anciens disciples de la Conscience Solaire parmi nous ont encore tant à apprendre. Leurs... certitudes ne vacillent pas facilement.~
-@95148 = ~Les enseignements de la Lune Noire sont cruels et impitoyables au-delà de toute comparaison. Comme quelqu'un peut-il les embrasser de leur plein gré ?~
+@95148 = ~Les enseignements de la Lune Noire sont cruels et impitoyables au-delà de toute comparaison. Comment quelqu'un peut-il les embrasser de son plein gré ?~
 
 // aléatoire, GlobalGT("OHR_PLOT","GLOBAL",5)
 @95151 = ~Le Cercle l'emporte sur ses ennemis !~
@@ -38,34 +38,166 @@
 @95154 = ~Combien de temps avant une nouvelle attaque, puis une autre ? Nous devons rester vigilants.~
 
 
+
+// Fichier GPHEALER.baf, GPSHOUT.baf, USEITEM.baf : pas de texte propre BG2EE
+// Fichier CMONK20B.baf, 13 DisplayString, 1 seul propre BG2EE : @101647
+// GPTHIEF.baf : 2 textes propres BG2EE dont @101646 et @101647 -> voir BG2EE_74107-fin.tra
+
 // script = OH4000 (1 Journal)
 @100281 = ~Les adorateurs locaux de la Dédoublé étaient menés par Martheaume, un ancien moine de la Conscience Solaire que Rasaad connaissait. Les tentatives du moine pour convaincre Rasaad de devenir partisan de la nouvelle déesse ont échoué. Une bagarre a éclaté et Martheaume a été tué. Il semblait que la quête de Rasaad pour venger son frère avait atteint une fin sanglante et définitive jusqu'à ce que nous découvrions un carte indiquant le temple secret des hérétiques sur le cadavre de Martheaume. La quête continue...~
 
 // script = OH4100 (13 Journal - 1 Cutscene)
 @85033 = ~Après plusieurs jours de voyage, j'ai finalement atteint le bastion du Cercle Dédoublé.~
-@85048 = ~Les pratiques philosophiques de la Dédoublée semblent plus en accord avec le culte de Shar qu'avec celui de Séluné. Je viens d'être témoin d'anciens moines de la Conscience Solaire réticents à se battre contre des animaux bien qu'incités à le faire par leurs nouveaux frères. Il semble que la cruauté ne soit pas un péché pour ceux du Cercle.~
-@85023 = ~Les fidèles de la Dédoublée d'Athkatla sont dirigés par un ancien moine de la Conscience Solaire, un homme nommé Martheaume. Il est un ardent partisan de sa nouvelle foi. Si tous les adorateurs de la Dédoublée ont la même conviction, leur ordre pourrait devenir une force avec laquelle il faudra compter.~
+@85048 = ~Les pratiques philosophiques de la Dédoublée semblent plus en accord avec le culte de Shar qu'avec celui de Séluné. Je viens d'être témoin de la réticence d'anciens moines de la Conscience Solaire à se battre contre des animaux, bien qu'incités à le faire par leurs nouveaux frères. Il semble que la cruauté ne soit pas un péché pour ceux du Cercle.~
+@85023 = ~Les fidèles de la Dédoublée d'Athkatla sont dirigés par un ancien moine de la Conscience Solaire, un homme nommé Martheaume. C'est un ardent partisan de sa nouvelle foi. Si tous les adorateurs de la Dédoublée ont la même conviction, leur Ordre pourrait devenir une force avec laquelle il faudra compter.~
 @85025 = ~Le voyage de Rasaad
+
 Martheaume a dit à Rasaad où il pouvait trouver Collus Darathon. Nous partirons bientôt pour le temple secret de la Dédoublée.~
 @85034 = ~Le voyage de Rasaad
+
 J'ai conduit Rasaad au temple des hérétiques de la Dédoublée. Pour contrecarrer ce nouveau culte, il lui faudra démasquer son fondateur, Collus Darathon.~
 @85056 = ~Le voyage de Rasaad
-Nous sommes à l'intérieur du bastion du Cercle de la Dédoublée. Il semble que nous devions démontrer notre valeur à la déesse des hérétiques avant d'avoir l'opportunité de faire face à Collus Darathon.~
+
+Nous sommes à l'intérieur du bastion du Cercle de la Dédoublée. Il semble que nous devions démontrer notre valeur à la déesse des hérétiques avant d'avoir l'opportunité de nous confronter à Collus Darathon.~
 @85058 = ~Le voyage de Rasaad
+
 Pour rejoindre le Cercle de la Dédoublée, nous devons subir une série d'épreuves.~
 @85066 = ~Le voyage de Rasaad
+
 Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Pour survivre à l'assaut prochain, il me faut combattre aux côtés du Cercle de la Dédoublée.~
 @85067 = ~Le voyage de Rasaad
+
 Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Pour survivre à l'assaut prochain, il me faut combattre avec Rasaad aux côtés du Cercle de la Dédoublée.~
 @85068 = ~Le voyage de Rasaad
+
 Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Si j'agis vite, je serai peut-être en mesure de m'échapper avant que les Sharites n'arrivent.~
 @85069 = ~Le voyage de Rasaad
-Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Si j'agis très vite, je peux étranger le Cercle dans son berceau avant que les Sharites n'arrivent.~
+
+Les forces de la Lune Noire marchent sur le temple de la Dédoublée. Si j'agis très vite, je peux étouffer le Cercle dans l'œuf avant que les Sharites n'arrivent.~
 
 //Ohrroof ==> script OHRROOF (5 DisplayString - 1 Cutscene)
 @79467 = ~En vous laissant glisser le long de la corde, vous parvenez à poser les pieds sans bruit afin de ne pas attirer l'attention. La corde n'était pas aussi solide que vous le pensiez et vous n'osez pas l'utiliser à nouveau de peur de tomber.~
 
 // script = OH4101 (1 DisplayString - #4 Journal - 13 Cutscene)
 @85055 = ~J'ai réussi à pénétrer dans le temple de la Dédoublée. L'état de la corde que j'ai employée pour y parvenir me fait penser qu'il faudra que je trouve une autre sortie.~
-@85078 = ~J'ai échoué au test de la Lune Claire mais je suis toujours en vie. Tout compte fait je considère ça comme une victoire.~
+@85078 = ~J'ai échoué au test de la Lune Claire mais je suis toujours en vie. Tout compte fait, je considère ça comme une victoire.~
 @85083 = ~J'ai affronté le confesseur dans la Chambre de la Pénitence. Je doute qu'il ait été ravi du résultat, mais cela aurait pu se passer bien plus mal pour moi.~
+
+// Nouveaux compléments
+// OHRHGUA1.d
+@85039 = ~Un pont conduit ceux qui veulent rejoindre le Cercle par delà une profonde crevasse. Le bastion de la Dédoublée se dresse devant moi.~
+
+// OHRHMKEL.d
+@85018 = ~Un moine nommé Kelner m'a relaté quelques-unes des croyances essentielles des fidèles de la Dédoublée. Leur argument semble être que Shar et Séluné sont des concepts fictifs décrivant la même déesse. Les grands prêtres de Shar et Séluné ont trouvé commode de conserver séparés les aspects de la déesse pour ce qu'ils voulaient faire. C'est une idée intrigante, je dois admettre.~
+// OHRHMFEN.d
+@85019 = ~Les hérétiques sont dirigés par un ancien moine de la Lune Noire nommé Collus Darathon. Selon un moine nommé Fenuku, Darathon travaillait dans la bibliothèque de la Lune Noire et a y découvert des preuves de l'existence de la Dédoublée. Cette preuve présumée de l'existence de la Dédoublée est le fondement sur lequel le nouveau culte semble être bâti.~
+// RASAADJ.d
+@85020 = ~Les fidèles locaux de la Dédoublée sont dirigés par Martheaume, un ancien moine de la Conscience Solaire que Rasaad connaissait. Il a tenu une argumentation convaincante en faveur de sa nouvelle déesse, et il montrait un intérêt particulier à recruter de Rasaad dans le nouveau culte. Rasaad a ses propres raisons de vouloir rejoindre la Dédoublée, et elles n'ont rien à voir avec la foi.~
+// OHRHHELM.d
+@85021 = ~Les hérétiques locaux sont dirigés par un ancien moine de la Conscience Solaire nommé Martheaume. C'est apparemment lui qui était derrière l'invitation de Rasaad ici ce soir. Vu la façon dont les choses ont tourné, je soupçonne qu'il le regrette.~
+// OHRHHELM.d
+@85022 = ~Rasaad a été choqué d'apprendre que les fidèles de la Dédoublée d'Athkatla étaient dirigés par un ancien ami, le moine de la Conscience Solaire Martheaume. Il a argumenté avec passion pour que Rasaad rejoigne le Cercle Dédoublée. Je crains que voir un autre membre de confiance de la Conscience Solaire se retourner contre l'Ordre n'ait ébranlé davantage la foi de Rasaad.~
+
+// OHRHHELM.d, RASAADJ.d
+@85026 = ~Après que la violence ait éclaté dans l'amphithéâtre, je crains que la quête de Rasaad de trouver Collus Darathon ne soit dans une impasse.~
+// OHRMEMB2.d
+@85027 = ~Je soupçonne que l'intérêt dans l'hérésie de la Dédoublée va considérablement s'amenuiser quand la nouvelle du bain de sang d'aujourd'hui à l'amphithéâtre se répandra.~
+// OHRSSCAR.d
+@85029 = ~Les anciens frères de la Conscience Solaire de Rasaad l'ont rattrapé aujourd'hui. Il a été horrifié d'apprendre qu'il était accusé d'un massacre dans le temple de la Conscience Solaire d'Athkatla. Il n'avait rien à voir avec ça, bien sûr, mais il n'a pas été possible de convaincre les « Larmes de Séluné ». Ils ne seront plus une menace, en tout cas sur le plan physique. Mais Rasaad doit maintenant supporter le poids de leur mort, de même qu'il le fait pour celle de de son frère.~
+// OHRSSCAR.d
+@85030 = ~Les anciens camarades de l'Ordre de la Conscience Solaire de Rasaad l'ont rattrapé aujourd'hui. Il semble qu'il soit accusé d'un massacre dans le temple de la Conscience Solaire d'Athkatla. Manifestement il n'avait rien à voir avec le massacre mais quelques-unes des prétendues « Larmes de Séluné » n'ont pas voulu entendre raison. Rasaad doit maintenir supporter le poids de leur mort, tout comme celle de Gamaz.~
+// OHRSAHAN.d
+@85031 = ~Les anciens frères de la Conscience Solaire de Rasaad l'ont finalement rattrapé aujourd'hui. Les « Larmes de Séluné » apportaient de mauvaises nouvelles : Rasaad est accusé d'un massacre dans le temple de la Conscience Solaire d'Athkatla. Heureusement nous avons pu convaincre les Larmes et un bain de sang a été évité. Je ne sais pas si aurait supporté de perdre encore davantage des gens auxquels il est attaché.~
+// RASAAD.baf
+@85032 = ~Nous avons atteint le bastion du Cercle de la Dédoublée. Rasaad croit que sa vengeance est proche. Je ne suis pas si sûr.~ ~Nous avons atteint le bastion du Cercle de la Dédoublée. Rasaad croit que sa vengeance est proche. Je ne suis pas si sûre.~
+// OHRHERAT.d
+@85036 = ~À proximité du temple de la Dédoublée, j'ai rencontré une moinesse qui essayait de rejoindre le Cercle de Collus Darathon. Bien qu'elle ait échoué et payé un lourd tribu ce faisant, elle demeure attachée à l'hérésie de la Dédoublée.~
+// OHRHERAT.d
+@85037 = ~J'ai rencontré une moinesse qui avait essayé de rejoindre le Cercle de la Dédoublée de Collus Darathon et qui s'enfuyait du temple des hérétiques. Sa foi dans la Dédoublée était forte. Cela ne l'a pas sauvée de ma colère.~
+// OHRHGUA2.d
+@85040 = ~J'ai eu l'autorisation d'entrer dans le temple de la Dédoublée. Maintenant nous allons voir ce que ce culte est vraiment.~
+// OHRHGUA2.d
+@85041 = ~On m'a refusé l'accès au temple. Pour que Rasaad puisse accomplir sa quête, nous allons devoir trouver un autre moyen d'entrer.~
+// OHRHGUA2.d, VICONIJ.d
+@85042 = ~On m'a refusé l'accès au temple. Il doit y avoir un autre moyen d'entrer...~
+// OHRBSSM1.d, OHRBSSM2.d
+@85045 = ~Les épreuves endurées par les fidèles de la Dédoublée sont extrêmes. Je viens de voir une douzaine de moines ligotés bras et jambes écartés sur le sol. Je les ai abandonnés à leur destin.~
+// OHRBSSM1.d
+@85046 = ~Les épreuves endurées par les fidèles de la Dédoublée sont extrêmes. Je viens de voir une douzaine de moines ligotés bras et jambes écartés sur le sol. J'en ai libéré un, néanmoins les autres ne souhaitaient pas l'être.~
+// OHRBSSM1.d
+@85047 = ~Les épreuves endurées par les fidèles de la Dédoublée sont extrêmes. Je viens de voir une douzaine de moines ligotés bras et jambes écartés sur le sol. Je les ai libérés mais ils n'étaient aussi satisfaits que je l'aurai cru.~
+// WILSON.d
+@85049 = ~À proximité du temple de la Dédoublée, un ours nommé Wilson est tenu en cage par un trappeur nommé Jolstead. Je peux honnêtement dire que Wilson est l'ours le plus éloquent que j'ai jamais rencontré.~
+// WILSON.d
+@85050 = ~À proximité du temple de la Dédoublée, un ours nommé Wilson est tenu en cage par un trappeur nommé Jolstead. Je peux honnêtement dire que Wilson est l'ours le plus éloquent que j'ai jamais rencontré. J'ai promis que j'allais le faire libérer.~
+// OHRJOLST.d
+@85051 = ~J'ai libéré l'ours Wilson. Je dois admettre que je suis un peu déçu qu'il se soit immédiatement enfui, mais j'espère qu'il trouvera le bonheur où qu'il aille.~ ~J'ai libéré l'ours Wilson. Je dois admettre que je suis un peu déçue qu'il se soit immédiatement enfui, mais j'espère qu'il trouvera le bonheur où qu'il aille.~
+// OHRLEMZE.d
+@85052 = ~Un curieux individu se tapit dans l'herbe à l'est du temple. Je ne sais pas dans quel but il est ici.~
+// OHRLEMZE.d
+@85053 = ~J'ai rencontré un curieux individu qui se tapit dans l'herbe à l'est du bastion. Après quelques joutes oratoires, il a fini par admettre qu'il est un espion au service de l'Ordre de la Lune Noire. Cela ne présage rien de bon pour les hérétiques.~
+// OHRLEMZE.d
+@85054 = ~À l'est du temps, j'ai rencontré un espion de l'Ordre de la Lune Noire qui se tapit dans l'herbe. Il y est toujours, même s'il n'aura pas grande utilité pour ses maîtres dans son état actuelle.~
+// OHRCOLLU.d
+@85057 = ~Rasaad et moi avons finalement rencontré Collus Darathon face à face. Nous l'avons convaincu que nous étions intéressés par le Cercle de la Dédoublée, ce qui a sauvé nos vies, j'en suis persuadé. Rasaad ne semble pas en être aussi ravi que moi.~ ~Rasaad et moi avons finalement rencontré Collus Darathon face à face. Nous l'avons convaincu que nous étions intéressés par le Cercle de la Dédoublée, ce qui a sauvé nos vies, j'en suis persuadée. Rasaad ne semble pas en être aussi ravi que moi.~
+// OHRCOLLU.d
+@85059 = ~J'ai rencontré Collus Darathon en face-à-face et l'ai convaincu que je voulais rejoindre le Cercle de la Dédoublée.~
+// OHRMOCOM.d
+@85060 = ~Un autre membre de l'Ordre de la Conscience Solaire s'est tourné vers le Cercle de la Dédoublée. Le Maître des combats fut jadis un des professeurs de Rasaad. Désormais il est partisan de la Dédoublée. La confiance de Rasaad envers son ancien Ordre s'affaiblit à chaque nouvelle défection qu'il constate.~
+// OHRMOCOM.d
+@85061 = ~Un autre des anciens frères de la Conscience Solaire de Rasaad a trouvé du réconfort auprès de la Dédoublée. Cette fois il s'agit d'un des ses anciens professeurs, le Maître des combats, et ce sont les actes de Rasaad lui-même qui l'ont incité à quitter la grâce de Séluné. La confiance de Rasaad envers son ancien Ordre diminue avec chaque transfuge qu'il rencontre.~
+// OHRMOCOM.d, RASAADJ.d
+@85062 = ~D'une façon ou d'une autre, les Sharites ont repéré le temple de la Dédoublée. J'ai accepté de me joindre au Cercle pour défendre leur bastion contre l'assaut à venir.~
+// OHRMOCOM.d, OHRTWOFO.d
+@85063 = ~D'une façon ou d'une autre, les Sharites ont repéré le temple de la Dédoublée. Je soupçonne que le Cercle ne sera plus longtemps de ce monde.~
+// OHRMOCOM.d
+@85064 = ~D'une façon ou d'une autre, les Sharites ont repéré le temple de la Dédoublée. J'ai encouragé Rasaad à se joindre au Cercle pour défendre leur bastion.~
+// RASAADJ.d
+@85065 = ~D'une façon ou d'une autre, les Sharites ont repéré le temple de la Dédoublée. Bien entendu Rasaad veut se joindre à ses anciens collègues dans leur défense face à l'Ordre de la Lune Noire. Je crois que je l'ai convaincu que regarder et attendre est la décision la plus sage.~
+// OHRROPML.d
+@85070 = ~J'ai enduré l'épreuve de la Chambre de la Douleur. La force du Cercle de la Dédoublée réside dans plus que la seule foi.~
+// OHRROPML.d
+@85071 = ~Je n'ai pas pu supporter l'épreuve de la Chambre de la Douleur. Je pourrai revenir à une date ultérieure si je souhaite passer de nouveau le test.~
+// OHRBSM.d
+@85072 = ~J'ai passé avec succès le test du Soleil Aveuglant.~
+// ni d ni bcs
+@85073 = ~Rasaad a passé avec succès le test de la Lune Claire, et il a été récompensé pour cela.~
+// ni d ni bcs
+@85074 = ~Rasaad a échoué au test de la Lune Claire. Il est mort, sa vengeance envers Alorgoth définitivement refusée.~
+// ni d ni bcs
+@85075 = ~Rasaad a passé le test de la Lune Claire, néanmoins cela ne suffit apparemment pas à le faire aimer de la Dédoublée.~
+// OHRTRUTH.d
+@85076 = ~J'ai passé avec succès le test de la Lune Claire.~
+// OHRBMM.d
+@85077 = ~J'ai passé le test de la Lune Claire, néanmoins cela ne suffit apparemment pas à me faire aimer de la Dédoublée.~
+// ni d ni bcs
+@85079 = ~Rasaad a rencontré le confesseur dans la Chambre de la Pénitence. Il a fait un pas supplémentaire pour rejoindre le Cercle, un pas de plus vers Collus Darathon.~
+// ni d ni bcs
+@85080 = ~Rasaad a rencontré le confesseur dans la Chambre de la Pénitence. Bien entendu il a confessé la chose la plus séditieuse possible, avec un résultat prévisible.~
+// ni d ni bcs
+@85081 = ~Rasaad a rencontré le confesseur dans la Chambre de la Pénitence. Bien qu'il ait confessé le péché le plus séditieux possible, j'ai réussi à le faire sortir vivant. Maintenant il lui faut s'attaquer à un autre moine. Je ne suis pas sûr d'aimer la manière de fonctionner de la Dédoublée.~ ~Rasaad a rencontré le confesseur dans la Chambre de la Pénitence. Bien qu'il ait confessé le péché le plus séditieux possible, j'ai réussi à le faire sortir vivant. Maintenant il lui faut s'attaquer à un autre moine. Je ne suis pas sûre d'aimer la manière de fonctionner de la Dédoublée.~
+// OHRCONF.d
+@85082 = ~J'ai rencontré le confesseur dans la Chambre de la Pénitence et j'ai fait un pas supplémentaire pour rejoindre le Cercle, un pas de plus vers Collus Darathon.~
+// OHRCONF.d
+@85084 = ~J'ai rencontré le confesseur dans la Chambre de la Pénitence. Il a cherché à me faire honte. À la fin, c'est lui qui a payé.~
+// OHRMOCOM.d, RASAADJ.d
+@85088 = ~Une fois encore, Alorgoth a échappé à la justice. Rasaad n'a plus rien. Il ne peut pas revenir dans l'Ordre de la Conscience Solaire, mais il sent pas non plus qu'il a une place dans les vestiges du Cercle. Tout ce qu'il lui reste est une cause et il se pourrait même qu'il ait perdu sa dernière opportunité d'atteindre ses objectifs.~
+// OHRDMH2.d, OHRMOCOM.d
+@85089 = ~Alorgoth a échappé à la vengeance de Rasaad mais tout n'est pas perdu. Bien que le Cercle de la Dédoublée ait été fondé sur des mensonges, je l'ai convaincu que ses disciples pouvaient se racheter et être ramenés dans la lumière de la Vierge Lunaire. Beaucoup croient qu'il est l'homme qu'il faut pour le faire. J'en fais partie.~
+// OHRDMH2.d
+@85090 = ~Alorgoth a peut-être échappé à la vengeance de Rasaad mais tout n'est pas perdu. Bien que le Cercle de la Dédoublée ait été fondé sur des mensonges, le Maître des combats a persuadé Rasaad de sa valeur. Beaucoup croient que Rasaad peut racheter le Cercle en le ramenant dans la lumière de Séluné. J'en fais partie.~
+// OHRDMH2.d
+@85091 = ~Le voyage de Rasaad
+
+Bien qu'Alorgoth soit toujours en vie, Rasaad a trouvé un nouveau but. Il a battu son ancien professeur, le Maître des combats, dans une joute et a pris le contrôle du Cercle de la Dédoublée. Il conduira ces moines vers la lumière de Séluné, afin de leur donner une nouvelle voie, digne.~
+// OHRDMH2.d, OHRMOCOM.d
+@85092 = ~Le voyage de Rasaad
+
+Bien qu'Alorgoth soit toujours en vie, Rasaad a trouvé un nouveau but en tant que dirigeant du Cercle de la Dédoublée. Il guidera les adorateurs survivants de la Dédoublée vers la lumière de Séluné, afin de leur donner une nouvelle voie, digne.~
+// RASAADJ.d
+@85093 = ~Le voyage de Rasaad
+
+Bien qu'Alorgoth soit toujours en vie, Rasaad a trouvé un nouveau but en tant membre du Cercle de la Dédoublée, qui se mettra désormais au service de la volonté de la Vierge Lunaire, indépendamment de la secte sélunite de l'Ordre de la Conscience Solaire.~
+
+// RASAADJ.d
+@102675 = ~Ne les écoute pas, Martheaume. Tu me connais.~ [OH78334]

@@ -5,8 +5,8 @@ AUTHOR ~Isaya~
 // The last part refers to the game version used as a reference to find texts
 VERSION ~v0.7.16.6~
 
-// Use english readme if the selected language doesn't have a readme
-README ~bg2eetrans/language/%LANGUAGE%/readme_%LANGUAGE%.txt~ ~bg2eetrans/language/readme_en_US.txt~
+//README ~bg2eetrans/language/%LANGUAGE%/readme_%LANGUAGE%.txt~ ~bg2eetrans/language/readme_en_US.txt~
+README ~bg2eetrans/readme-%LANGUAGE%.html~
 
 // Tells WeiDU where the tra files are, according to language choice (%s refers to the language name)
 AUTO_TRA ~bg2eetrans/language/%s~

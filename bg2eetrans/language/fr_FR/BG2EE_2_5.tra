@@ -35,11 +35,11 @@ Explication des commentaires
 @103221 = ~prêtre de Tempus~
 // BGEE 32762
 @103222 = ~Prêtre de Tempus~
-// BGEE 32763
-@103223 = ~PRÊTRE DE TEMPUS: Tempus, aussi connu sous le nom du Seigneur des Batailles ou du Marteleur d'Ennemis, distribue ses faveurs au hasard, et pourtant sa nature chaotique fait qu'il favorise chaque camp de façon équitable. Il peut soutenir une armée un jour, puis ses adversaires le lendemain. Telle est la nature de la guerre. Le clergé de Tempus peut se retrouver des deux côtés d'un même conflit, mais nul ne saurait dire à qui le dieu de la guerre accordera sa faveur.
+// BGEE 32763 - Note : Puissance sacrée (plutôt que Sainte puissance, retraduit dans BGEE), repris de BG II 6087
+@103223 = ~PRÊTRE DE TEMPUS : Tempus, aussi connu sous le nom du Seigneur des Batailles ou du Marteleur d'Ennemis, distribue ses faveurs au hasard, et pourtant sa nature chaotique fait qu'il favorise chaque camp de façon équitable. Il peut soutenir une armée un jour, puis ses adversaires le lendemain. Telle est la nature de la guerre. Le clergé de Tempus peut se retrouver des deux côtés d'un même conflit, mais nul ne saurait dire à qui le dieu de la guerre accordera sa faveur.
 
 Avantages :
-- 'Sainte puissance' une fois par jour. Une utilisation au niveau 1 et ensuite une supplémentaire tous les 5 niveaux.
+- 'Puissance sacrée' une fois par jour. Une utilisation au niveau 1 et ensuite une supplémentaire tous les 5 niveaux.
 - 'Chaos de la bataille' une fois par jour. Une utilisation au niveau 1 et ensuite une supplémentaire tous les 10 niveaux.
 
 CHAOS DE LA BATAILLE : Ce sort accorde un bonus aux alliés et applique des pénalités aux adversaires du lanceur dans une zone de 9 mètres de rayon centrée sur lui. Chaos de la bataille dure 1 tour et affecte au hasard la classe d'armure, les points de vie, le TAC0, les jets de sauvegarde ou la chance des cibles. L'amplitude de l'effet débute à 1 (5 en ce qui concerne les points de vie), et augmente d'1 point (5 points en ce qui concerne les points de vie) tous les 6 niveaux du lanceur.
@@ -58,34 +58,34 @@ Ce sort accorde un bonus aux alliés et applique des pénalités aux adversaires
 @103227 = ~Pénalités de combat~ // OHTMPS2E effect
 
 // BG II 58238, correction non-sens de la VF (prêtre d'Illmater à propos du coeur de Yoshimo)
-@103228 = ~Intéressant, pourtant il y a des précédents. Nous nous efforçons souvent de guider ceux qui sont déjà déchus. Certains d'entre eux mènent une vie de bien puis tombent brusquement dans le péché. Dis-m'en plus sur cet homme.~
+@103228 = ~Intéressant, pourtant il y a des précédents. Nous nous efforçons souvent de guider ceux qui sont déjà déchus. Certains d'entre eux mènent une vie de bien, puis tombent brusquement dans le péché. Dis-m'en plus sur cet homme.~
 
 // BGEE 12201
 @103229 = ~Protection contre le mal
 (Abjuration)
 
 Niveau : 1
-Sphère : Protection 
-Portée : contact 
+Sphère : Protection
+Portée : contact
 Durée : 1 tour
-Temps d'incantation : 1 
+Temps d'incantation : 1
 Zone d'effet : 1 créature
 Jet de sauvegarde : aucun
 
-Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de -2 au jet d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
+Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de 2 à ses jets d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
 // BGEE 12148
 @103230 = ~Protection contre le mal
 (Abjuration)
 
 Niveau : 1
-Sphère : Protection 
-Portée : contact 
+Sphère : Protection
+Portée : contact
 Durée : 3 rounds / niveau
-Temps d'incantation : 1 
+Temps d'incantation : 1
 Zone d'effet : 1 créature
 Jet de sauvegarde : aucun
 
-Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de -2 au jet d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
+Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de distance. La barrière se déplace avec le bénéficiaire et a deux effets majeurs : d'abord, toute créature maléfique ou sujette à une aura de mal lançant une attaque contre la cible protégée reçoit un malus de 2 à ses jets d'attaque. Ensuite, il est impossible pour les démons invoqués d'attaquer la cible.~
 
 // BGEE 32375
 @103231 = ~Ancien Élémentaire d'air~
@@ -103,7 +103,7 @@ Grâce à ce sort, une barrière magique se crée autour de la cible à 30 cm de
 Force : 16
 Dextérité : 16
 
-Classe d'Armure de base : 3
+Classe d'armure de base : 3
 Attaques par round : 4
 Dégâts : 2d6 (perforant)
 

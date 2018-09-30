@@ -72,7 +72,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 74145 @74145
 // Quasi identique BGEE 29163, reformulation mineure
 	STRING_SET 74146 @74146
-// Quasi identique BGEE 29164, retrait première phrase, remplacement du nom du djinn, 
+// Quasi identique BGEE 29164, retrait première phrase, remplacement du nom du djinn,
 	STRING_SET 74147 @74147
 
 // Quasi identique BGEE 29172, reformulation mineure
@@ -249,7 +249,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 74291 @74291
 // Identique IWDEE 34776
 	STRING_SET 74292 @74292
-// 
+//
 	STRING_SET 74293 @74293
 // Identique IWDEE 34778 : référencé dans OHBMC.DLG, mais ce DLG utilise des textes d'objets, interface, kits, etc.
 	STRING_SET 74294 @74294
@@ -519,7 +519,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 
 // @todo objets 80043
 
-// Traduit ; dans IWDEE 37842 traduction du même texte @506
+// Traduit ; dans IWDEE 37842 traduction du même texte @504
 	STRING_SET 80749 @80749
 // Quasi identique BGEE 24680 (espace en plus à la fin)
 	STRING_SET 80750 @80750
@@ -561,7 +561,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique BGEE 28622
 	STRING_SET 84811 @84811
 
-// @todo objets, scripts, 85179, 85180, 85191, 85192, 85291 à 85299, 
+// @todo objets, scripts, 85179, 85180, 85191, 85192, 85291 à 85299,
 // @todo Wilson 86478, 86479, 87166 à 87206
 // @todo objets 87207 à 87212
 
@@ -583,26 +583,9 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // @todo noms 88426 à 88429
 // @todo objets 88856 à 88878
 
-// @todo 88879 à 88919, 88996 à 89137 voix personnage principal à retranscrire en texte
-/*********************************************************************
-  @todo A revoir 89094 à 89113 concernent Male4 et non Male005 comme @16235 à 16247
-  16235 à 16247 conviendraient mieux à 89114 à 89133, sauf que le son est Male5 et non Male005
-  ********************************************************************/
-//      STRING_SET ~89094~ @16235       // manuel 
-//      STRING_SET ~89095~ @16236       // manuel
-//      STRING_SET ~89096~ @16237       // manuel
-//      STRING_SET ~89097~ @16238       // manuel
-//      STRING_SET ~89098~ @16239       // manuel
-//      STRING_SET ~89099~ @16240       // manuel
-//      STRING_SET ~89100~ @16241       // manuel
-//      STRING_SET ~89101~ @16242       // manuel
-//      STRING_SET ~89102~ @16243       // manuel
-//      STRING_SET ~89103~ @16244       // manuel
-//      STRING_SET ~89104~ @16245       // manuel
-//      STRING_SET ~89105~ @16246       // manuel
-//      STRING_SET ~89106~ @16247       // manuel
+// 88879 à 88919, 88996 à 89137 (suite voir 100285 à 100347) : voix personnage principal, cf fichier Personnages
 
-// @todo objets 89729, 89730, 90138 à 90141, 90176 à 90184, 
+// @todo objets 89729, 89730, 90138 à 90141, 90176 à 90184,
 
 // @todo objets 90190, 90368, 90369, 90959 à 90974
 // @todo objets 91200, 91201, 91223, 91257 à 91262, 92588, 92590 à 92592, 92741, 92742, 92971, 92972
@@ -647,14 +630,14 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique IWDEE 6695
 	STRING_SET 93789 @93789
 
-// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre)
+// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre) - Note de Freddy : correction du correcfr (Sceptre de puissance altière)
 	STRING_SET 93790 @93790
-// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre)
+// Traduit en s'inspirant de IWDEE 38873 (masse créée) et IWDEE 39619 (sceptre) - id.
 	STRING_SET 93791 @93791
 
 // Identique BGEE 30190
 	STRING_SET 93792 @93792
-// Identique BGEE 6663
+// Identique BGEE 6663 - Note de Freddy : traduire Mist of Shadows par Brumes d'Ombres me gêne un tantinet.
 	STRING_SET 93793 @93793
 
 // Identique ToB 66594
@@ -671,17 +654,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // Identique BGEE 32216 + majuscule initiale
 	STRING_SET 95116 @95116
 
-// Contribué par Freddy_Gwendo
-	STRING_SET 95117 @95117
-// Contribué par Freddy_Gwendo
-	STRING_SET 95118 @95118
-
 // @todo objets 95119, 95120
-
-// Contribué par Freddy_Gwendo
-	STRING_SET 95121 @95121
-// Contribué par Freddy_Gwendo
-	STRING_SET 95122 @95122
 
 // Identique BGEE 25480
 	STRING_SET 95127 @95127
@@ -754,7 +727,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 // @todo textes de journal BG II 96383 à 96393, 96437, 96469, 96521, 96522, 96528
 // 96562, 96563, 96576, 96586, 96636, 9663è, 96642, 96648, 96650, 96655, 96656, 96686 à 96688,
 // 97314 jusqu'à 97358
-// @todo objets 97323, 97324, 
+// @todo objets 97323, 97324,
 
 // Traduit
 	STRING_SET 99385 @99385
@@ -823,7 +796,7 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 99846 @99846
 // Identique BGEE 30091
 	STRING_SET 99847 @99847
-// Identique BGEE 30093
+// Identique BGEE 30093 - Note de Freddy : pourquoi passez au tutoiement ? Isaya : c'est Imoen qui parle, a priori, comme les textes qui suivent (dialogue du tutoriel de BG II)
 	STRING_SET 99848 @99848
 // Identique BGEE 30096
 	STRING_SET 99849 @99849
@@ -863,9 +836,9 @@ Même le cas "Exact match" peut prêter à des différences car la comparaison n
 	STRING_SET 99866 @99866
 // Identique BGEE 30170
 	STRING_SET 99867 @99867
-// Quasi identique BGEE 30176, 
+// Quasi identique BGEE 30176,
 	STRING_SET 99868 @99868
-// Quasi identique BGEE 31697, "en bas à gauche" au lieu de "... droite"
+// Quasi identique BGEE 31697
 	STRING_SET 99869 @99869
 // Identique BGEE 30010
 	STRING_SET 99870 @99870
@@ -948,9 +921,9 @@ Piotr Wiankowski - Cahir
 Bastien Marmeth - Queynos
 Antonio Favata - alnair~*/
 
-// @todo 100285 à 100347 : voix pour personnage principal à retranscrire en texte
+// 100285 à 100347 (début voir 88879 à 88919, 88996 à 89137) : voix personnage principal, cf fichier Personnages
 
-// Nom de capacité repris de BGEE 25958, a priori plus utilisé, voir 103003 
+// Nom de capacité repris de BGEE 25958, a priori plus utilisé, voir 103003
 	STRING_SET 100399 @100399
 // Nom de capacité repris de BGEE 25961, a priori plus utilisé, voir 1003004
 	STRING_SET 100400 @100400
@@ -1013,17 +986,17 @@ Antonio Favata - alnair~*/
 
 // Identique BGEE 31252
 	STRING_SET 102492 @102492
-// Identique BGEE 31253
+// Identique BGEE 31253 - Note de Freddy : pluriel par soucis de cohérence
 	STRING_SET 102493 @102493
 // Identique BGEE 31254
 	STRING_SET 102494 @102494
-// Identique BGEE 31255
+// Identique BGEE 31255 - Note de Freddy : pluriel par soucis de cohérence
 	STRING_SET 102495 @102495
 // Identique BGEE 31257
 	STRING_SET 102496 @102496
 // Identique BGEE 31268
 	STRING_SET 102497 @102497
-// Identique BGEE 31269
+// Identique BGEE 31269 - Note de Freddy : pluriel par soucis de cohérence
 	STRING_SET 102498 @102498
 // Quasi identique BGEE 9574, mention sur les gnomes de BGEE conservée bien qu'absente dans BG2EE anglais
 	STRING_SET 102499 @102499
@@ -1050,13 +1023,13 @@ Antonio Favata - alnair~*/
 // Quasi identique BGEE 32301, singulier au lieu de pluriel
 	STRING_SET 102510 @102510
 
-// @todo boutique PNJ 102522 à 102524
+// Boutique PNJ 102522 à 102524
 // Suite des descriptions de DLC en 95310
 	STRING_SET 102522 @102522
 	STRING_SET 102523 @102523
 	STRING_SET 102524 @102524
 
-// @todo objets 102528, 102529, 102543 à 102545, 
+// @todo objets 102528, 102529, 102543 à 102545,
 
 // Identique IWDEE 37842 ~Click the gem to adjust the key binding~
 	STRING_SET 102620 @102620
@@ -1389,12 +1362,32 @@ Antonio Favata - alnair~*/
 // Identique BGEE 32305
 	STRING_SET 102810 @102810
 
+// 1028022, 23 : OHBDEMI.BCS
+
+/* A partir de @102824, textes postérieurs à la version initiale */
+
+// 102824-31 : crédits BG II (manuel ou film)
+	STRING_SET 102824 @102824
+	STRING_SET 102825 @102825
+	STRING_SET 102826 @102826
+	STRING_SET 102827 @102827
+	STRING_SET 102828 @102828
+	STRING_SET 102829 @102829
+	STRING_SET 102830 @102830
+	STRING_SET 102831 @102831
 // Identique BGEE 32308
 	STRING_SET 102832 @102832
+
+/* A partir de @102833, textes postérieurs au patch 1.2.2032 */
+
 // Identique BGEE 32309
 	STRING_SET 102833 @102833
 // Identique BGEE 32310
 	STRING_SET 102834 @102834
+// Quasi-identique BGEE 32311 (majuscules, s final en moins) ; désormais dans le fichier lua
+	STRING_SET 102835 @102835
+
+// @102036 - 102930 : phrases de scripts ? notamment Dorn
 
 // Identique ToB 19458 (reprise du texte seulement)
 	STRING_SET 102870 @102870
@@ -1404,13 +1397,25 @@ Antonio Favata - alnair~*/
 // Identique BGEE 32313
 	STRING_SET 102932 @102932
 
-// Identique BGEE 32321
+// 102933 - 36 : textes de présentation pour boutique en ligne (Mac, iPad, ...) ?
+// 33 / 34 : diff "to mac" / "back to life"
+// 34 / 35 : ajout "ABOUT THE GAME"
+// 33 / 36 : "to mac" / "to iPad", "New party members" revu pour dire 1 inclus, 3 DLC
+	STRING_SET 102933 @102933
+	STRING_SET 102934 @102934
+	STRING_SET 102935 @102935
+	STRING_SET 102936 @102936
+// Identique BGEE 32321, correction vocabulaire
 	STRING_SET 102937 @102937
-// Identique BGEE 32319
+// Identique BGEE 32319, correction traduction
 	STRING_SET 102938 @102938
-// Identique BGEE 32320
+// Identique BGEE 32320, correction traduction
 	STRING_SET 102939 @102939
 
+// @102940 - 102993 : complément Black Pits, pas trouvé dans l'analyse
+
+// Pas trouvé par Near Infinity
+	STRING_SET 102994 @102994
 // Identique IWDEE 40143
 	STRING_SET 102995 @102995
 // Identique IWDEE 40144
@@ -1433,8 +1438,12 @@ Antonio Favata - alnair~*/
 	STRING_SET 103013 @103013
 // @103014 Transfert dans fichier des sorts @103014, @103015
 
+// @103017 à 103036 : complément quête de l'oeil aveugle et choix des temples
+
 // Identique BGEE 32337
 	STRING_SET 103041 @103041
+
+/* A partir de @103044, textes postérieurs au patch 1.3.2064 */
 
 // Identique BGEE 32410
 	STRING_SET 103049 @103049
@@ -1456,11 +1465,11 @@ Antonio Favata - alnair~*/
 	STRING_SET 103057 @103057
 // Identique BGEE 32419
 	STRING_SET 103058 @103058
-// Nota : Remplacement de "chaman" par @686 pour réduire l'ambiguïté avec le nom du kit de druide
+// Nota : Remplacement de "chaman" par @698 pour réduire l'ambiguïté avec le nom du kit de druide
 // Nota : reprendre pour le kit de druide le terme "druide totémique" utilisé dans BGEE V2.x
 // Identique BGEE 32441
 	STRING_SET 103059 @103059
-// Quasi identique BGEE 32341 (diff mineure sur forteresse), traduction adaptée
+// Quasi identique BGEE 32341 (diff mineure sur forteresse), traduction adaptée - Note de Freddy : correction effectuée après traduction du mod Improved shamanic Dance (dans le mod, seule l'avant-dernière ligne concernant la forteresse diffère).
 	STRING_SET 103060 @103060
 // Identique BGEE 32342
 	STRING_SET 103061 @103061
@@ -1540,6 +1549,8 @@ Antonio Favata - alnair~*/
 	STRING_SET 103151 @103151
 // Identique BGEE 32705
 	STRING_SET 103152 @103152
+// Complément dialogue BRUS2.DLG
+	STRING_SET 103153 @103153
 
 // Traduit
 	STRING_SET 103172 @103172
