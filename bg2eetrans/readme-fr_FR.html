@@ -25,8 +25,8 @@
 		font-family: Verdana, Tahoma, Arial, sans-serif;
 		font-size: 12px;
 		color: #D1D1D1;
-*		background-repeat: repeat-x;
-*		background: url("images/degrade_titre.png");
+/*		background-repeat: repeat-x;
+		background: url("images/degrade_titre.png");*/
 	}
 
 	#header {
@@ -41,12 +41,12 @@
 		border-radius: 3px 4px 3px 3px;
 		box-shadow: 8px 8px 15px black;
 	}
-/*    le décalage horizontal de l'ombre ;
+/*	le décalage horizontal de l'ombre ;
     le décalage vertical de l'ombre ;
     l'adoucissement du dégradé ;
-    la couleur de l'ombre.
-*/
-      #header .about {
+    la couleur de l'ombre.	*/
+
+	#header .about {
         margin: 7px 0 0 0;
         padding: 0;
 /*		font-style: italic;
@@ -87,7 +87,6 @@
 		border: 0;
 	}
 
-
 /*	Sections  */
 	#maindiv {
 		margin: 0 auto;
@@ -110,6 +109,40 @@
 		border-radius: 4px 4px 4px 5px;
 		box-shadow: 8px 8px 15px black;
 		display: block;
+	}
+
+	#maindiv .important {
+		font-size: 95%;
+		font-family: Verdana;
+		text-align: left;
+*		background-color: #F1F1F1;
+		border-width: 1px 4px 1px 4px;
+		border-style: solid;
+		border-color: #FFBF00;
+/*		border-top: solid 1px #FFBF00;
+		border-bottom: solid 1px #FFBF00;
+		border-left: solid 6px #FFBF00;
+		border-right: solid 6px #FFBF00;*/
+		padding: 10px;
+		margin: 10px auto;
+		width: 80%;
+		line-height: 160%;
+	}
+	#maindiv .important::before {
+		display: none;
+	}
+	#maindiv .important p {
+		width: 100%;
+		font-size: 100%;
+		text-indent: 0px;
+		margin: 5px 0 5px 0;
+		line-height: 180%;
+	}
+	#maindiv .important ol {
+		margin: -10px 0 0 20px;
+	}
+	#maindiv .important ul {
+		margin: -10px 0 0 15px;
 	}
 
 	#maindiv address {
@@ -232,7 +265,7 @@
 	}
 
 	/*	Titres  */
-      h3, h4, h5, h6 {
+	h3, h4, h5, h6 {
 		line-height: 170%;
 		margin: 10px auto;
 		width: 90%;
@@ -246,19 +279,18 @@
 		/*font-style: italic;*/
 	}
 
-	 h5 {
+	h5 {
 		/*margin: 10px auto;*/
         font-size: 110%;
 	}
-      h6 {
+/*	h5 {
+        font-size: 100%;
+	}*/
+	h6 {
 		font-size: 125%;
 		font-style: italic;
 	}
 
-/*      h5 {
-        font-size: 100%;
-      }
-*/
 	/*	Ligne dorée  */
 	hr {
 		/*margin: 10px 10 10px 10;*/
@@ -271,6 +303,7 @@
 		color: #FFCC33;
 		background-color: #FFCC33;
 	}
+
 	/*	Image d'en-tête */
 	img.image_left {
 		float: left;
@@ -295,18 +328,18 @@
 		*vertical-align: baseline;
 		padding-top: 4px;
 		padding-bottom: 4px;
-*  border: 1px outset #eee;
-	border: 1px solid #aaa;
+*		border: 1px outset #eee;
+		border: 1px solid #aaa;
 	}
 	th {
 		background-color: #303030; *#000099;
 		*color: #fff;
 		font-weight: bold;
-*  border:none;
+*		border:none;
 	}
-*tr {)
+	*tr {)
 
-.leftalign, table.leftalign tr th, table.leftalign tr td (
+	.leftalign, table.leftalign tr th, table.leftalign tr td (
 		text-align: left;
 	}
 
@@ -425,7 +458,7 @@
 			<em>Si vous avez installé la version précédente, il est nécessaire de la désinstaller d'abord. Pour cela, lancez setup-bg2eetrans.exe et choisissez l'option de désinstallation. <strong>Une fois la désinstallation achevée, il vous faudra également supprimer a minima les fichiers dialog.tlk et dialogF.tlk dans le répertoire lang/fr_FR. Enfin supprimez le répertoire bg2eetrans et le fichier setup-bg2eetrans.exe (version Windows) avant d'extraire la nouvelle version du mod.</strong></em>
 		</p>
 		<p>
-			<em>A noter que le besoin de supprimer ces fichiers à la main est résolu dans cette version (0.7.16.6) et que la désinstallation du mod ne nécessitera à l'avenir plus d'action a posteriori.</em>
+			<em>À noter que le besoin de supprimer ces fichiers à la main est résolu dans cette version (0.7.16.6) et que la désinstallation du mod ne nécessitera à l'avenir plus d'action a posteriori.</em>
 		</p>
 		<p>
 			<em>Lorsque vous installez ou désinstallez, <strong>ne fermez pas la fenêtre <acronym title="Disk Operating System">DOS</acronym></strong> en cliquant sur le bouton <strong>X</strong> ! Au lieu de cela, appuyez sur la touche <strong>Entrée</strong> lorsque l'invite de commande vous le demande.</em>
@@ -444,15 +477,14 @@
 			Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie moddée (si vous en avez la possibilité, notamment chez Beamdog et Good Old Games), n'oubliez pas que même après avoir réinstallé les mods sur un nouveau patch, vous ne pourrez peut-être pas continuer le jeu avec vos anciennes sauvegardes, en particulier à cause de noms de personnages, de lieux, etc. qui pourraient être incorrects. Pour y remédier, copiez tout le dossier du jeu dans un nouveau dossier dans lequel vous installerez vos mods, et qui ne sera pas modifié par les patchs de mise à jour.
 		</p>
 		<p>
-			Lors de l'installation du premier mod, WeiDU vous demande habituellement dans quelle langue du jeu vous souhaitez ajouter les textes :<br>
-			<div style="margin-left: 100px;">
-				<code>
+			Lors de l'installation du premier mod, WeiDU vous demande habituellement dans quelle langue du jeu vous souhaitez ajouter les textes :
+		</p><br>
+		<div class="important" style="background-color: black;color: #deded9;">
+            <p style="font-family: Courier New;font-size: 100%;">
 					Veuillez choisir la langue dans laquelle vous souhaitez jouer au jeu.<br>
 					Si par la suite vous desirez jouer au jeu dans une langue differente, il vous<br>
-					faudra editer le fichier weidu.conf et reinstaller vos mods.<br>
-				</code>
-			</div>
-		</p>
+					faudra editer le fichier weidu.conf et reinstaller vos mods.<br></p>
+			</div><br>
 		<p>
 			<strong>Sachez que l'installation de bg2eetrans forcera ce réglage pour la langue française qu'il viendra d'installer.</strong> Ainsi le choix ne vous sera plus proposé et les textes de vos futurs mods seront bien ajoutés au jeu pour la langue française.
 		</p>
@@ -470,7 +502,7 @@
 		</p>
 		<p>
 			Vous pouvez lancer <strong>setup-bg2eetrans.exe</strong> dans votre répertoire de jeu pour réinstaller ou désinstaller le mod.
-		</p><br />
+		</p>
  
 <hr>
 		<h3>
@@ -509,22 +541,21 @@
 			Détails de l'installation
 		</h3>
 		<p>
-			Au démarrage de l'installation, WeiDU devrait vous demander de choisir la langue dans laquelle vous désirez jouer au jeu. Comme dans le cas de ce mod ce choix est évident (si vous installez la traduction, c'est pour jouer avec, n'est-ce pas ?), vous aurez droit à un message personnalisé :<br>
-			<div style="margin-left: 100px;">
-				<code>
+			Au démarrage de l'installation, WeiDU devrait vous demander de choisir la langue dans laquelle vous désirez jouer au jeu. Comme dans le cas de ce mod ce choix est évident (si vous installez la traduction, c'est pour jouer avec, n'est-ce pas ?), vous aurez droit à un message personnalisé :</p>
+          <div class="important" style="background-color: black;color: #deded9;">
+            <p style="font-family: Courier New;font-size: 100%;">
 					Choisissez une langue quelconque parmi celles deja disponibles dans le jeu.<br>
 					L'installation de ce mod creera la langue francaise a partir de l'anglais et<br>
 					les textes non traduits par le mod resteront donc en anglais.<br>
 					Nota : il vous faudra passer vous-meme le jeu en francais apres l'installation.<br>
-				</code>
+			</p>
 			</div>
 		</p>
 		<p>
 			Après une séquence rapide d'initialisation, le mod sera prêt à installer les textes. Cette opération est un peu longue et dépend des performances de l'ordinateur. Le mod vous invitera à patienter.
 		</p>
-		<p>
-			<div style="margin-left: 100px;">
-				<code>
+          <div class="important" style="background-color: black;color: #deded9;">
+            <p style="font-family: Courier New;font-size: 100%;">
 					Le repertoire pour la langue francaise vient d'etre ajoute au jeu.<br>
 					L'installation va desormais se poursuivre par la mise des textes en francais<br>
 					et par l'ajout de la langue francaise dans le menu du jeu.<br>
@@ -537,24 +568,23 @@
 					Remarque : pour avoir le jeu en francais, il vous faudra faire le choix dans<br>
 					le menu du jeu. Si vous aviez deja fait ce choix et que vous reinstallez le<br>
 					mod, il sera preserve.<br>
-				</code>
+			</p>
 			</div>
 		</p>
 		<p>
 			Le mod va alors installer ses différents composants. A la fin, WeiDU devrait vous signaler le succès des installations.
 		</p>
-		<p>
-			<div style="margin-left: 100px;">
-				<code>
+          <div class="important" style="background-color: black;color: #deded9;">
+            <p style="font-family: Courier New;font-size: 100%;">
 					INSTALLATION REUSSIE Textes repris de BGII-ToB<br>
 					INSTALLATION REUSSIE Textes repris de BGEE<br>
 					INSTALLATION REUSSIE Ajout de la langue au menu + credits (BG2EE V2.0 et plus)<br>
 					INSTALLATION REUSSIE Textes de BG2EE traduits et controles<br>
-				</code>
+			</p>
 			</div>
 		</p>
 		<p>
-			Vous pouvez maintenant lancer le jeu. Allez les options, choisissez Language et sélectionnez le français, puis quittez le jeu (les textes de l'interface sont passées instantanément en français, mais ce ne sera pas le cas pour le reste du jeu). Au lancement suivant le jeu sera bel et bien en français et vous pourrez alors consulter
+			Vous pouvez maintenant lancer le jeu. Allez les options, choisissez Language et sélectionnez le français, puis quittez le jeu (les textes de l'interface sont passées instantanément en français, mais ce ne sera pas le cas pour le reste du jeu). Au lancement suivant le jeu sera bel et bien en français et vous pourrez alors consulter les crédits de la traduction et les notes.
 		</p>
 
 <hr>
@@ -805,16 +835,16 @@
 		<ul>
 			<li>Ajout majeur de contenu traduit
 				<ul>
-					<li>quête de Rasaad dans SoA : dialogues, lieux, personnages (des noms de créatures peuvent ne pas être traduits)</li>
-					<li>sous-titre des voix pour le personnage principal et pour Rasaad</li>
-					<li>objets ajoutés par BG2EE</li>
-					<li>sorts ajoutés par BG2EE</li>
+					<li style="margin-left: -70px">quête de Rasaad dans SoA : dialogues, lieux, personnages (des noms de créatures peuvent ne pas être traduits)</li>
+					<li style="margin-left: -70px">sous-titre des voix pour le personnage principal et pour Rasaad</li>
+					<li style="margin-left: -70px">objets ajoutés par BG2EE</li>
+					<li style="margin-left: -70px">sorts ajoutés par BG2EE</li>
 				</ul>
 			</li>
 			<li>fichier L_fr_FR.lua désormais copié dans override pour la compatibilité avec des mods GUI touchant aux textes</li>
 			<li>corrections/améliorations diverses dans les textes repris de ToB (début de fusion de travaux 0 -> 500 environ)</li>
 			<li>compléments de traduction pour BG2EE V2.5.16.6 (L_fr_FR.lua et de nouveaux textes dans BG2EE)</li>
-			<li>procédure de désinstallation revue : il est possible de résinstaller le mod sans avoir du ménage à faire à la main</li>
+			<li>procédure de désinstallation revue : il est possible de réinstaller le mod sans avoir du ménage à faire à la main</li>
 			<li>ajout d'un fichier readme plus détaillé</li>
 		</ul>
 
@@ -834,10 +864,10 @@
 			<li>modification de la récupération de texte à partir de BGEE pour qu'elle ne prenne pas le pas sur de meilleurs textes trouvés dans ToB</li>
 			<li>nombreuses améliorations et corrections diverses de Freddy_Gwendo
 				<ul>
-					<li>respect de l'affichage avec ou sans majuscule initiale pour les noms de kits</li>
-					<li>corrections de mots, uniformisation avec les EE (ensorceleur, cavalier), retraits des "Utilisable par" restants</li>
-					<li>uniformisation de l'affichage des bonus des armes +n (sans espace)</li>
-					<li>des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits, en particulier pour les objets</li>
+					<li style="margin-left: -70px">respect de l'affichage avec ou sans majuscule initiale pour les noms de kits</li>
+					<li style="margin-left: -70px">corrections de mots, uniformisation avec les EE (ensorceleur, cavalier), retraits des "Utilisable par" restants</li>
+					<li style="margin-left: -70px">uniformisation de l'affichage des bonus des armes +n (sans espace)</li>
+					<li style="margin-left: -70px">des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits, en particulier pour les objets</li>
 				</ul>
 			</li>
 		</ul>
@@ -850,9 +880,9 @@
 			<li>ajout de notes sur la version française (idée de zelurker)</li>
 			<li>nombreuses corrections de correspondances de textes grâce aux efforts de dricks, zelurker, Luren et Freddy_Gwendo
 				<ul>
-					<li>des correspondances inexactes ont été corrigées</li>
-					<li>des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits</li>
-					<li>restauration de voix et de sons ayant disparu ou incorrects (notamment sur des personnages recrutables)</li>
+					<li style="margin-left: -70px">des correspondances inexactes ont été corrigées</li>
+					<li style="margin-left: -70px">des correspondances nouvelles ont été vérifiées, ce qui augmente le nombre de textes traduits</li>
+					<li style="margin-left: -70px">restauration de voix et de sons ayant disparu ou incorrects (notamment sur des personnages recrutables)</li>
 				</ul>
 			</li>
 		</ul>
@@ -870,7 +900,7 @@
 			V0.2.2064 - 28 mai 2016
 		</p>
 		<ul>
-			<li>récupération de texte relancée à partir des textes des versions 1.3 de BG2EE et BGEE<li>
+			<li>récupération de texte relancée à partir des textes des versions 1.3 de BG2EE et BGEE</li>
 			<li>prise en compte de BG2EE V2.x ; ajout de la langue française dans BGEE.lua afin qu'elle soit accessible dans l'écran des options</li>
 			<li>ajout du fichier de traduction de l'interface du jeu pour BG2EE V2.x</li>
 		</ul>
