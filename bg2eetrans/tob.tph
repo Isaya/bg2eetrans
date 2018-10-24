@@ -17386,7 +17386,7 @@ Historique*/
 	STRING_SET ~17381~ @17381	// Exact match
 	STRING_SET ~17382~ @17382	// Exact match
 	STRING_SET ~17383~ @17383	// Exact match
-	STRING_SET ~17384~ @17105	// Exact match
+	STRING_SET ~17384~ @17384	// Exact match. Freddy : correction de la mauvaise comparaison. 17384 = ~~Sorts~ alors que 17105 = ~sort~
 	STRING_SET ~17385~ @17385	// Exact match
 	STRING_SET ~17386~ @17386	// manuel ajout 
 	STRING_SET ~17387~ @17387	// Exact match
